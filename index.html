@@ -1,33 +1,52 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Expert-curated pages on aging and Alzheimer's science, as single-source claims.">
 <title>expert.wiki</title>
-<meta name="description" content="Expert-curated wiki on aging science: aging clocks and APOE4.">
-<link rel="stylesheet" href="/style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,600;1,400&family=Public+Sans:wght@400;600&family=JetBrains+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="/agingclocks/style.css">
+<style>
+  .claim .stmt a{color:var(--ink);text-decoration:none;font-family:var(--display);font-weight:600;font-size:22px;line-height:1.2}
+  .claim:hover .stmt a{color:var(--e4)}
+</style>
 </head>
 <body>
-<header>
-  <a class="brand" href="/">expert<span>.wiki</span></a>
-  <nav><a href="/agingclocks/">Aging clocks</a><a href="/apoe4/">APOE4</a></nav>
-</header>
-<main>
-  <h1>expert.wiki</h1>
-  <p class="lede">Concise, expert-curated pages on topics in aging and Alzheimer's science.</p>
-
-  <h2>Top topics</h2>
-  <div class="topics">
-    <a class="topic" href="/agingclocks/">
-      <h3>Aging clocks</h3>
-      <p>What epigenetic clocks measure and how well they work: 33 claims, each backed by one paper.</p>
-    </a>
-    <a class="topic" href="/apoe4/">
-      <h3>APOE4</h3>
-      <p>The strongest common genetic risk factor for late-onset Alzheimer's disease.</p>
-    </a>
-  </div>
-</main>
-<footer>expert.wiki · maintained by <a href="https://moqri.bwh.harvard.edu/">Mahdi Moqri, PhD</a></footer>
+<a class="skip" href="#topics">Skip to the topics</a>
+<div class="wrap">
+  <header class="top">
+    <a class="mark" href="/">expert<span>.wiki</span></a><span class="crumb">Home</span>
+  </header>
+  <main id="main">
+    <div class="banner"><strong>Drafts for expert review.</strong><span>Topics are written by an AI co-scientist and marked verified as an expert reviewer checks each claim.</span></div>
+    <section class="intro">
+      <p class="label">Expert-curated science, one claim at a time</p>
+      <h1>What the evidence says. <em>Checked by experts.</em></h1>
+      <p class="lede">Each topic sets out what the studies show as short, numbered claims, each with a number, a plain statement, and the single paper that supports it. Pick a topic below.</p>
+    </section>
+    <div class="controls" role="region" aria-label="Topics">
+      <div class="row"><span class="label">Topics</span><span class="count">2 topics</span></div>
+    </div>
+    <ol class="claims" id="topics">
+      <li class="claim" id="agingclocks">
+        <span class="rank">1</span>
+        <div class="fig"><span class="n">33 claims</span><span class="fl">from 17 papers</span></div>
+        <div class="body"><p class="stmt"><a href="/agingclocks/">Aging clocks</a></p><p>What epigenetic clocks measure and how well they work: accuracy, predicting death, reliability, trials, and what speeds the clock.</p><div class="c-top"><span class="pill draft">AI draft · awaiting review</span><code>/agingclocks</code></div></div>
+        <div class="ev"><a href="/agingclocks/">Open aging clocks →</a><span class="d">Filter by tag; sort by key findings or newest</span></div>
+      </li>
+      <li class="claim" id="apoe4">
+        <span class="rank">2</span>
+        <div class="fig"><span class="n">ε4/ε4</span><span class="fl">strongest common genetic risk for Alzheimer's</span></div>
+        <div class="body"><p class="stmt"><a href="/apoe4/">APOE4</a></p><p>The ε4 allele of the apolipoprotein E gene: what it does to Alzheimer's risk, homozygotes, and clinical relevance.</p><div class="c-top"><span class="pill draft">Overview · in progress</span><code>/apoe4</code></div></div>
+        <div class="ev"><a href="/apoe4/">Open APOE4 →</a><span class="d">See also <a href="https://apoe4.science">apoe4.science</a></span></div>
+      </li>
+    </ol>
+  </main>
+  <footer>
+    <span>expert.wiki · Built with the co-scientist pipeline by <a href="https://moqri.bwh.harvard.edu/">Mahdi Moqri</a>. Sister sites: <a href="https://apoe4.science">apoe4.science</a>, <a href="https://alzprevent.org">alzprevent.org</a></span>
+    <span class="updated">November 2026</span>
+  </footer>
+</div>
 </body>
 </html>
