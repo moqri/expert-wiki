@@ -1,42 +1,314 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Aging clocks · expert.wiki</title>
-<meta name="description" content="Aging clocks: biomarkers that estimate biological age and pace of aging.">
-<link rel="stylesheet" href="/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="What epigenetic aging clocks measure and how well they work, as single-source claims.">
+<meta name="robots" content="noindex">
+<title>Aging Clocks</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,600;1,400&family=Public+Sans:wght@400;600&family=JetBrains+Mono:wght@400;600&display=swap">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-  <a class="brand" href="/">expert<span>.wiki</span></a>
-  <nav><a href="/agingclocks/">Aging clocks</a><a href="/apoe4/">APOE4</a></nav>
-</header>
-<main>
-  <p class="crumb"><a href="/">Home</a> › Aging clocks</p>
-  <h1>Aging clocks</h1>
-  <p class="lede">Models that estimate biological age, or the pace of aging, from molecular or clinical measurements.</p>
-
-  <h2>Overview</h2>
-  <p>An aging clock is a predictive model trained on biological data, most often DNA methylation, to estimate age or age-related outcomes. The difference between predicted and chronological age ("age acceleration") is studied as a marker of biological aging and of response to interventions.</p>
-
-  <h2>Generations of clocks</h2>
-  <table>
-    <tr><th>Type</th><th>Trained to predict</th><th>Examples</th></tr>
-    <tr><td>First generation</td><td>Chronological age</td><td>Horvath multi-tissue clock (2013), Hannum blood clock (2013)</td></tr>
-    <tr><td>Second generation</td><td>Phenotypic age, mortality, morbidity</td><td>PhenoAge (2018), GrimAge (2019)</td></tr>
-    <tr><td>Pace of aging</td><td>Rate of physiological decline</td><td>DunedinPACE (2022)</td></tr>
-  </table>
-
-  <h2>Data types</h2>
-  <p>Clocks have been built from DNA methylation, transcriptomics, proteomics, metabolomics, clinical blood chemistry, imaging, and more, at both whole-organism and organ- or cell-type-specific levels.</p>
-
-  <h2>Resources</h2>
-  <ul>
-    <li><a href="https://www.agingconsortium.org/">Biomarkers of Aging Consortium</a></li>
-    <li><a href="https://github.com/bio-learn/biolearn">biolearn</a> — open-source library for computing aging biomarkers</li>
-  </ul>
-</main>
-<footer>expert.wiki · maintained by <a href="https://moqri.bwh.harvard.edu/">Mahdi Moqri, PhD</a></footer>
+<a class="skip" href="#claims">Skip to the claims</a>
+<div class="wrap">
+  <header class="top">
+    <a class="mark" href="/">expert<span>.wiki</span></a><span class="crumb">Aging clocks</span>
+  </header>
+  <main id="main">
+    <div class="banner"><strong>Draft for expert review.</strong><span>Written by an AI co-scientist from 17 papers. 0 of 33 claims verified by an expert reviewer so far. Each claim is backed by one source.</span></div>
+    <section class="intro">
+      <p class="label">Epigenetic clocks, explained from the evidence</p>
+      <h1>Your DNA keeps time. <em>Here is what it can tell you.</em></h1>
+      <p class="lede">Epigenetic clocks read chemical marks on DNA to estimate age across most human tissues, and across mammals. Below, what the studies show is set out as 33 claims, one per line, each with a number, a short statement, and the single paper that supports it. Filter by tag, and sort by key findings or by newest evidence.</p>
+    </section>
+    <div class="controls" id="controls" role="region" aria-label="Filter and sort claims">
+      <div class="row" role="group" aria-label="Filter by tag"><span class="label">Tags</span><button class="chip" type="button" data-filter="" aria-pressed="true">All<span class="n">33</span></button><button class="chip" type="button" data-filter="Accuracy" aria-pressed="false">Accuracy<span class="n">4</span></button><button class="chip" type="button" data-filter="Predicting death" aria-pressed="false">Predicting death<span class="n">6</span></button><button class="chip" type="button" data-filter="Reliability" aria-pressed="false">Reliability<span class="n">3</span></button><button class="chip" type="button" data-filter="Trials" aria-pressed="false">Trials<span class="n">3</span></button><button class="chip" type="button" data-filter="Standards" aria-pressed="false">Standards<span class="n">1</span></button><button class="chip" type="button" data-filter="Across species" aria-pressed="false">Across species<span class="n">2</span></button><button class="chip" type="button" data-filter="What speeds the clock" aria-pressed="false">What speeds the clock<span class="n">7</span></button><button class="chip" type="button" data-filter="Clock profiles" aria-pressed="false">Clock profiles<span class="n">10</span></button></div>
+      <div class="row" role="group" aria-label="Sort"><span class="label">Sort</span><button class="chip" type="button" data-sort="rank" aria-pressed="true">Key findings</button><button class="chip" type="button" data-sort="year" aria-pressed="false">Newest</button><span class="count" id="count" aria-live="polite"></span></div>
+    </div>
+    <ol class="claims" id="claims">
+      <li class="claim" id="horvath-accuracy" data-rank="1" data-year="2013" data-tags="Accuracy">
+        <span class="rank">1</span>
+        <div class="fig"><span class="n">±3.6 years</span><span class="fl">typical error of the Horvath clock</span></div>
+        <div class="body"><p class="stmt">Median error of the Horvath clock against calendar age in held-out samples (correlation 0.96), across 51 tissues and cell types.</p><div class="c-top"><button class="tag" type="button" data-tag="Accuracy">Accuracy</button><span class="pill draft">AI draft · awaiting review</span><code>horvath-accuracy</code></div></div>
+        <div class="ev"><a href="https://doi.org/10.1186/gb-2013-14-10-r115">Horvath 2013 · <i>Genome Biology</i></a><span class="d">Method development; 82 public array datasets</span></div>
+      </li>
+      <li class="claim" id="grimage-mortality" data-rank="2" data-year="2019" data-tags="Predicting death">
+        <span class="rank">2</span>
+        <div class="fig"><span class="n">+10%</span><span class="fl">risk of death per extra year of GrimAge</span></div>
+        <div class="body"><p class="stmt">Hazard of death for each extra year of GrimAge acceleration in about 6,900 people. GrimAge outperformed earlier clocks at predicting time to death.</p><div class="c-top"><button class="tag" type="button" data-tag="Predicting death">Predicting death</button><span class="pill draft">AI draft · awaiting review</span><code>grimage-mortality</code></div></div>
+        <div class="ev"><a href="https://doi.org/10.18632/aging.101684">Lu et al. 2019 · <i>Aging</i></a><span class="d">Method development; Framingham training set, 6,935 people in validation</span></div>
+      </li>
+      <li class="claim" id="noise-9yr" data-rank="3" data-year="2022" data-tags="Reliability">
+        <span class="rank">3</span>
+        <div class="fig"><span class="n">Up to 9 years</span><span class="fl">gap between repeat runs of one sample</span></div>
+        <div class="body"><p class="stmt">How far readings from six common clocks can differ between repeat runs of the same sample, from technical noise alone.</p><div class="c-top"><button class="tag" type="button" data-tag="Reliability">Reliability</button><span class="pill draft">AI draft · awaiting review</span><code>noise-9yr</code></div></div>
+        <div class="ev"><a href="https://doi.org/10.1038/s43587-022-00248-2">Higgins-Chen et al. 2022 · <i>Nature Aging</i></a><span class="d">Methods; technical replicates</span></div>
+      </li>
+      <li class="claim" id="calerie-pace" data-rank="4" data-year="2023" data-tags="Trials">
+        <span class="rank">4</span>
+        <div class="fig"><span class="n">2–3% slower</span><span class="fl">pace of aging with calorie restriction</span></div>
+        <div class="body"><p class="stmt">Slower pace of aging on DunedinPACE after two years of caloric restriction versus usual diet (effect size d = −0.25 at 24 months, P < 0.003), even though participants achieved about 12% restriction against a 25% target. GrimAge and PhenoAge did not change.</p><div class="c-top"><button class="tag" type="button" data-tag="Trials">Trials</button><span class="pill draft">AI draft · awaiting review</span><code>calerie-pace</code></div></div>
+        <div class="ev"><a href="https://doi.org/10.1038/s43587-022-00357-y">Waziry et al. 2023 · <i>Nature Aging</i></a><span class="d">Secondary analysis of a randomized trial (n = 197)</span></div>
+      </li>
+      <li class="claim" id="phenoage-mortality" data-rank="5" data-year="2018" data-tags="Predicting death">
+        <span class="rank">5</span>
+        <div class="fig"><span class="n">+4.5%</span><span class="fl">risk of death per extra year of PhenoAge</span></div>
+        <div class="body"><p class="stmt">Higher risk of death from any cause for each additional year of DNAm PhenoAge, pooled across cohorts. The fastest-aging 5% had about 1.6 times the average risk.</p><div class="c-top"><button class="tag" type="button" data-tag="Predicting death">Predicting death</button><span class="pill draft">AI draft · awaiting review</span><code>phenoage-mortality</code></div></div>
+        <div class="ev"><a href="https://doi.org/10.18632/aging.101414">Levine et al. 2018 · <i>Aging</i></a><span class="d">Method development; validated in several large cohorts</span></div>
+      </li>
+      <li class="claim" id="consortium-framework" data-rank="6" data-year="2023" data-tags="Standards">
+        <span class="rank">6</span>
+        <div class="fig"><span class="n">None</span><span class="fl">agreed gold standard for biological age</span></div>
+        <div class="body"><p class="stmt">The field has no agreed gold standard for biological age. The Biomarkers of Aging Consortium sets out shared terms and the validation steps a biomarker needs before it can be used as a trial outcome.</p><div class="c-top"><button class="tag" type="button" data-tag="Standards">Standards</button><span class="pill draft">AI draft · awaiting review</span><code>consortium-framework</code></div></div>
+        <div class="ev"><a href="https://doi.org/10.1016/j.cell.2023.08.003">Moqri et al. 2023 · <i>Cell</i></a><span class="d">Consensus review (Biomarkers of Aging Consortium)</span></div>
+      </li>
+      <li class="claim" id="dohealth-omega3" data-rank="7" data-year="2025" data-tags="Trials">
+        <span class="rank">7</span>
+        <div class="fig"><span class="n">2.9–3.8 months</span><span class="fl">less biological aging with omega-3 over 3 years</span></div>
+        <div class="body"><p class="stmt">Slowing of biological aging over three years with 1 g a day of omega-3, on PhenoAge, GrimAge2 and DunedinPACE (standardized effects 0.16 to 0.32) in 777 adults aged 70 and over. Omega-3, vitamin D and exercise had additive benefits on PhenoAge. This was a post hoc analysis, and the authors call the effect small.</p><div class="c-top"><button class="tag" type="button" data-tag="Trials">Trials</button><span class="pill draft">AI draft · awaiting review</span><code>dohealth-omega3</code></div></div>
+        <div class="ev"><a href="https://doi.org/10.1038/s43587-024-00793-y">Bischoff-Ferrari et al. 2025 · <i>Nature Aging</i></a><span class="d">Post hoc analysis of a randomized factorial trial (n = 777 Swiss participants)</span></div>
+      </li>
+      <li class="claim" id="phenoage-vs-first-gen" data-rank="8" data-year="2018" data-tags="Predicting death">
+        <span class="rank">8</span>
+        <div class="fig"><span class="n">2nd generation</span><span class="fl">clocks that predict death better</span></div>
+        <div class="body"><p class="stmt">Clocks trained on health outcomes predict death better than clocks trained on calendar age. In a joint model, PhenoAge stayed predictive (HR 1.04 per year) while the Hannum clock added nothing and the Horvath clock was slightly inverse.</p><div class="c-top"><button class="tag" type="button" data-tag="Predicting death">Predicting death</button><span class="pill draft">AI draft · awaiting review</span><code>phenoage-vs-first-gen</code></div></div>
+        <div class="ev"><a href="https://doi.org/10.18632/aging.101414">Levine et al. 2018 · <i>Aging</i></a><span class="d">Method development; validated in several large cohorts</span></div>
+      </li>
+      <li class="claim" id="grimage2-mortality" data-rank="9" data-year="2022" data-tags="Predicting death">
+        <span class="rank">9</span>
+        <div class="fig"><span class="n">13,399</span><span class="fl">people used to validate GrimAge2</span></div>
+        <div class="body"><p class="stmt">Blood samples from nine cohorts used to validate GrimAge2. It predicted death more strongly than GrimAge (P = 3.6×10⁻¹⁶⁷ versus 2.6×10⁻¹⁴⁴) across racial and ethnic groups.</p><div class="c-top"><button class="tag" type="button" data-tag="Predicting death">Predicting death</button><span class="pill draft">AI draft · awaiting review</span><code>grimage2-mortality</code></div></div>
+        <div class="ev"><a href="https://doi.org/10.18632/aging.204434">Lu et al. 2022 · <i>Aging</i></a><span class="d">Method development; 13,399 blood samples from nine cohorts</span></div>
+      </li>
+      <li class="claim" id="pc-1-5yr" data-rank="10" data-year="2022" data-tags="Reliability">
+        <span class="rank">10</span>
+        <div class="fig"><span class="n">1.5 years</span><span class="fl">gap between repeat runs with PC clocks</span></div>
+        <div class="body"><p class="stmt">Agreement between most repeat runs after the same clocks were rebuilt on principal components (PC clocks).</p><div class="c-top"><button class="tag" type="button" data-tag="Reliability">Reliability</button><span class="pill draft">AI draft · awaiting review</span><code>pc-1-5yr</code></div></div>
+        <div class="ev"><a href="https://doi.org/10.1038/s43587-022-00248-2">Higgins-Chen et al. 2022 · <i>Nature Aging</i></a><span class="d">Methods; technical replicates</span></div>
+      </li>
+      <li class="claim" id="horvath-stemcells" data-rank="11" data-year="2013" data-tags="Accuracy">
+        <span class="rank">11</span>
+        <div class="fig"><span class="n">About 0</span><span class="fl">clock age of stem cells</span></div>
+        <div class="body"><p class="stmt">Estimated age of embryonic and induced pluripotent stem cells. Reprogramming a cell resets its clock.</p><div class="c-top"><button class="tag" type="button" data-tag="Accuracy">Accuracy</button><span class="pill draft">AI draft · awaiting review</span><code>horvath-stemcells</code></div></div>
+        <div class="ev"><a href="https://doi.org/10.1186/gb-2013-14-10-r115">Horvath 2013 · <i>Genome Biology</i></a><span class="d">Method development; 82 public array datasets</span></div>
+      </li>
+      <li class="claim" id="universal-mammal" data-rank="12" data-year="2023" data-tags="Across species|Accuracy">
+        <span class="rank">12</span>
+        <div class="fig"><span class="n">185</span><span class="fl">mammal species read by one clock</span></div>
+        <div class="body"><p class="stmt">Mammal species, across 59 tissues, in which a single universal clock estimates age with correlation above 0.96.</p><div class="c-top"><button class="tag" type="button" data-tag="Across species">Across species</button><button class="tag" type="button" data-tag="Accuracy">Accuracy</button><span class="pill draft">AI draft · awaiting review</span><code>universal-mammal</code></div></div>
+        <div class="ev"><a href="https://doi.org/10.1038/s43587-023-00462-6">Lu et al. 2023 · <i>Nature Aging</i></a><span class="d">Method development; 11,754 arrays from 185 mammal species</span></div>
+      </li>
+      <li class="claim" id="dunedinpace-adversity" data-rank="13" data-year="2022" data-tags="Predicting death|What speeds the clock">
+        <span class="rank">13</span>
+        <div class="fig"><span class="n">Faster</span><span class="fl">pace of aging after childhood adversity</span></div>
+        <div class="body"><p class="stmt">DunedinPACE is associated with later disease, disability and death, and shows faster aging in young adults who experienced childhood adversity.</p><div class="c-top"><button class="tag" type="button" data-tag="Predicting death">Predicting death</button><button class="tag" type="button" data-tag="What speeds the clock">What speeds the clock</button><span class="pill draft">AI draft · awaiting review</span><code>dunedinpace-adversity</code></div></div>
+        <div class="ev"><a href="https://doi.org/10.7554/eLife.73420">Belsky et al. 2022 · <i>eLife</i></a><span class="d">Method development; Dunedin birth cohort followed from age 26 to 45</span></div>
+      </li>
+      <li class="claim" id="downsyndrome" data-rank="14" data-year="2015" data-tags="What speeds the clock">
+        <span class="rank">14</span>
+        <div class="fig"><span class="n">+6.6 years</span><span class="fl">older clock age in Down syndrome</span></div>
+        <div class="body"><p class="stmt">Average epigenetic age acceleration in blood and brain from people with Down syndrome (P = 7.0×10⁻¹⁴).</p><div class="c-top"><button class="tag" type="button" data-tag="What speeds the clock">What speeds the clock</button><span class="pill draft">AI draft · awaiting review</span><code>downsyndrome</code></div></div>
+        <div class="ev"><a href="https://doi.org/10.1111/acel.12325">Horvath et al. 2015 · <i>Aging Cell</i></a><span class="d">Case-control; blood and brain</span></div>
+      </li>
+      <li class="claim" id="horvath-cancer" data-rank="15" data-year="2013" data-tags="What speeds the clock">
+        <span class="rank">15</span>
+        <div class="fig"><span class="n">+36 years</span><span class="fl">older clock age in cancer tissue</span></div>
+        <div class="body"><p class="stmt">Average age acceleration in about 6,000 cancer samples from 32 datasets.</p><div class="c-top"><button class="tag" type="button" data-tag="What speeds the clock">What speeds the clock</button><span class="pill draft">AI draft · awaiting review</span><code>horvath-cancer</code></div></div>
+        <div class="ev"><a href="https://doi.org/10.1186/gb-2013-14-10-r115">Horvath 2013 · <i>Genome Biology</i></a><span class="d">Method development; 82 public array datasets</span></div>
+      </li>
+      <li class="claim" id="dunedinpace-icc" data-rank="16" data-year="2022" data-tags="Reliability">
+        <span class="rank">16</span>
+        <div class="fig"><span class="n">0.96</span><span class="fl">repeat-run agreement of DunedinPACE (1 = perfect)</span></div>
+        <div class="body"><p class="stmt">Test-retest reliability (intraclass correlation) of DunedinPACE across 36 technical replicates on the 450K array.</p><div class="c-top"><button class="tag" type="button" data-tag="Reliability">Reliability</button><span class="pill draft">AI draft · awaiting review</span><code>dunedinpace-icc</code></div></div>
+        <div class="ev"><a href="https://doi.org/10.7554/eLife.73420">Belsky et al. 2022 · <i>eLife</i></a><span class="d">Method development; Dunedin birth cohort followed from age 26 to 45</span></div>
+      </li>
+      <li class="claim" id="triim-reversal" data-rank="17" data-year="2019" data-tags="Trials">
+        <span class="rank">17</span>
+        <div class="fig"><span class="n">−2.5 years</span><span class="fl">clock age after 1 year of treatment, 9 men, no controls</span></div>
+        <div class="body"><p class="stmt">Change in Horvath clock age after 12 months of growth hormone, DHEA and metformin in 9 men, versus their own baseline (PhenoAge −3.7, Hannum −2.8, GrimAge −2.2 years). There was no control group, and several authors had financial ties to the sponsor.</p><div class="c-top"><button class="tag" type="button" data-tag="Trials">Trials</button><span class="pill draft">AI draft · awaiting review</span><code>triim-reversal</code></div></div>
+        <div class="ev"><a href="https://doi.org/10.1111/acel.13028">Fahy et al. 2019 · <i>Aging Cell</i></a><span class="d">Open-label pilot, 9 men, no control group</span></div>
+      </li>
+      <li class="claim" id="sex-ancestry" data-rank="18" data-year="2016" data-tags="What speeds the clock">
+        <span class="rank">18</span>
+        <div class="fig"><span class="n">Men</span><span class="fl">age faster than women on the clock</span></div>
+        <div class="body"><p class="stmt">Men show faster epigenetic aging than women in blood, saliva and brain. In blood, Hispanic and Tsimane people show slower intrinsic but faster extrinsic aging than people of European ancestry.</p><div class="c-top"><button class="tag" type="button" data-tag="What speeds the clock">What speeds the clock</button><span class="pill draft">AI draft · awaiting review</span><code>sex-ancestry</code></div></div>
+        <div class="ev"><a href="https://doi.org/10.1186/s13059-016-1030-0">Horvath et al. 2016 · <i>Genome Biology</i></a><span class="d">Cross-sectional; almost 6,000 samples, seven racial and ethnic groups</span></div>
+      </li>
+      <li class="claim" id="hannum-sex" data-rank="19" data-year="2013" data-tags="What speeds the clock">
+        <span class="rank">19</span>
+        <div class="fig"><span class="n">4% faster</span><span class="fl">methylome aging in men than women</span></div>
+        <div class="body"><p class="stmt">Faster methylome aging in men than in women, in blood from 656 adults aged 19 to 101.</p><div class="c-top"><button class="tag" type="button" data-tag="What speeds the clock">What speeds the clock</button><span class="pill draft">AI draft · awaiting review</span><code>hannum-sex</code></div></div>
+        <div class="ev"><a href="https://doi.org/10.1016/j.molcel.2012.10.016">Hannum et al. 2013 · <i>Molecular Cell</i></a><span class="d">Method development; 656 adults aged 19 to 101</span></div>
+      </li>
+      <li class="claim" id="obesity-liver" data-rank="20" data-year="2014" data-tags="What speeds the clock">
+        <span class="rank">20</span>
+        <div class="fig"><span class="n">+3.3 years</span><span class="fl">older liver clock age per 10 BMI units</span></div>
+        <div class="body"><p class="stmt">Increase in liver epigenetic age for every 10 BMI units, in 140 liver samples. Obesity did not change the clock in fat, muscle or blood.</p><div class="c-top"><button class="tag" type="button" data-tag="What speeds the clock">What speeds the clock</button><span class="pill draft">AI draft · awaiting review</span><code>obesity-liver</code></div></div>
+        <div class="ev"><a href="https://doi.org/10.1073/pnas.1412759111">Horvath et al. 2014 · <i>PNAS</i></a><span class="d">Cross-sectional; about 1,200 tissue samples including 140 livers</span></div>
+      </li>
+      <li class="claim" id="dnamtl-outperforms" data-rank="21" data-year="2019" data-tags="Predicting death">
+        <span class="rank">21</span>
+        <div class="fig"><span class="n">HR 0.37</span><span class="fl">risk of death with longer DNAm telomere length (below 1 = protective)</span></div>
+        <div class="body"><p class="stmt">Age-adjusted hazard ratio for death with longer DNAmTL in validation cohorts (longer telomeres are protective). The methylation estimate predicted death, heart disease and heart failure better than telomere length measured directly.</p><div class="c-top"><button class="tag" type="button" data-tag="Predicting death">Predicting death</button><span class="pill draft">AI draft · awaiting review</span><code>dnamtl-outperforms</code></div></div>
+        <div class="ev"><a href="https://doi.org/10.18632/aging.102173">Lu et al. 2019 · <i>Aging</i></a><span class="d">Method development; training plus 12 validation cohorts</span></div>
+      </li>
+      <li class="claim" id="skinblood-fibroblast" data-rank="22" data-year="2018" data-tags="Accuracy">
+        <span class="rank">22</span>
+        <div class="fig"><span class="n">Under 6 months</span><span class="fl">error on newborn skin cells</span></div>
+        <div class="body"><p class="stmt">Error of the skin and blood clock on newborn skin cells (fibroblasts), where the original pan-tissue clock was off by more than 10 years.</p><div class="c-top"><button class="tag" type="button" data-tag="Accuracy">Accuracy</button><span class="pill draft">AI draft · awaiting review</span><code>skinblood-fibroblast</code></div></div>
+        <div class="ev"><a href="https://doi.org/10.18632/aging.101508">Horvath et al. 2018 · <i>Aging</i></a><span class="d">Method development; many cell types and ex vivo cultures</span></div>
+      </li>
+      <li class="claim" id="skinblood-progeria" data-rank="23" data-year="2018" data-tags="What speeds the clock">
+        <span class="rank">23</span>
+        <div class="fig"><span class="n">Detected</span><span class="fl">faster aging in progeria cells</span></div>
+        <div class="body"><p class="stmt">The skin and blood clock detected faster epigenetic aging in cells from children with Hutchinson-Gilford progeria, which the pan-tissue clock missed.</p><div class="c-top"><button class="tag" type="button" data-tag="What speeds the clock">What speeds the clock</button><span class="pill draft">AI draft · awaiting review</span><code>skinblood-progeria</code></div></div>
+        <div class="ev"><a href="https://doi.org/10.18632/aging.101508">Horvath et al. 2018 · <i>Aging</i></a><span class="d">Method development; many cell types and ex vivo cultures</span></div>
+      </li>
+      <li class="claim" id="clock-horvath" data-rank="24" data-year="2013" data-tags="Clock profiles">
+        <span class="rank">24</span>
+        <div class="fig"><span class="n">353 sites</span><span class="fl">Horvath clock, 51 tissues</span></div>
+        <div class="body"><p class="stmt">The Horvath pan-tissue clock estimates calendar age from 353 CpG sites in 51 tissues and cell types. It is a first-generation clock, best for development, tissue comparisons and cell reprogramming.</p><div class="c-top"><button class="tag" type="button" data-tag="Clock profiles">Clock profiles</button><span class="pill draft">AI draft · awaiting review</span><code>clock-horvath</code></div></div>
+        <div class="ev"><a href="https://doi.org/10.1186/gb-2013-14-10-r115">Horvath 2013 · <i>Genome Biology</i></a><span class="d">Method development; 82 public array datasets</span></div>
+      </li>
+      <li class="claim" id="clock-grimage" data-rank="25" data-year="2019" data-tags="Clock profiles">
+        <span class="rank">25</span>
+        <div class="fig"><span class="n">1,030 sites</span><span class="fl">GrimAge, trained on time to death</span></div>
+        <div class="body"><p class="stmt">GrimAge is trained on time to death, through methylation stand-ins for 7 plasma proteins and smoking pack-years. It is a second-generation blood clock for mortality and healthspan risk.</p><div class="c-top"><button class="tag" type="button" data-tag="Clock profiles">Clock profiles</button><span class="pill draft">AI draft · awaiting review</span><code>clock-grimage</code></div></div>
+        <div class="ev"><a href="https://doi.org/10.18632/aging.101684">Lu et al. 2019 · <i>Aging</i></a><span class="d">Method development; Framingham training set, 6,935 people in validation</span></div>
+      </li>
+      <li class="claim" id="clock-phenoage" data-rank="26" data-year="2018" data-tags="Clock profiles">
+        <span class="rank">26</span>
+        <div class="fig"><span class="n">513 sites</span><span class="fl">PhenoAge, trained on clinical blood tests</span></div>
+        <div class="body"><p class="stmt">DNAm PhenoAge is trained on a phenotypic age built from routine clinical blood tests. It is a second-generation blood clock for disease and mortality risk.</p><div class="c-top"><button class="tag" type="button" data-tag="Clock profiles">Clock profiles</button><span class="pill draft">AI draft · awaiting review</span><code>clock-phenoage</code></div></div>
+        <div class="ev"><a href="https://doi.org/10.18632/aging.101414">Levine et al. 2018 · <i>Aging</i></a><span class="d">Method development; validated in several large cohorts</span></div>
+      </li>
+      <li class="claim" id="clock-dunedinpace" data-rank="27" data-year="2022" data-tags="Clock profiles">
+        <span class="rank">27</span>
+        <div class="fig"><span class="n">173 sites</span><span class="fl">DunedinPACE, measures pace of aging</span></div>
+        <div class="body"><p class="stmt">DunedinPACE estimates the pace of aging from decline in 19 organ-system indicators measured at ages 26, 32, 38 and 45. It is built to track change, for example in trials.</p><div class="c-top"><button class="tag" type="button" data-tag="Clock profiles">Clock profiles</button><span class="pill draft">AI draft · awaiting review</span><code>clock-dunedinpace</code></div></div>
+        <div class="ev"><a href="https://doi.org/10.7554/eLife.73420">Belsky et al. 2022 · <i>eLife</i></a><span class="d">Method development; Dunedin birth cohort followed from age 26 to 45</span></div>
+      </li>
+      <li class="claim" id="clock-hannum" data-rank="28" data-year="2013" data-tags="Clock profiles">
+        <span class="rank">28</span>
+        <div class="fig"><span class="n">71 sites</span><span class="fl">Hannum clock, blood</span></div>
+        <div class="body"><p class="stmt">The Hannum clock estimates calendar age from 71 CpG sites in whole blood. It is a first-generation clock for blood-based age estimates in adults.</p><div class="c-top"><button class="tag" type="button" data-tag="Clock profiles">Clock profiles</button><span class="pill draft">AI draft · awaiting review</span><code>clock-hannum</code></div></div>
+        <div class="ev"><a href="https://doi.org/10.1016/j.molcel.2012.10.016">Hannum et al. 2013 · <i>Molecular Cell</i></a><span class="d">Method development; 656 adults aged 19 to 101</span></div>
+      </li>
+      <li class="claim" id="clock-pcclocks" data-rank="29" data-year="2022" data-tags="Clock profiles">
+        <span class="rank">29</span>
+        <div class="fig"><span class="n">6 clocks</span><span class="fl">rebuilt to cut measurement noise</span></div>
+        <div class="body"><p class="stmt">PC clocks are six established clocks rebuilt on principal components to cut technical noise. They are suited to repeat measures in the same person.</p><div class="c-top"><button class="tag" type="button" data-tag="Clock profiles">Clock profiles</button><span class="pill draft">AI draft · awaiting review</span><code>clock-pcclocks</code></div></div>
+        <div class="ev"><a href="https://doi.org/10.1038/s43587-022-00248-2">Higgins-Chen et al. 2022 · <i>Nature Aging</i></a><span class="d">Methods; technical replicates</span></div>
+      </li>
+      <li class="claim" id="clock-skinblood" data-rank="30" data-year="2018" data-tags="Clock profiles">
+        <span class="rank">30</span>
+        <div class="fig"><span class="n">391 sites</span><span class="fl">skin and blood clock</span></div>
+        <div class="body"><p class="stmt">The skin and blood clock estimates age from 391 CpG sites in skin, blood, saliva, cheek cells and cultured cells. It suits saliva and cheek-swab tests, cell culture and progeria studies.</p><div class="c-top"><button class="tag" type="button" data-tag="Clock profiles">Clock profiles</button><span class="pill draft">AI draft · awaiting review</span><code>clock-skinblood</code></div></div>
+        <div class="ev"><a href="https://doi.org/10.18632/aging.101508">Horvath et al. 2018 · <i>Aging</i></a><span class="d">Method development; many cell types and ex vivo cultures</span></div>
+      </li>
+      <li class="claim" id="clock-grimage2" data-rank="31" data-year="2022" data-tags="Clock profiles">
+        <span class="rank">31</span>
+        <div class="fig"><span class="n">+2 proteins</span><span class="fl">GrimAge2 adds CRP and HbA1c</span></div>
+        <div class="body"><p class="stmt">GrimAge2 adds methylation stand-ins for C-reactive protein and HbA1c to GrimAge, on the same 1,030 CpG sites. It predicts mortality and disease across ancestries.</p><div class="c-top"><button class="tag" type="button" data-tag="Clock profiles">Clock profiles</button><span class="pill draft">AI draft · awaiting review</span><code>clock-grimage2</code></div></div>
+        <div class="ev"><a href="https://doi.org/10.18632/aging.204434">Lu et al. 2022 · <i>Aging</i></a><span class="d">Method development; 13,399 blood samples from nine cohorts</span></div>
+      </li>
+      <li class="claim" id="clock-universal" data-rank="32" data-year="2023" data-tags="Clock profiles|Across species">
+        <span class="rank">32</span>
+        <div class="fig"><span class="n">59 tissues</span><span class="fl">universal mammal clocks</span></div>
+        <div class="body"><p class="stmt">The universal pan-mammalian clocks are trained on log age and on age relative to each species' lifespan or maturity, using conserved sites on a mammalian array. They suit cross-species and animal studies.</p><div class="c-top"><button class="tag" type="button" data-tag="Clock profiles">Clock profiles</button><button class="tag" type="button" data-tag="Across species">Across species</button><span class="pill draft">AI draft · awaiting review</span><code>clock-universal</code></div></div>
+        <div class="ev"><a href="https://doi.org/10.1038/s43587-023-00462-6">Lu et al. 2023 · <i>Nature Aging</i></a><span class="d">Method development; 11,754 arrays from 185 mammal species</span></div>
+      </li>
+      <li class="claim" id="clock-dnamtl" data-rank="33" data-year="2019" data-tags="Clock profiles">
+        <span class="rank">33</span>
+        <div class="fig"><span class="n">140 sites</span><span class="fl">DNAmTL, estimates telomere length</span></div>
+        <div class="body"><p class="stmt">DNAmTL estimates leukocyte telomere length from 140 CpG sites in blood. It also predicts death and heart disease.</p><div class="c-top"><button class="tag" type="button" data-tag="Clock profiles">Clock profiles</button><span class="pill draft">AI draft · awaiting review</span><code>clock-dnamtl</code></div></div>
+        <div class="ev"><a href="https://doi.org/10.18632/aging.102173">Lu et al. 2019 · <i>Aging</i></a><span class="d">Method development; training plus 12 validation cohorts</span></div>
+      </li>
+    </ol>
+    <details class="more" id="glossary">
+      <summary>Glossary</summary>
+      <dl class="gloss">
+        <dt>DNA methylation</dt><dd>A chemical tag (a methyl group) on DNA, mostly at CpG sites, that helps switch genes on or off. Its pattern changes with age in predictable ways.</dd>
+        <dt>CpG site</dt><dd>A place in the genome where a C is followed by a G. Clocks read the methylation level at a few hundred to a few thousand of these sites.</dd>
+        <dt>Epigenetic clock</dt><dd>A formula that turns methylation levels at chosen CpG sites into an age estimate or an aging rate.</dd>
+        <dt>Chronological age</dt><dd>Age in years since birth.</dd>
+        <dt>Biological age</dt><dd>An estimate of how old the body behaves. Each clock defines it differently, and there is no agreed gold standard.</dd>
+        <dt>Age acceleration</dt><dd>The gap between clock age and calendar age, after adjusting for calendar age. Positive means older than expected.</dd>
+        <dt>First-generation clock</dt><dd>Trained to predict calendar age, for example the Horvath and Hannum clocks.</dd>
+        <dt>Second-generation clock</dt><dd>Trained to predict health outcomes or death, for example PhenoAge and GrimAge.</dd>
+        <dt>Pace-of-aging clock</dt><dd>Estimates how fast someone is aging now, rather than how old they are, for example DunedinPACE.</dd>
+        <dt>Test-retest reliability</dt><dd>How closely two measurements of the same sample agree. Often reported as an intraclass correlation (ICC), where 1 is perfect agreement.</dd>
+        <dt>Principal-component (PC) clock</dt><dd>A clock rebuilt on summary patterns across many CpG sites, which makes it less sensitive to noise at any one site.</dd>
+        <dt>Methylation array</dt><dd>The lab chip most clocks are built on, such as Illumina&#x27;s 450K and EPIC arrays. Results can shift between array versions and labs.</dd>
+        <dt>Hazard ratio</dt><dd>How much the risk of an event, such as death, changes per unit of a measure. 1.10 means 10% higher risk per unit.</dd>
+        <dt>Pluripotent stem cell</dt><dd>A cell that can become any cell type. Embryonic and reprogrammed (iPS) cells read close to age zero on the Horvath clock.</dd>
+      </dl>
+    </details>
+    <details class="more" id="sources">
+      <summary>All 17 sources</summary>
+      <ol class="refs">
+        <li><a href="https://doi.org/10.1038/s43587-024-00793-y">Bischoff-Ferrari HA, Gängler S, Wieczorek M, et al. Individual and additive effects of vitamin D, omega-3 and exercise on DNA methylation clocks of biological aging in older adults from the DO-HEALTH trial. <i>Nature Aging</i> 2025.</a> <span class="d">Post hoc analysis of a randomized factorial trial (n = 777 Swiss participants).</span></li>
+        <li><a href="https://doi.org/10.1038/s43587-023-00462-6">Lu AT, Fei Z, Haghani A, et al. Universal DNA methylation age across mammalian tissues. <i>Nature Aging</i> 2023.</a> <span class="d">Method development; 11,754 arrays from 185 mammal species.</span></li>
+        <li><a href="https://doi.org/10.1016/j.cell.2023.08.003">Moqri M, Herzog C, Poganik JR, et al. Biomarkers of aging for the identification and evaluation of longevity interventions. <i>Cell</i> 2023.</a> <span class="d">Consensus review (Biomarkers of Aging Consortium).</span></li>
+        <li><a href="https://doi.org/10.1038/s43587-022-00357-y">Waziry R, Ryan CP, Corcoran DL, et al. Effect of long-term caloric restriction on DNA methylation measures of biological aging in healthy adults from the CALERIE trial. <i>Nature Aging</i> 2023.</a> <span class="d">Secondary analysis of a randomized trial (n = 197).</span></li>
+        <li><a href="https://doi.org/10.7554/eLife.73420">Belsky DW, Caspi A, Corcoran DL, et al. DunedinPACE, a DNA methylation biomarker of the pace of aging. <i>eLife</i> 2022.</a> <span class="d">Method development; Dunedin birth cohort followed from age 26 to 45.</span></li>
+        <li><a href="https://doi.org/10.1038/s43587-022-00248-2">Higgins-Chen AT, Thrush KL, Wang Y, et al. A computational solution for bolstering reliability of epigenetic clocks. <i>Nature Aging</i> 2022.</a> <span class="d">Methods; technical replicates.</span></li>
+        <li><a href="https://doi.org/10.18632/aging.204434">Lu AT, Binder AM, Zhang J, et al. DNA methylation GrimAge version 2. <i>Aging</i> 2022.</a> <span class="d">Method development; 13,399 blood samples from nine cohorts.</span></li>
+        <li><a href="https://doi.org/10.1111/acel.13028">Fahy GM, Brooke RT, Watson JP, et al. Reversal of epigenetic aging and immunosenescent trends in humans. <i>Aging Cell</i> 2019.</a> <span class="d">Open-label pilot, 9 men, no control group.</span></li>
+        <li><a href="https://doi.org/10.18632/aging.101684">Lu AT, Quach A, Wilson JG, et al. DNA methylation GrimAge strongly predicts lifespan and healthspan. <i>Aging</i> 2019.</a> <span class="d">Method development; Framingham training set, 6,935 people in validation.</span></li>
+        <li><a href="https://doi.org/10.18632/aging.102173">Lu AT, Seeboth A, Tsai PC, et al. DNA methylation-based estimator of telomere length. <i>Aging</i> 2019.</a> <span class="d">Method development; training plus 12 validation cohorts.</span></li>
+        <li><a href="https://doi.org/10.18632/aging.101508">Horvath S, Oshima J, Martin GM, et al. Epigenetic clock for skin and blood cells applied to Hutchinson Gilford Progeria Syndrome and ex vivo studies. <i>Aging</i> 2018.</a> <span class="d">Method development; many cell types and ex vivo cultures.</span></li>
+        <li><a href="https://doi.org/10.18632/aging.101414">Levine ME, Lu AT, Quach A, et al. An epigenetic biomarker of aging for lifespan and healthspan. <i>Aging</i> 2018.</a> <span class="d">Method development; validated in several large cohorts.</span></li>
+        <li><a href="https://doi.org/10.1186/s13059-016-1030-0">Horvath S, Gurven M, Levine ME, et al. An epigenetic clock analysis of race/ethnicity, sex, and coronary heart disease. <i>Genome Biology</i> 2016.</a> <span class="d">Cross-sectional; almost 6,000 samples, seven racial and ethnic groups.</span></li>
+        <li><a href="https://doi.org/10.1111/acel.12325">Horvath S, Garagnani P, Bacalini MG, et al. Accelerated epigenetic aging in Down syndrome. <i>Aging Cell</i> 2015.</a> <span class="d">Case-control; blood and brain.</span></li>
+        <li><a href="https://doi.org/10.1073/pnas.1412759111">Horvath S, Erhart W, Brosch M, et al. Obesity accelerates epigenetic aging of human liver. <i>PNAS</i> 2014.</a> <span class="d">Cross-sectional; about 1,200 tissue samples including 140 livers.</span></li>
+        <li><a href="https://doi.org/10.1016/j.molcel.2012.10.016">Hannum G, Guinney J, Zhao L, et al. Genome-wide methylation profiles reveal quantitative views of human aging rates. <i>Molecular Cell</i> 2013.</a> <span class="d">Method development; 656 adults aged 19 to 101.</span></li>
+        <li><a href="https://doi.org/10.1186/gb-2013-14-10-r115">Horvath S. DNA methylation age of human tissues and cell types. <i>Genome Biology</i> 2013.</a> <span class="d">Method development; 82 public array datasets.</span></li>
+      </ol>
+    </details>
+    <details class="more" id="about">
+      <summary>About this draft</summary>
+      <div class="about">
+        <p>An AI co-scientist read the papers listed above and wrote each claim. Every claim cites exactly one paper, and its number was checked against that paper. Claims stay marked “AI draft” until the expert reviewer accepts, corrects or rejects them.</p>
+        <p>“Key findings” puts the results the field relies on most at the top, in an order the draft proposes and the reviewer can change. “Newest” sorts by the publication year of each claim’s supporting paper.</p>
+        <p>This site is for education and is not medical advice. A biological age result is not a diagnosis.</p>
+      </div>
+    </details>
+  </main>
+  <footer>
+    <span>Aging Clocks · Expert reviewer: TBD · Built with the co-scientist pipeline by Mahdi Moqri. Sister sites: <a href="https://apoe4.science">apoe4.science</a>, <a href="https://alzprevent.org">alzprevent.org</a></span>
+    <span class="updated">Draft of November 2026</span>
+  </footer>
+</div>
+<script>
+(function(){
+  var list=document.getElementById('claims'), items=[].slice.call(list.children);
+  var count=document.getElementById('count'), state={tag:'',sort:'rank'};
+  function press(sel,attr,val){[].forEach.call(document.querySelectorAll(sel),function(b){b.setAttribute('aria-pressed',String(b.getAttribute(attr)===val));});}
+  function render(){
+    items.sort(function(a,b){
+      if(state.sort==='year'){var d=(+b.dataset.year)-(+a.dataset.year); if(d) return d;}
+      return (+a.dataset.rank)-(+b.dataset.rank);
+    });
+    var shown=0;
+    items.forEach(function(li){
+      var ok=!state.tag||li.dataset.tags.split('|').indexOf(state.tag)>-1;
+      li.hidden=!ok; if(ok) shown++; list.appendChild(li);
+    });
+    press('[data-filter]','data-filter',state.tag); press('[data-sort]','data-sort',state.sort);
+    count.textContent='Showing '+shown+' of '+items.length+' claims, '+(state.sort==='year'?'newest evidence first':'key findings first');
+  }
+  document.addEventListener('click',function(e){
+    var b=e.target.closest('[data-filter],[data-sort],.tag'); if(!b) return;
+    if(b.hasAttribute('data-sort')) state.sort=b.dataset.sort;
+    else { state.tag=b.hasAttribute('data-filter')?b.dataset.filter:b.dataset.tag;
+           if(b.classList.contains('tag')) document.getElementById('controls').scrollIntoView({block:'start'}); }
+    render();
+  });
+  render();
+})();
+</script>
 </body>
 </html>
