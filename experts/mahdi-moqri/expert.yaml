@@ -10,10 +10,10 @@ summary:
   - A second thread asks what aging clocks actually measure. Moqri's papers show that most of the DNA methylation people gain with age falls in regions controlled by the Polycomb complex PRC2, that genes changing in both methylation and expression with age in blood point to the adaptive immune system, and that epigenetic aging has a large random component alongside coordinated change. Related work splits clocks into damaging and adaptive parts, reads age cell type by cell type, and uses blood proteins from more than 50,000 people to estimate how fast each organ is aging.
   - The same tools are applied to Alzheimer's disease, rejuvenation and AI. In Alzheimer's, collaborations map blood proteins and metabolites by APOE genotype and find a plasma protein signature of brain amyloid. In rejuvenation, they review partial reprogramming and show that a young body can make an old ovary molecularly younger. In AI, they build systems such as OpenScientist and ClockBase Agent that analyze biomedical data and search millions of public samples for treatments that lower biological age.
 highlights:
-  - "Led the Biomarkers of Aging Consortium's rulebook for what counts as a trustworthy aging biomarker (Cell 2023, Nature Medicine 2024)."
-  - "Built open tools such as Biolearn that pit aging clocks against each other, revealing which ones actually predict disease."
-  - "Showed that much of the DNA methylation we gain with age piles up at the same Polycomb-controlled spots, and that a large share of epigenetic aging looks like random drift."
-  - "Now uses AI agents and blood proteins to track how fast each organ ages and to hunt for treatments that lower biological age."
+  - "**Wrote the rulebook.** Led the Biomarkers of Aging Consortium's framework for what makes an aging biomarker trustworthy ([*Cell* 2023](paper:pmid-37657418)) and how to validate one ([*Nature Medicine* 2024](paper:pmid-38355974))."
+  - "**Put the clocks head to head.** Built [Biolearn](paper:pmid-41188602), an open platform that tests dozens of aging clocks on the same people, and [compared 14 clocks against 174 diseases](paper:pmid-41402269) to see which actually predict illness."
+  - "**Asked what clocks really measure.** Much of the DNA methylation gained with age piles up at the same [Polycomb-controlled spots](paper:pmid-39009581), and a large share of epigenetic aging looks like [*random drift*](paper:pmid-38724733)."
+  - "**Taught AI to hunt for rejuvenation.** [Autonomous AI agents](paper:pmid-41332661) scanned millions of public profiles for treatments that lower biological age, and [blood proteins](paper:pmid-39488213) now reveal how fast each organ ages."
 tags: [Biomarkers of aging, Epigenetic clocks, Organ and multi-omic aging, Alzheimer's, Rejuvenation, Longevity genetics, AI for science]
 search: 'Moqri M[Author]'
 links:
