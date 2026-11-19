@@ -1,0 +1,14 @@
+slug: rudy-tanzi
+name: Rudolph E. Tanzi
+credentials: PhD
+affiliation: Massachusetts General Hospital and Harvard Medical School
+department: Genetics and Aging Research Unit, McCance Center for Brain Health, Department of Neurology
+areas: [Alzheimer's, Aging]
+headline: Finds the genes behind Alzheimer's disease, works out what they do in the brain, and asks why the brain's own defenses may drive the disease.
+summary:
+  - "Tanzi's work began with gene hunting in families. In the 1980s Tanzi's group helped place the Huntington's disease gene on chromosome 4, cloned the gene for the amyloid precursor protein (APP), whose fragment amyloid-β builds Alzheimer's plaques, and mapped it to chromosome 21, explaining why people with Down syndrome develop Alzheimer's brain changes. Tanzi's group also helped identify the Wilson disease copper transporter gene and the presenilin gene behind aggressive early-onset Alzheimer's."
+  - "For the common late-onset form, Tanzi's group built the AlzGene database, which pooled hundreds of conflicting genetic studies into one running meta-analysis, and carried out family-based genome-wide and whole-genome sequencing studies that found new risk genes, many of them acting on the brain's immune cells (microglia), on how amyloid-β is cut from APP, or on synapses. Follow-up studies showed how genes such as CD33, TREM2, ADAM10 and ATXN1 change amyloid build-up in mice and human brain tissue."
+  - "To study these genes in human cells, Tanzi's group grew human neurons in a three-dimensional culture and for the first time reproduced both amyloid plaques and tau tangles in a dish. Later versions added microglia, immune T cells and a blood-brain barrier, letting the team watch how immune cells entering the brain worsen damage."
+  - "Tanzi's group also proposed the antimicrobial protection hypothesis: amyloid-β, and more recently tau, behave like natural antimicrobial proteins that trap bacteria, fungi and herpes viruses, so infection may seed the plaques and tangles of Alzheimer's. Other work, relevant to brain aging generally, found that exercise protects memory in Alzheimer's mice by making new neurons and raising BDNF and the exercise hormone irisin."
+tags: [Alzheimer's genes, Infection and immunity, Microglia, Lab models, Amyloid production, Exercise and brain health, Treatments, Other inherited diseases]
+search: 'Tanzi RE[Author]'   # fetched with --first-name Rudolph, plus 38 hand-checked papers where PubMed lists only "Tanzi R"; preprints with a published version removed
