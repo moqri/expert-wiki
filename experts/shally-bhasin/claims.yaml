@@ -1,0 +1,223 @@
+- rank: 1
+  figure: "7.0% vs 7.3%"
+  figure_label: of men had a major heart event on testosterone vs placebo
+  statement: In men aged 45 to 80 with low testosterone and existing or high risk of heart disease, testosterone gel did not increase heart attacks, strokes or cardiovascular deaths over about 3 years compared with placebo. Atrial fibrillation, acute kidney injury and blood clots in the lungs were more common with testosterone.
+  paper: pmid-37326322
+  evidence: Randomized placebo-controlled trial (TRAVERSE), 5,246 men
+  tags: [Safety, Testosterone therapy]
+
+- rank: 2
+  figure: "0.19% vs 0.12%"
+  figure_label: of men developed high-grade prostate cancer on testosterone vs placebo, not a significant difference
+  statement: In carefully screened men with low testosterone, high-grade prostate cancer, any prostate cancer, urinary retention and prostate procedures were rare and did not differ significantly between testosterone and placebo. PSA rose more with testosterone.
+  paper: pmid-38150256
+  evidence: Randomized placebo-controlled trial (TRAVERSE), 5,204 men
+  tags: [Safety, Testosterone therapy]
+
+- rank: 3
+  figure: "264-916 ng/dL"
+  figure_label: "is the normal testosterone range for healthy non-obese men aged 19 to 39"
+  statement: "Testosterone measured by mass spectrometry in four large community cohorts in the United States and Europe was cross-calibrated to one reference standard, giving a harmonized normal range that different laboratories can share."
+  paper: pmid-28324103
+  evidence: "Four community cohort studies, 9,054 men"
+  tags: [Diagnosis]
+
+- rank: 4
+  figure: "Symptoms + 2 tests"
+  figure_label: "are required before treating low testosterone"
+  statement: "The Endocrine Society guideline recommends diagnosing testosterone deficiency only in men who have both consistent symptoms and clearly low morning testosterone confirmed on a repeat fasting measurement."
+  paper: pmid-29562364
+  evidence: "Clinical practice guideline, evidence graded with GRADE"
+  tags: [Diagnosis]
+
+- rank: 5
+  figure: "+3.4 to +7.9 kg"
+  figure_label: "of lean mass gained as the weekly testosterone dose rose from 125 mg to 600 mg"
+  statement: "With their own testosterone suppressed, men receiving graded weekly doses for 20 weeks gained lean mass, thigh muscle volume, leg strength and hemoglobin in proportion to the testosterone level reached, while fat mass fell."
+  paper: pmid-11701431
+  evidence: "Randomized dose-response trial, 61 healthy men aged 18 to 35"
+  tags: [Muscle and function]
+
+- rank: 6
+  figure: "As responsive"
+  figure_label: "older men are to testosterone's muscle effects as young men"
+  statement: "Older men aged 60 to 75 given the same graded doses as young men gained lean mass and strength to a similar degree, so muscle loss with age is not explained by muscle becoming less sensitive to testosterone. Their hemoglobin rose more than in young men."
+  paper: pmid-15562020
+  evidence: "Randomized dose-response trial, 60 older men, compared with 61 young men"
+  tags: [Muscle and function]
+
+- rank: 7
+  figure: "6.1 kg"
+  figure_label: "of lean mass gained with testosterone plus weight training in 10 weeks"
+  statement: "Healthy men given high-dose testosterone gained muscle size and strength even without exercise, and the largest gains came from combining testosterone with supervised weight training. Mood and behavior did not change."
+  paper: pmid-8637535
+  evidence: "Randomized placebo-controlled trial, 43 healthy men"
+  tags: [Muscle and function]
+
+- rank: 8
+  figure: "No benefit"
+  figure_label: "of testosterone for preventing diabetes in men with prediabetes"
+  statement: "Among men with low testosterone and prediabetes, the share progressing to diabetes was no lower with testosterone than placebo at every point up to 4 years, and blood sugar control did not improve in men who already had diabetes."
+  paper: pmid-38315466
+  evidence: "Randomized placebo-controlled substudy (TRAVERSE), 1,175 men with prediabetes and 3,880 with diabetes"
+  tags: [Safety, Testosterone therapy]
+
+- rank: 9
+  figure: "3.50% vs 2.46%"
+  figure_label: "of men had a fracture on testosterone vs placebo"
+  statement: "Although testosterone improves bone density, men treated for a median of 3.2 years had no fewer fractures than men on placebo, and the fracture rate was numerically higher."
+  paper: pmid-38231621
+  evidence: "Randomized placebo-controlled substudy (TRAVERSE), 5,204 men"
+  tags: [Safety, Testosterone therapy]
+
+- rank: 10
+  figure: "41% vs 28%"
+  figure_label: "of anemic men had their anemia corrected at 6 months on testosterone vs placebo"
+  statement: "In men with low testosterone and anemia, testosterone corrected the anemia more often than placebo at every point through 4 years, and fewer men without anemia developed it. Rising hemoglobin tracked with better energy."
+  paper: pmid-37889486
+  evidence: "Randomized placebo-controlled substudy (TRAVERSE), 815 men with anemia and 4,379 without"
+  tags: [Testosterone therapy]
+
+- rank: 11
+  figure: "+0.49"
+  figure_label: "sexual acts per day with testosterone vs placebo at 6 months"
+  statement: "Men with low testosterone and low libido reported more sexual activity, stronger desire and fewer symptoms of low testosterone, with the effect still present at 2 years. Erectile function did not improve."
+  paper: pmid-37589949
+  evidence: "Randomized placebo-controlled substudy (TRAVERSE), 1,161 men with low libido"
+  tags: [Testosterone therapy]
+
+- rank: 12
+  figure: "23 vs 5"
+  figure_label: "men had cardiovascular adverse events on testosterone vs placebo"
+  statement: "A trial of testosterone gel in older men with limited mobility and a high burden of chronic disease was stopped early because of more cardiovascular events in the testosterone group, even though leg and chest strength and stair climbing improved."
+  paper: pmid-20592293
+  evidence: "Randomized placebo-controlled trial halted early, 209 men aged 65 and over"
+  tags: [Safety, Testosterone therapy]
+
+- rank: 13
+  figure: "20.5% vs 12.6%"
+  figure_label: "of older men improved their 6-minute walk distance by 50 m or more"
+  statement: "In men aged 65 and over with low testosterone, a year of testosterone gel improved sexual activity, desire and erectile function, modestly improved walking across the whole trial population, and did not improve vitality."
+  paper: pmid-26886521
+  evidence: "Randomized placebo-controlled trials (The Testosterone Trials), 790 men"
+  tags: [Testosterone therapy, Muscle and function]
+
+- rank: 14
+  figure: "No added muscle"
+  figure_label: "from eating more protein than the recommended allowance"
+  statement: "Older men with physical limitations who ate 1.3 g/kg/day of protein gained no more lean mass, strength, physical function or well-being than men eating the recommended 0.8 g/kg/day, and the extra protein did not amplify testosterone's effect. Fat mass fell with higher protein."
+  paper: pmid-29532075
+  evidence: "Randomized controlled feeding trial, 92 men aged 65 and over"
+  tags: [Other therapies, Muscle and function]
+
+- rank: 15
+  figure: "52%"
+  figure_label: "of products sold online as androgen receptor modulators actually contained one"
+  statement: "Of 44 products marketed over the internet as selective androgen receptor modulators, fewer than half contained one, 39% contained a different unapproved drug, and the labeled amount matched the analyzed content in only 41%."
+  paper: pmid-29183075
+  evidence: "Chemical analysis of 44 products purchased online"
+  tags: [Safety, Other therapies]
+
+- rank: 16
+  figure: "Not needed"
+  figure_label: "is conversion to dihydrotestosterone for testosterone to build muscle"
+  statement: "Men given graded testosterone doses together with dutasteride, which blocks conversion of testosterone to dihydrotestosterone, gained just as much lean mass as men given testosterone alone, and sexual function, prostate volume and blood counts were also unaffected."
+  paper: pmid-22396515
+  evidence: "Randomized placebo-controlled trial, 139 healthy men aged 18 to 50"
+  tags: [Muscle and function]
+
+- rank: 17
+  figure: "2.5% to 15%"
+  figure_label: "rise in muscle satellite cells on the highest testosterone dose"
+  statement: "Muscle biopsies showed that testosterone-driven fiber growth comes with more muscle stem (satellite) cells and more myonuclei, in proportion to the dose and the testosterone level reached."
+  paper: pmid-12670837
+  evidence: "Muscle biopsy substudy of a randomized dose-response trial"
+  tags: [Muscle and function]
+
+- rank: 18
+  figure: "Within 1 week"
+  figure_label: "testosterone suppresses hepcidin, the hormone that limits iron supply"
+  statement: "High testosterone doses rapidly lowered hepcidin, and the fall was greater in older men, matching their larger rise in hemoglobin. This offers a mechanism for the rise in red cells during testosterone treatment."
+  paper: pmid-20660052
+  evidence: "Dose-response study, 53 young and 56 older men"
+  tags: [Muscle and function]
+
+- rank: 19
+  figure: "7% to 10%"
+  figure_label: "rise in hemoglobin and hematocrit with testosterone"
+  statement: "Testosterone raised erythropoietin and lowered ferritin and hepcidin, and erythropoietin stayed high even once hemoglobin had risen, suggesting testosterone resets the relationship between the two."
+  paper: pmid-24158761
+  evidence: "Randomized placebo-controlled trial in older men with mobility limitation"
+  tags: [Muscle and function]
+
+- rank: 20
+  figure: "No change"
+  figure_label: "in carotid thickening or coronary calcium over 3 years of testosterone"
+  statement: "In men aged 60 and over with low or low-normal testosterone, three years of testosterone gel did not change the progression of atherosclerosis measured two ways, and did not improve sexual function or quality of life. The trial was not powered for clinical heart events."
+  paper: pmid-26262795
+  evidence: "Randomized placebo-controlled trial (TEAAM), 308 men"
+  tags: [Safety, Testosterone therapy]
+
+- rank: 21
+  figure: "3.7x"
+  figure_label: "the odds of a hematocrit above 50% with testosterone"
+  statement: "Pooling the randomized trials available by 2004 showed that the most common adverse effect of testosterone in older men was a rise in red cell concentration, along with more prostate events detected, supporting routine monitoring of blood counts and PSA."
+  paper: pmid-16339333
+  evidence: "Meta-analysis of 19 randomized trials, 1,084 men"
+  tags: [Safety, Testosterone therapy]
+
+- rank: 22
+  figure: "35 trials"
+  figure_label: "pooled found no excess cardiovascular risk with testosterone"
+  statement: "Combining individual participant data from 17 randomized trials with aggregate data from 18 more found no evidence that testosterone treatment raised cardiovascular or death risk in men with low testosterone, although most trials were short."
+  paper: pmid-35711614
+  evidence: "Individual-participant meta-analysis, 35 trials, 5,601 men"
+  tags: [Safety, Testosterone therapy]
+
+- rank: 23
+  figure: "No recurrence"
+  figure_label: "of prostate cancer during 12 weeks of testosterone after prostatectomy"
+  statement: "In men with low testosterone after surgery for low-grade prostate cancer, testosterone improved sexual activity, desire, well-being, body composition and aerobic capacity with no biochemical recurrence. The trial was too short and small to settle long-term safety."
+  paper: pmid-42113507
+  evidence: "Randomized placebo-controlled phase 2 trial, 136 men"
+  tags: [Testosterone therapy, Safety]
+
+- rank: 24
+  figure: "Lean mass up"
+  figure_label: "on an oral selective androgen receptor modulator, with no PSA change"
+  statement: "Three weeks of the oral compound LGD-4033 increased lean body mass in healthy young men without changing PSA, liver tests or blood counts, while lowering their own testosterone, SHBG and HDL cholesterol in a dose-dependent way."
+  paper: pmid-22459616
+  evidence: "Randomized placebo-controlled trial, 76 healthy men aged 21 to 50"
+  tags: [Other therapies, Muscle and function]
+
+- rank: 25
+  figure: "2.3 kg"
+  figure_label: "of lean mass gained by men with HIV and weight loss given testosterone"
+  statement: "In men with HIV, weight loss and low testosterone, testosterone alone, resistance exercise alone, and the two combined each increased muscle mass and strength; combining them was no better than either on its own."
+  paper: pmid-10683055
+  evidence: "Randomized placebo-controlled trial, 61 men"
+  tags: [Testosterone therapy, Muscle and function]
+
+- rank: 26
+  figure: "Modest gains"
+  figure_label: "in walking distance and self-reported mobility with testosterone"
+  statement: "In older men with low testosterone and mobility limitation, testosterone consistently improved self-reported walking ability and modestly increased 6-minute walk distance, with larger effects in men who started slower. Falls were identical in both groups."
+  paper: pmid-30366567
+  evidence: "Secondary analysis of randomized trials (The Testosterone Trials), 790 men"
+  tags: [Muscle and function, Testosterone therapy]
+
+- rank: 27
+  figure: "348 ng/dL"
+  figure_label: "is the lower limit of normal testosterone in healthy young men"
+  statement: "Mass spectrometry in a community sample of healthy non-obese men aged 19 to 40 set a reference range, and men below it in three other cohorts more often had slow walking, difficulty climbing stairs, frailty, diabetes or sexual symptoms."
+  paper: pmid-21697255
+  evidence: "Framingham Heart Study reference sample of 456 men, applied to three cohorts"
+  tags: [Diagnosis]
+
+- rank: 28
+  figure: "Mood and energy"
+  figure_label: "improve modestly with testosterone, but cognition and sleep do not"
+  statement: "Half the men entering the TRAVERSE trial had significant depressive symptoms, but only 1.5% met strict criteria for persistent depressive disorder. Testosterone modestly improved mood and energy overall, with no effect on cognition or sleep quality."
+  paper: pmid-38205962
+  evidence: "Randomized placebo-controlled substudy (TRAVERSE), 5,204 men"
+  tags: [Testosterone therapy]
