@@ -11,7 +11,7 @@ summary:
   - "A major goal is knowing when a clock result can be trusted in a longevity trial. Across 51 intervention studies, clocks trained on mortality or pace of aging responded most consistently. When published single-clock trial results were rechecked with other clocks, none of the extra clocks reached significance, which led the group to propose three checks before believing a result. Methylation signs of cell senescence did not fall after senolytic drugs."
   - "Trained in psychiatry, Higgins-Chen links mental health to aging. In schizophrenia, mortality-linked clocks were up to 5 years older, largely through smoking and age-associated blood proteins, and newer clocks showed faster aging in 10 of 11 body systems. A small pilot found lower clock ages after ketamine treatment for depression and PTSD. Most of these findings are associations or small pilots, not proof that changing a clock changes health."
 tags: [Clock reliability, New aging clocks, Testing longevity treatments, Mental health and aging, Brain aging and Alzheimer's, Cell aging and energy, Standards for aging biomarkers]
-search: 'Higgins-Chen[Author]'   # fetched with --first-name Albert --last-name Higgins-Chen; all 40 PubMed hits checked, all his; 6 preprints with published versions dropped
+search: 'Higgins-Chen[Author]'   # fetched with --first-name Albert --last-name Higgins-Chen; all 40 PubMed hits checked, all Higgins-Chen's; 6 preprints with published versions dropped
 links:
   - {label: PubMed, url: "https://pubmed.ncbi.nlm.nih.gov/?term=Higgins-Chen%5BAuthor%5D"}
 questions:
