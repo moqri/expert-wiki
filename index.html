@@ -10,7 +10,7 @@
 <link rel="stylesheet" href="/assets/expert.css">
 </head>
 <body>
-<a class="skip" href="#aging">Skip to the experts</a>
+<a class="skip" href="#experts">Skip to the experts</a>
 <div class="wrap">
   <header class="top">
     <a class="mark" href="/">expert<span>.wiki</span></a><span class="crumb">Home</span>
@@ -19,46 +19,45 @@
     <section class="intro">
       <p class="label">Science from the people who do it</p>
       <h1>Ask the research, <em>expert by expert.</em></h1>
-      <p class="lede">Each page gathers one leading researcher&#x27;s published work, sums it up in plain language, lists their key findings with the paper behind each one, and answers your questions from those papers. We are starting with aging and Alzheimer&#x27;s disease, two of the most consequential areas of health research, where people face real decisions today.</p>
+      <p class="lede">Leading researchers&#x27; work, summarized in plain language. Ask questions and get answers drawn from their papers. Starting with aging and Alzheimer&#x27;s.</p>
       <p class="suggest"><a class="go" href="https://github.com/moqri/expert-wiki/issues/new?template=suggest-topic.yml">Suggest the next topic</a></p>
     </section>
-    <section class="area-block" id="aging">
-      <h2>Aging</h2>
-      <p class="blurb">How we age, how to measure it, and what might slow it.</p>
-      <ul class="people">
-        <li class="person-row"><span class="pn"><a href="/mahdi-moqri/">Mahdi Moqri</a></span><span class="pa">Brigham and Women&#x27;s Hospital and Harvard Medical School</span><span class="area">Alzheimer&#x27;s</span></li>
-        <li class="person-row"><span class="pn"><a href="/vadim-gladyshev/">Vadim Gladyshev</a></span><span class="pa">Brigham and Women&#x27;s Hospital and Harvard Medical School</span></li>
-        <li class="person-row"><span class="pn"><a href="/steve-horvath/">Steve Horvath</a></span><span class="pa">Altos Labs</span></li>
-        <li class="person-row"><span class="pn"><a href="/dan-belsky/">Dan Belsky</a></span><span class="pa">Columbia University Mailman School of Public Health</span></li>
-        <li class="person-row"><span class="pn"><a href="/shally-bhasin/">Shalender (Shally) Bhasin</a></span><span class="pa">Brigham and Women&#x27;s Hospital and Harvard Medical School</span></li>
-        <li class="person-row"><span class="pn"><a href="/nir-barzilai/">Nir Barzilai</a></span><span class="pa">Albert Einstein College of Medicine</span></li>
-        <li class="person-row"><span class="pn"><a href="/mike-snyder/">Mike Snyder</a></span><span class="pa">Stanford University School of Medicine</span></li>
-        <li class="person-row"><span class="pn">Eric Verdin</span><span class="pa">Buck Institute for Research on Aging</span></li>
-        <li class="person-row"><span class="pn"><a href="/andrea-maier/">Andrea B. Maier</a></span><span class="pa">National University of Singapore and Vrije Universiteit Amsterdam</span></li>
-      </ul>
-    </section>
-    <section class="area-block" id="alzheimers">
-      <h2>Alzheimer&#x27;s</h2>
-      <p class="blurb">Risk, genetics, early detection and prevention of Alzheimer&#x27;s disease.</p>
-      <ul class="people">
-        <li class="person-row"><span class="pn"><a href="/mahdi-moqri/">Mahdi Moqri</a></span><span class="pa">Brigham and Women&#x27;s Hospital and Harvard Medical School</span><span class="area">Aging</span></li>
-        <li class="person-row"><span class="pn"><a href="/randy-bateman/">Randall J. Bateman</a></span><span class="pa">Washington University School of Medicine in St. Louis</span></li>
-        <li class="person-row"><span class="pn"><a href="/carlos-cruchaga/">Carlos Cruchaga</a></span><span class="pa">Washington University School of Medicine in St. Louis</span></li>
-        <li class="person-row"><span class="pn"><a href="/reisa-sperling/">Reisa Sperling</a></span><span class="pa">Mass General Brigham and Harvard Medical School</span></li>
-      </ul>
-    </section>
-    <section class="area-block" id="topics">
-      <h2>Topic pages</h2>
-      <ul class="people">
-        <li class="person-row"><span class="pn"><a href="/agingclocks/">Aging clocks</a></span><span class="pa">What epigenetic clocks measure and how well they work</span></li>
-        <li class="person-row"><span class="pn"><a href="/apoe4/">APOE4</a></span><span class="pa">The strongest common genetic risk for Alzheimer's</span></li>
-      </ul>
-    </section>
+    <div class="controls" role="region" aria-label="Filter experts">
+      <div class="row" role="group" aria-label="Filter by area"><span class="label">Area</span><button class="chip" type="button" data-area="" aria-pressed="true">All<span class="n">14</span></button><button class="chip" type="button" data-area="aging" aria-pressed="false">Aging<span class="n">11</span></button><button class="chip" type="button" data-area="alzheimers" aria-pressed="false">Alzheimer&#x27;s<span class="n">6</span></button><span class="count" id="count" aria-live="polite"></span></div>
+    </div>
+    <ol class="people" id="experts">
+      <li class="person-row" data-areas="aging"><div class="who"><span class="pn"><a href="/mike-snyder/">Mike Snyder</a></span><span class="pa">Stanford University School of Medicine</span></div><div class="skills"><span class="skill">Aging trajectories</span><span class="skill">Biomarkers of aging</span><span class="skill">Wearables</span><span class="skill">Blood sugar and metabolism</span></div><span class="cites">110,063 citations</span></li>
+      <li class="person-row" data-areas="aging"><div class="who"><span class="pn"><a href="/steve-horvath/">Steve Horvath</a></span><span class="pa">Altos Labs</span></div><div class="skills"><span class="skill">Epigenetic clocks</span><span class="skill">Health and mortality risk</span><span class="skill">Brain and Alzheimer&#x27;s</span><span class="skill">What speeds aging</span></div><span class="cites">107,787 citations</span></li>
+      <li class="person-row" data-areas="alzheimers aging"><div class="who"><span class="pn"><a href="/rudy-tanzi/">Rudolph E. Tanzi</a></span><span class="pa">Massachusetts General Hospital and Harvard Medical School</span></div><div class="skills"><span class="skill">Alzheimer&#x27;s genes</span><span class="skill">Infection and immunity</span><span class="skill">Microglia</span><span class="skill">Lab models</span></div><span class="cites">76,183 citations</span></li>
+      <li class="person-row" data-areas="alzheimers"><div class="who"><span class="pn"><a href="/reisa-sperling/">Reisa Sperling</a></span><span class="pa">Mass General Brigham and Harvard Medical School</span></div><div class="skills"><span class="skill">Preclinical Alzheimer&#x27;s</span><span class="skill">Prevention trials</span><span class="skill">Blood tests</span><span class="skill">Brain imaging</span></div><span class="cites">59,557 citations</span></li>
+      <li class="person-row" data-areas="aging"><div class="who"><span class="pn"><a href="/vadim-gladyshev/">Vadim Gladyshev</a></span><span class="pa">Brigham and Women&#x27;s Hospital and Harvard Medical School</span></div><div class="skills"><span class="skill">Biomarkers of aging</span><span class="skill">Rejuvenation</span><span class="skill">Longevity across species</span><span class="skill">Longevity interventions</span></div><span class="cites">41,565 citations</span></li>
+      <li class="person-row" data-areas="alzheimers"><div class="who"><span class="pn"><a href="/carlos-cruchaga/">Carlos Cruchaga</a></span><span class="pa">Washington University School of Medicine in St. Louis</span></div><div class="skills"><span class="skill">Alzheimer&#x27;s genetics</span><span class="skill">TREM2 and microglia</span><span class="skill">Protein maps</span><span class="skill">Blood and spinal fluid tests</span></div><span class="cites">41,296 citations</span></li>
+      <li class="person-row" data-areas="alzheimers"><div class="who"><span class="pn"><a href="/randy-bateman/">Randall J. Bateman</a></span><span class="pa">Washington University School of Medicine in St. Louis</span></div><div class="skills"><span class="skill">Inherited Alzheimer&#x27;s</span><span class="skill">Blood tests</span><span class="skill">Tau</span><span class="skill">Amyloid production and clearance</span></div><span class="cites">40,157 citations</span></li>
+      <li class="person-row" data-areas="aging"><div class="who"><span class="pn"><a href="/shally-bhasin/">Shalender (Shally) Bhasin</a></span><span class="pa">Brigham and Women&#x27;s Hospital and Harvard Medical School</span></div><div class="skills"><span class="skill">Testosterone therapy</span><span class="skill">Safety</span><span class="skill">Muscle and function</span><span class="skill">Diagnosis</span></div><span class="cites">37,841 citations</span></li>
+      <li class="person-row" data-areas="aging"><div class="who"><span class="pn"><a href="/nir-barzilai/">Nir Barzilai</a></span><span class="pa">Albert Einstein College of Medicine</span></div><div class="skills"><span class="skill">Centenarians</span><span class="skill">Genetics of longevity</span><span class="skill">Heart and cholesterol</span><span class="skill">Growth hormone and IGF-1</span></div><span class="cites">31,261 citations</span></li>
+      <li class="person-row" data-areas="aging alzheimers"><div class="who"><span class="pn"><a href="/bruce-yankner/">Bruce A. Yankner</a></span><span class="pa">Harvard Medical School</span></div><div class="skills"><span class="skill">Brain resilience and REST</span><span class="skill">Brain aging</span><span class="skill">Longevity</span><span class="skill">Amyloid and tau</span></div><span class="cites">25,917 citations</span></li>
+      <li class="person-row" data-areas="aging"><div class="who"><span class="pn"><a href="/andrea-maier/">Andrea B. Maier</a></span><span class="pa">National University of Singapore and Vrije Universiteit Amsterdam</span></div><div class="skills"><span class="skill">Biomarkers of aging</span><span class="skill">Muscle and sarcopenia</span><span class="skill">Nutrition</span><span class="skill">Frailty and hospital care</span></div><span class="cites">21,854 citations</span></li>
+      <li class="person-row" data-areas="aging"><div class="who"><span class="pn"><a href="/dan-belsky/">Dan Belsky</a></span><span class="pa">Columbia University Mailman School of Public Health</span></div><div class="skills"><span class="skill">Pace of aging</span><span class="skill">Measuring aging</span><span class="skill">Interventions and lifestyle</span><span class="skill">Social and early-life factors</span></div><span class="cites">18,492 citations</span></li>
+      <li class="person-row" data-areas="aging alzheimers"><div class="who"><span class="pn"><a href="/mahdi-moqri/">Mahdi Moqri</a></span><span class="pa">Brigham and Women&#x27;s Hospital and Harvard Medical School</span></div><div class="skills"><span class="skill">Biomarkers of aging</span><span class="skill">Epigenetic clocks</span><span class="skill">Organ and multi-omic aging</span><span class="skill">Alzheimer&#x27;s</span></div><span class="cites">2,225 citations</span></li>
+      <li class="person-row" data-areas="aging"><div class="who"><span class="pn">Eric Verdin</span><span class="pa">Buck Institute for Research on Aging</span></div><div class="skills"></div></li>
+    </ol>
   </main>
   <footer>
     <span>expert.wiki · Built with the co-scientist pipeline by <a href="https://moqri.bwh.harvard.edu/">Mahdi Moqri</a>. Sister sites: <a href="https://apoe4.science">apoe4.science</a>, <a href="https://alzprevent.org">alzprevent.org</a> · <a href="https://github.com/moqri/expert-wiki/issues/new?template=suggest-topic.yml">Suggest a topic</a></span>
     <span class="updated">November 2026</span>
   </footer>
 </div>
+<script>
+(function(){
+  var rows=[].slice.call(document.querySelectorAll('#experts .person-row')),count=document.getElementById('count');
+  function set(id){
+    var n=0;rows.forEach(function(li){var ok=!id||li.dataset.areas.split(' ').indexOf(id)>-1;li.hidden=!ok;if(ok)n++;});
+    [].forEach.call(document.querySelectorAll('[data-area]'),function(b){b.setAttribute('aria-pressed',String(b.dataset.area===id));});
+    count.textContent=n+' experts, most cited first (citation counts from Europe PMC)';
+  }
+  document.addEventListener('click',function(ev){var b=ev.target.closest('[data-area]');if(!b)return;set(b.dataset.area);history.replaceState(null,'',b.dataset.area?'#'+b.dataset.area:location.pathname);});
+  var h=location.hash.slice(1);set(document.querySelector('[data-area="'+h+'"]')?h:'');
+})();
+</script>
 </body>
 </html>

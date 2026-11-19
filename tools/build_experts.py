@@ -190,28 +190,34 @@ def corpus(ex, papers):
 
 def home(roster, built):
     areas = SITE["areas"]
-    blocks = []
-    for area in areas:
-        rows = []
-        for r in roster:
-            if area["name"] not in r["areas"]:
-                continue
-            slug = r["slug"]
-            aff = built.get(slug, {}).get("affiliation") or r["affiliation"]
-            name = e(built.get(slug, {}).get("name") or r["name"])
-            link = f'<a href="/{slug}/">{name}</a>' if slug in built else name
-            others = "".join(f'<span class="area">{e(a)}</span>' for a in r["areas"] if a != area["name"])
-            rows.append(f'        <li class="person-row"><span class="pn">{link}</span><span class="pa">{e(aff)}</span>{others}</li>')
-        blocks.append(f"""    <section class="area-block" id="{e(area['id'])}">
-      <h2>{e(area['name'])}</h2>
-      <p class="blurb">{e(area['blurb'])}</p>
-      <ul class="people">
-{chr(10).join(rows)}
-      </ul>
-    </section>""")
+    people = []
+    for r in roster:
+        slug = r["slug"]
+        ex = built.get(slug, {})
+        cites = ex.get("_cites")
+        if cites is None:
+            pj = EXPERTS / slug / "papers.json"
+            cites = sum(p.get("citations", 0) for p in json.loads(pj.read_text())) if pj.exists() else 0
+        people.append((cites, r, ex))
+    people.sort(key=lambda x: (-x[0], x[1]["name"]))
+    area_id = {a["name"]: a["id"] for a in areas}
+    rows = []
+    for cites, r, ex in people:
+        slug = r["slug"]
+        name = e(ex.get("name") or r["name"])
+        link = f'<a href="/{slug}/">{name}</a>' if ex else name
+        aff = e(ex.get("affiliation") or r["affiliation"])
+        ids = " ".join(area_id[x] for x in r["areas"] if x in area_id)
+        skills = "".join(f'<span class="skill">{e(t)}</span>' for t in (ex.get("tags") or [])[:4])
+        cc = f'<span class="cites">{cites:,} citations</span>' if cites else ""
+        rows.append(f'      <li class="person-row" data-areas="{ids}"><div class="who"><span class="pn">{link}</span><span class="pa">{aff}</span></div><div class="skills">{skills}</div>{cc}</li>')
+    chips = [f'<button class="chip" type="button" data-area="" aria-pressed="true">All<span class="n">{len(people)}</span></button>']
+    for a in areas:
+        n = sum(a["name"] in r["areas"] for _, r, _ in people)
+        chips.append(f'<button class="chip" type="button" data-area="{e(a["id"])}" aria-pressed="false">{e(a["name"])}<span class="n">{n}</span></button>')
     suggest = SITE["suggest_url"]
     return head("expert.wiki", "Leading researchers' published work, summarized, with questions answered from their papers.") + f"""<body>
-<a class="skip" href="#aging">Skip to the experts</a>
+<a class="skip" href="#experts">Skip to the experts</a>
 <div class="wrap">
   <header class="top">
     <a class="mark" href="/">expert<span>.wiki</span></a><span class="crumb">Home</span>
@@ -223,17 +229,27 @@ def home(roster, built):
       <p class="lede">{e(SITE['intro'])}</p>
       <p class="suggest"><a class="go" href="{e(suggest)}">Suggest the next topic</a></p>
     </section>
-{chr(10).join(blocks)}
-    <section class="area-block" id="topics">
-      <h2>Topic pages</h2>
-      <ul class="people">
-        <li class="person-row"><span class="pn"><a href="/agingclocks/">Aging clocks</a></span><span class="pa">What epigenetic clocks measure and how well they work</span></li>
-        <li class="person-row"><span class="pn"><a href="/apoe4/">APOE4</a></span><span class="pa">The strongest common genetic risk for Alzheimer's</span></li>
-      </ul>
-    </section>
+    <div class="controls" role="region" aria-label="Filter experts">
+      <div class="row" role="group" aria-label="Filter by area"><span class="label">Area</span>{''.join(chips)}<span class="count" id="count" aria-live="polite"></span></div>
+    </div>
+    <ol class="people" id="experts">
+{chr(10).join(rows)}
+    </ol>
   </main>
 {footer('expert.wiki · Built with the co-scientist pipeline by <a href="https://moqri.bwh.harvard.edu/">Mahdi Moqri</a>. Sister sites: <a href="https://apoe4.science">apoe4.science</a>, <a href="https://alzprevent.org">alzprevent.org</a> · <a href="' + e(suggest) + '">Suggest a topic</a>')}
 </div>
+<script>
+(function(){{
+  var rows=[].slice.call(document.querySelectorAll('#experts .person-row')),count=document.getElementById('count');
+  function set(id){{
+    var n=0;rows.forEach(function(li){{var ok=!id||li.dataset.areas.split(' ').indexOf(id)>-1;li.hidden=!ok;if(ok)n++;}});
+    [].forEach.call(document.querySelectorAll('[data-area]'),function(b){{b.setAttribute('aria-pressed',String(b.dataset.area===id));}});
+    count.textContent=n+' experts, most cited first (citation counts from Europe PMC)';
+  }}
+  document.addEventListener('click',function(ev){{var b=ev.target.closest('[data-area]');if(!b)return;set(b.dataset.area);history.replaceState(null,'',b.dataset.area?'#'+b.dataset.area:location.pathname);}});
+  var h=location.hash.slice(1);set(document.querySelector('[data-area="'+h+'"]')?h:'');
+}})();
+</script>
 </body>
 </html>
 """
@@ -254,6 +270,7 @@ def main():
         out.mkdir(exist_ok=True)
         (out / "index.html").write_text(expert_page(ex, papers, claims))
         (out / "corpus.json").write_text(json.dumps(corpus(ex, papers), ensure_ascii=False))
+        ex["_cites"] = sum(p.get("citations", 0) for p in papers)
         built[ex["slug"]] = ex
         if ex["slug"] not in {r["slug"] for r in roster}:
             roster.append({"slug": ex["slug"], "name": ex["name"], "affiliation": ex["affiliation"], "areas": ex.get("areas", [])})

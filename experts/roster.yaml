@@ -12,3 +12,5 @@
 - {slug: randy-bateman, name: Randy Bateman, affiliation: Washington University School of Medicine in St. Louis, areas: ["Alzheimer's"]}
 - {slug: carlos-cruchaga, name: Carlos Cruchaga, affiliation: Washington University School of Medicine in St. Louis, areas: ["Alzheimer's"]}
 - {slug: reisa-sperling, name: Reisa Sperling, affiliation: "Mass General Brigham and Harvard Medical School", areas: ["Alzheimer's"]}
+- {slug: bruce-yankner, name: Bruce Yankner, affiliation: Harvard Medical School, areas: [Aging, "Alzheimer's"]}
+- {slug: rudy-tanzi, name: Rudy Tanzi, affiliation: "Massachusetts General Hospital and Harvard Medical School", areas: ["Alzheimer's", Aging]}

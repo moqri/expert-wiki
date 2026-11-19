@@ -3,7 +3,7 @@ updated: November 2026
 # While empty, the ask box searches the expert's papers in the browser instead.
 ask_endpoint: ""
 suggest_url: https://github.com/moqri/expert-wiki/issues/new?template=suggest-topic.yml
-intro: Each page gathers one leading researcher's published work, sums it up in plain language, lists their key findings with the paper behind each one, and answers your questions from those papers. We are starting with aging and Alzheimer's disease, two of the most consequential areas of health research, where people face real decisions today.
+intro: Leading researchers' work, summarized in plain language. Ask questions and get answers drawn from their papers. Starting with aging and Alzheimer's.
 areas:
   - id: aging
     name: Aging
