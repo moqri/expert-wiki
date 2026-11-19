@@ -1,0 +1,189 @@
+- rank: 1
+  figure: 3.1× Alzheimer's risk
+  figure_label: for people whose blood proteins show an especially old brain, similar to carrying one APOE4
+  statement: Using 2,916 blood proteins from 44,498 UK Biobank participants to estimate the age of 11 organs, an especially aged brain raised the risk of Alzheimer's disease about as much as one copy of APOE4, while a youthful brain protected about as much as two copies of APOE2, regardless of APOE genotype. Organ ages also responded to lifestyle and medicines, and each extra aged organ raised the risk of death, up to 8.3 times for eight or more.
+  paper: pmid-40634782
+  evidence: Plasma proteomics in 44,498 UK Biobank participants with up to 17 years of follow-up
+  tags: [Organ aging clocks, APOE4]
+- rank: 2
+  figure: ~1 in 5 adults
+  figure_label: have one organ aging much faster than the rest of the body
+  statement: Blood proteins that come from specific organs were used to estimate the age of 11 organs in 5,676 adults across five cohorts. Nearly 20% showed strongly accelerated aging in one organ and 1.7% in several. Accelerated organ aging carried 20–50% higher risk of death, faster heart aging carried 250% higher heart failure risk, and faster brain and vascular aging predicted Alzheimer's progression as well as the blood test pTau-181.
+  paper: pmid-38057571
+  evidence: Plasma proteomics and machine learning in 5 cohorts, 5,676 adults
+  tags: [Organ aging clocks, Blood and spinal fluid biomarkers]
+- rank: 3
+  figure: Young blood
+  figure_label: reversed memory loss and synapse decline in old mice
+  statement: Connecting the circulation of old mice to young mice, or simply injecting young mouse plasma into old mice, increased connections between neurons in the hippocampus, improved synaptic plasticity and improved learning and memory. The effect worked in part through the memory-related switch Creb.
+  paper: pmid-24793238
+  evidence: Mouse parabiosis and plasma infusion studies
+  tags: [Young blood and brain rejuvenation]
+- rank: 4
+  figure: Old blood
+  figure_label: reduced new neuron growth and memory in young mice, partly through CCL11
+  statement: Exposing young mice to the circulation or plasma of old mice reduced the birth of new neurons and impaired learning and memory. Levels of the immune signal CCL11 (eotaxin) rose in the blood and spinal fluid of healthy aging people, and raising CCL11 in young mice reduced new neurons and impaired memory.
+  paper: pmid-21886162
+  evidence: Mouse parabiosis, plasma transfer and injection studies, plus human blood and spinal fluid levels
+  tags: [Young blood and brain rejuvenation]
+- rank: 5
+  figure: 18 patients
+  figure_label: with Alzheimer's disease received young plasma infusions safely
+  statement: In the PLASMA trial at Stanford, 18 people with mild to moderate Alzheimer's dementia received four weekly infusions of plasma from donors aged 18 to 30. There were no treatment-related serious side effects and attendance was high. The trial was small and designed to test safety, not benefit; larger placebo-controlled trials are needed.
+  paper: pmid-30383097
+  evidence: Randomized crossover plus open-label safety trial, 18 patients
+  tags: [Young blood and brain rejuvenation]
+- rank: 6
+  figure: 3× Alzheimer's risk
+  figure_label: with extremely aged astrocytes in people carrying two copies of APOE4
+  statement: Models built from more than 7,000 blood proteins in 60,542 people estimated the biological age of over 40 cell types. About 20–25% of people had one cell type aging fast. APOE4 carriers had older astrocytes, and in people with two APOE4 copies, extreme astrocyte aging tripled the risk of Alzheimer's disease while youthful astrocytes lowered it.
+  paper: pmid-42297981
+  evidence: Plasma proteomics in 60,542 individuals with 15 years of follow-up
+  tags: [Organ aging clocks, APOE4]
+- rank: 7
+  figure: TIMP2
+  figure_label: a protein rich in umbilical cord blood, improved memory in old mice
+  statement: Treating old mice with human umbilical cord plasma revitalized the hippocampus and improved memory. The protein TIMP2, enriched in cord plasma and young blood, entered the brain and improved synaptic plasticity and memory in old mice.
+  paper: pmid-28424512
+  evidence: Mouse studies with human cord plasma and single-protein treatment
+  tags: [Young blood and brain rejuvenation]
+- rank: 8
+  figure: Clusterin
+  figure_label: carried in exercising mice's blood, calmed brain inflammation
+  statement: Plasma from mice that ran voluntarily, given to sedentary mice, lowered inflammation genes in the brain. The exercise plasma was rich in clusterin, which bound brain blood vessel cells and reduced brain inflammation in mouse models, including an Alzheimer's model. People with cognitive impairment who exercised for 6 months had higher clusterin in their blood.
+  paper: pmid-34880498
+  evidence: Mouse plasma transfer studies plus a 6-month human exercise study
+  tags: [Young blood and brain rejuvenation]
+- rank: 9
+  figure: Young spinal fluid
+  figure_label: improved memory in old mice, through the growth factor Fgf17
+  statement: Infusing young cerebrospinal fluid directly into old mouse brains improved memory, mainly by boosting the cells that make myelin, the insulation around nerve fibres. The growth factor Fgf17 was enough to restore this and improve long-term memory in old mice, while blocking it impaired memory in young mice.
+  paper: pmid-35545674
+  evidence: Mouse spinal fluid infusion, gene expression and cell studies
+  tags: [Young blood and brain rejuvenation]
+- rank: 10
+  figure: APOE4/4
+  figure_label: brains with Alzheimer's have the most fat-laden, damaging microglia
+  statement: In Alzheimer's brain tissue, a microglia state marked by the fat-storage enzyme ACSL1 was most common in people with two copies of APOE4. In human stem cell microglia, amyloid triggered fat droplet buildup depending on APOE, and fluid from these microglia caused tau changes and harmed neurons.
+  paper: pmid-38480892
+  evidence: Single-nucleus RNA sequencing of human brains plus human stem cell microglia
+  tags: [APOE4, Microglia]
+- rank: 11
+  figure: 3 waves
+  figure_label: of change in blood proteins across life, in the 30s, 60s and 70s
+  statement: Measuring 2,925 blood proteins in 4,263 people aged 18 to 95 showed that the blood proteome does not change steadily with age. Instead it shifts in waves in the fourth, seventh and eighth decades of life, each wave reflecting different biological pathways and links to age-related diseases.
+  paper: pmid-31806903
+  evidence: Plasma proteomics in 4,263 people aged 18–95
+  tags: [Organ aging clocks]
+- rank: 12
+  figure: 27% more explained
+  figure_label: of thinking problems by a spinal fluid synapse protein ratio, beyond amyloid and tau
+  statement: Spinal fluid proteomics in 3,397 people from six Alzheimer's cohorts found that synapse proteins tracked cognitive impairment independent of amyloid and tau. The YWHAG:NPTX2 ratio explained 27% more of the variation beyond the standard pTau181:Aβ42 test, rose 20 years before expected symptoms in inherited Alzheimer's, and predicted progression to impairment and dementia over 15 years.
+  paper: pmid-40164724
+  evidence: CSF proteomics in 3,397 individuals from six cohorts, with plasma follow-up in 13,401 samples
+  tags: [Blood and spinal fluid biomarkers]
+- rank: 13
+  figure: CD22
+  figure_label: blocking it restored clean-up by old microglia and improved memory in mice
+  statement: Genetic screens found that CD22 is raised on aged microglia and stops them engulfing debris. Blocking CD22 helped clear myelin debris, amyloid-β and α-synuclein in mice, and long-term antibody treatment returned microglia to a healthier state and improved memory in old mice.
+  paper: pmid-30944478
+  evidence: CRISPR screens and mouse antibody treatment
+  tags: [Microglia]
+- rank: 14
+  figure: Fat droplets
+  figure_label: build up in microglia with age and make them inflamed and ineffective
+  statement: Microglia in aging mouse and human brains accumulated lipid droplets. These cells were poor at clearing debris, made damaging reactive oxygen and released inflammatory signals. Genes controlling droplet formation included progranulin (GRN), a cause of inherited neurodegeneration.
+  paper: pmid-31959936
+  evidence: Mouse and human brain tissue, RNA sequencing and a CRISPR screen
+  tags: [Microglia]
+- rank: 15
+  figure: ~2× longer
+  figure_label: neuronal proteins last in old mouse brains, and many end up in microglia
+  statement: Tagging newly made neuronal proteins showed their average half-life about doubled between 4 and 24 months of age in mice. Of 1,726 proteins in the aged neuronal "aggregome", nearly half were degraded more slowly with age. Neuronal proteins, especially synapse proteins, piled up in aged microglia, which may contribute to synapse loss.
+  paper: pmid-41565824
+  evidence: Bioorthogonal protein labelling in young and old mice
+  tags: [Microglia]
+- rank: 16
+  figure: Epstein-Barr virus
+  figure_label: is targeted by T cells expanded in the spinal fluid in Alzheimer's
+  statement: People with Alzheimer's disease had more of a killer T cell type (CD8+ TEMRA) in the blood, and more of these cells went with worse cognition. Clonally expanded CD8 T cells were found in their spinal fluid, and their receptors recognized two Epstein-Barr virus proteins.
+  paper: pmid-31915375
+  evidence: Mass cytometry and single-cell sequencing across three human cohorts
+  tags: [Immune cells in the brain]
+- rank: 17
+  figure: ~90%
+  figure_label: accuracy for 18 blood signalling proteins in telling Alzheimer's from controls
+  statement: A panel of 18 signalling proteins in blood plasma classified blinded samples from people with Alzheimer's disease and controls with close to 90% accuracy, and identified people with mild cognitive impairment who went on to develop Alzheimer's 2 to 6 years later.
+  paper: pmid-17934472
+  evidence: Blood plasma protein arrays in Alzheimer's, MCI and control samples
+  tags: [Blood and spinal fluid biomarkers]
+- rank: 18
+  figure: β2-microglobulin
+  figure_label: rises in aging blood and impairs memory in mice
+  statement: β2-microglobulin (B2M) is higher in the blood of older people and mice. Injecting B2M into young mice impaired memory and new neuron growth, while old mice lacking B2M were protected from age-related memory decline.
+  paper: pmid-26147761
+  evidence: Mouse injection and knockout studies plus human blood levels
+  tags: [Young blood and brain rejuvenation]
+- rank: 19
+  figure: VCAM1
+  figure_label: on brain blood vessels links aged blood to brain inflammation
+  statement: Blood vessel cells in the aged mouse hippocampus raised the adhesion protein VCAM1, and its shed form was higher in the blood of older people and mice. Blocking VCAM1 with an antibody, or removing it from brain vessels, protected young brains from old plasma and reduced microglial activation and memory deficits in old mice.
+  paper: pmid-31086348
+  evidence: Mouse plasma transfer, antibody and genetic studies plus human blood levels
+  tags: [Brain barriers, Young blood and brain rejuvenation]
+- rank: 20
+  figure: Less protein entry
+  figure_label: into the old brain as the blood-brain barrier changes transport route
+  statement: Labelling hundreds of mouse plasma proteins showed that they normally cross into the healthy brain. With age this uptake fell as the barrier shifted from specific receptor transport to non-specific transport, alongside loss of pericytes. Blocking the enzyme ALPL increased brain uptake of transferrin, antibodies and plasma.
+  paper: pmid-32612231
+  evidence: Labelled plasma proteome tracing in young and old mice
+  tags: [Brain barriers]
+- rank: 21
+  figure: Sugar coating
+  figure_label: of brain blood vessels breaks down with age and weakens the barrier
+  statement: The glycocalyx, a sugar-rich coat lining brain blood vessels, was disrupted in aging and neurodegenerative disease, especially its mucin-type proteins. These changes weakened the blood-brain barrier and in severe cases caused bleeding in mice. Restoring the coating with gene therapy improved barrier function, reduced inflammation and improved cognition in old mice.
+  paper: pmid-40011765
+  evidence: Mouse vascular profiling and gene therapy studies
+  tags: [Brain barriers]
+- rank: 22
+  figure: Interferon
+  figure_label: response at the choroid plexus harms the aging brain
+  statement: The choroid plexus, which makes spinal fluid, showed a type I interferon response in aged mice and humans. Blocking this signal in old mouse brains partly restored cognitive function and new neuron growth.
+  paper: pmid-25147279
+  evidence: Multi-organ gene expression in aged mice and human brains, plus blocking studies
+  tags: [Brain barriers]
+- rank: 23
+  figure: 848 proteins
+  figure_label: rise in spinal fluid relative to blood with healthy aging
+  statement: Paired spinal fluid and blood samples from 2,171 older people showed that the spinal fluid to blood ratio of 848 proteins rose with age, including complement, clotting and inflammatory proteins. Higher ratios of some blood or vessel proteins, such as VEGFA, went with preserved cognition.
+  paper: pmid-40665050
+  evidence: Paired CSF and plasma proteomics in 2,171 people across cohorts
+  tags: [Brain barriers, Blood and spinal fluid biomarkers]
+- rank: 24
+  figure: 11,925 women
+  figure_label: menopause blood protein scores tracked cognitive aging and dementia risk
+  statement: Spontaneous menopause was marked by blood protein changes in inflammation, synapses, metabolism and Alzheimer's processes that tracked hormones more than age, plus faster organ aging including the brain. In four cohorts of older women, higher menopause protein scores went with cognitive aging and dementia risk.
+  paper: pmid-42773212
+  evidence: Serum and plasma proteomics in 80 staged women, 2,814 validation women and 11,925 older women
+  tags: [Organ aging clocks, Blood and spinal fluid biomarkers]
+- rank: 25
+  figure: CXCL16
+  figure_label: rises in spinal fluid in cognitive impairment, a possible T cell entry signal
+  statement: Single-cell sequencing of spinal fluid from 45 healthy people aged 54 to 82 and 14 with cognitive impairment showed immune changes with age. In impairment, clonal CD8 T cells raised the receptor CXCR6 and its partner CXCL16 was higher in spinal fluid, suggesting a route for T cells into the brain.
+  paper: pmid-36516855
+  evidence: Single-cell RNA sequencing of CSF from 59 people
+  tags: [Immune cells in the brain]
+- rank: 26
+  figure: 3× fewer plaques
+  figure_label: when astrocytes made a little more TGF-β1 in Alzheimer's mice
+  statement: A modest increase of TGF-β1 from astrocytes in Alzheimer's model mice cut amyloid plaques three-fold and hippocampal and cortical amyloid-β by half, with strongly activated microglia, though more amyloid collected in blood vessels. TGF-β1 also stimulated amyloid clearance by microglia in culture.
+  paper: pmid-11329064
+  evidence: Transgenic mouse studies, human brain tissue and cell culture
+  tags: [Amyloid and clearance, Microglia]
+- rank: 27
+  figure: Beclin 1
+  figure_label: an autophagy protein, is low early in Alzheimer's and its loss raises amyloid in mice
+  statement: Beclin 1, a key protein for cellular recycling (autophagy), was reduced in affected brain regions early in Alzheimer's disease. Lowering it in Alzheimer's model mice increased amyloid-β and neurodegeneration, while adding beclin 1 back reduced amyloid pathology.
+  paper: pmid-18497889
+  evidence: Human brain tissue plus mouse genetic and gene therapy studies
+  tags: [Amyloid and clearance]
