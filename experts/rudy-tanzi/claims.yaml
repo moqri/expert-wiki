@@ -1,0 +1,189 @@
+- rank: 1
+  figure: Chromosome 21
+  figure_label: carries the gene for the amyloid precursor protein, near the inherited Alzheimer's locus
+  statement: A cloned DNA copy showed that amyloid-β, the main protein in Alzheimer's plaques, is cut from a larger protein made in many tissues. Its gene sits on chromosome 21, close to the inherited Alzheimer's defect, which explains why it is overexpressed in the brains of fetuses with Down syndrome (three copies of chromosome 21).
+  paper: pmid-2949367
+  evidence: Gene cloning, mRNA mapping and genetic linkage in families
+  tags: [Alzheimer's genes]
+- rank: 2
+  figure: Chromosome 21
+  figure_label: holds the defect causing inherited Alzheimer's in several families
+  statement: Genetic linkage to DNA markers placed the dominant gene defect in several families with inherited Alzheimer's disease on chromosome 21, offering an explanation for the Alzheimer's-like brain changes seen in Down syndrome.
+  paper: pmid-2880399
+  evidence: Genetic linkage study in families with dominantly inherited Alzheimer's disease
+  tags: [Alzheimer's genes]
+- rank: 3
+  figure: 8 microbes
+  figure_label: killed by amyloid-β as potently as a known human antimicrobial peptide
+  statement: Amyloid-β killed eight common, clinically relevant microorganisms with potency equal to, and sometimes greater than, the classic human antimicrobial peptide LL-37. Alzheimer's brain tissue had more antimicrobial activity than age-matched normal brain, and removing amyloid-β with antibodies abolished the difference.
+  paper: pmid-20209079
+  evidence: Laboratory antimicrobial assays and post-mortem human brain extracts
+  tags: [Infection and immunity]
+- rank: 4
+  figure: Plaques and tangles
+  figure_label: reproduced together in human neurons in a dish for the first time
+  statement: Human neural stem cells carrying inherited Alzheimer's mutations and grown in three dimensions formed amyloid-β plaques and then tangles of aggregated, phosphorylated tau. Blocking amyloid-β production with β- or γ-secretase inhibitors reduced both, showing that amyloid can drive tau pathology in human cells.
+  paper: pmid-25307057
+  evidence: 3D human neural stem cell culture model
+  tags: [Lab models, Amyloid production]
+- rank: 5
+  figure: 13 genes
+  figure_label: linked to Alzheimer's risk by pooled meta-analysis, besides APOE4
+  statement: The AlzGene database collected every published Alzheimer's genetic association study and ran meta-analyses for each variant. Beyond APOE ε4, it pinpointed over a dozen candidate genes, including ACE, CST3, IDE, PSEN1 and TNF, with modest effects (odds ratios 1.11–1.38 for risk alleles and 0.67–0.92 for protective ones).
+  paper: pmid-17192785
+  evidence: Systematic meta-analyses of all published genetic association studies
+  tags: [Alzheimer's genes]
+- rank: 6
+  figure: Seeded by herpes
+  figure_label: amyloid-β deposits form rapidly around herpes viruses and trap them
+  statement: Amyloid-β clumps bound the surface proteins of herpes simplex virus 1 and human herpesvirus 6, rapidly seeding amyloid deposits that trapped the virus and protected Alzheimer's mice and 3D human neural cultures from infection. This suggests herpes infection could directly drive amyloid build-up.
+  paper: pmid-30001512
+  evidence: Alzheimer's mouse model and 3D human neural cell culture infection experiments
+  tags: [Infection and immunity]
+- rank: 7
+  figure: CD33
+  figure_label: an Alzheimer's risk gene that blocks microglia from clearing amyloid-β
+  statement: CD33 was raised in microglia of Alzheimer's brains, and the protective version of the gene lowered both CD33 and insoluble Aβ42. CD33 blocked uptake of Aβ42 by microglia, and Alzheimer's mice lacking CD33 had markedly less amyloid plaque, making CD33 a possible drug target.
+  paper: pmid-23623698
+  evidence: Post-mortem human brain, microglial cell cultures and knockout mice
+  tags: [Microglia, Alzheimer's genes]
+- rank: 8
+  figure: Tau fights virus
+  figure_label: phosphorylated tau binds herpes viruses and blocks infection of human neurons
+  statement: Herpes simplex virus 1 infection made tau become hyperphosphorylated in human neurons, and that tau bound viral capsids and neutralized infection. The authors propose that plaques, tangles and inflammation together may be the brain's innate defense against infection.
+  paper: pmid-41408481
+  evidence: Human neuron infection experiments
+  tags: [Infection and immunity]
+- rank: 9
+  figure: Exercise mimic
+  figure_label: new neurons plus BDNF reproduced exercise's memory benefit in Alzheimer's mice
+  statement: Exercise improved memory in Alzheimer's mice only when it both created new hippocampal neurons and raised brain-derived neurotrophic factor (BDNF). Boosting both with genes or drugs reproduced the benefit without exercise, while blocking new neurons later worsened memory.
+  paper: pmid-30190379
+  evidence: 5xFAD Alzheimer's mouse model
+  tags: [Exercise and brain health]
+- rank: 10
+  figure: Infection seeds plaques
+  figure_label: bacteria in the brain triggered fast amyloid deposition that trapped them
+  statement: Amyloid-β protected mice, worms and cells from fungal and bacterial infection. Salmonella infection of the brain in Alzheimer's mice rapidly seeded amyloid plaques that wrapped around the bacteria, supporting a dual protective and damaging role for amyloid-β.
+  paper: pmid-27225182
+  evidence: Mouse, nematode and cell culture infection models
+  tags: [Infection and immunity]
+- rank: 11
+  figure: Presenilin
+  figure_label: a new gene on chromosome 14 with five mutations causing aggressive early-onset Alzheimer's
+  statement: Narrowing the chromosome 14 region linked to aggressive early-onset Alzheimer's led to a new membrane protein gene (later named presenilin 1). Five different mutations in conserved parts of the gene travelled with the disease in families and were absent from healthy controls.
+  paper: pmid-7596406
+  evidence: Positional cloning in families with early-onset inherited Alzheimer's disease
+  tags: [Alzheimer's genes]
+- rank: 12
+  figure: Irisin
+  figure_label: the exercise hormone needed for exercise's cognitive benefits in mice
+  statement: Mice lacking the exercise hormone irisin had impaired memory with exercise, aging and Alzheimer's disease. Raising irisin levels in the blood was enough to improve both memory and brain pathology in Alzheimer's mice.
+  paper: pmid-34417591
+  evidence: Knockout and gene-delivery studies in mice
+  tags: [Exercise and brain health]
+- rank: 13
+  figure: TREM2 needed
+  figure_label: for the benefits of removing CD33 in Alzheimer's mice
+  statement: Knocking out CD33 reduced amyloid and improved memory in Alzheimer's mice, but not when TREM2 was also removed. Losing TREM2 worsened amyloid and nerve damage, so TREM2 acts downstream of CD33 in controlling microglia.
+  paper: pmid-31301936
+  evidence: Double-knockout 5xFAD mice with microglial RNA sequencing
+  tags: [Microglia, Alzheimer's genes]
+- rank: 14
+  figure: CD8+ T cells
+  figure_label: entering Alzheimer's cultures worsened inflammation and neuron loss
+  statement: A 3D human model with neurons, astrocytes, microglia and blood immune cells showed T cells and monocytes moving selectively into Alzheimer's cultures. Infiltrating CD8+ T cells increased microglial activation, inflammation and neurodegeneration through the CXCL10–CXCR3 signal.
+  paper: pmid-37620442
+  evidence: 3D human neuroimmune cell culture model with single-cell RNA sequencing
+  tags: [Lab models, Microglia]
+- rank: 15
+  figure: 13 loci
+  figure_label: of rare variants newly linked to Alzheimer's by whole-genome sequencing
+  statement: Whole-genome sequencing of 2,247 people from 605 families with Alzheimer's found 13 new candidate loci of rare variants that replicated in 1,669 unrelated people. Unlike common risk variants, which point to immunity and amyloid, these rare variants pointed to synapses and brain development.
+  paper: pmid-33797837
+  evidence: Family-based whole-genome sequencing, 2,247 people, with replication in 1,669
+  tags: [Alzheimer's genes]
+- rank: 16
+  figure: OR 3.56
+  figure_label: higher Alzheimer's risk with a deletion in the A2M gene
+  statement: A deletion in the alpha-2-macroglobulin (A2M) gene, which helps clear amyloid-β, raised Alzheimer's risk about 3.6-fold, comparable to APOE ε4 in the same families, but unlike APOE ε4 it did not change age of onset.
+  paper: pmid-9697696
+  evidence: Family-based genetic association study
+  tags: [Alzheimer's genes]
+- rank: 17
+  figure: Chromosome 10
+  figure_label: linked to late-onset Alzheimer's near the amyloid-clearing IDE gene
+  statement: Linkage analysis in 435 families with several affected members showed significant linkage of Alzheimer's to markers on chromosome 10q near the insulin-degrading enzyme (IDE) gene, which breaks down amyloid-β. The signal was strongest in late-onset families.
+  paper: pmid-11125142
+  evidence: Linkage study in 435 multiplex Alzheimer's families
+  tags: [Alzheimer's genes]
+- rank: 18
+  figure: ADAM10
+  figure_label: rare late-onset mutations shift APP cutting toward amyloid-β
+  statement: Two rare mutations in ADAM10, the enzyme that cuts APP in a way that prevents amyloid-β, travelled with late-onset Alzheimer's in families. In mice they weakened this protective cut, increased plaques and reduced new neuron formation.
+  paper: pmid-24055016
+  evidence: Family genetics and transgenic mice
+  tags: [Alzheimer's genes, Amyloid production]
+- rank: 19
+  figure: Ataxin-1 loss
+  figure_label: raises BACE1 and amyloid in Alzheimer's-vulnerable brain regions
+  statement: Losing ataxin-1, the protein behind spinocerebellar ataxia type 1, released a brake on the BACE1 gene, raising BACE1 levels and amyloid-β production in brain regions vulnerable to Alzheimer's, and worsening plaques in Alzheimer's mice.
+  paper: pmid-31442405
+  evidence: Knockout and Alzheimer's mouse models
+  tags: [Amyloid production, Alzheimer's genes]
+- rank: 20
+  figure: Huntington's gene
+  figure_label: located on chromosome 4 using a DNA marker
+  statement: Family studies showed that the Huntington's disease gene is linked to a DNA marker on chromosome 4, the first step toward finding the gene that causes the disease.
+  paper: pmid-6316146
+  evidence: Genetic linkage study in Huntington's disease families
+  tags: [Other inherited diseases]
+- rank: 21
+  figure: Wilson disease gene
+  figure_label: a copper-transporting pump, 76% similar to the Menkes disease gene
+  statement: A gene in the Wilson disease region of chromosome 13 encodes a copper-transporting ATPase with 76% amino acid similarity to the Menkes disease gene. Four disease-specific mutations confirmed it as the Wilson disease gene.
+  paper: pmid-8298641
+  evidence: Gene cloning and mutation screening in patients
+  tags: [Other inherited diseases]
+- rank: 22
+  figure: Above 300 nM
+  figure_label: zinc rapidly turns human amyloid-β into amyloid
+  statement: Zinc above 300 nanomolar quickly made human amyloid-β form amyloid, while rat amyloid-β, which binds zinc less tightly, did not, which may explain why rats rarely form brain amyloid.
+  paper: pmid-8073293
+  evidence: Laboratory biochemistry
+  tags: [Amyloid production]
+- rank: 23
+  figure: AUC 0.93
+  figure_label: for improved executive function on the metal-targeting drug PBT2
+  statement: In a further analysis of a 12-week phase II trial in Alzheimer's disease, patients on 250 mg of the copper and zinc ionophore PBT2 were much more likely than those on placebo to improve on executive function tests (AUC 0.93). Changes in spinal fluid amyloid or tau did not track cognitive changes.
+  paper: pmid-20164561
+  evidence: Post-hoc analysis of a randomized, placebo-controlled phase IIa trial
+  tags: [Treatments]
+- rank: 24
+  figure: Earlier works better
+  figure_label: gene therapy lowering CD33 cut plaques more when given early
+  statement: A virus-delivered microRNA that lowered CD33 in Alzheimer's mice reduced amyloid-β and brain inflammation. Treating at 2 months of age cut plaque burden more than treating at 8 months.
+  paper: pmid-32803224
+  evidence: AAV gene therapy in APP/PS1 mice
+  tags: [Treatments, Microglia]
+- rank: 25
+  figure: GGA3
+  figure_label: loss stabilizes BACE and raises amyloid-β after stroke and in Alzheimer's
+  statement: During reduced blood flow to the brain, levels of the trafficking protein GGA3 fell while BACE, the enzyme that starts amyloid-β production, rose. In Alzheimer's brains, lower GGA3 tracked with higher BACE.
+  paper: pmid-17553422
+  evidence: Cell, ischemia model and post-mortem human brain studies
+  tags: [Amyloid production]
+- rank: 26
+  figure: Leaky barrier
+  figure_label: a 3D human model recreates blood-brain barrier failure in Alzheimer's
+  statement: A microfluidic 3D model of human neural cells and brain blood vessel cells reproduced Alzheimer's-like blood-brain barrier damage, with higher permeability, loss of tight-junction proteins, more oxidative stress and amyloid-β deposits on the vessel wall.
+  paper: pmid-31637161
+  evidence: 3D microfluidic human cell culture model
+  tags: [Lab models]
+- rank: 27
+  figure: "+4 points"
+  figure_label: on cognitive tests after 12 weeks of moderate exercise in older adults
+  statement: In 24 inactive middle-aged and older adults, 12 weeks of moderate aerobic exercise raised total cognitive score (111.1 to 115.2) and fitness, but did not change sleep or a sleep EEG–based measure of brain age.
+  paper: pmid-39063609
+  evidence: Single-arm pilot clinical trial, 24 participants
+  tags: [Exercise and brain health]
