@@ -1,0 +1,14 @@
+slug: bruce-yankner
+name: Bruce A. Yankner
+credentials: MD, PhD
+affiliation: Harvard Medical School
+department: Department of Genetics
+areas: [Aging, Alzheimer's]
+headline: Studies why some aging brains stay sharp while others develop Alzheimer's disease, from the toxicity of amyloid to the protective protein REST and the role of lithium in the brain.
+summary:
+  - "Yankner's early work helped establish that amyloid-β, the protein that builds up in Alzheimer's plaques, can itself kill neurons. Yankner's group showed that a fragment of the amyloid precursor protein was toxic to neurons, that toxicity depends on amyloid-β forming fibrils, that those fibrils trigger the tau changes seen in tangles, and that plaque-level amyloid-β kills neurons in the brains of old monkeys but not young ones, suggesting that aging itself makes the brain vulnerable."
+  - "Yankner's group then studied normal brain aging in people. Gene activity in the human frontal cortex from age 26 to 106 showed that genes for learning, memory and energy production begin to fall after about age 40, alongside rising DNA damage at those genes. Comparing humans, monkeys and mice showed that this shutdown of neuron genes is far stronger in primates."
+  - "A central finding is the protective role of REST, a protein that switches off genes. REST rises in the neurons of healthy older people but is lost in mild cognitive impairment and Alzheimer's disease, and higher REST tracks with keeping memory and living longer. In mice and worms, REST calms excess neural activity and extends lifespan, and it acts as a checkpoint that slows the onset of Alzheimer's changes. Stem cell models from people with Alzheimer's or APOE4 show REST failing early."
+  - "Most recently, Yankner's group found that natural lithium in the brain falls in mild cognitive impairment, is trapped by amyloid plaques in Alzheimer's disease, and that lithium loss speeds Alzheimer's changes in mice, while low-dose lithium orotate prevented them. These are animal results; whether lithium replacement helps people still needs clinical trials."
+tags: [Brain resilience and REST, Brain aging, Longevity, Amyloid and tau, APOE4, Lithium, Down syndrome, Other brain diseases]
+search: 'Yankner BA[Author] OR Yankner B[Author] OR Yankner Bruce[Author]'   # fetched with --first-name Bruce; all 89 PubMed hits for Yankner checked, 2 errata dropped
