@@ -1,0 +1,189 @@
+- rank: 1
+  figure: PhenoAge
+  figure_label: a DNA methylation clock trained on health, not calendar age
+  statement: A methylation clock built in two steps, first from clinical measures of "phenotypic age" and then from blood DNA methylation, strongly outperformed earlier clocks in predicting death, cancers, healthspan, physical functioning and Alzheimer's disease. Faster PhenoAge went with more inflammatory and interferon activity and less DNA repair and mitochondrial activity.
+  paper: pmid-29676998
+  evidence: Clock development in large population cohorts, with transcriptional analysis in sorted blood cells
+  tags: [Epigenetic clocks, Health and mortality risk]
+- rank: 2
+  figure: "11"
+  figure_label: body systems scored from one blood draw
+  statement: Systems Age uses blood DNA methylation to estimate aging separately for 11 systems, including heart, lung, kidney, liver, brain, immune and metabolic. The system scores beat existing whole-body clocks at predicting the related diseases, and grouping people by their scores revealed distinct aging subtypes with different patterns of decline.
+  paper: pmid-40954326
+  evidence: Clock development combining clinical biomarkers, function and mortality data across cohorts
+  tags: [Epigenetic clocks, Health and mortality risk]
+- rank: 3
+  figure: 9 → 1.5 years
+  figure_label: gap between repeat tests of the same sample
+  statement: Technical noise made six well-known epigenetic clocks disagree by up to 9 years between repeat measurements of the same sample. Rebuilding the clocks from principal components brought most repeats within 1.5 years and gave clearer detection of intervention effects and more reliable tracking over time.
+  paper: pmid-36277076
+  evidence: Technical replicate datasets plus longitudinal human and cell culture data
+  tags: [Epigenetic clocks]
+- rank: 4
+  figure: 11,432
+  figure_label: US adults in which Phenotypic Age predicted death
+  statement: Phenotypic Age, calculated from age and nine routine blood chemistry markers, predicted death from all causes and most specific causes after accounting for calendar age. It worked across age, race and ethnic, education and health-behavior groups, and even in people who reported no disease and had a normal BMI.
+  paper: pmid-30596641
+  evidence: Nationally representative cohort (NHANES IV), 1,012 deaths over 12.6 years
+  tags: [Clinical biological age, Health and mortality risk]
+- rank: 5
+  figure: 9,389
+  figure_label: adults used to compare five biological age methods
+  statement: Of five ways to compute biological age from clinical measures, the Klemera and Doubal method predicted death best. When it was in the model, calendar age was no longer significantly linked to mortality.
+  paper: pmid-23213031
+  evidence: NHANES III cohort aged 30 to 75, 1,843 deaths over 18 years
+  tags: [Clinical biological age, Health and mortality risk]
+- rank: 6
+  figure: "954"
+  figure_label: young adults whose pace of aging already differed
+  statement: People of the same calendar age in their 30s already differed in how fast their organ systems were declining. Those aging faster were less physically able, showed cognitive decline and brain aging, rated their health worse and looked older.
+  paper: pmid-26150497
+  evidence: Dunedin birth cohort followed with repeated biomarkers across three time points
+  tags: [Clinical biological age]
+- rank: 7
+  figure: Low agreement
+  figure_label: among 11 measures of biological aging
+  statement: Telomere length, three epigenetic clocks and three biomarker composites measured in the same people agreed poorly with each other. The biomarker composites and one epigenetic clock were the most consistently linked to physical function, cognitive decline and looking older, though effects were modest.
+  paper: pmid-29149257
+  evidence: Dunedin Study, 964 middle-aged adults with repeated measures
+  tags: [Epigenetic clocks, Clinical biological age]
+- rank: 8
+  figure: "+75%"
+  figure_label: overall mortality with high protein intake at ages 50 to 65
+  statement: People aged 50 to 65 who ate a high-protein diet had 75% higher overall mortality and a 4-fold higher risk of cancer death over 18 years, a link that weakened or vanished when the protein came from plants. After age 65, higher protein intake went with lower cancer and overall mortality.
+  paper: pmid-24606898
+  evidence: NHANES III cohort follow-up plus mouse tumor experiments
+  tags: [Lifestyle and social factors, Health and mortality risk]
+- rank: 9
+  figure: Menopause
+  figure_label: speeds epigenetic aging of blood
+  statement: Earlier menopause, removal of both ovaries and longer time since menopause were each linked to faster epigenetic aging of blood. Menopausal hormone therapy was linked to a younger epigenetic age of cheek cells, and genetic (Mendelian randomization) evidence suggested menopause itself speeds blood aging.
+  paper: pmid-27457926
+  evidence: Four cohorts (WHI, InCHIANTI, PEG and NSHD) with genetic analysis
+  tags: [Epigenetic clocks, Lifestyle and social factors]
+- rank: 10
+  figure: h² = 0.41
+  figure_label: heritability of brain epigenetic age acceleration
+  statement: Faster epigenetic aging of the prefrontal cortex went with more diffuse and neuritic plaques and amyloid load, and with faster decline in overall cognition, episodic memory and working memory in people with Alzheimer's disease.
+  paper: pmid-26684672
+  evidence: 700 post-mortem brain samples from the Religious Orders Study and Rush Memory and Aging Project
+  tags: [Brain and Alzheimer's, Epigenetic clocks]
+- rank: 11
+  figure: PCBrainAge
+  figure_label: a clock trained only on brain tissue
+  statement: A brain-specific epigenetic clock built with principal components was more reliable on retest and was more strongly linked to clinical Alzheimer's dementia, Alzheimer's pathology and APOE4 carrier status than existing clocks, across several brain regions.
+  paper: pmid-35907208
+  evidence: Multi-region brain methylation data from ROSMAP
+  tags: [Brain and Alzheimer's, Epigenetic clocks]
+- rank: 12
+  figure: OR 1.63
+  figure_label: COVID-19 death per 5 years of older biological age
+  statement: Biological age (PhenoAge) measured more than 10 years before the pandemic predicted testing positive in hospital and dying with COVID-19, beyond calendar age. The link stayed after adjusting for pre-existing diseases.
+  paper: pmid-33684206
+  evidence: UK Biobank, 613 inpatient positive tests and 154 deaths
+  tags: [Clinical biological age, Health and mortality risk]
+- rank: 13
+  figure: "4,173"
+  figure_label: women whose diet and lifestyle were linked to epigenetic age
+  statement: Eating more fish, fruit and vegetables, moderate alcohol and more education went with slower epigenetic aging, while higher BMI and metabolic syndrome went with faster aging. In this observational data, metformin users did not show slower epigenetic aging.
+  paper: pmid-28198702
+  evidence: Cross-sectional analysis of the Women's Health Initiative plus 402 InCHIANTI participants
+  tags: [Lifestyle and social factors, Epigenetic clocks]
+- rank: 14
+  figure: −2.5 years
+  figure_label: median biological age after three fasting-mimicking diet cycles
+  statement: Three cycles of a fasting-mimicking diet lowered insulin resistance and liver fat and lowered median biological age by 2.5 years, independent of weight loss. A second clinical study gave nearly identical results.
+  paper: pmid-38378685
+  evidence: Secondary analysis of two clinical trials (NCT02158897, NCT04150159)
+  tags: [Lifestyle and social factors, Clinical biological age]
+- rank: 15
+  figure: HR 1.50
+  figure_label: lung cancer risk per unit of faster epigenetic aging
+  statement: Women whose blood showed faster intrinsic epigenetic aging were more likely to develop lung cancer over nearly 20 years, and the link looked stronger in women over 70 and in current smokers.
+  paper: pmid-26411804
+  evidence: Women's Health Initiative, 2,029 women, 43 lung cancers
+  tags: [Health and mortality risk, Epigenetic clocks]
+- rank: 16
+  figure: Men > women
+  figure_label: epigenetic aging rates in blood, saliva and brain
+  statement: Men showed faster epigenetic aging than women in blood, saliva and brain. Hispanic and Tsimane people had slower intrinsic but faster immune-related epigenetic aging than white people, patterns that may help explain known differences in mortality between groups.
+  paper: pmid-27511193
+  evidence: Samples from seven racial and ethnic groups
+  tags: [Lifestyle and social factors, Epigenetic clocks]
+- rank: 17
+  figure: "156"
+  figure_label: studies pooled on what speeds epigenetic clocks
+  statement: Across more than 1,300 findings, higher BMI, HIV infection and male sex were linked to faster epigenetic clocks, and faster clocks were linked to death, heart disease, cancer and diabetes. Four major clocks agreed in direction but differed in effect size.
+  paper: pmid-33930583
+  evidence: Systematic review of 156 publications
+  tags: [Lifestyle and social factors, Epigenetic clocks]
+- rank: 18
+  figure: 1988 → 2010
+  figure_label: Americans' biological age got younger
+  statement: Biological age relative to calendar age was lower in 2007-2010 than in 1988-1994, most of all in older adults and in men. Changes in smoking, obesity and medication use explained part of the improvement.
+  paper: pmid-29511995
+  evidence: Comparison of NHANES III and NHANES IV
+  tags: [Clinical biological age, Lifestyle and social factors]
+- rank: 19
+  figure: p = 1.5×10⁻⁷²
+  figure_label: APOE4 link to faster Phenotypic Age
+  statement: Genome-wide scans of two clinical biological age measures found their strongest signals in APOE, with the APOE4 variant tied to faster PhenoAge and the APOE2 variant to the other measure in opposite directions. The two measures pointed to different biology, immune for one and lipid for the other.
+  paper: pmid-34038024
+  evidence: Genome-wide association study in UK Biobank participants of European descent
+  tags: [Clinical biological age, Brain and Alzheimer's]
+- rank: 20
+  figure: Vision restored
+  figure_label: in old and glaucoma mice by partial reprogramming
+  statement: Turning on three reprogramming genes (Oct4, Sox2, Klf4) in mouse retinal nerve cells restored youthful DNA methylation and gene activity, regrew nerve fibers after injury and reversed vision loss in glaucoma and in old mice. The effect needed the TET1 and TET2 enzymes.
+  paper: pmid-33268865
+  evidence: Mouse experiments in retinal ganglion cells
+  tags: [Cells and reprogramming, Animal models]
+- rank: 21
+  figure: CellDRIFT
+  figure_label: a replication signature shared by aging and cancer
+  statement: A methylation signature of repeated cell division rose with age across tissues, separated tumors from normal tissue, was higher in normal breast tissue of cancer patients, and was briefly reset by reprogramming. Tissues with more lifetime stem cell divisions had higher scores and higher cancer risk.
+  paper: pmid-37467337
+  evidence: Long-term passaged human cells, tested in clinical tissue samples
+  tags: [Cells and reprogramming, Health and mortality risk]
+- rank: 22
+  figure: Senescence
+  figure_label: and mitochondrial dysfunction speed some clocks
+  statement: Eleven epigenetic clocks barely shared any CpG sites, but five shared links to metabolism, immunity and autophagy. In cell experiments, the Levine and Lin clocks sped up with cellular senescence and mitochondrial dysfunction, and a combined meta-clock predicted death better than single clocks.
+  paper: pmid-32930491
+  evidence: Multi-omics analysis across human tissues plus in vitro experiments
+  tags: [Epigenetic clocks, Cells and reprogramming]
+- rank: 23
+  figure: About 2×
+  figure_label: energy use of cells with mitochondrial defects
+  statement: Disrupting mitochondrial energy production roughly doubled cells' energy use, and patients with mitochondrial disease had raised resting energy expenditure. These defects also sped telomere loss and epigenetic aging per cell division.
+  paper: pmid-36635485
+  evidence: 17 patient cohorts (690 people) plus longitudinal patient-derived fibroblasts
+  tags: [Cells and reprogramming]
+- rank: 24
+  figure: Up to 5 years
+  figure_label: older on mortality clocks in schizophrenia
+  statement: People with schizophrenia showed up to 5 years of faster aging on three mortality-trained epigenetic clocks, driven by smoking and six age-linked proteins, while two cell-division clocks ran slower, which may relate to differences in cancer risk.
+  paper: pmid-32199607
+  evidence: Three blood methylation datasets, 567 cases and 594 controls, 14 clocks
+  tags: [Epigenetic clocks, Health and mortality risk]
+- rank: 25
+  figure: r = 0.93
+  figure_label: rat clock accuracy in an independent sample
+  statement: An epigenetic clock built in rats tracked age, related to physical function, also worked in mice, and was lower with caloric restriction. Its signal sat in regions marked by tightly packed chromatin.
+  paper: pmid-33179594
+  evidence: Reduced representation bisulfite sequencing in rats and mice
+  tags: [Animal models, Epigenetic clocks]
+- rank: 26
+  figure: Naked mole-rats
+  figure_label: still age epigenetically
+  statement: Although naked mole-rats show no rise in death rate with age, their blood methylation changes with age. A clock built for them showed they age epigenetically much more slowly than mice and much faster than humans, in line with their lifespan.
+  paper: pmid-35039495
+  evidence: Bisulfite sequencing of blood from more than 100 naked mole-rats
+  tags: [Animal models, Epigenetic clocks]
+- rank: 27
+  figure: 24-67%
+  figure_label: of stochastic epigenetic mutations not repeated on retest
+  statement: Rare outlier methylation changes, proposed as an aging biomarker, were often not reproduced in replicate samples. A machine learning filter improved reliability, and the reliable changes were linked to cardiovascular aging in the Framingham Heart Study.
+  paper: pmid-38736015
+  evidence: Technical replicates in three datasets plus the Framingham Heart Study
+  tags: [Epigenetic clocks]
