@@ -69,3 +69,6 @@ a.skill:hover,a.skill:focus-visible{border-color:var(--e4);color:var(--e4)}
 .ask textarea{background:var(--surface)}
 .intro.person.about{padding-top:0}
 .intro.person.about{display:block;max-width:none;width:auto;grid-template-columns:none}
+.highlights{margin:0;padding:0;list-style:none;display:grid;gap:10px}
+.highlights li{position:relative;padding-left:22px;font-size:17px;line-height:1.5}
+.highlights li::before{content:"";position:absolute;left:2px;top:.62em;width:8px;height:8px;border-radius:2px;background:var(--e4)}

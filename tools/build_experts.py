@@ -111,7 +111,11 @@ def expert_page(ex, papers, claims):
         meta = f'{e(p["journal"])} {p["year"]}' + (f' · {e(p["type"])}' if p.get("type") not in ("Article", "", None) else "") + (f" · {r}" if r else "") + (f' · {p["citations"]:,} citations' if p.get("citations") else "")
         plist.append(f'        <li data-q="{e((p["title"] + " " + p["journal"]).lower())}" data-year="{p.get("year") or 0}" data-cites="{p.get("citations") or 0}" data-title="{e(p["title"].lower())}">{t}<span class="d">{meta}</span></li>')
 
-    summary = "\n".join(f"        <p>{e(s)}</p>" for s in ex.get("summary", []))
+    if ex.get("highlights"):
+        byid = {q["id"]: q for q in papers}
+        summary = '        <ul class="highlights">\n' + "\n".join(f"          <li>{rich(s, byid)}</li>" for s in ex["highlights"]) + "\n        </ul>"
+    else:
+        summary = "\n".join(f"        <p>{e(s)}</p>" for s in ex.get("summary", []))
     aff = e(ex["affiliation"]) + (f'<span class="dept">{e(ex["department"])}</span>' if ex.get("department") else "")
     links = " · ".join(f'<a href="{e(l["url"])}">{e(l["label"])}</a>' for l in ex.get("links", []) or [])
     areas = "".join(f'<span class="area">{e(a)}</span>' for a in ex.get("areas", []))
@@ -194,6 +198,28 @@ def corpus(ex, papers):
     keep = ("id", "title", "journal", "year", "doi", "pmid", "first_author", "n_authors", "type", "abstract")
     return {"expert": ex["name"], "slug": ex["slug"], "affiliation": ex["affiliation"],
             "papers": [{k: p.get(k) for k in keep} for p in papers]}
+
+
+def paper_url(p):
+    return f"https://doi.org/{p['doi']}" if p.get("doi") else (f"https://pubmed.ncbi.nlm.nih.gov/{p['pmid']}/" if p.get("pmid") else "")
+
+
+def rich(text, byid):
+    """Tiny markup for highlights: **bold**, *italic*, [text](paper:<id>) or [text](https://...)."""
+    t = e(text)
+    def link(m):
+        label, ref = m.group(1), m.group(2)
+        if ref.startswith("paper:"):
+            p = byid.get(ref[6:])
+            if not p:
+                raise SystemExit(f"highlight links unknown paper {ref}")
+            title = e(f"{p['title']} ({p['journal']} {p['year']})")
+            return f'<a href="{e(paper_url(p))}" title="{title}">{label}</a>'
+        return f'<a href="{ref}">{label}</a>'
+    t = re.sub(r"\[([^\]]+)\]\(([^)\s]+)\)", link, t)
+    t = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", t)
+    t = re.sub(r"(?<![*\w])\*(?!\s)(.+?)(?<!\s)\*(?![*\w])", r"<em>\1</em>", t)
+    return t
 
 
 def kslug(t):
