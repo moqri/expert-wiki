@@ -266,7 +266,7 @@ def home(roster, built):
   <main id="main">
     <section class="intro">
       <p class="label">Science from the people who do it</p>
-      <h1>Ask the research, <em>expert by expert.</em></h1>
+      <h1>Ask the experts, <em>through their published work.</em></h1>
       <p class="lede">{e(SITE['intro'])}</p>
       <p class="suggest"><a class="subtle" href="{e(suggest)}">Suggest the next topic →</a></p>
     </section>
