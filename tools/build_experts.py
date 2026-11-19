@@ -117,6 +117,9 @@ def expert_page(ex, papers, claims):
     areas = "".join(f'<span class="area">{e(a)}</span>' for a in ex.get("areas", []))
     full = name + (f", {ex['credentials']}" if ex.get("credentials") else "")
     endpoint = SITE.get("ask_endpoint", "")
+    qs = ex.get("questions") or []
+    examples = ('<div class="examples" role="group" aria-label="Example questions"><span class="label">Try</span>'
+                + "".join(f'<button class="ex" type="button">{e(q)}</button>' for q in qs) + "</div>") if qs else ""
     first = name.split()[0]
 
     return head(f"{name} · expert.wiki", f"{name}: a summary of their published research, key findings, and answers drawn from their papers.") + f"""<body>
@@ -145,6 +148,7 @@ def expert_page(ex, papers, claims):
         <textarea id="ask-q" name="q" rows="2" maxlength="600" placeholder="For example: which aging clocks best predict disease?" required></textarea>
         <button class="go" type="submit">Ask</button>
       </form>
+      {examples}
       <div id="ask-out" aria-live="polite"></div>
     </section>
 

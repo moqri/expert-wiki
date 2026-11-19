@@ -50,6 +50,9 @@
     var t = url(p) ? '<a href="' + esc(url(p)) + '">' + esc(p.title) + '</a>' : esc(p.title);
     return '<li id="src-' + (i + 1) + '">' + t + '<span class="d">' + esc(p.journal) + ' ' + p.year + (p.quote ? ' · “' + esc(p.quote) + '”' : '') + '</span></li>';
   };
+  [].forEach.call(document.querySelectorAll('.examples .ex'), function (b) {
+    b.addEventListener('click', function () { qbox.value = b.textContent; form.requestSubmit(); });
+  });
   qbox.addEventListener('keydown', function (ev) { if (ev.key === 'Enter' && !ev.shiftKey) { ev.preventDefault(); form.requestSubmit(); } });
 
   var corpusP = null;
