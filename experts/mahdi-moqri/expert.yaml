@@ -13,6 +13,7 @@ highlights:
   - "**Biomarker frameworks.** First author of the Biomarkers of Aging Consortium's definitions and evaluation criteria for aging biomarkers ([*Cell* 2023](paper:pmid-37657418)) and of its framework for their validation ([*Nature Medicine* 2024](paper:pmid-38355974))."
   - "**Benchmarking.** Co-developed [Biolearn](paper:pmid-41188602), an open framework for evaluating aging biomarkers across cohorts, and a [comparison of 14 epigenetic clocks against 174 incident diseases](paper:pmid-41402269)."
   - "**Mechanisms of epigenetic aging.** Age-associated DNA methylation gain is concentrated at [PRC2 (Polycomb) targets](paper:pmid-39009581), and [single-cell analyses](paper:pmid-38724733) indicate a substantial stochastic component."
+  - "**Alzheimer's disease.** Integrating amyloid PET with plasma proteomics in 1,429 people identified a [54-protein signature of cerebral amyloid load](paper:pmid-42325000) (*Alzheimer's & Dementia* 2026), and [APOE-stratified multi-omic analyses](paper:pmid-41642643) implicated mitochondrial dysfunction, inflammation and lipid dysregulation independent of APOE genotype."
   - "**Multi-omic and computational approaches.** [Plasma proteomic models](paper:pmid-39488213) estimate organ-specific aging, and [AI agents](paper:pmid-41332661) screen public molecular profiles for interventions associated with lower biological age."
 tags: [Biomarkers of aging, Epigenetic clocks, Organ and multi-omic aging, Alzheimer's, Rejuvenation, Longevity genetics, AI for science]
 search: 'Moqri M[Author]'
