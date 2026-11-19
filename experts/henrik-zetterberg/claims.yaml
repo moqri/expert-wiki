@@ -1,0 +1,189 @@
+- rank: 1
+  figure: "AUC 0.96"
+  figure_label: for blood p-tau217 in telling Alzheimer's from other dementias
+  statement: Plasma p-tau217 separated Alzheimer's dementia from other neurodegenerative diseases with an accuracy (AUC) of 0.96, better than p-tau181, NfL and MRI, and it identified Alzheimer's confirmed at autopsy with an AUC of 0.89.
+  paper: pmid-32722745
+  evidence: Cross-sectional study of 3 cohorts (autopsy cohort, BioFINDER-2 and a Colombian inherited Alzheimer's family), about 1,400 participants
+  tags: [Blood tests]
+- rank: 2
+  figure: "85% to 91%"
+  figure_label: accuracy of a fully automated p-tau217 blood test in clinics
+  statement: A commercial, fully automated plasma p-tau217 test detected Alzheimer's pathology with 89% to 91% accuracy in memory clinics and 85% in primary care. Using two cutoffs raised accuracy to 92% to 94%, with 12% to 17% of people left in an uncertain middle range. Accuracy was lower in people aged 80 or older but was not affected by kidney disease, diabetes, sex or APOE genotype.
+  paper: pmid-40205199
+  evidence: Multicohort diagnostic study, 1,767 people with cognitive symptoms in Sweden, Spain and Italy, including primary care
+  tags: [Blood tests]
+- rank: 3
+  figure: "AUC 0.92 to 0.97"
+  figure_label: for a commercial p-tau217 blood test detecting amyloid and tau
+  statement: A commercially available plasma p-tau217 immunoassay identified abnormal amyloid (AUC 0.92 to 0.96) and tau (AUC 0.93 to 0.97) as well as spinal fluid tests did. A three-range cutoff cut the need for confirmatory testing by about 80%, and levels rose each year only in people with amyloid.
+  paper: pmid-38252443
+  evidence: Cohort study across 3 cohorts (TRIAD, WRAP, SPIN), 786 participants
+  tags: [Blood tests]
+- rank: 4
+  figure: "~90%"
+  figure_label: of people with mild memory problems and abnormal spinal fluid developed Alzheimer's within 9 to 10 years
+  statement: In people with mild cognitive impairment followed for a median of 9.2 years, an abnormal spinal fluid Aβ42 to p-tau ratio predicted Alzheimer's dementia with 88% sensitivity and 90% specificity. Aβ42 was already fully lowered 5 to 10 years before dementia, while tau rose later.
+  paper: pmid-22213792
+  evidence: Clinical cohort, 137 patients with mild cognitive impairment, median 9.2 years of follow-up
+  tags: [Spinal fluid tests, Disease timeline]
+- rank: 5
+  figure: "17.7×"
+  figure_label: higher risk of Alzheimer's with abnormal spinal fluid tau and amyloid
+  statement: People with mild cognitive impairment whose spinal fluid showed high total tau and low Aβ42 had a 17.7-fold higher risk of developing Alzheimer's over 4 to 6 years. The combination detected those who went on to Alzheimer's with 95% sensitivity and 83% specificity, far more strongly than age, sex, education or APOE genotype.
+  paper: pmid-16488378
+  evidence: Prospective cohort, 137 patients with mild cognitive impairment and 39 controls, about 5 years of follow-up
+  tags: [Spinal fluid tests]
+- rank: 6
+  figure: "AUC 0.83 → 0.91"
+  figure_label: predicting Alzheimer's within 4 years from a blood test plus brief tests
+  statement: In people with memory complaints or mild cognitive impairment, plasma p-tau217 predicted Alzheimer's dementia within 4 years with an AUC of 0.83, rising to 0.91 when combined with brief memory and thinking tests and APOE genotype. Memory clinic doctors' own predictions reached an AUC of 0.71.
+  paper: pmid-34031605
+  evidence: Prognostic study, 2 cohorts (BioFINDER 340 and ADNI 543 participants)
+  tags: [Blood tests]
+- rank: 7
+  figure: "8 years"
+  figure_label: before death, blood p-tau181 already pointed to Alzheimer's at autopsy
+  statement: In people who all had an Alzheimer's diagnosis during life, plasma p-tau181 taken 8 years before death separated true Alzheimer's at autopsy from other brain diseases with an AUC of 97%. In Alzheimer's, the main rise in p-tau181 happened between 8 and 4 years before death.
+  paper: pmid-32720099
+  evidence: Longitudinal autopsy cohort, 115 participants with blood samples 8, 4 and 2 years before death
+  tags: [Blood tests, Disease timeline]
+- rank: 8
+  figure: "AUC 0.90 to 0.98"
+  figure_label: for blood p-tau181 separating Alzheimer's from normal ageing
+  statement: A new ultrasensitive blood test for p-tau181 rose step by step along the Alzheimer's continuum and separated Alzheimer's dementia from cognitively normal older adults (AUC 0.90 to 0.98) and from frontotemporal dementia (AUC 0.83 to 1.00). In a primary care cohort it did not separate Alzheimer's from mild cognitive impairment (AUC 0.55).
+  paper: pmid-32333900
+  evidence: Assay development and validation in 4 cohorts, 1,131 participants
+  tags: [Blood tests]
+- rank: 9
+  figure: "Earliest"
+  figure_label: blood p-tau231 rises before amyloid scans turn positive
+  statement: Plasma p-tau231 identified Alzheimer's with AUCs of 0.92 to 0.94 and, in samples taken about 4 years before death, identified Alzheimer's at autopsy with an AUC of 0.99. It began to rise at lower amyloid levels than the usual amyloid PET positivity threshold, earlier than plasma p-tau181.
+  paper: pmid-33585983
+  evidence: Assay validation in 4 cohorts, 588 participants, including an autopsy cohort
+  tags: [Blood tests, Disease timeline]
+- rank: 10
+  figure: "231 studies"
+  figure_label: confirm spinal fluid tau, p-tau and Aβ42 as core Alzheimer's markers
+  statement: Pooling 231 studies of 15,699 patients and 13,018 controls, spinal fluid total tau (2.5 times higher), p-tau (1.9 times) and Aβ42 (about half) strongly separated Alzheimer's from controls. Spinal fluid NfL and blood total tau also differed strongly, while many other proposed markers changed little.
+  paper: pmid-27068280
+  evidence: Systematic review and meta-analysis of 15 biomarkers, 231 studies
+  tags: [Spinal fluid tests, Blood tests]
+- rank: 11
+  figure: "AUC 0.87"
+  figure_label: for blood NfL separating Alzheimer's dementia from healthy people
+  statement: Plasma neurofilament light was higher in mild cognitive impairment (42.8 ng/L) and Alzheimer's dementia (51.0 ng/L) than in healthy controls (34.7 ng/L), separated Alzheimer's dementia from controls with an AUC of 0.87, and higher levels went with faster cognitive decline and brain atrophy.
+  paper: pmid-28346578
+  evidence: Case-control study in ADNI, 570 participants
+  tags: [Nerve damage (NfL)]
+- rank: 12
+  figure: "AUC 0.76"
+  figure_label: for blood GFAP flagging amyloid build-up
+  statement: Plasma GFAP, a marker of reactive astrocytes, was raised in every amyloid-positive group, including people with normal memory, and was linked to amyloid but not tau after accounting for each other. It predicted a positive amyloid scan with an AUC of 0.76, better than GFAP in spinal fluid.
+  paper: pmid-34259835
+  evidence: Cross-sectional and longitudinal analysis in BioFINDER-2, 504 participants
+  tags: [Inflammation and astrocytes, Blood tests]
+- rank: 13
+  figure: "AUC 0.947"
+  figure_label: for the best of 10 blood p-tau tests
+  statement: Comparing 10 plasma p-tau tests in people with mild cognitive impairment, a mass spectrometry p-tau217 test was best at detecting amyloid (AUC 0.947) and predicting progression to Alzheimer's dementia (AUC 0.932). Among antibody-based tests, a p-tau217 assay scored highest (AUC about 0.89).
+  paper: pmid-36087307
+  evidence: Head-to-head comparison, 135 patients with mild cognitive impairment, 4.9 years of follow-up
+  tags: [Blood tests]
+- rank: 14
+  figure: "8 assays"
+  figure_label: compared for blood amyloid; mass spectrometry did best
+  statement: Of 8 plasma Aβ42/40 tests, certain mass spectrometry methods detected abnormal brain amyloid best (AUC about 0.86), while most antibody-based tests reached 0.64 to 0.78. Results were replicated in a second cohort.
+  paper: pmid-34542571
+  evidence: Head-to-head comparison in BioFINDER and ADNI, 408 participants
+  tags: [Blood tests]
+- rank: 15
+  figure: "p-tau217 first"
+  figure_label: among leading commercial Alzheimer's blood tests
+  statement: Comparing commercial blood tests from six companies on the same samples, p-tau217 measures most accurately classified amyloid and tau status, while plasma Aβ42/40 had relatively low accuracy for amyloid. P-tau217 also tracked cortical thinning better than NfL.
+  paper: pmid-39394841
+  evidence: Head-to-head comparison of commercial assays in ADNI plasma samples
+  tags: [Blood tests]
+- rank: 16
+  figure: "Ratio beats Aβ42"
+  figure_label: spinal fluid Aβ42/40 is a better Alzheimer's marker
+  statement: Across 3 cohorts and 3 different assays, spinal fluid Aβ42/40 and Aβ42/38 ratios predicted an abnormal amyloid scan better than Aβ42 alone and better separated Alzheimer's from Lewy body, Parkinson's and vascular dementia.
+  paper: pmid-27042676
+  evidence: Diagnostic study in 3 cohorts, 1,182 participants
+  tags: [Spinal fluid tests]
+- rank: 17
+  figure: "750 patients"
+  figure_label: multicentre test of spinal fluid markers in mild memory problems
+  statement: Across 12 centres in Europe and the US, spinal fluid Aβ42, total tau and p-tau predicted which people with mild cognitive impairment developed Alzheimer's with AUCs of 0.76 to 0.79. The Aβ42 test varied considerably between centres, showing the need for standardisation.
+  paper: pmid-19622817
+  evidence: Multicentre prospective cohort, 750 patients with mild cognitive impairment, 529 with Alzheimer's and 304 controls
+  tags: [Spinal fluid tests]
+- rank: 18
+  figure: "10 + 4 + 6 years"
+  figure_label: preclinical, prodromal and dementia stages at age 70
+  statement: For a 70-year-old with preclinical Alzheimer's, the estimated duration was 10 years before symptoms, 4 years of mild symptoms and 6 years of dementia. Total disease length ranged from 24 years when it starts at 60 to 15 years at 80, and was shorter in men, APOE4 carriers and people with abnormal spinal fluid tau.
+  paper: pmid-31164314
+  evidence: Multistate modelling across 6 cohorts, 3,268 participants
+  tags: [Disease timeline]
+- rank: 19
+  figure: "p-tau rises early"
+  figure_label: when amyloid changes are still subtle
+  statement: New spinal fluid p-tau181, p-tau217 and p-tau231 tests rose more clearly than a standard p-tau test in the preclinical stage, when only subtle amyloid changes were present, and separated amyloid-positive from amyloid-negative people with normal memory.
+  paper: pmid-33169916
+  evidence: Cross-sectional biomarker study in a preclinical Alzheimer's cohort
+  tags: [Spinal fluid tests, Disease timeline]
+- rank: 20
+  figure: "Higher NfL"
+  figure_label: in spinal fluid predicts faster atrophy and decline
+  statement: Spinal fluid neurofilament light was higher in Alzheimer's dementia and mild cognitive impairment than in healthy controls. In mild cognitive impairment, higher levels went with faster whole-brain and hippocampal shrinkage and faster decline on memory tests.
+  paper: pmid-26524180
+  evidence: Cohort study in ADNI, 397 participants
+  tags: [Nerve damage (NfL)]
+- rank: 21
+  figure: "AUC 0.91"
+  figure_label: for blood NfL separating Parkinson's from atypical parkinsonism
+  statement: Blood neurofilament light was higher in multiple system atrophy, progressive supranuclear palsy and corticobasal syndrome than in Parkinson's disease, and separated Parkinson's from these atypical disorders with AUCs of 0.81 to 0.91 across 3 cohorts, including early disease.
+  paper: pmid-28179466
+  evidence: Diagnostic study, 3 prospective cohorts, 504 participants
+  tags: [Nerve damage (NfL), Brain injury and other diseases]
+- rank: 22
+  figure: "NfL in MS"
+  figure_label: blood NfL tracks lesions, relapses and disability
+  statement: In multiple sclerosis, serum neurofilament light was higher than in healthy controls, rose with active brain and spinal cord lesions, fell under disease-modifying treatment, and levels above the 97.5th percentile of controls predicted more relapses and worsening disability.
+  paper: pmid-28512753
+  evidence: Two MS cohorts (142 cross-sectional, 246 longitudinal) and 254 controls
+  tags: [Nerve damage (NfL), Brain injury and other diseases]
+- rank: 23
+  figure: "NfL in Huntington's"
+  figure_label: blood NfL rises stage by stage and predicts decline
+  statement: Carriers of the Huntington's disease mutation had higher plasma neurofilament light than controls, the gap grew with each disease stage, and baseline levels predicted later decline in thinking, daily function and brain volume.
+  paper: pmid-28601473
+  evidence: Retrospective analysis of the TRACK-HD study, 201 mutation carriers and 97 controls
+  tags: [Nerve damage (NfL), Brain injury and other diseases]
+- rank: 24
+  figure: "Tau doubles"
+  figure_label: in blood after concussion in ice hockey players
+  statement: Professional ice hockey players with concussion had blood total tau of 10.0 pg/mL compared with 4.5 pg/mL before the season, along with raised S100B. Levels peaked right after the injury and fell during rehabilitation.
+  paper: pmid-24627036
+  evidence: Multicentre prospective cohort, Swedish Hockey League, 288 players (35 concussions)
+  tags: [Brain injury and other diseases]
+- rank: 25
+  figure: "GFAP then NfL"
+  figure_label: brain injury markers rise in severe COVID-19
+  statement: Patients with severe COVID-19 had higher blood GFAP and NfL than controls. GFAP peaked early and then fell, while NfL kept rising, suggesting an early astrocyte response followed by later nerve fibre injury.
+  paper: pmid-32546655
+  evidence: Cohort study, 47 patients with COVID-19 and 33 controls
+  tags: [Brain injury and other diseases, Nerve damage (NfL), Inflammation and astrocytes]
+- rank: 26
+  figure: "27%"
+  figure_label: of thinking decline explained by a synapse protein ratio beyond amyloid and tau
+  statement: Spinal fluid proteomics in 3,397 people found that a synapse protein ratio, YWHAG:NPTX2, explained 27% of the variation in cognitive impairment beyond amyloid and tau. It rose about 20 years before expected symptoms in inherited Alzheimer's and predicted progression from normal cognition to mild cognitive impairment (hazard ratio 3.0 per standard deviation).
+  paper: pmid-40164724
+  evidence: CSF proteomics across 6 cohorts, 3,397 participants, up to 15 years of follow-up
+  tags: [Spinal fluid tests]
+- rank: 27
+  figure: "No benefit"
+  figure_label: of oral semaglutide in early Alzheimer's
+  statement: In two phase 3 trials of 3,808 people with early Alzheimer's, oral semaglutide did not slow decline on the CDR-SB scale over 104 weeks compared with placebo.
+  paper: pmid-41865758
+  evidence: Two randomised placebo-controlled phase 3 trials (evoke and evoke+), 3,808 participants
+  tags: [Treatment trials]
