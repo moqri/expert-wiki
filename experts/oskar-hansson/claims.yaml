@@ -1,0 +1,175 @@
+- rank: 1
+  figure: "AUC 0.96"
+  figure_label: for a p-tau217 blood test separating Alzheimer's from other brain diseases
+  statement: Plasma p-tau217 distinguished Alzheimer's dementia from other neurodegenerative diseases with an area under the curve of 0.96, better than p-tau181, neurofilament light and MRI and on par with spinal fluid tests and tau PET. In 81 people with autopsy results it separated Alzheimer's from non-Alzheimer's with an AUC of 0.89.
+  paper: pmid-32722745
+  evidence: Cross-sectional study of 3 cohorts (autopsy, BioFINDER-2, Colombian PSEN1 kindred), 1,402 participants
+  tags: [Blood tests]
+- rank: 2
+  figure: "91% vs 61%"
+  figure_label: accuracy of a blood test vs primary care doctors
+  statement: In 1,213 Swedish patients evaluated for memory symptoms, a blood test based on p-tau217 identified Alzheimer's with about 90% accuracy. Primary care doctors using exams, cognitive tests and CT scans were right 61% of the time, and dementia specialists 73%.
+  paper: pmid-39068545
+  evidence: Prospective diagnostic study in primary and secondary care, 1,213 patients
+  tags: [Blood tests, Clinical care and trials]
+- rank: 3
+  figure: "~20 years"
+  figure_label: before symptoms that blood p-tau217 rises in inherited Alzheimer's
+  statement: In a Colombian family carrying the PSEN1 E280A mutation, plasma p-tau217 was higher in mutation carriers than non-carriers from about age 25, roughly 20 years before the expected onset of mild cognitive impairment.
+  paper: pmid-32722745
+  evidence: Colombian autosomal-dominant kindred, 365 carriers and 257 non-carriers
+  tags: [Blood tests, Disease progression]
+- rank: 4
+  figure: "Equal to CSF"
+  figure_label: a blood test matched FDA-approved spinal fluid tests
+  statement: Plasma %p-tau217 measured by mass spectrometry detected amyloid plaques on PET as well as FDA-approved spinal fluid tests (AUC 0.95 to 0.97) and detected tau tangles better. In people with cognitive impairment it was 89 to 90% accurate for amyloid, rising to 95% when an intermediate zone was set aside for further testing.
+  paper: pmid-38382645
+  evidence: Diagnostic study, BioFINDER-2 (1,422) and Knight ADRC (337) cohorts
+  tags: [Blood tests, Spinal fluid tests]
+- rank: 5
+  figure: "HR 17.7"
+  figure_label: higher risk of Alzheimer's with abnormal spinal fluid tau and amyloid
+  statement: Among 137 people with mild cognitive impairment followed for 4 to 6 years, abnormal spinal fluid total tau and Aβ42 at the start identified those who developed Alzheimer's with 95% sensitivity and 83% specificity, a 17.7-fold higher risk, far stronger than age, sex, education or APOE.
+  paper: pmid-16488378
+  evidence: Prospective clinical cohort, 137 MCI patients and 39 controls
+  tags: [Spinal fluid tests, Disease progression]
+- rank: 6
+  figure: "5 to 10 years"
+  figure_label: before dementia that spinal fluid amyloid is fully abnormal
+  statement: Following people with mild cognitive impairment for a median of 9.2 years, spinal fluid Aβ42 was just as low in those who developed Alzheimer's 5 to 10 years later as in those who developed it within 5 years, while tau rose closer to onset. About 90% of people with abnormal spinal fluid markers developed Alzheimer's within 9 to 10 years.
+  paper: pmid-22213792
+  evidence: Clinical cohort, 137 MCI patients, median 9.2-year follow-up
+  tags: [Spinal fluid tests, Disease progression]
+- rank: 7
+  figure: "Fluid before PET"
+  figure_label: spinal fluid detects amyloid build-up earlier than PET
+  statement: People with abnormal spinal fluid Aβ42 but a normal amyloid PET scan accumulated amyloid at 1.2% a year, the same rate as people abnormal on both and more than three times faster than people normal on both, showing that spinal fluid changes first.
+  paper: pmid-26936941
+  evidence: Longitudinal ADNI cohort, 437 non-demented participants, repeated PET
+  tags: [Spinal fluid tests, Brain imaging, Disease progression]
+- rank: 8
+  figure: "Default mode network"
+  figure_label: where amyloid first builds up
+  statement: The earliest amyloid build-up appeared in the precuneus, medial orbitofrontal and posterior cingulate cortex, core parts of the brain's default mode network, and was already linked to weaker connectivity there before any shrinkage or drop in brain metabolism.
+  paper: pmid-29089479
+  evidence: Amyloid PET and CSF in ADNI and BioFINDER cohorts
+  tags: [Brain imaging, Disease progression]
+- rank: 9
+  figure: "4 patterns"
+  figure_label: of tau spread across the brain
+  statement: Tau PET scans of 1,612 people revealed four distinct patterns of tau spread, each seen in 18 to 33% of people, with different ages, cognitive profiles and rates of decline, suggesting that a single "typical" Alzheimer's course does not fit everyone.
+  paper: pmid-33927414
+  evidence: Tau PET data-driven subtyping, 1,612 participants, replicated with a second tracer
+  tags: [Brain imaging, Disease progression]
+- rank: 10
+  figure: "Up to 70%"
+  figure_label: of the tau pattern explained by brain connections
+  statement: A model in which tau spreads between connected neurons explained up to 70% of the spatial pattern of tau on PET in 312 people. Regions with more amyloid had more tau than the model predicted, suggesting amyloid speeds up the spread.
+  paper: pmid-32457389
+  evidence: Epidemic spreading model compared with tau PET, 312 participants
+  tags: [Brain imaging, Disease progression]
+- rank: 11
+  figure: "HR 19.2"
+  figure_label: risk of memory problems with amyloid and tau but no symptoms
+  statement: Among 1,325 cognitively unimpaired people, those with amyloid plus tau in the temporal neocortex on PET had a 19.2-fold higher risk of progressing to mild cognitive impairment than people with neither, compared with 2.4-fold for amyloid alone.
+  paper: pmid-36357681
+  evidence: Multicenter longitudinal amyloid and tau PET study, 1,325 participants
+  tags: [Brain imaging, Disease progression]
+- rank: 12
+  figure: "Tau follows amyloid"
+  figure_label: soluble tau rises before tau tangles show on PET
+  statement: In people without symptoms who had amyloid, spinal fluid p-tau181, p-tau217 and total tau rose before amyloid PET turned positive, while tau PET began rising only afterward, suggesting amyloid triggers tau release years before tangles form.
+  paper: pmid-32426454
+  evidence: Longitudinal CSF and PET in humans, plus MAPT mutation carriers and 5xFAD mice
+  tags: [Spinal fluid tests, Disease progression]
+- rank: 13
+  figure: "Rises over time"
+  figure_label: blood p-tau217 tracks disease progression
+  statement: Repeated blood tests over up to 6 years in 250 people showed plasma p-tau217 increasing in people with amyloid, both with and without symptoms, but not in amyloid-negative people. The rise matched worsening memory and brain shrinkage.
+  paper: pmid-33068398
+  evidence: Longitudinal BioFINDER cohort, 250 participants, median 3 samples each
+  tags: [Blood tests, Disease progression]
+- rank: 14
+  figure: "Only p-tau217"
+  figure_label: changed over time among blood markers
+  statement: Over 4 to 6 years, only plasma p-tau217 showed clear amyloid-linked increases tied to cognitive decline and atrophy. P-tau231 and the Aβ42/40 ratio changed earliest but stayed flat afterward, making them more suited to finding early disease than to tracking it.
+  paper: pmid-36456833
+  evidence: Longitudinal BioFINDER-1, replicated in the Wisconsin Registry for Alzheimer's Prevention
+  tags: [Blood tests, Clinical care and trials]
+- rank: 15
+  figure: "AUC 0.91"
+  figure_label: for predicting Alzheimer's dementia within 4 years
+  statement: Combining plasma p-tau217 with brief memory and executive tests and APOE genotype predicted who would develop Alzheimer's dementia within 4 years with an AUC of 0.91. Memory clinic doctors' own predictions reached only 0.71.
+  paper: pmid-34031605
+  evidence: Prognostic study, BioFINDER (340) and ADNI (543)
+  tags: [Blood tests, Disease progression]
+- rank: 16
+  figure: "Up to 86% fewer"
+  figure_label: spinal fluid tests needed with a two-step blood workflow
+  statement: Using a blood p-tau217 model first, and sending only uncertain cases on to spinal fluid testing, classified amyloid status with 88 to 92% accuracy while cutting the number of spinal fluid tests by 61 to 86%.
+  paper: pmid-37653254
+  evidence: Two memory clinic cohorts (348 MCI patients), validated in TRIAD
+  tags: [Blood tests, Clinical care and trials]
+- rank: 17
+  figure: "85–94%"
+  figure_label: accuracy of an automated blood p-tau217 test across 5 cohorts
+  statement: A fully automated, commercially available p-tau217 blood test detected Alzheimer's pathology with 89 to 91% accuracy in specialist care and 85% in primary care, reaching 92 to 94% when intermediate results were set aside. Accuracy was not affected by kidney disease, diabetes, sex or APOE.
+  paper: pmid-40205199
+  evidence: Diagnostic study, 1,767 patients in Sweden, Spain and Italy
+  tags: [Blood tests, Clinical care and trials]
+- rank: 18
+  figure: "Early marker"
+  figure_label: blood GFAP rises with amyloid, not tau
+  statement: Plasma GFAP, a marker of reactive astrocytes, was raised in all amyloid-positive groups and tracked amyloid PET even in cognitively normal people with normal amyloid levels, independent of tau, pointing to astrocyte activation early in the disease.
+  paper: pmid-34259835
+  evidence: BioFINDER-2, 504 participants with amyloid and tau PET
+  tags: [Blood tests, Disease progression]
+- rank: 19
+  figure: "90–94%"
+  figure_label: agreement of automated spinal fluid tests with amyloid PET
+  statement: Fully automated spinal fluid tau/Aβ42 ratios agreed with amyloid PET in about 90% of cases, with cutoffs that held up in an independent cohort, and predicted greater 2-year decline in mild cognitive impairment.
+  paper: pmid-29499171
+  evidence: Diagnostic study, BioFINDER (277) and ADNI (646)
+  tags: [Spinal fluid tests, Brain imaging]
+- rank: 20
+  figure: "~90%"
+  figure_label: sensitivity and specificity of tau PET for Alzheimer's
+  statement: Tau PET with flortaucipir distinguished Alzheimer's dementia from other neurodegenerative diseases with about 90% sensitivity and 91% specificity, far better than MRI measures of brain volume (AUC 0.92 to 0.95 vs 0.63 to 0.75).
+  paper: pmid-30326496
+  evidence: Cross-sectional study at 3 dementia centers, 719 participants
+  tags: [Brain imaging]
+- rank: 21
+  figure: "23%"
+  figure_label: of memory clinic patients have Lewy body pathology
+  statement: A spinal fluid α-synuclein seed test found Lewy body pathology in 23% of 883 memory clinic patients, most of whom did not meet clinical criteria for Parkinson's or dementia with Lewy bodies. Nearly half also had Alzheimer's pathology, and Lewy pathology predicted faster decline and hallucinations.
+  paper: pmid-37464058
+  evidence: BioFINDER memory clinic cohort, 883 patients
+  tags: [Lewy body and Parkinson's, Spinal fluid tests]
+- rank: 22
+  figure: "8%"
+  figure_label: of people without symptoms carry Lewy body pathology
+  statement: Among 1,182 cognitively unimpaired people, 8% had Lewy body pathology on a spinal fluid seed test. It was linked to faster memory and cognitive decline and loss of smell, and only these people progressed to clinical Lewy body disease over 10 years.
+  paper: pmid-37464059
+  evidence: BioFINDER cohort, 1,182 cognitively unimpaired participants
+  tags: [Lewy body and Parkinson's, Disease progression]
+- rank: 23
+  figure: "AUC 0.91"
+  figure_label: for a blood test separating Parkinson's from atypical parkinsonism
+  statement: Blood neurofilament light was higher in multiple system atrophy, progressive supranuclear palsy and corticobasal syndrome than in Parkinson's disease, separating them with an AUC of 0.91, and 0.81 even within 3 years of onset.
+  paper: pmid-28179466
+  evidence: Three prospective cohorts (Lund, London, early disease), 504 participants
+  tags: [Lewy body and Parkinson's, Blood tests]
+- rank: 24
+  figure: "Slower decline"
+  figure_label: with the amyloid-clearing drug donanemab
+  statement: In 1,736 people with early symptomatic Alzheimer's, the amyloid-clearing antibody donanemab slowed decline on the iADRS scale at 76 weeks (3.25 points less worsening in the low/medium tau group). Brain swelling or effusion (ARIA-E) occurred in 24% of treated participants.
+  paper: pmid-37459141
+  evidence: Phase 3 randomized placebo-controlled trial (TRAILBLAZER-ALZ 2), 1,736 participants
+  tags: [Clinical care and trials]
+- rank: 25
+  figure: "No link"
+  figure_label: between midlife artery thickening and Alzheimer's dementia
+  statement: Over 20 years in 6,103 middle-aged Swedes, thicker carotid artery walls raised the risk of vascular dementia (HR 1.32) but not Alzheimer's dementia, and were linked to small vessel disease rather than Alzheimer's markers in spinal fluid.
+  paper: pmid-31721283
+  evidence: Population cohort (Malmö Diet and Cancer Study), 6,103 participants, 20-year follow-up
+  tags: [Disease progression]
