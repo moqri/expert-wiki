@@ -1,0 +1,175 @@
+- rank: 1
+  figure: "Up and back down"
+  figure_label: biological age rises under stress and recovers afterwards
+  statement: Biological age is not a one-way trajectory. It rose quickly in young mice joined to old mice and returned to normal after they were separated, and it rose temporarily in people and mice during major surgery, pregnancy and severe COVID-19, then fell after recovery.
+  paper: pmid-37086720
+  evidence: Mouse parabiosis experiments plus human and mouse cohorts (surgery, pregnancy, COVID-19), measured with epigenetic, transcriptomic and metabolomic clocks
+  tags: [Biological age dynamics]
+- rank: 2
+  figure: "Recipient, not donor"
+  figure_label: sets the biological age of a transplanted heart
+  statement: Hearts transplanted between young and old mice quickly took on the biological age of the recipient, without changing the recipient's own overall biological age. In patients, the biological age of the transplanted heart was strongly linked to the recipient's age rather than the donor's.
+  paper: pmid-42779719
+  evidence: Heterochronic heart transplants in mice plus heart transplant patients, DNA methylation and gene expression clocks (preprint)
+  tags: [Rejuvenation and transplantation, Biological age dynamics]
+- rank: 3
+  figure: "Framework"
+  figure_label: for defining and validating biomarkers of aging
+  statement: The Biomarkers of Aging Consortium set out shared terms, categories and possible clinical uses for biomarkers of aging, and the validation steps needed before they can be used in trials and practice.
+  paper: pmid-37657418
+  evidence: Consensus review by the Biomarkers of Aging Consortium (28 authors)
+  tags: [Biomarkers of aging]
+- rank: 4
+  figure: "R = 0.12"
+  figure_label: link between a clock's age accuracy and its mortality prediction
+  statement: How well an aging clock predicts chronological age says little about how well it predicts death. Across 39 biomarkers in more than 20,000 people, the Horvath skin and blood clock best tracked age (R² 0.88), while GrimAge2 best predicted mortality (hazard ratio 2.57) and loss of healthspan (hazard ratio 2.00).
+  paper: pmid-41188602
+  evidence: Standardized comparison of 39 aging biomarkers across more than 20,000 people in several cohorts (Biolearn)
+  tags: [Biomarkers of aging, Epigenetic clocks]
+- rank: 5
+  figure: "No majority"
+  figure_label: on any core question about what aging is
+  statement: A survey of aging researchers found broad disagreement on what aging is, what causes it, when it begins and what counts as rejuvenation. None of the questions drew a majority answer, not even whether the field needs a consensus.
+  paper: pmid-39660064
+  evidence: Survey of experts in aging research
+  tags: [Concepts of aging]
+- rank: 6
+  figure: "10%"
+  figure_label: longer median lifespan from rapamycin in the first 45 days of life
+  statement: Giving mice rapamycin only during their first 45 days slowed growth, delayed reproduction without reducing offspring, extended median lifespan by 10% (most in males) and preserved health measures such as frailty, gait speed and glucose tolerance. Treated livers looked younger at the molecular level, and the same treatment extended lifespan in water fleas.
+  paper: pmid-36112674
+  evidence: Lifespan and healthspan study in genetically diverse UM-HET3 mice, plus Daphnia magna
+  tags: [Interventions]
+- rank: 7
+  figure: "Both directions"
+  figure_label: an ovary's molecular age follows its host
+  statement: Old mouse ovaries became molecularly younger in young hosts and young ovaries became older in old hosts. Ovaries from 13-month-old mice supported live births at 17 to 18 months of age when placed in young hosts but not old ones, and young ovaries lowered the molecular age of the uterus, liver and brain of old mice.
+  paper: pmid-42999131
+  evidence: Reciprocal ovary transplantation and parabiosis in mice, with transcriptomic and DNA methylation clocks (preprint)
+  tags: [Rejuvenation and transplantation, Biological age dynamics]
+- rank: 8
+  figure: "Partly reversible"
+  figure_label: aging of fat tissue placed in a young body
+  statement: Old white fat tissue transplanted into young mice became younger by epigenetic and gene expression clocks, with smaller fat droplets and activation of heat-producing pathways. Transplantation itself aged tissue, and graft age shifted toward the host's age.
+  paper: pmid-41509418
+  evidence: Longitudinal heterochronic and isochronic fat-tissue transplantation in mice (preprint)
+  tags: [Rejuvenation and transplantation]
+- rank: 9
+  figure: "6 barriers"
+  figure_label: stand between aging biomarkers and the clinic
+  statement: A survey of experts identified six key barriers to using biomarkers of aging in clinical settings. Core recommendations were to tie biomarkers to clinically actionable insights, make them affordable and widely available, and validate them as robust and responsive in individual people.
+  paper: pmid-39285015
+  evidence: Expert survey and recommendations
+  tags: [Biomarkers of aging]
+- rank: 10
+  figure: "Interpregnancy interval"
+  figure_label: proposed as a missing link to maternal aging
+  statement: Pregnancy temporarily raises biological age and the months after birth are a recovery window. Poganik and a colleague propose that starting another pregnancy before recovery is complete may let aging compound, so spacing between pregnancies could be a modifiable factor in a mother's lifelong aging.
+  paper: pmid-42918670
+  evidence: Hypothesis and review with testable predictions
+  tags: [Biological age dynamics]
+- rank: 11
+  figure: "Burden of proof"
+  figure_label: for claims that biological age was reversed
+  statement: Lowering a biological age estimate is not the same as reversing aging itself. The authors set out what age reversal should mean, what evidence such claims need, and how the language used in the debate shapes the conclusions.
+  paper: pmid-42679794
+  evidence: Perspective by aging and geriatrics researchers
+  tags: [Concepts of aging]
+- rank: 12
+  figure: "Validation"
+  figure_label: of omic aging biomarkers in population studies
+  statement: No agreed standard yet exists for validating omic biomarkers of aging before clinical use. The review assesses how well they predict aging outcomes in population studies, the problems comparing them, and steps toward using them as endpoints in trials of treatments for healthy aging.
+  paper: pmid-38355974
+  evidence: Review in Nature Medicine (29 authors)
+  tags: [Biomarkers of aging]
+- rank: 13
+  figure: "500+"
+  figure_label: interventions found to lower biological age in public data
+  statement: AI agents reanalyzed 43,602 intervention-control comparisons from public methylation and RNA data with more than 40 aging clocks and found over 500 interventions that significantly lowered biological age. More interventions sped aging than slowed it, and ouabain, a top candidate, reduced frailty progression and neuroinflammation and improved heart function in old mice.
+  paper: pmid-41332661
+  evidence: Reanalysis of millions of public human and mouse samples, with mouse validation (preprint)
+  tags: [Interventions, Epigenetic clocks]
+- rank: 14
+  figure: "100x"
+  figure_label: cheaper epigenetic clock measurement
+  statement: TIME-seq measures DNA methylation for epigenetic clocks at up to 100-fold lower cost than conventional methods. It was applied to more than 1,800 mouse samples from eight tissues and used to build a human blood clock (median error 3.4 years) in 1,056 people.
+  paper: pmid-38200273
+  evidence: Methods study, more than 1,800 mouse samples and 1,056 human blood samples
+  tags: [Epigenetic clocks]
+- rank: 15
+  figure: "17 tissues"
+  figure_label: share conserved DNA methylation aging signatures
+  statement: Across more than 15,000 human methylation profiles from 17 tissues, aging produced both shared and tissue-specific changes, including rising variability and molecular disorder. One gene cluster linked to NAD+ metabolism was modifiable by beneficial interventions, pointing to NAD+ as a possible target.
+  paper: pmid-42362890
+  evidence: Meta-analysis of more than 15,000 human methylation profiles
+  tags: [Epigenetic clocks]
+- rank: 16
+  figure: "Pathway ages"
+  figure_label: instead of a single biological age
+  statement: Ageome estimates the epigenetic age of thousands of molecular pathways at once. Pathways aged at different rates, cell reprogramming rejuvenated some while accelerating the aging of others, and some pathway ages predicted age-related disease, especially cancer, better than existing clocks.
+  paper: pmid-39345525
+  evidence: Computational framework applied to mouse and human cohorts (preprint)
+  tags: [Epigenetic clocks, Biomarkers of aging]
+- rank: 17
+  figure: "r > 0.96"
+  figure_label: accuracy of clocks that work across 185 mammal species
+  statement: Universal clocks built from 11,754 methylation samples covering 59 tissue types in 185 mammal species estimated age with high accuracy. The age-linked sites sit near developmental genes, suggesting aging is conserved across mammals and tied to development.
+  paper: pmid-37563227
+  evidence: Mammalian Methylation Consortium, 11,754 samples from 185 species
+  tags: [Epigenetic clocks]
+- rank: 18
+  figure: "Immune aging"
+  figure_label: needs agreed biomarkers for clinical trials
+  statement: There is no consensus on how to measure immune aging in trials. Applying five criteria, the authors found that multidimensional immune function scores, inflammaging scores and functional assays performed best as candidate biomarkers.
+  paper: pmid-42399672
+  evidence: Review and evaluation framework linked to XPRIZE Healthspan
+  tags: [Biomarkers of aging]
+- rank: 19
+  figure: "Diet"
+  figure_label: and biological age
+  statement: Caloric restriction, Mediterranean diet, intermittent fasting and some micronutrient supplements are associated with lower biological age, while obesity, inflammatory diets and malnutrition are linked to faster aging. Responses vary between people and organs, which complicates translation.
+  paper: pmid-42629322
+  evidence: Review of animal and human studies, including clinical trials using omics aging biomarkers
+  tags: [Interventions, Biomarkers of aging]
+- rank: 20
+  figure: "Replacement"
+  figure_label: as a strategy against aging
+  statement: Replacing worn-out parts, through tissue engineering, cell therapy, transplants, xenotransplantation or devices, is considered as a route to counter aging, alongside evidence from parabiosis and age-mismatched transplants that a young environment can benefit old tissue.
+  paper: pmid-40341243
+  evidence: Perspective review
+  tags: [Rejuvenation and transplantation, Interventions]
+- rank: 21
+  figure: "Multi-omic genes"
+  figure_label: replicate better than single-omic aging genes in blood
+  statement: Genes that change with age in both DNA methylation and gene expression in blood were enriched for adaptive immune functions, replicated more robustly across populations and were more strongly tied to aging outcomes than genes found with either data type alone.
+  paper: pmid-41554691
+  evidence: Integrative epigenetic and transcriptomic analysis across diverse populations
+  tags: [Biomarkers of aging]
+- rank: 22
+  figure: "Data standards"
+  figure_label: for longevity company trials
+  statement: Longevity biotechnology companies are urged to collect trial data and biomarkers of aging in standard ways, so results can be pooled to validate and benchmark aging biomarkers with little extra effort.
+  paper: pmid-41436473
+  evidence: Recommendations paper
+  tags: [Biomarkers of aging]
+- rank: 23
+  figure: "Cell-type clocks"
+  figure_label: from long-read DNA sequencing without cell sorting
+  statement: LongReadAge maps long DNA reads to their cell type of origin and estimates epigenetic age for each cell type, tracking myeloid cells and lymphocytes from bulk blood and from circulating cell-free DNA.
+  paper: pmid-40599132
+  evidence: Methods study using long-read sequencing
+  tags: [Epigenetic clocks]
+- rank: 24
+  figure: "Tecfidera"
+  figure_label: kills specific immune cells through Keap1, Wdr1 and cofilin
+  statement: Targeted modification of the protein Keap1 by the multiple sclerosis drug dimethyl fumarate triggered death of neutrophils and macrophages, largely independent of the usual Nrf2 pathway, through Wdr1 and cofilin. Removing these players blocked the cell death in whole animals.
+  paper: pmid-34593792
+  evidence: Precision electrophile targeting in zebrafish and cells
+  tags: [Chemical biology]
+- rank: 25
+  figure: "HuR and AUF1"
+  figure_label: control the antioxidant regulator Nrf2 at the RNA level
+  statement: Two RNA-binding proteins regulate Nrf2 by binding its messenger RNA. HuR helps it mature and leave the nucleus, AUF1 stabilizes it, and this control is conserved in whole zebrafish.
+  paper: pmid-31665914
+  evidence: Cell and zebrafish experiments with RNA sequencing
+  tags: [Chemical biology]
