@@ -1,0 +1,182 @@
+- rank: 1
+  figure: "Higher tau"
+  figure_label: in women than men with no memory problems
+  statement: In clinically normal older adults from two cohorts (296 people), women had more tau in the entorhinal cortex, one of the first brain regions affected by Alzheimer's, than men, and the difference was tied to higher amyloid.
+  paper: pmid-30715078
+  evidence: Cross-sectional PET study, 2 cohorts (HABS and ADNI), 296 participants
+  tags: [Sex differences, Amyloid and tau]
+- rank: 2
+  figure: "Faster"
+  figure_label: tau build-up in women once amyloid is high
+  statement: Pooling 6 longitudinal studies of 1,376 people, women with high amyloid accumulated tau faster than men in the inferior temporal, fusiform and lateral occipital regions. Among APOE4 carriers, women also built up inferior temporal tau faster.
+  paper: pmid-40029638
+  evidence: Meta-analysis of 6 longitudinal tau-PET cohorts, 1,376 participants
+  tags: [Sex differences, Amyloid and tau]
+- rank: 3
+  figure: "Aβ → tau → memory"
+  figure_label: the order of change over 7 years
+  statement: Following clinically normal older adults for up to 7 years, a rise in amyloid came first, was followed by a rise in tau, and tau rise was followed by memory decline. People with high amyloid whose tau rose fastest went on to mild cognitive impairment.
+  paper: pmid-31157827
+  evidence: Prospective cohort with repeated amyloid and tau PET, 60 participants, Harvard Aging Brain Study
+  tags: [Amyloid and tau]
+- rank: 4
+  figure: "Both needed"
+  figure_label: amyloid plus tau for rapid memory decline
+  statement: In 137 older adults, higher amyloid and higher tau were each linked to memory decline, but rapid decline was seen mainly in people who had high levels of both, suggesting both proteins are needed for memory loss in the earliest stage.
+  paper: pmid-30549303
+  evidence: Prospective PET cohort, 137 clinically normal participants
+  tags: [Amyloid and tau]
+- rank: 5
+  figure: "Earlier menopause"
+  figure_label: linked to more tau in women with high amyloid
+  statement: Among 292 cognitively unimpaired people, women, women with earlier menopause, and hormone therapy users had more tau when amyloid was elevated. Starting hormone therapy more than 5 years after menopause was linked to more tau than starting early.
+  paper: pmid-37010830
+  evidence: Cross-sectional PET study, 292 participants, Wisconsin Registry for Alzheimer Prevention
+  tags: [Menopause and hormones, Sex differences]
+- rank: 6
+  figure: "~20 years"
+  figure_label: earlier than thought, sex differences in tau appear by midlife
+  statement: In 328 cognitively normal Framingham participants with a mean age of 57, postmenopausal women had more tau than age-matched men, while premenopausal women did not differ from men, placing the divergence about 20 years earlier than previously reported.
+  paper: pmid-35471588
+  evidence: Cross-sectional PET study, 328 participants, Framingham Heart Study
+  tags: [Menopause and hormones, Sex differences, Amyloid and tau]
+- rank: 7
+  figure: "Over 70"
+  figure_label: hormone therapy users showed faster tau build-up
+  statement: In 146 clinically normal women scanned over several years, about 14 years after starting hormone therapy, users older than 70 accumulated tau faster than non-users in Alzheimer's-vulnerable regions, and this was linked to cognitive decline. In women younger than 70 the association was negligible.
+  paper: pmid-40043125
+  evidence: Longitudinal PET cohort, 146 women
+  tags: [Menopause and hormones, Amyloid and tau]
+- rank: 8
+  figure: "38%"
+  figure_label: 5-year risk of impairment with very high blood p-tau217
+  statement: In 2,684 cognitively unimpaired older adults from 6 cohorts, each step up in plasma p-tau217 raised the risk of progressing to cognitive impairment (hazard ratio 1.38 per SD). People with high or very high levels had a 24% or 38% absolute risk of progressing within 5 years.
+  paper: pmid-42449500
+  evidence: Pooled longitudinal cohort study, 6 cohorts, 2,684 participants, median 5.4 years follow-up
+  tags: [Early detection]
+- rank: 9
+  figure: "Faster decline"
+  figure_label: in women with high amyloid
+  statement: Across three cohorts of 755 cognitively normal older adults, amyloid and APOE4 did not differ by sex, but women with higher amyloid declined faster than men, especially women who were both amyloid positive and APOE4 carriers.
+  paper: pmid-29803541
+  evidence: Longitudinal analysis of 3 cohorts (ADNI, AIBL, HABS), 755 participants, median 4 years
+  tags: [Sex differences]
+- rank: 10
+  figure: "Wider in women"
+  figure_label: tau across the cortex, tied to faster decline
+  statement: Across 41 brain regions in 398 older adults, women showed higher tau signal than men in many cortical areas, not just the medial temporal lobe, and women with more tau in these regions declined faster than men.
+  paper: pmid-32799367
+  evidence: Cross-sectional PET with longitudinal cognition, 398 participants, HABS and ADNI
+  tags: [Sex differences, Amyloid and tau]
+- rank: 11
+  figure: "Entorhinal tau"
+  figure_label: tracks with worry about one's memory
+  statement: Among 133 healthy older adults, people who reported more subjective cognitive decline had more tau in the entorhinal cortex, regardless of their amyloid level, and to a lesser extent more amyloid.
+  paper: pmid-28973551
+  evidence: Cross-sectional PET study, 133 participants, Harvard Aging Brain Study
+  tags: [Early memory complaints, Amyloid and tau]
+- rank: 12
+  figure: "HR 5.1"
+  figure_label: faster progression with high self-reported memory decline
+  statement: In 58 cognitively normal older adults with high amyloid, those reporting more memory decline were about 5 times more likely to progress to mild cognitive impairment or Alzheimer's dementia, even though their test scores did not drop faster.
+  paper: pmid-26852195
+  evidence: Longitudinal cohort, 58 amyloid-positive participants, Australian AIBL study
+  tags: [Early memory complaints]
+- rank: 13
+  figure: "17.7"
+  figure_label: dementia cases per 1,000 person-years with memory complaints
+  statement: Across 11 cohorts with 2,978 people reporting memory complaints and 1,391 controls, dementia incidence was 17.7 per 1,000 person-years with complaints versus 14.2 without. Risk was much higher when complaints brought people to a memory clinic than in the community.
+  paper: pmid-30555032
+  evidence: Multicenter cohort study, 11 cohorts, 4,369 participants
+  tags: [Early memory complaints]
+- rank: 14
+  figure: "Most won't decline"
+  figure_label: people with memory complaints
+  statement: A Lancet Neurology review of subjective cognitive decline found that it raises the risk of mild cognitive impairment and dementia, but most people with it will not show progressive decline, so evaluation should be tailored to the individual.
+  paper: pmid-31958406
+  evidence: Review
+  tags: [Early memory complaints]
+- rank: 15
+  figure: "≥5×"
+  figure_label: higher risk of symptoms with both amyloid and tau
+  statement: Across 4 cohorts of 580 cognitively unimpaired older adults, 33% to 83% of people positive for both amyloid and tau progressed to mild cognitive impairment within about 2 to 3 years, compared with under 20% in other groups.
+  paper: pmid-35907254
+  evidence: Multicohort longitudinal study, 4 cohorts, 580 participants
+  tags: [Amyloid and tau, Early detection]
+- rank: 16
+  figure: "Centiloid 15-18.5"
+  figure_label: lowest amyloid level that predicts decline
+  statement: In 3 cohorts of clinically normal people, the lowest amyloid PET level that predicted future amyloid build-up and cognitive decline fell in a narrow range, 15 to 18.5 Centiloids.
+  paper: pmid-33199430
+  evidence: Longitudinal study, 3 cohorts, 855 participants
+  tags: [Amyloid and tau, Early detection]
+- rank: 17
+  figure: "Day 4"
+  figure_label: when smartphone learning tests show amyloid-related decline
+  statement: Older adults who took a 12-minute daily memory test on their own devices for a week showed no amyloid-related differences on standard clinic tests or on day 1, but amyloid-positive people learned less from day 4 on, and weaker learning predicted faster decline over a year.
+  paper: pmid-37991080
+  evidence: Digital cognitive testing study with amyloid PET, cognitively unimpaired older adults
+  tags: [Early detection]
+- rank: 18
+  figure: "Synergy"
+  figure_label: vascular risk and amyloid speed decline together
+  statement: In 223 clinically normal older adults followed for about 4 years, higher Framingham cardiovascular risk and higher amyloid each predicted faster cognitive decline, and together they acted synergistically.
+  paper: pmid-29799986
+  evidence: Longitudinal cohort, 223 participants, Harvard Aging Brain Study
+  tags: [Risk and resilience]
+- rank: 19
+  figure: "More tau"
+  figure_label: when vascular risk and amyloid are both high
+  statement: In 152 clinically normal older adults, the combination of high cardiovascular risk and elevated amyloid was linked to more tau measured about 3 years later in the inferior temporal cortex.
+  paper: pmid-30565287
+  evidence: Longitudinal PET study, 152 participants
+  tags: [Risk and resilience, Amyloid and tau]
+- rank: 20
+  figure: "5,001-7,500"
+  figure_label: daily steps where the benefit plateaus
+  statement: In cognitively unimpaired older adults with elevated amyloid, more pedometer-measured steps were linked to slower tau build-up and slower cognitive and functional decline, without lower amyloid. The benefit levelled off at a moderate 5,001 to 7,500 steps a day.
+  paper: pmid-41184638
+  evidence: Longitudinal cohort with pedometer step counts and amyloid and tau PET
+  tags: [Risk and resilience]
+- rank: 21
+  figure: "Women only"
+  figure_label: a resilience gene locus on chromosome 10
+  statement: Sex-specific genome-wide analyses of 5,024 people found that resilience to Alzheimer's pathology is 20-25% heritable and identified a locus on chromosome 10 linked to higher resilience in women but not in men.
+  paper: pmid-35552371
+  evidence: Sex-stratified genome-wide association study, 5,024 participants
+  tags: [Sex differences, Risk and resilience]
+- rank: 22
+  figure: "1.14×"
+  figure_label: higher age-adjusted Alzheimer's death rate in women
+  statement: Among about 1.1 million deaths in Australia from 2006 to 2014, women's older age at death explained most of their higher dementia death rate, but an excess of Alzheimer's deaths in women (rate ratio 1.14) and of vascular dementia deaths in men remained.
+  paper: pmid-30824901
+  evidence: Population death-record study, 1,104,684 deaths
+  tags: [Sex differences]
+- rank: 23
+  figure: "Lower tau"
+  figure_label: in men with higher midlife SHBG
+  statement: In men, higher midlife levels of sex hormone-binding globulin (SHBG) were linked to less tau later in life, mostly in non-APOE4 carriers. Testosterone itself was not linked to amyloid or tau.
+  paper: pmid-40515488
+  evidence: Longitudinal cohort with midlife blood hormones and later PET
+  tags: [Menopause and hormones, Sex differences]
+- rank: 24
+  figure: "10%"
+  figure_label: of brain gene links to Alzheimer's differ by sex
+  statement: In brain tissue from 767 people, 10% of gene expression links to amyloid, tau and cognitive decline were sex-specific, mostly in women, and four X-chromosome genes behaved differently by sex.
+  paper: pmid-41145521
+  evidence: Post-mortem brain transcriptomics, 767 decedents, 3 brain regions
+  tags: [Sex differences]
+- rank: 25
+  figure: "Earlier menopause × vascular risk"
+  figure_label: together predict lower cognition
+  statement: In 8,360 postmenopausal women in the Canadian Longitudinal Study on Aging, higher vascular risk predicted lower cognition 3 years later only in women with earlier menopause (ages 35-48), and more strongly than in age-matched men.
+  paper: pmid-38569140
+  evidence: Longitudinal population cohort, 8,360 women and 8,360 men
+  tags: [Menopause and hormones, Risk and resilience]
+- rank: 26
+  figure: "Amyloid × mood"
+  figure_label: rising depression predicts decline when amyloid is high
+  statement: In 276 cognitively unimpaired older adults followed up to 7 years, worsening depression symptoms were linked to cognitive decline in people with higher brain amyloid.
+  paper: pmid-31397865
+  evidence: Longitudinal cohort, 276 participants, Harvard Aging Brain Study
+  tags: [Risk and resilience, Early memory complaints]

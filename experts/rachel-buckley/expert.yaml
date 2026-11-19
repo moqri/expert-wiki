@@ -1,0 +1,18 @@
+slug: rachel-buckley
+name: Rachel F. Buckley
+credentials: PhD
+affiliation: Massachusetts General Hospital and Harvard Medical School
+department: Department of Neurology
+areas: [Alzheimer's]
+headline: Why Alzheimer's disease affects women more often than men, and how the earliest brain changes and memory complaints can be spotted years before dementia.
+summary:
+  - Rachel Buckley's work asks why Alzheimer's disease is nearly twice as common in women as in men. Using brain scans of amyloid and tau, the two proteins that build up in Alzheimer's, Buckley's studies show that women with no memory problems already carry more tau than men of the same age, especially when amyloid is high, and that this gap appears around menopause. A meta-analysis of six cohorts found that tau also builds up faster in women once amyloid is present.
+  - Buckley's papers link this risk to hormones and life course. Earlier menopause and starting hormone therapy more than 5 years after menopause were associated with more tau, and in women over 70 hormone therapy users showed faster tau build-up. In men, higher levels of a hormone-binding protein (SHBG) in midlife were linked to less tau later. Australian death records showed that women's longer lives explain much, but not all, of their higher Alzheimer's mortality.
+  - A second thread is the earliest signs of disease. Buckley helped define subjective cognitive decline, the feeling that one's memory is slipping before tests can detect it, and showed that such complaints track with early tau in the entorhinal cortex. Amyloid followed by tau predicts memory decline, and people with high levels of both often develop symptoms within 2 to 3 years. Smartphone tests that measure learning over several days pick up amyloid-related memory changes that standard clinic tests miss, and a blood test, p-tau217, gives 5-year risk estimates.
+  - Buckley's group also studies what protects the brain. Higher vascular risk speeds amyloid-related decline and tau, while more physical activity, even about 5,000 to 7,500 steps a day, is linked to slower tau build-up and decline. Genetic studies of resilience have found a locus that protects women but not men.
+tags: [Sex differences, Menopause and hormones, Amyloid and tau, Early memory complaints, Early detection, Risk and resilience]
+search: 'Buckley RF[Author] OR (Buckley R[Author] AND (alzheimer* OR dementia OR amyloid OR tau OR cognit* OR memory OR sleep OR menopaus* OR neurodegenerat*))'
+questions:
+  - "Why are women more likely to get Alzheimer's disease than men?"
+  - "Does menopause or hormone therapy affect Alzheimer's risk?"
+  - "Can feeling that my memory is slipping be an early sign of Alzheimer's?"
