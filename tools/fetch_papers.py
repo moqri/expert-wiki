@@ -44,20 +44,28 @@ def main():
 
     q = urllib.parse.urlencode({"db": "pubmed", "term": a.query, "retmax": a.max, "retmode": "json", "sort": "pub_date"})
     ids = json.loads(get(EUTILS + "esearch.fcgi?" + q))["esearchresult"]["idlist"]
-    papers = []
+    papers, excluded = [], []
     for i in range(0, len(ids), 100):
         xml = get(EUTILS + "efetch.fcgi?db=pubmed&retmode=xml&id=" + ",".join(ids[i:i + 100]))
         for art in ET.fromstring(xml).findall(".//PubmedArticle"):
             authors = art.findall(".//AuthorList/Author")
             names = [(x.findtext("LastName") or x.findtext("CollectiveName") or "") for x in authors]
-            pos = 0
+            pos, near = 0, ""
             for n, x in enumerate(authors, 1):
                 if (x.findtext("LastName") or "").lower() == last:
-                    fn = x.findtext("ForeName") or ""
-                    if not a.first_name or fn.lower().startswith(a.first_name.lower()):
+                    fn = (x.findtext("ForeName") or "").strip()
+                    ini = (x.findtext("Initials") or fn[:1]).strip()
+                    want = a.first_name.lower()
+                    bare = fn.replace(".", "").replace(" ", "")
+                    # full first name, or initials only (e.g. "RJ") starting with the right letter
+                    if (not want or fn.lower().startswith(want)
+                            or (len(bare) <= 3 and bare.isupper() and ini[:1].lower() == want[:1])):
                         pos = n
                         break
+                    near = fn
             if not pos:
+                if near:
+                    excluded.append((art.findtext(".//PMID"), near, text(art.find(".//ArticleTitle"))[:80]))
                 continue
             types = [t.text for t in art.findall(".//PublicationType")]
             if "Published Erratum" in types:
@@ -91,6 +99,11 @@ def main():
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps(papers, indent=1, ensure_ascii=False) + "\n")
     print(f"{len(papers)} papers -> {out}")
+    if excluded:
+        print(f"\nExcluded {len(excluded)} papers where the last name matched but the first name did not."
+              " Check these by hand (misspellings, middle names) and add any that are theirs:")
+        for pmid, fn, title in excluded:
+            print(f"  {pmid}  first name '{fn}'  {title}")
 
 
 if __name__ == "__main__":

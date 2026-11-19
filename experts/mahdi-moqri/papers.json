@@ -117,19 +117,6 @@
   "abstract": "Apolipoprotein E (APOE) ε4 is the strongest genetic risk factor for Alzheimer's disease (AD). However, it is known that other pathways independent of APOE also play a role in AD. Disentangling APOE-dependent and independent effects is instrumental for understanding the biology of AD. We conducted an APOE-stratified multi-omic analysis in multiple large datasets to identify AD-associated plasma proteins and metabolites. More than 64% of the identified proteins were not found in non-APOE stratified studies, and 17% of the proteins showed APOE-specific trends. Mitochondrial dysfunction was associated in AD independently of APOE and was accompanied by disruptions in glucose and lipid metabolism and cell death and increased in inflammatory signaling activation. Lipid upregulation was found in AD cases when compared with controls with the same APOE genotype, indicating that additional factors beyond APOE affect lipid regulation and AD risk. These findings may be informative in guiding the development of effective medications for AD."
  },
  {
-  "id": "pmid-41891004",
-  "title": "OpenScientist: evaluating an open agentic AI co-scientist to accelerate biomedical discovery",
-  "journal": "medRxiv",
-  "year": 2026,
-  "doi": "10.64898/2026.03.15.26348338",
-  "pmid": "41891004",
-  "first_author": "Roberts",
-  "n_authors": 30,
-  "position": 4,
-  "type": "Preprint",
-  "abstract": "Advances in medicine depend on analyzing large and complex data sources, but discovery is partly constrained by the limited time and domain expertise of human researchers. Agentic artificial intelligence (agentic AI) can accelerate discovery by automating components of the scientific workflow, including information retrieval, data analysis, and knowledge synthesis. OpenScientist, an open-source agentic AI co-scientist, aims to accelerate biomedical discovery by semi-autonomously investigating scientist-defined queries and generating clinically relevant, verifiable scientific insights. Domain experts evaluated OpenScientist for novel discoveries in four clinical case studies: (1) a prespecified analysis in a community-based Alzheimer's disease biomarker cohort, (2) unsupervised modeling for plasma proteomic survival prediction, (3) hypothesis investigation in single-cell transcriptomic data from neurons with neurofibrillary tangles, and (4) hypothesis generation with validation in a multiple myeloma dataset with a randomized negative control. OpenScientist completed analyses in minutes that otherwise would take weeks to months of human time and expertise. It identified %ptau217 as the best predictor of amyloid PET status, generated a plasma proteomic survival model with performance comparable to published models, proposed a mechanism linking tau pathology to altered lysosomal acidification, and generated multiple myeloma hypotheses that were validated in an external cohort while distinguishing true signal from randomized controls. OpenScientist demonstrates that open, auditable, agentic AI can support real-world clinical research by generating hypotheses, executing analyses, and discovering insights from complex datasets."
- },
- {
   "id": "pmid-41741793",
   "title": "OMICmAge quantifies biological age by integrating multi-omics with electronic medical records",
   "journal": "Nat Aging",
@@ -167,6 +154,19 @@
   "position": 12,
   "type": "Editorial",
   "abstract": "On October 22nd, 2025, Brain Aging Symposium took place at Harvard Medical School bringing together leading researchers from academia and partner organizations to discuss recent advances in measuring and monitoring human brain aging trajectories, with a particular focus on Alzheimer's disease (AD). A central theme emerged: achieving \"the right treatment for the right person and the right time\" through precision medicine approaches. Key advances included the unprecedented validation of plasma-based biomarkers, particularly brain-derived p-Tau217 that can identify seeding AD pathology with remarkable specificity, making large-scale screening newly feasible. Integrating multi-level \"omic\" modalities, spanning genetic information, molecular biomarkers of nutrition, lipid and protein signatures, neuroimaging measures, cognitive assessments, and lifestyle factors, enhances disease risk modeling and trajectory prediction beyond the capacity of any single marker. Early findings highlight critical roles for nutritional and lipid metabolism, and myelin integrity in brain aging, with cell and sex-specific vulnerabilities identified in response to nutrition, social isolation, and metabolic stress. Computational approaches that combine single-cell genomics, epigenomics, and artificial intelligence have been shown to accelerate causal discovery and therapeutic development. However, significant challenges remain: current biomarkers explain only half the variance in cognitive decline, racial and ethnic differences in biomarker levels lack mechanistic understanding, and scalable tools for comprehensive brain aging assessment are needed. The symposium underscored that preventing AD will require intervening during the preclinical asymptomatic phase. These multimodal screening platforms, coupled with mechanistically driven therapeutics, reduction in modifiable risk factors, including nutrition, vascular health, and social determinants of health, could profoundly impact the field."
+ },
+ {
+  "id": "doi-10-64898-2026-09-19-26363460",
+  "title": "A world model simulates the latent dynamics of human health",
+  "journal": "medRxiv",
+  "year": 2026,
+  "doi": "10.64898/2026.09.19.26363460",
+  "pmid": "",
+  "first_author": "Wang",
+  "n_authors": 25,
+  "position": 11,
+  "type": "Preprint",
+  "abstract": "Human health is a single underlying state that no measurement observes directly. Diagnoses, blood tests, molecular profiles and images capture different facets at different times. Inferring health from such evidence requires a representation that integrates every modality, persists between observations and is revised as new evidence arrives. Here we introduce HealthFlux, a pan-modal world model that learns the latent dynamics of health from 4,920 features and three-dimensional brain and body MRI across eleven data domains in 502,166 UK Biobank participants. Its hybrid state-space architecture combines ODE-based evolution between observations with continuous-time recurrent updates when new measurements arrive. In held-out participants, recursive simulations without further observations predicted 1,256 diseases and death over twenty years, generally outperforming previously published state-of-the-art models. In four independent US cohorts, its performance was comparable to or better than that of these models. HealthFlux also exceeded specialized clinical risk scores for disease and mortality. HealthFlux predicts diseases excluded entirely from training, correctly ranking a future case above an unaffected person in 78% of comparisons, evidence that it has learned health itself rather than the diseases it was trained on. Medication-conditioned virtual clinical trials simulated drug-associated physiological changes and downstream disease risk. Simulated effects correlated with biomarker changes reported in 286 randomized trials and predicted disease and safety effects in 228 randomized trials withheld from model fitting. Each modality contributes information the others lack, and integrating them identifies individuals at risk whom single-modality models miss. HealthFlux treats health itself as the object of prediction through one continuously updated state, informed by any measurement, that supports disease-risk estimates years before diagnosis."
  },
  {
   "id": "pmid-41436473",
@@ -245,19 +245,6 @@
   "position": 2,
   "type": "Article",
   "abstract": "DNA methylation can give rise to robust biomarkers of aging, yet most studies profile it at the bulk tissue level, which masks cell type-specific alterations that may follow distinct aging trajectories. Long-read sequencing technology enables methylation profiling of extended DNA fragments, enabling mapping to their cell type of origin. In this study, we introduce a framework for evaluating cell type-specific aging using long-read sequencing data, without the need for cell sorting. Leveraging cell type-specific methylation patterns, we map long-read fragments to individual cell types and generate cell type-specific methylation profiles, which are used as input to a newly developed probabilistic aging model, LongReadAge, capable of predicting epigenetic age at the cell type level. We use LongReadAge to track aging of myeloid cells and lymphocytes from bulk leukocyte data as well as circulating cell-free DNA, demonstrating robust performance in predicting age despite limited shared features across samples. This approach provides a novel method for profiling the dynamics of epigenetic aging at cell type resolution."
- },
- {
-  "id": "pmid-40791724",
-  "title": "An unbiased comparison of 14 epigenetic clocks in relation to 10-year onset of 174 disease outcomes in 18,859 individuals",
-  "journal": "medRxiv",
-  "year": 2025,
-  "doi": "10.1101/2025.07.14.25331494",
-  "pmid": "40791724",
-  "first_author": "Mavrommatis",
-  "n_authors": 10,
-  "position": 4,
-  "type": "Preprint",
-  "abstract": "Epigenetic Clocks have been trained to predict chronological age, healthspan and lifespan. Such clocks are often analysed in relation to disease outcomes - typically using small datasets and a limited number of clocks. Here, we present the first large-scale (n=18,849), unbiased comparison of 14 widely used clocks as predictors of 174 incident disease outcomes and all-cause mortality. Second-generation clocks significantly outperformed first-generation clocks, which have limited applications in disease settings. Of the 176 Bonferroni significant (P<0.05/174) associations, there were 27 diseases (including primary lung cancer and diabetes) where the hazard ratio for the clock exceeded the clock's association with all-cause mortality. Furthermore, there were 35 instances where adding a clock to a null classification model with traditional risk factors increased the classification accuracy by >1% with an AUCfull > 0.80. Second-generation epigenetic clocks show promise for disease risk prediction, particularly in relation to respiratory and liver-based conditions."
  },
  {
   "id": "pmid-40525821",
@@ -362,19 +349,6 @@
   "position": 12,
   "type": "Preprint",
   "abstract": "DNA methylation serves as a powerful biomarker for disease diagnosis and biological age assessment. However, current analytical approaches often rely on linear models that cannot capture the complex, context-dependent nature of methylation regulation. Here we present MethylGPT, a transformer-based foundation model trained on 226,555 (154,063 after QC and deduplication) human methylation profiles spanning diverse tissue types from 5,281 datasets, curated 49,156 CpG sites, and 7.6 billion training tokens. MethylGPT learns biologically meaningful representations of CpG sites, capturing both local genomic context and higher-order chromosomal features without external supervision. The model demonstrates robust methylation value prediction (Pearson R=0.929) and maintains stable performance in downstream tasks with up to 70% missing data. Applied to age prediction across multiple tissue types, MethylGPT achieves superior accuracy compared to existing methods. Analysis of the model's attention patterns reveals distinct methylation signatures between young and old samples, with differential enrichment of developmental and aging-associated pathways. When finetuned to mortality and disease prediction across 60 major conditions using 18,859 samples from Generation Scotland, MethylGPT achieves robust predictive performance and enables systematic evaluation of intervention effects on disease risks, demonstrating potential for clinical applications. Our results demonstrate that transformer architectures can effectively model DNA methylation patterns while preserving biological interpretability, suggesting broad utility for epigenetic analysis and clinical applications."
- },
- {
-  "id": "pmid-39554132",
-  "title": "An Open Competition for Biomarkers of Aging",
-  "journal": "bioRxiv",
-  "year": 2024,
-  "doi": "10.1101/2024.10.29.620782",
-  "pmid": "39554132",
-  "first_author": "Ying",
-  "n_authors": 12,
-  "position": 11,
-  "type": "Preprint",
-  "abstract": "Open scientific competitions have successfully driven biomedical advances but remain underutilized in aging research, where biological complexity and heterogeneity require methodological innovations. Here, we present the results from Phase I of the Biomarkers of Aging Challenge, an open competition designed to drive innovation in aging biomarker development and validation. The challenge leverages a unique DNA methylation dataset and aging outcomes from 500 individuals, aged 18 to 99. Participants are asked to develop novel models to predict chronological age, mortality, and multi-morbidity. Results from the chronological age prediction phase show important advances in biomarker accuracy and innovation compared to existing models. The winning models feature improved predictive power and employ advanced machine learning techniques, innovative data preprocessing, and the integration of biological knowledge. These approaches have led to the identification of novel age-associated methylation sites and patterns. This challenge establishes a paradigm for collaborative aging biomarker development, potentially accelerating the discovery of clinically relevant predictors of aging-related outcomes. This supports personalized medicine, clinical trial design, and the broader field of geroscience, paving the way for more targeted and effective longevity interventions."
  },
  {
   "id": "pmid-39424787",
@@ -494,17 +468,17 @@
   "abstract": "Over the past decade, there has been a dramatic increase in efforts to ameliorate aging and the diseases it causes, with transient expression of nuclear reprogramming factors recently emerging as an intriguing approach. Expression of these factors, either systemically or in a tissue-specific manner, has been shown to combat age-related deterioration in mouse and human model systems at the cellular, tissue and organismal level. Here we discuss the current state of epigenetic rejuvenation strategies via partial reprogramming in both mouse and human models. For each classical reprogramming factor, we provide a brief description of its contribution to reprogramming and discuss additional factors or chemical strategies. We discuss what is known regarding chromatin remodeling and the molecular dynamics underlying rejuvenation, and, finally, we consider strategies to improve the practical uses of epigenetic reprogramming to treat aging and age-related diseases, focusing on the open questions and remaining challenges in this emerging field."
  },
  {
-  "id": "pmid-37904959",
-  "title": "OMICmAge: An integrative multi-omics approach to quantify biological age with electronic medical records",
+  "id": "doi-10-1101-2024-09-05-611501",
+  "title": "Imputed DNA methylation outperforms measured loci associations with smoking and chronological age",
   "journal": "bioRxiv",
-  "year": 2023,
-  "doi": "10.1101/2023.10.16.562114",
-  "pmid": "37904959",
-  "first_author": "Chen",
-  "n_authors": 25,
-  "position": 13,
+  "year": 2024,
+  "doi": "10.1101/2024.09.05.611501",
+  "pmid": "",
+  "first_author": "Richmond",
+  "n_authors": 18,
+  "position": 10,
   "type": "Preprint",
-  "abstract": "Biological aging is a multifactorial process involving complex interactions of cellular and biochemical processes that is reflected in omic profiles. Using common clinical laboratory measures in ~30,000 individuals from the MGB-Biobank, we developed a robust, predictive biological aging phenotype, EMRAge, that balances clinical biomarkers with overall mortality risk and can be broadly recapitulated across EMRs. We then applied elastic-net regression to model EMRAge with DNA-methylation (DNAm) and multiple omics, generating DNAmEMRAge and OMICmAge, respectively. Both biomarkers demonstrated strong associations with chronic diseases and mortality that outperform current biomarkers across our discovery (MGB-ABC, n=3,451) and validation (TruDiagnostic, n=12,666) cohorts. Through the use of epigenetic biomarker proxies, OMICmAge has the unique advantage of expanding the predictive search space to include epigenomic, proteomic, metabolomic, and clinical data while distilling this in a measure with DNAm alone, providing opportunities to identify clinically-relevant interconnections central to the aging process."
+  "abstract": "Multi-locus signatures of blood-based DNA methylation are well-established biomarkers for lifestyle and health outcomes. Here, we focus on two CpGs that are strongly associated with age and smoking behaviour. Imputing these loci via epigenome-wide CpGs results in stronger associations with outcomes in external datasets compared to directly measured CpGs. If extended epigenome-wide, CpG imputation could augment historic arrays and recently-released, inexpensive but lower-content arrays, thereby yielding better-powered association studies."
  },
  {
   "id": "pmid-37697054",
@@ -557,5 +531,31 @@
   "position": 8,
   "type": "Article",
   "abstract": "Improving the Intensive Care Unit (ICU) management network and building cost-effective and well-managed healthcare systems are high priorities for healthcare units. Creating accurate and explainable mortality prediction models helps identify the most critical risk factors in the patients' survival/death status and early detect the most in-need patients. This study proposes a highly accurate and efficient machine learning model for predicting ICU mortality status upon discharge using the information available during the first 24 hours of admission. The most important features in mortality prediction are identified, and the effects of changing each feature on the prediction are studied. We used supervised machine learning models and illness severity scoring systems to benchmark the mortality prediction. We also implemented a combination of SHAP, LIME, partial dependence, and individual conditional expectation plots to explain the predictions made by the best-performing model (CatBoost). We proposed E-CatBoost, an optimized and efficient patient mortality prediction model, which can accurately predict the patients' discharge status using only ten input features. We used eICU-CRD v2.0 to train and validate the models; the dataset contains information on over 200,000 ICU admissions. The patients were divided into twelve disease groups, and models were fitted and tuned for each group. The models' predictive performance was evaluated using the area under a receiver operating curve (AUROC). The AUROC scores were 0.86 [std:0.02] to 0.92 [std:0.02] for CatBoost and 0.83 [std:0.02] to 0.91 [std:0.03] for E-CatBoost models across the defined disease groups; if measured over the entire patient population, their AUROC scores were 7 to 18 and 2 to 12 percent higher than the baseline models, respectively. Based on SHAP explanations, we found age, heart rate, respiratory rate, blood urine nitrogen, and creatinine level as the most critical cross-disease features in mortality predictions."
+ },
+ {
+  "id": "doi-10-1101-2022-08-02-502559",
+  "title": "Epigenetic profiling and incidence of disrupted development point to gastrulation as aging ground zero in Xenopus laevis",
+  "journal": "bioRxiv",
+  "year": 2022,
+  "doi": "10.1101/2022.08.02.502559",
+  "pmid": "",
+  "first_author": "Zhang",
+  "n_authors": 13,
+  "position": 5,
+  "type": "Preprint",
+  "abstract": "Recent studies suggest the existence of a natural rejuvenation event during early embryonic development of mice, followed by epigenetic aging. Here, by profiling embryonic DNA methylation in the African clawed frog, Xenopus laevis , we found that the epigenetic entropy basepoint maps to the gastrulation stage of embryogenesis and corresponds to a rapid increase in embryo transcript abundance. We further developed a frog aging clock, revealing that this species epigenetically ages. Application of this clock to developmental stages identified a decrease in epigenetic age during early embryogenesis, with the minimal age reached around gastrulation. By examining individual developmental trajectories of 6,457 embryos, we found that this stage is also accompanied by a higher incidence of disrupted development. Taken together, our data point to gastrulation as a critical stage for aging and natural rejuvenation, characterized by the lowest epigenetic age, increased mortality, nadir of DNA methylation entropy and rapid increase in embryo transcript abundance, defining aging ground zero as the basepoint where rejuvenation ends and the aging process begins."
+ },
+ {
+  "id": "doi-10-1101-2020-03-29-20042028",
+  "title": "Exploratory Analysis of Electronic Intensive Care Unit (eICU) Database",
+  "journal": "medRxiv",
+  "year": 2020,
+  "doi": "10.1101/2020.03.29.20042028",
+  "pmid": "",
+  "first_author": "Rajabalizadeh",
+  "n_authors": 9,
+  "position": 9,
+  "type": "Preprint",
+  "abstract": "The monitoring of severely ill patients is a crucial procedure for every intensive care unit (ICU). By applying different data exploration methods on monitoring data, some perspective can be gained. In the present research, such monitoring data were explored in the electronic ICU (eICU) Collaborative Research Database—an ICU database collected from more than 200 hospitals and over 139,000 ICU patients across the United States. The eICU database, with its enormous quantity of remote monitoring data, could be a great resource for extracting insightful information that can help to identify potential areas of improvement in the quality of patient treatment. Important information such as patients’ vital signs, care plan documentation, stage of illness, diagnosis, and treatment is available in the database. In the present study, we explore the distribution of the data, including demographics, conditions, and diseases, and identify important patterns and relationships between features of the data. Through an exploratory analysis of the data, including the relationships between gender, ethnicity, diseases, and quality of care and mortality rates, remarkable insights were obtained. To the best of our knowledge, this is the first comprehensive exploratory analysis of the eICU database. A deep understanding of the ICU data provides the foundation for further predictive and prescriptive analyses of the data with the ultimate goal of improving ICU treatment procedures for future patients."
  }
 ]
