@@ -1,0 +1,182 @@
+- rank: 1
+  figure: "APOE4 → more tau damage"
+  figure_label: independent of amyloid
+  statement: In tau mice carrying human APOE genes, APOE4 caused markedly more brain shrinkage and inflammation than APOE2 or APOE3, while mice with no APOE were largely protected. In people with amyloid and Alzheimer's symptoms, APOE4 carriers progressed faster.
+  paper: pmid-28959956
+  evidence: Mouse tauopathy model on human APOE knock-in or knockout backgrounds, plus human imaging cohorts
+  tags: [APOE, Tau]
+- rank: 2
+  figure: "Wake ↑ amyloid"
+  figure_label: sleep-wake cycle regulates brain amyloid-β
+  statement: Amyloid-β in the fluid around brain cells rose with wakefulness and during sleep deprivation, and fell when the wake-promoting signal orexin was blocked. Chronic sleep restriction increased amyloid plaques in mice, and an orexin receptor blocker reduced them.
+  paper: pmid-19779148
+  evidence: In vivo brain microdialysis and chronic sleep restriction in amyloid mouse models
+  tags: [Sleep, Amyloid]
+- rank: 3
+  figure: ">50%"
+  figure_label: rise in human spinal fluid tau after sleep deprivation
+  statement: Tau in mouse brain fluid was about 90% higher during normal wakefulness than sleep and about 100% higher during sleep deprivation. In people, spinal fluid tau rose more than 50% with sleep deprivation, and chronic sleep loss sped the spread of tau pathology in mice.
+  paper: pmid-30679382
+  evidence: Mouse microdialysis and tau-spreading model, plus human sleep deprivation with spinal fluid sampling
+  tags: [Sleep, Tau]
+- rank: 4
+  figure: "Clearance, not production"
+  figure_label: how APOE forms change amyloid-β
+  statement: In cognitively normal people, amyloid markers varied by APOE type. In mice with human APOE, brain amyloid-β clearance depended on the APOE form even before plaques appeared, while amyloid-β production did not differ.
+  paper: pmid-21715678
+  evidence: Human biomarker cohort plus in vivo microdialysis and stable isotope labeling in mice
+  tags: [APOE, Amyloid]
+- rank: 5
+  figure: ">10×"
+  figure_label: more fibrillar amyloid with APOE4 than APOE3
+  statement: Amyloid mice with no APOE had amyloid deposits but almost no damage to surrounding nerve fibers. Adding human APOE produced classic neuritic plaques, and APOE4 mice had more than 10 times as many fibrillar deposits as APOE3 mice.
+  paper: pmid-10694577
+  evidence: Amyloid precursor protein transgenic mice expressing mouse, human or no APOE
+  tags: [APOE, Amyloid]
+- rank: 6
+  figure: "Astrocyte APOE4 off"
+  figure_label: strongly protects against tau damage
+  statement: Switching off APOE4 in astrocytes after tau pathology had started markedly reduced neurodegeneration and tau pathology, lowered disease-related gene activity in all brain cell types, and reduced microglia eating synapses.
+  paper: pmid-33831349
+  evidence: Conditional knockout of astrocyte APOE3 or APOE4 in tau mice, with single-nucleus RNA sequencing
+  tags: [APOE, Tau, Microglia and immunity]
+- rank: 7
+  figure: "T cells"
+  figure_label: drive tau-related brain loss
+  statement: Mice with tau pathology, but not those with only amyloid, developed a distinct immune response with many cytotoxic T cells, also seen in human Alzheimer's brain. Removing microglia or T cells blocked brain shrinkage, and blocking interferon-γ or PD-1 signaling reduced it.
+  paper: pmid-36890231
+  evidence: Immune profiling of amyloid and tau mouse models and human Alzheimer's brain tissue
+  tags: [Microglia and immunity, Tau]
+- rank: 8
+  figure: "Microglia"
+  figure_label: drive APOE-dependent neurodegeneration
+  statement: In a tau mouse model, damage caused by microglia, rather than direct toxicity of tau, was the main driver of neurodegeneration, and APOE controlled neurodegeneration mainly by changing how activated microglia became.
+  paper: pmid-31601677
+  evidence: Microglia depletion in tau mice with different APOE genotypes
+  tags: [Microglia and immunity, APOE, Tau]
+- rank: 9
+  figure: "Minutes to hours"
+  figure_label: synaptic activity changes brain amyloid-β
+  statement: Brain fluid amyloid-β levels rose and fell with synaptic activity within minutes to hours, driven mainly by release from synaptic vesicles, offering a reason why active brain regions are prone to amyloid build-up.
+  paper: pmid-16364896
+  evidence: In vivo microdialysis with field potential recordings in mice, and brain slice experiments
+  tags: [Amyloid]
+- rank: 10
+  figure: "Less activity, fewer plaques"
+  figure_label: neuronal activity sets regional vulnerability
+  statement: Before plaques formed, brain regions with higher amyloid-β and lactate, a marker of neuronal activity, later had more plaques. Long-term reduction of whisker input lowered amyloid-β and plaque growth in the matching brain area.
+  paper: pmid-21532579
+  evidence: Microdialysis across brain regions and whisker deprivation in amyloid mice
+  tags: [Amyloid]
+- rank: 11
+  figure: "Ab-APOE, no bleeds"
+  figure_label: antibody to APOE cleared vessel amyloid
+  statement: An antibody against aggregated human APOE (HAE-4) reduced amyloid in plaques and in blood vessel walls and improved vessel function, without the microbleeds that an anti-amyloid antibody caused in the same APOE4 mice.
+  paper: pmid-33597265
+  evidence: Chronic antibody treatment in APOE4 amyloid mice with cerebral amyloid angiopathy
+  tags: [Therapies, APOE, Amyloid]
+- rank: 12
+  figure: "~50%"
+  figure_label: APOE4 lowering protected the brain
+  statement: Antisense drugs that cut APOE4 protein by about 50% in tau mice protected against tau pathology and neurodegeneration, reduced inflammation, preserved synapses, and lowered the blood marker neurofilament light.
+  paper: pmid-33550655
+  evidence: Intraventricular antisense oligonucleotide treatment in P301S/APOE4 mice
+  tags: [Therapies, APOE, Tau]
+- rank: 13
+  figure: "Timing matters"
+  figure_label: for lowering APOE against amyloid
+  statement: Lowering APOE with an antisense drug soon after birth reduced amyloid pathology, but starting when plaques were forming did not change total plaque load, though plaques were larger and caused less nerve damage.
+  paper: pmid-29216448
+  evidence: Antisense oligonucleotide treatment at two ages in APOE3 and APOE4 amyloid mice
+  tags: [Therapies, APOE, Amyloid]
+- rank: 14
+  figure: "Aggregated APOE"
+  figure_label: as an antibody target
+  statement: An antibody that prefers clumped, lipid-free APOE over the APOE in circulation bound APOE in plaques and reduced amyloid deposition when given into the brain or by injection, an effect that needed the antibody's immune-activating Fc region.
+  paper: pmid-29600961
+  evidence: Antibody discovery and treatment in APOE4 amyloid mice, central and peripheral delivery
+  tags: [Therapies, APOE, Amyloid]
+- rank: 15
+  figure: "APOE3 Christchurch"
+  figure_label: blocked amyloid-driven tau spread
+  statement: Mice carrying the protective APOE3 Christchurch variant, found in a person who resisted inherited Alzheimer's, had much less tau pathology around plaques, with a stronger microglial response and better clearance of tau clumps.
+  paper: pmid-38086389
+  evidence: New APOE3ch knock-in mouse crossed to amyloid model, injected with human Alzheimer's tau
+  tags: [APOE, Tau, Microglia and immunity]
+- rank: 16
+  figure: "Anti-tau antibodies"
+  figure_label: reduced tau and improved memory in mice
+  statement: Antibodies chosen for blocking tau seeding, given into the brain for 3 months, reduced aggregated tau, microglial activation and seeding activity, and improved cognitive deficits in tau mice.
+  paper: pmid-24075978
+  evidence: Three-month antibody infusion in P301S tau mice
+  tags: [Therapies, Tau]
+- rank: 17
+  figure: "1,000×"
+  figure_label: rise in blood amyloid-β with a peripheral antibody
+  statement: An anti-amyloid antibody (m266) given into the blood bound plasma amyloid-β, raised it about 1,000-fold, and reduced brain amyloid deposits without binding the plaques, suggesting it worked by drawing amyloid-β out of the brain.
+  paper: pmid-11438712
+  evidence: Peripheral antibody treatment in PDAPP amyloid mice
+  tags: [Therapies, Amyloid]
+- rank: 18
+  figure: "Lipid efflux"
+  figure_label: eased APOE4-linked tau damage
+  statement: In tau mice, APOE4 led to fat build-up and cholesterol and lysosome problems in glial cells. Boosting lipid export with an LXR agonist or extra ABCA1 strongly reduced tau pathology and neurodegeneration.
+  paper: pmid-37995685
+  evidence: Drug and genetic treatment in P301S tau mice with human APOE4
+  tags: [Therapies, APOE, Tau]
+- rank: 19
+  figure: "Gut microbes"
+  figure_label: influence tau-related brain damage
+  statement: Raising tau mice with human APOE germ-free, or altering their gut microbes with antibiotics, reduced gliosis, tau pathology and neurodegeneration, with effects that depended on sex and APOE type.
+  paper: pmid-36634180
+  evidence: Germ-free and antibiotic-treated tau mice expressing human APOE isoforms
+  tags: [Microglia and immunity, APOE, Tau]
+- rank: 20
+  figure: "TREM2 loss protects"
+  figure_label: in tau mice, unlike in amyloid
+  statement: Tau mice lacking the microglial receptor TREM2 had less brain shrinkage and less microglial activation by 9 months, though tau pathology itself was unchanged.
+  paper: pmid-29073081
+  evidence: Trem2 knockout crossed to PS19 tau mice
+  tags: [Microglia and immunity, Tau]
+- rank: 21
+  figure: "TREM2"
+  figure_label: lets microglia sense lipids and surround plaques
+  statement: Without TREM2, microglia failed to cluster around amyloid plaques and amyloid built up. TREM2 senses lipids exposed on damaged neurons and amyloid, and the Alzheimer's risk variant R47H weakens this sensing.
+  paper: pmid-25728668
+  evidence: TREM2-deficient 5XFAD amyloid mice and lipid-binding assays
+  tags: [Microglia and immunity, Amyloid]
+- rank: 22
+  figure: "Deep sleep"
+  figure_label: disruption raises amyloid-β the next morning
+  statement: In 17 healthy adults, specifically disrupting slow-wave sleep for one night raised spinal fluid amyloid-β40, and poorer sleep at home over the prior six nights was linked to higher tau.
+  paper: pmid-28899014
+  evidence: Within-person sleep disruption versus sham study, 17 adults aged 35-65
+  tags: [Sleep, Amyloid, Tau]
+- rank: 23
+  figure: "80.4% vs 83.7%"
+  figure_label: sleep efficiency with versus without amyloid
+  statement: Among 142 cognitively normal adults, those with amyloid build-up spent less of their time in bed asleep and napped more often, while total sleep time did not differ.
+  paper: pmid-23479184
+  evidence: Cross-sectional study with 2 weeks of actigraphy, 142 participants
+  tags: [Sleep, Biomarkers]
+- rank: 24
+  figure: "1-2 Hz"
+  figure_label: slow-wave sleep tracks tau
+  statement: In mostly cognitively normal older adults wearing a forehead EEG device, less slow-wave activity in deep sleep, especially at 1 to 2 Hz, was linked to Alzheimer's pathology, most strongly tau.
+  paper: pmid-30626715
+  evidence: Single-channel EEG sleep monitoring with PET and spinal fluid biomarkers in aging cohorts
+  tags: [Sleep, Tau, Biomarkers]
+- rank: 25
+  figure: "Plaques disrupt sleep"
+  figure_label: and clearing them restored it
+  statement: After plaques formed in amyloid mice, the sleep-wake cycle deteriorated and the daily rise and fall of brain amyloid-β disappeared, also seen in young adults with presenilin mutations. Removing plaques by immunization restored both.
+  paper: pmid-22956200
+  evidence: Amyloid mice with sleep recordings and microdialysis, plus spinal fluid sampling in mutation carriers
+  tags: [Sleep, Amyloid]
+- rank: 26
+  figure: "25 years"
+  figure_label: before symptoms, amyloid changes begin in inherited AD
+  statement: In 128 members of families with inherited Alzheimer's, spinal fluid amyloid-β42 began to fall about 25 years before expected symptoms, amyloid plaques and tau rose about 15 years before, and memory problems appeared about 10 years before.
+  paper: pmid-22784036
+  evidence: DIAN prospective cohort, 128 participants
+  tags: [Biomarkers, Amyloid]
