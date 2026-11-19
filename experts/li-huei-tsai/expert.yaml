@@ -1,0 +1,20 @@
+slug: li-huei-tsai
+name: Li-Huei Tsai
+credentials: PhD
+affiliation: Massachusetts Institute of Technology
+department: Picower Institute for Learning and Memory, Department of Brain and Cognitive Sciences
+areas: [Alzheimer's]
+headline: How Alzheimer's disease damages brain cells and memory, and whether flickering light and sound at 40 Hz, nutrients like choline, or drugs can protect the brain.
+summary:
+  - Li-Huei Tsai's work is best known for a non-invasive treatment idea called gamma sensory stimulation, in which people see light and hear sound flickering 40 times a second. In mouse models of Alzheimer's disease, Tsai's studies found that this rhythm lowered amyloid and tau, recruited the brain's immune cells (microglia), protected neurons and synapses, and improved memory. A 2024 study showed that it also speeds the brain's fluid-based waste clearance (the glymphatic system), which removes amyloid. In small human studies, daily 40 Hz light and sound for 3 months was safe and was linked to less brain shrinkage and better scores on a memory test, and a 2-year extension in 5 patients found less decline in some of them.
+  - A second thread is APOE4, the strongest common genetic risk factor for Alzheimer's. Using stem-cell-derived human brain cells and post-mortem brains, Tsai's group found that APOE4 disrupts how brain cells handle fats and cholesterol. APOE4 astrocytes and microglia fill with fat droplets, and cholesterol gets stuck in oligodendrocytes, the cells that make myelin, which reduces myelin and memory in mice. Choline, a nutrient, restored the fat balance in APOE4 cells, and a small 6-month pilot in 13 healthy APOE4 carriers found that 2,200 mg a day of choline was safe and reached the brain.
+  - Tsai's lab has also built large single-cell maps of the human brain in Alzheimer's disease, from 48 people in 2019 to 2.3 million cells from 427 people in 2023. These maps show which cells are hit early, that myelin-making cells are repeatedly affected, and which cell types and genes are linked to keeping memory despite brain disease. Mouse and human data point to MEF2 genes in neurons as one source of this resilience.
+  - Earlier work laid the molecular groundwork. Tsai discovered p35, the partner that switches on the brain enzyme Cdk5, and showed that a cut-down form, p25, builds up in Alzheimer's brains and drives tau tangles and neuron death. Tsai's group also showed that the enzyme HDAC2 rises in Alzheimer's and silences memory genes, and that normal brain activity briefly breaks DNA to switch on learning genes, while lasting DNA breaks contribute to neurodegeneration.
+tags: [Gamma stimulation (40 Hz), APOE4 and lipids, Brain cell atlases, Cognitive resilience, Memory and epigenetics, Cdk5 and tau, DNA damage]
+search: 'Tsai LH[Author]'   # fetched with --first-name Li-Huei and again with 'Li Huei' (PubMed spells it both ways); all 469 hits checked, 29 namesakes (Taiwan gastric physiology, urology, microbiology, lung cancer and others), 7 preprints with published versions and 1 expression-of-concern notice dropped
+questions:
+  - "Does 40 Hz light and sound stimulation help people with Alzheimer's disease?"
+  - "How does the APOE4 gene affect brain cells, and could choline help?"
+  - "Why do some people keep their memory even when their brain shows Alzheimer's changes?"
+links:
+  - {label: PubMed, url: "https://pubmed.ncbi.nlm.nih.gov/?term=Tsai+LH%5BAuthor%5D"}
