@@ -76,3 +76,5 @@ a.skill:hover,a.skill:focus-visible{border-color:var(--e4);color:var(--e4)}
 .highlights a{color:inherit;text-decoration:underline;text-decoration-color:var(--e4);text-decoration-thickness:1.5px;text-underline-offset:3px}
 .highlights a:hover{color:var(--e4)}
 .highlights em{font-style:italic}
+.suggest .subtle{font-size:14.5px;font-weight:400;color:var(--muted);text-decoration:underline;text-decoration-color:var(--rule);text-underline-offset:3px}
+.suggest .subtle:hover{color:var(--e4);text-decoration-color:var(--e4)}
