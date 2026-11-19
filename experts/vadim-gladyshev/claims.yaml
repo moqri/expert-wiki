@@ -1,0 +1,207 @@
+- rank: 1
+  figure: Reversible
+  figure_label: rise in biological age during stress
+  statement: Biological age goes up quickly under stress and comes back down after recovery. This was seen in young mice joined to old mice and then separated, and in people and mice around major surgery, pregnancy and severe COVID-19.
+  paper: pmid-37086720
+  evidence: Epigenetic, transcriptomic and metabolomic aging clocks in mouse parabiosis and in human and mouse stress cohorts
+  tags: [Biomarkers of aging, Rejuvenation]
+
+- rank: 2
+  figure: Ground zero
+  figure_label: the point in early embryo development where biological age is lowest
+  statement: Biological age drops during early embryo development, reaches a minimum, and then starts rising again. This natural rejuvenation was seen in both mice and humans, and suggests organismal aging begins from this "ground zero".
+  paper: pmid-34172448
+  evidence: New multi-tissue epigenetic clock plus other aging clocks applied to mouse and human prenatal development
+  tags: [Rejuvenation, Nature of aging]
+
+- rank: 3
+  figure: Longer life
+  figure_label: for old mice after 3 months joined to young mice
+  statement: Old mice that shared blood circulation with young mice for 3 months, then were separated for 2 months, lived longer and were healthier than controls. Their blood and liver epigenetic age stayed lower even after separation.
+  paper: pmid-37500973
+  evidence: Extended heterochronic parabiosis in mice with lifespan follow-up and multi-omic clocks
+  tags: [Rejuvenation, Longevity interventions]
+
+- rank: 4
+  figure: ">11,000"
+  figure_label: transcriptomes from 4 mammals used to find shared signs of aging
+  statement: Aging changes in gene activity are shared across mouse, rat, macaque and human, and some, such as higher CDKN1A and LGALS3, also predict death and multiple diseases in people. Chronic diseases mainly sped up aging of inflammation genes, while caloric restriction acted on mitochondrial and metabolic genes.
+  paper: pmid-42203874
+  evidence: Integration of more than 11,000 transcriptomes from more than 25 tissues, with UK Biobank protein validation
+  tags: [Biomarkers of aging, Longevity across species]
+
+- rank: 5
+  figure: 41
+  figure_label: mammalian species compared for lifespan signatures
+  statement: Long-lived species and lifespan-extending treatments share some features, such as lower Igf1 and higher mitochondrial protein synthesis, but differ in others. A drug picked by these signatures, KU0063794, extended lifespan and healthspan in mice.
+  paper: pmid-37269831
+  evidence: Multi-tissue RNA-seq across 41 mammalian species and lifespan-extending interventions, with a mouse lifespan study
+  tags: [Longevity across species, Longevity interventions]
+
+- rank: 6
+  figure: 17
+  figure_label: lifespan-extending interventions with shared liver gene changes
+  statement: Many different ways of extending mouse lifespan produce similar gene expression changes in the liver, including higher oxidative phosphorylation and drug metabolism. These shared signatures pointed to new candidates such as chronic hypoxia and ascorbyl palmitate.
+  paper: pmid-31353263
+  evidence: RNA-seq of mice on 8 longevity interventions, extended to 17 with public data
+  tags: [Longevity interventions, Biomarkers of aging]
+
+- rank: 7
+  figure: "+10%"
+  figure_label: median lifespan from rapamycin in the first 45 days of life
+  statement: Giving mice rapamycin only during their first 45 days slowed growth, extended median lifespan by 10% (most strongly in males) and kept them healthier in old age. Their liver was molecularly younger at the end of treatment, and rapamycin during development also extended lifespan in water fleas.
+  paper: pmid-36112674
+  evidence: Lifespan and healthspan study in genetically diverse UM-HET3 mice, plus Daphnia magna
+  tags: [Longevity interventions]
+
+- rank: 8
+  figure: Lower body temperature
+  figure_label: drives slower epigenetic aging in a torpor-like state
+  statement: Switching on a group of brain neurons put mice into a torpor-like state, which slowed epigenetic aging across tissues and improved healthspan. The slowing came from lower body temperature rather than lower metabolism or eating less.
+  paper: pmid-40055478
+  evidence: Neural induction of a torpor-like state in mice, with epigenetic clocks and healthspan measures
+  tags: [Longevity interventions, Biomarkers of aging]
+
+- rank: 9
+  figure: 18
+  figure_label: rodent species showing DNA break repair improves with lifespan
+  statement: Longer-lived rodent species repair DNA double-strand breaks better, largely because their SIRT6 protein is more active. Five amino acids explain the difference between the weak mouse and strong beaver SIRT6.
+  paper: pmid-31002797
+  evidence: Comparative DNA repair assays in cells from 18 rodent species
+  tags: [Longevity across species]
+
+- rank: 10
+  figure: ">200 years"
+  figure_label: lifespan of the bowhead whale, which repairs DNA unusually well
+  statement: Bowhead whale cells repair DNA breaks more accurately and have lower mutation rates than other mammals' cells, helped by high levels of the protein CIRBP. Extra CIRBP extended lifespan in fruit flies.
+  paper: pmid-41162698
+  evidence: Bowhead whale primary cells compared with other mammals, plus human cell and fly experiments
+  tags: [Longevity across species]
+
+- rank: 11
+  figure: Longer life
+  figure_label: and less cancer in mice given a naked mole-rat gene
+  statement: Mice carrying the naked mole-rat version of the hyaluronan-making gene Has2 had more hyaluronan, less cancer, longer lifespan and better health, mainly through lower inflammation. A longevity trait from one species can be moved to another.
+  paper: pmid-37612507
+  evidence: Transgenic mice expressing naked mole-rat Has2
+  tags: [Longevity across species, Longevity interventions]
+
+- rank: 12
+  figure: 11-22%
+  figure_label: fewer rare gene-breaking mutations in centenarians
+  statement: Centenarians carried 11 to 22% fewer rare loss-of-function mutations than controls, and so did their children. Genes such as RGP1, PCNX2 and ANO9 emerged as candidate longevity genes.
+  paper: pmid-39424787
+  evidence: Whole-exome sequencing of Ashkenazi Jewish centenarians and controls, with UK Biobank validation
+  tags: [Genetics of longevity]
+
+- rank: 13
+  figure: 1.3 years
+  figure_label: of lifespan variation linked to rare damaging variants
+  statement: People who inherit more of the rarest protein-truncating gene variants have shorter healthspan and lifespan, accounting for about 0.4 and 1.3 years of variation. Such mutations acquired during life explain only a small part of aging.
+  paper: pmid-32254024
+  evidence: Analysis of two large human cohorts with genetic and health data
+  tags: [Genetics of longevity]
+
+- rank: 14
+  figure: Partly random
+  figure_label: nature of epigenetic aging
+  statement: The DNA methylation changes that epigenetic clocks track include coordinated changes and a large random component, which behaves somewhat like radioactive decay. This helps explain what the clocks actually measure.
+  paper: pmid-38724733
+  evidence: Tissue and single-cell DNA methylation and RNA data in mice across development and aging
+  tags: [Biomarkers of aging, Nature of aging]
+
+- rank: 15
+  figure: Single cells
+  figure_label: can now be given an epigenetic age
+  statement: The scAge method estimates epigenetic age in individual cells, showing that cells of the same tissue age at different rates and that muscle stem cells age more slowly.
+  paper: pmid-36211119
+  evidence: New statistical method validated on mouse single-cell DNA methylation data
+  tags: [Biomarkers of aging]
+
+- rank: 16
+  figure: "~90%"
+  figure_label: of age-related DNA methylation gain falls in PRC2 target regions
+  statement: Regions bound by the PRC2 complex gain DNA methylation with age in all dividing body cells examined, making up about 90% of all age-related methylation gain. Their average, the PRC2-AgeIndex, works as a universal marker of cellular aging.
+  paper: pmid-39009581
+  evidence: Genome-wide DNA methylation analysis across somatic tissues and cell types
+  tags: [Biomarkers of aging]
+
+- rank: 17
+  figure: DamAge and AdaptAge
+  figure_label: clocks separating harmful from protective changes
+  statement: Using genetic data to find methylation sites that likely cause aging traits, the group built two clocks. DamAge tracks harmful changes and predicts death, while AdaptAge tracks protective adaptations.
+  paper: pmid-38243142
+  evidence: Epigenome-wide Mendelian randomization and clock construction in human data
+  tags: [Biomarkers of aging]
+
+- rank: 18
+  figure: ">50,000"
+  figure_label: people whose blood proteins were used to estimate organ age
+  statement: Blood protein clocks for individual organs predict disease in those organs and show men aging faster than women in most organs. Diet, lifestyle, job and medications change organ aging rates, so chronic diseases look like accelerated aging of specific organs.
+  paper: pmid-39488213
+  evidence: Plasma proteomics in more than 50,000 people from UK Biobank and other cohorts
+  tags: [Biomarkers of aging]
+
+- rank: 19
+  figure: Age reversal
+  figure_label: after regeneration in old planarian flatworms
+  statement: Sexual planarian flatworms decline with age within 18 months. Cutting them and letting lost tissue regrow reversed aging changes even in tissues far from the cut.
+  paper: pmid-40181188
+  evidence: Physiological and single-cell profiling of young, old and regenerated planarians
+  tags: [Rejuvenation]
+
+- rank: 20
+  figure: 17
+  figure_label: rodent species showing protein-making accuracy rises with lifespan
+  statement: Longer-lived rodent species make fewer errors when building proteins. The basic error rate, not its change with age, tracks lifespan.
+  paper: pmid-28707419
+  evidence: Luciferase reporter assays of translation errors in cells from 17 rodent species
+  tags: [Longevity across species]
+
+- rank: 21
+  figure: 20%
+  figure_label: slower protein building from young adulthood to mid-life
+  statement: The speed at which ribosomes build proteins differs by more than 50% between mouse organs and falls by about 20% between young adulthood and mid-life.
+  paper: pmid-33264395
+  evidence: New in vivo ribosome profiling method in mice
+  tags: [Nature of aging]
+
+- rank: 22
+  figure: Methionine restriction
+  figure_label: extends life in flies and yeast
+  statement: Cutting the amino acid methionine extended lifespan in fruit flies and yeast, but only when overall amino acid intake was low. The effect depends on TOR signalling.
+  paper: pmid-24710037
+  evidence: Diet and genetic experiments in Drosophila and yeast
+  tags: [Longevity interventions]
+
+- rank: 23
+  figure: Naked mole-rats age
+  figure_label: at the epigenetic level despite flat death rates
+  statement: Naked mole-rats, whose risk of death does not rise with age, still show age-related DNA methylation changes. A clock built for them shows they age much more slowly than mice and faster than humans.
+  paper: pmid-35039495
+  evidence: Blood DNA methylation sequencing of more than 100 naked mole-rats
+  tags: [Longevity across species, Biomarkers of aging]
+
+- rank: 24
+  figure: 435
+  figure_label: DNA sites in a clock covering the whole mouse lifespan
+  statement: A mouse epigenetic clock using 435 DNA methylation sites works across tissues and the entire lifespan, and detects the effects of lifespan-changing treatments and reprogramming to stem cells.
+  paper: pmid-30427307
+  evidence: Multi-tissue mouse DNA methylation data
+  tags: [Biomarkers of aging]
+
+- rank: 25
+  figure: Deleteriome
+  figure_label: the sum of harmful changes that defines biological age
+  statement: Competing theories of aging can be unified. Aging is a progressive loss of fitness from the build-up of countless small harmful changes, the deleteriome, shaped by genes, environment and chance.
+  paper: pmid-27060562
+  evidence: Conceptual review
+  tags: [Nature of aging]
+
+- rank: 26
+  figure: 25
+  figure_label: selenium-containing proteins in humans
+  statement: Most selenoprotein genes had been misannotated because their selenium codon also reads as a stop signal. New genome search methods showed the human selenoproteome has 25 selenoproteins.
+  paper: pmid-12775843
+  evidence: Computational and experimental analysis of mammalian genomes
+  tags: [Selenium and redox biology]
