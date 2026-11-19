@@ -1,0 +1,182 @@
+- rank: 1
+  figure: 10 of 564
+  figure_label: yeast gene deletions extended life span, 6 of them in the TOR and Sch9 nutrient pathways
+  statement: A screen of 564 single-gene deletion yeast strains found 10 deletions that lengthen replicative life span, and six hit the nutrient-sensing TOR and Sch9 pathways. Calorie restriction did not lengthen life further in cells lacking TOR1 or SCH9, which points to these kinases as the main route by which excess nutrients shorten life.
+  paper: pmid-16293764
+  evidence: Replicative life span screen of 564 single-gene deletion strains of budding yeast
+  tags: [Nutrient sensing and mTOR, Yeast aging genetics, Diet and fasting]
+- rank: 2
+  figure: ~4,800 strains
+  figure_label: screened for how long non-dividing yeast cells survive
+  statement: A high-throughput test of about 4,800 single-gene deletion strains found that weaker TOR signaling lengthens chronological life span, a yeast model for the aging of non-dividing tissues. Removing the amino acids asparagine or glutamate, or blocking TOR with rapamycin, also lengthened survival and raised stress resistance.
+  paper: pmid-16418483
+  evidence: Genome-wide chronological life span assay in about 4,800 yeast deletion strains
+  tags: [Nutrient sensing and mTOR, Rapamycin, Yeast aging genetics]
+- rank: 3
+  figure: 3 months
+  figure_label: of rapamycin late in life reversed age-related heart dysfunction in old mice
+  statement: Female mice given rapamycin for 3 months starting at 24 months of age showed a reversal or slowing of age-related heart dysfunction, with less inflammation and less heart enlargement signaling. Rapamycin also improved behavior, bone and movement measures, while its metabolic effects were mild and short-lived.
+  paper: pmid-23734717
+  evidence: Mouse study, 24-month-old female C57BL/6J mice treated for 3 months
+  tags: [Rapamycin, Nutrient sensing and mTOR]
+- rank: 4
+  figure: Longer, healthier life
+  figure_label: in mice given alpha-ketoglutarate in middle age
+  statement: Mice fed calcium alpha-ketoglutarate (CaAKG), a metabolite of the energy cycle whose levels change with fasting, exercise and aging, lived longer and were less frail, so they spent a smaller share of life in poor health. Blood levels of inflammatory signals fell, and the anti-inflammatory protein IL-10 rose.
+  paper: pmid-32877690
+  evidence: Lifespan and longitudinal healthspan study in C57BL/6 mice
+  tags: [Alpha-ketoglutarate, Geroscience]
+- rank: 5
+  figure: Aging = top risk factor
+  figure_label: for most chronic diseases, so slowing aging could delay many at once
+  statement: This consensus paper argues that because aging is the biggest risk factor for most chronic diseases that cause illness and death, and because aging can be slowed in mammals by genetic, dietary and drug approaches, research aimed at extending human healthspan should be expanded.
+  paper: pmid-25417146
+  evidence: Consensus perspective by geroscience researchers
+  tags: [Geroscience]
+- rank: 6
+  figure: Less relapse
+  figure_label: and fewer chemotherapy side effects when senescent cells were removed in mice
+  statement: Several chemotherapy drugs pushed normal cells into senescence, and these cells lingered and drove inflammation. Removing them in mice reduced bone marrow suppression, heart dysfunction, cancer recurrence and loss of activity and strength. In people, a higher senescence marker in T cells before chemotherapy predicted more chemotherapy-related fatigue.
+  paper: pmid-27979832
+  evidence: Transgenic mouse model for tracking and removing senescent cells, plus a human cohort receiving chemotherapy
+  tags: [Geroscience]
+- rank: 7
+  figure: Longer life in mice
+  figure_label: and healthier monkeys when falling taurine was restored
+  statement: Blood taurine levels fell with age in mice, monkeys and humans. Taurine supplements lengthened healthspan and life span in mice and improved healthspan in monkeys, with less senescence, DNA damage and inflammation. In people, lower taurine went with several age-related diseases, and levels rose after endurance exercise.
+  paper: pmid-37289866
+  evidence: Studies in worms, mice and rhesus monkeys, plus human cohort data
+  tags: [Geroscience, Diet and fasting]
+- rank: 8
+  figure: Longer life, lamin-deficient mice
+  figure_label: with rapamycin rescuing heart and muscle function
+  statement: Mice lacking A-type lamins, a model of muscular dystrophy and heart disease caused by LMNA mutations, had overactive mTORC1 signaling in heart and skeletal muscle. Rapamycin brought this signaling down, improved heart and muscle function, restored the cell's clean-up process (autophagy) and extended survival.
+  paper: pmid-22837538
+  evidence: Mouse study of Lmna-deficient mice treated with rapamycin
+  tags: [Lamins and progeria, Rapamycin, Nutrient sensing and mTOR]
+- rank: 9
+  figure: 4,698 strains
+  figure_label: tested for replicative life span, the most complete yeast aging screen
+  statement: Measuring the replicative life span of 4,698 single-gene deletion yeast strains showed that longevity pathways are largely shared between yeast and worms. Deleting the tRNA exporter LOS1 robustly extended life, and dietary restriction and mTOR inhibition worked through the same route, activating the transcription factor Gcn4.
+  paper: pmid-26456335
+  evidence: Replicative life span of 4,698 viable single-gene deletion yeast strains
+  tags: [Yeast aging genetics, Nutrient sensing and mTOR, Diet and fasting]
+- rank: 10
+  figure: 40× more selective
+  figure_label: for mTORC1 with the rapamycin analog DL001
+  statement: The rapamycin analog DL001 blocks mTORC1 about 40 times more selectively than rapamycin. In mice it inhibited mTORC1 without disturbing blood sugar control and with much smaller or no side effects on fats and the immune system, side effects thought to come from rapamycin also hitting mTORC2.
+  paper: pmid-31324799
+  evidence: Cell culture and mouse pharmacology study
+  tags: [Rapamycin, Nutrient sensing and mTOR]
+- rank: 11
+  figure: Sir2 not needed
+  figure_label: for most of the life span gain from calorie restriction in yeast
+  statement: Calorie restriction extended yeast life span through a pathway separate from the sirtuin Sir2. Combining calorie restriction with genetic changes that act through Sir2 gave the longest-lived yeast strain reported at the time, and restriction lengthened life even more in cells lacking both Sir2 and Fob1.
+  paper: pmid-15328540
+  evidence: Yeast replicative life span genetics
+  tags: [Sirtuins, Diet and fasting, Yeast aging genetics]
+- rank: 12
+  figure: No effect in living yeast
+  figure_label: of resveratrol on the sirtuin Sir2
+  statement: Resveratrol, the red wine compound proposed to slow aging by activating sirtuins, boosted Sir2 and human SIRT1 in the test tube only when the test peptide carried an artificial fluorescent tag. In three yeast strains it had no detectable effect on Sir2 activity or on life span.
+  paper: pmid-15684413
+  evidence: Biochemical assays and yeast life span in three strain backgrounds
+  tags: [Sirtuins]
+- rank: 13
+  figure: 32 of 32
+  figure_label: life-extending mutations failed to extend life in yeast lacking Sir2
+  statement: None of 32 life-extending mutations or four forms of dietary restriction lengthened life in short-lived yeast lacking SIR2, but several did once FOB1 was also deleted. Sir2 is therefore not directly required for these effects, and a failure to extend life in a short-lived strain should be read with caution.
+  paper: pmid-21902802
+  evidence: Yeast replicative life span of 32 mutants and 4 dietary restriction methods
+  tags: [Sirtuins, Yeast aging genetics]
+- rank: 14
+  figure: Fewer 60S ribosomes
+  figure_label: lengthen yeast life through the transcription factor Gcn4
+  statement: Specifically reducing the large (60S) ribosome subunit, by deleting its genes or blocking its assembly with a drug, extended yeast replicative life span. This works partly by switching on Gcn4, and dietary restriction appears to act through the same mechanism.
+  paper: pmid-18423200
+  evidence: Yeast genetics and drug treatment, replicative life span assays
+  tags: [Yeast aging genetics, Nutrient sensing and mTOR, Diet and fasting]
+- rank: 15
+  figure: ">30%"
+  figure_label: longer yeast life span from a mutation in the silencing gene SIR4
+  statement: The sir4-42 mutation lengthened yeast life span by more than 30%, likely by moving silencing proteins away from telomeres and mating-type genes toward other parts of the genome. This early study linked gene silencing to aging.
+  paper: pmid-7859289
+  evidence: Yeast genetic screen based on stress resistance
+  tags: [Sirtuins, Yeast aging genetics]
+- rank: 16
+  figure: Sir2 falls with age
+  figure_label: letting histone H4K16 acetylation rise near telomeres
+  statement: Old yeast cells had less Sir2 protein, more acetylation of histone H4 at lysine 16 and lost histones near telomeres, which weakened gene silencing there. The balance between Sir2 and the acetyltransferase Sas2 at this site set replicative life span.
+  paper: pmid-19516333
+  evidence: Chromatin analysis of replicatively old yeast cells and genetics
+  tags: [Sirtuins, Yeast aging genetics]
+- rank: 17
+  figure: Starvation extends worm life
+  figure_label: even when started after reproduction
+  statement: Keeping adult C. elegans worms with no bacterial food extended life more than partial food reduction did, through a route separate from insulin-like signaling and the sirtuin SIR-2.1. It also worked when started in post-reproductive adults, suggesting dietary restriction begun in middle age can still help.
+  paper: pmid-17081160
+  evidence: C. elegans lifespan assays
+  tags: [Diet and fasting]
+- rank: 18
+  figure: 4 of 26
+  figure_label: people with atypical Werner syndrome carried mutations in the lamin A gene
+  statement: Among 129 people referred with suspected Werner syndrome, an adult premature aging disease, 26 had normal WRN genes. Four of these 26 (15%) carried new mutations in LMNA, the lamin A/C gene, and had a more severe disease than people with WRN mutations, showing that some cases are lamin diseases.
+  paper: pmid-12927431
+  evidence: Gene sequencing in an international registry of 129 patients
+  tags: [Lamins and progeria]
+- rank: 19
+  figure: Mortality-predicting clocks
+  figure_label: built from routine clinical tests point to treatable targets
+  statement: A clinical aging clock (PCAge) built from routine lab and clinical data found signatures of metabolic, heart, kidney and inflammatory decline that predict poor aging and can be shifted by established drugs. A shorter version, LinAge, predicted as well with fewer measures, and a tailored clock suggested 2 years of mild calorie restriction in the CALERIE trial lowered biological age.
+  paper: pmid-38898237
+  evidence: Principal component analysis of clinical data, applied to the CALERIE calorie restriction trial
+  tags: [Biomarkers of aging, Diet and fasting]
+- rank: 20
+  figure: Survival-trained clocks win
+  figure_label: at predicting death, over clocks trained on age alone
+  statement: Comparing clinical and epigenetic aging clocks, those trained on survival and functional decline predicted mortality better than clocks trained to match chronological age. An improved clinical clock, LinAge2, predicted mortality more accurately and gives personal results that can guide interventions.
+  paper: pmid-40268972
+  evidence: Benchmark of clinical and DNA methylation clocks for mortality prediction
+  tags: [Biomarkers of aging]
+- rank: 21
+  figure: A shared framework
+  figure_label: for naming, classifying and validating biomarkers of aging
+  statement: This consensus paper sets out terms and categories for biomarkers of aging, their possible clinical uses, and the validation steps needed before they can be used to test longevity treatments in trials.
+  paper: pmid-37657418
+  evidence: Consensus framework paper by biomarker of aging researchers
+  tags: [Biomarkers of aging]
+- rank: 22
+  figure: 4 strategies
+  figure_label: picked as most ready to test for slowing aging in people
+  statement: Experts at a 2013 workshop agreed there is enough evidence that slowing aging would delay many chronic diseases, and chose four approaches to test in humans first. These were diets that mimic dietary restriction (such as periodic fasting-mimicking diets or protein restriction), drugs that lower growth hormone and IGF-1 signaling, drugs that inhibit mTOR-S6K, and drugs that activate AMPK or certain sirtuins.
+  paper: pmid-25902704
+  evidence: Consensus report of an international expert workshop
+  tags: [Geroscience, Diet and fasting, Nutrient sensing and mTOR]
+- rank: 23
+  figure: 9.8-day water fast
+  figure_label: lowered amyloid beta in blood but raised inflammation
+  statement: In 20 middle-aged volunteers who fasted on water for about 10 days under medical supervision, 1,317 blood proteins showed signs that muscle and bone were preserved, and amyloid beta 40 and 42 fell. But fasting also caused an acute inflammatory response, with C-reactive protein rising, which a review of 1,422 people on modified fasts confirmed.
+  paper: pmid-40268190
+  evidence: Human fasting and refeeding study (n=20) with plasma proteomics, plus retrospective cohort of 1,422
+  tags: [Diet and fasting, Biomarkers of aging]
+- rank: 24
+  figure: IgG builds up with age
+  figure_label: in fat tissue and drives its scarring and metabolic decline
+  statement: The antibody IgG accumulated in white fat of aging mice, where it activated immune cells and drove fibrosis and insulin resistance. Calorie restriction lowered this build-up, and blocking IgG recycling through the receptor FcRn restored fat tissue health and extended healthspan and life span in mice.
+  paper: pmid-38378001
+  evidence: Mouse genetic and antisense oligonucleotide studies
+  tags: [Geroscience, Diet and fasting]
+- rank: 25
+  figure: Repeated mTORC1 bursts
+  figure_label: wear out stem cells, and blocking mTORC1 prevented age-related loss
+  statement: Stem cells in fly gut and mouse airway briefly switched on TOR signaling to repair damage, but repeated rounds of damage depleted them. Blocking mTORC1 with drugs or genetics prevented age-related stem cell loss in mouse airway and muscle.
+  paper: pmid-29220665
+  evidence: Fruit fly and mouse regeneration models
+  tags: [Nutrient sensing and mTOR, Rapamycin]
+- rank: 26
+  figure: Rescued memory signaling
+  figure_label: in Alzheimer's model mice treated with alpha-ketoglutarate
+  statement: CaAKG restored long-term potentiation, a cellular basis of memory, in the hippocampus of APP/PS1 Alzheimer's model mice, more strongly in females. It raised markers of autophagy, and rapamycin also rescued these synaptic deficits.
+  paper: pmid-40959937
+  evidence: Electrophysiology in hippocampal slices from APP/PS1 mice
+  tags: [Alpha-ketoglutarate, Rapamycin]
