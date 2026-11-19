@@ -4,12 +4,17 @@ credentials: MD, PhD
 affiliation: Lund University and Skåne University Hospital
 department: Clinical Memory Research Unit, Department of Clinical Sciences Malmö
 areas: [Alzheimer's]
-headline: How simple blood and spinal fluid tests can detect Alzheimer's disease and related brain diseases early and accurately, years before dementia.
+headline: Fluid and imaging biomarkers for the early and differential diagnosis of Alzheimer's disease and related disorders.
 summary:
   - Oskar Hansson's work centers on measuring the brain changes of Alzheimer's disease in living people. Through the Swedish BioFINDER studies, Hansson's group showed that spinal fluid tests for amyloid and tau could predict which people with mild memory problems would go on to Alzheimer's dementia, and that amyloid in spinal fluid is already fully abnormal 5 to 10 years before dementia, earlier than it shows on PET scans.
   - The best-known thread is the blood test for p-tau217, a form of the tau protein. Hansson's studies found that plasma p-tau217 told Alzheimer's apart from other brain diseases about as well as spinal fluid or PET, rose about 20 years before symptoms in people with an inherited form of the disease, and kept rising as the disease advanced. In about 1,200 patients seen in Swedish primary and specialist care, a p-tau217 blood test was right about 90% of the time, compared with 61% for primary care doctors and 73% for dementia specialists using standard workups.
   - A second thread maps how the disease spreads. Amyloid first builds up in the brain's default mode network, tau then follows connected brain pathways, and tau PET revealed four distinct spreading patterns rather than one typical course. People without symptoms who already have both amyloid and tau on PET face a much higher risk of developing memory problems.
   - Hansson's work also covers diseases that mimic or coexist with Alzheimer's. A spinal fluid test for misfolded α-synuclein showed that Lewy body disease is common in memory clinic patients, often alongside Alzheimer's changes, and speeds decline. Blood neurofilament light helps separate Parkinson's disease from atypical parkinsonian disorders. These biomarkers are now part of revised diagnostic criteria and of trials of amyloid-lowering drugs such as donanemab.
+highlights:
+  - "**Cerebrospinal fluid biomarkers.** Showed that [CSF biomarkers predict incipient Alzheimer's disease](paper:pmid-16488378) in mild cognitive impairment and that [CSF amyloid-beta 42 is abnormal 5 to 10 years before dementia](paper:pmid-22213792)."
+  - "**Plasma p-tau217.** Showed that [plasma p-tau217 discriminates Alzheimer's disease](paper:pmid-32722745) from other neurodegenerative disorders (*JAMA* 2020) and achieved [high diagnostic accuracy in primary and secondary care](paper:pmid-39068545)."
+  - "**Spatial progression.** Showed that [early amyloid accumulates in the default-mode network](paper:pmid-29089479), and identified [four distinct trajectories of tau deposition](paper:pmid-33927414) (*Nature Medicine* 2021)."
+  - "**Copathology and diagnostic criteria.** Showed that [Lewy body pathology](paper:pmid-37464058) is associated with faster cognitive decline independent of Alzheimer's pathology, and co-authored [revised Alzheimer's diagnostic criteria](paper:pmid-38934362)."
 tags: [Blood tests, Spinal fluid tests, Brain imaging, Disease progression, Lewy body and Parkinson's, Clinical care and trials]
 search: 'Hansson O[Author] AND (alzheimer* OR dementia OR parkinson* OR amyloid OR tau OR neurodegenerat* OR cognit* OR synuclein OR biomarker* OR huntington* OR lewy OR neurofilament OR brain OR cerebrospinal OR plasma OR neurolog* OR stroke OR ALS OR frontotemporal OR depress*)'
 questions:

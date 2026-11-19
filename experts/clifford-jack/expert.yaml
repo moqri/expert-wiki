@@ -4,12 +4,17 @@ credentials: MD
 affiliation: Mayo Clinic, Rochester, Minnesota
 department: Department of Radiology
 areas: [Alzheimer's]
-headline: Uses brain imaging and biomarkers to define Alzheimer's disease by what is happening in the brain, and to measure who is at risk long before symptoms.
+headline: Imaging and fluid biomarkers for the biological definition, staging and prognosis of Alzheimer's disease.
 summary:
   - Clifford Jack's published work began with brain MRI. In the early 1990s Jack's group showed that measuring the hippocampus, the brain's memory hub, on MRI could separate people with Alzheimer's from healthy older adults, and later that a smaller hippocampus and faster shrinkage predict who will move from mild memory problems to dementia. Jack also led the MRI methods of the Alzheimer's Disease Neuroimaging Initiative (ADNI), the shared imaging study used by researchers worldwide.
   - Jack is best known for a model of how Alzheimer's unfolds. In 2010 and 2013 Jack's papers proposed that amyloid builds up in the brain first, years before symptoms, followed by tau tangles and brain cell loss that track memory decline. Serial amyloid scans showed that amyloid takes roughly 15 years to rise from low to high levels and then levels off, a long window for prevention.
   - Jack turned these ideas into shared definitions. Jack proposed the A/T/N scheme that sorts biomarkers into amyloid, tau and neurodegeneration, and led the 2018 NIA-AA research framework and the 2024 Alzheimer's Association criteria that define Alzheimer's disease biologically, so that an abnormal amyloid scan or an accurate blood test such as p-tau217 is enough for a diagnosis.
   - Much of the work comes from the Mayo Clinic Study of Aging, a random sample of residents of Olmsted County, Minnesota. These studies show that amyloid and brain changes become very common with age, that more than 90% of people have at least one abnormal biomarker by 85, and how a person's amyloid level, age, sex and APOE4 status translate into lifetime and 10-year risk of memory impairment. Recent papers test how well blood tests can stand in for brain scans.
+highlights:
+  - "**MRI hippocampal volumetry.** Showed that MRI hippocampal volume distinguishes Alzheimer's disease from normal aging ([*Neurology* 1992](paper:pmid-1734300)) and predicts progression from mild cognitive impairment ([*Neurology* 1999](paper:pmid-10227624))."
+  - "**Biomarker cascade model.** Proposed a hypothetical model of the temporal ordering of Alzheimer's biomarkers ([*Lancet Neurology* 2010](paper:pmid-20083042)), later updated ([*Lancet Neurology* 2013](paper:pmid-23332364))."
+  - "**Biological definition.** Proposed the A/T/N biomarker classification and led the NIA-AA research framework ([*Alzheimer's & Dementia* 2018](paper:pmid-29653606)) and the revised Alzheimer's Association diagnostic and staging criteria ([*Alzheimer's & Dementia* 2024](paper:pmid-38934362))."
+  - "**Population studies.** In the Mayo Clinic Study of Aging, characterized age- and sex-specific prevalence of amyloidosis, tauopathy and neurodegeneration ([*Lancet Neurology* 2017](paper:pmid-28456479)) and absolute risk of cognitive impairment by amyloid PET level ([*Lancet Neurology* 2025](paper:pmid-41240917))."
 tags: [Defining Alzheimer's, Disease model, Brain MRI, Amyloid and tau PET, Blood tests, Risk and prognosis, Population studies, Lifestyle and health]
 search: 'Jack CR[Author]'   # fetched with --first-name Clifford; all 1,269 PubMed hits checked (forenames Clifford R, C R, Cliff R; Mayo Clinic neuroradiology), 1 namesake dropped, 2 "Cliff R" papers added, 10 preprints with published versions dropped
 links:

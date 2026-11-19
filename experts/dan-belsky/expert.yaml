@@ -4,11 +4,16 @@ credentials: PhD
 affiliation: Columbia University Mailman School of Public Health
 department: Department of Epidemiology and Robert N. Butler Columbia Aging Center
 areas: [Aging]
-headline: Measuring how fast people age, and using that measure to find out what speeds aging up or slows it down.
+headline: Measurement of the pace of biological aging in humans and its use in evaluating interventions and social exposures.
 summary:
   - Dan Belsky's published work asks whether the speed of biological aging can be measured in people, and whether it can be changed. Following the Dunedin Study, a New Zealand group born in 1972-73, Belsky and colleagues showed that people of the same age already differ in how fast their organ systems decline by their 30s. They turned two decades of these measurements into blood tests of the pace of aging, first DunedinPoAm and then DunedinPACE, which reads DNA methylation from a single blood sample.
   - The papers test these measures in trials. In the CALERIE trial, two years of calorie restriction slowed DunedinPACE, and in the DO-HEALTH trial omega-3 supplements slowed several clocks slightly over three years. Effects in both were small. Comparisons of many aging measures side by side found that they often disagree, and that newer clocks predict disease better than the first ones.
   - Much of the work links aging speed to people's lives. Faster aging is seen in children growing up in disadvantage, in adults exposed to famine before birth, in people who are lonely, and in Black compared with White older Americans, while moving up in education goes with slower aging and longer life. Faster DunedinPACE is also tied to smaller brain volumes, faster cognitive decline and higher dementia risk. Earlier work used polygenic scores to study how genes relate to obesity, education and social mobility.
+highlights:
+  - "**Pace of aging.** Using repeated multi-organ measurements in the Dunedin Study birth cohort, showed that young adults of the same age differ in their [pace of biological aging](paper:pmid-26150497), and developed [DunedinPACE](paper:pmid-35029144), a DNA methylation blood test of this rate."
+  - "**Intervention trials.** In secondary analyses of randomized trials, two years of [caloric restriction in CALERIE](paper:pmid-37118425) slowed DunedinPACE, and [omega-3 supplementation in DO-HEALTH](paper:pmid-39900648) had small slowing effects on several DNA methylation clocks."
+  - "**Comparison of aging measures.** A side-by-side analysis of [eleven telomere, epigenetic clock and biomarker-composite measures](paper:pmid-29149257) in the same cohort found low agreement between different quantifications of biological aging."
+  - "**Social exposures and cognitive aging.** Faster pace of aging was associated with [socioeconomic disadvantage in childhood](paper:pmid-34001641) and, in older adults, with [cognitive impairment and dementia](paper:pmid-35794023)."
 tags: [Pace of aging, Measuring aging, Interventions and lifestyle, Social and early-life factors, Brain and mental health, Genetics]
 search: 'Belsky DW[Author] OR Belsky Daniel[Author]'
 questions:

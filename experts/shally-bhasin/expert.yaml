@@ -4,12 +4,17 @@ credentials: MB, BS
 affiliation: Brigham and Women's Hospital and Harvard Medical School
 department: Research Program in Men's Health, Aging and Metabolism, Division of Endocrinology, Diabetes and Hypertension
 areas: [Aging]
-headline: How testosterone and other function-promoting therapies affect muscle, physical function, sexual health and safety in aging men.
+headline: Clinical trials of testosterone and other function-promoting therapies on muscle, physical function and safety in men.
 summary:
   - Across four decades of clinical trials, this body of work established that testosterone builds muscle in a dose-dependent way. Giving men graded doses showed that lean mass, muscle size, strength and hemoglobin rise in step with testosterone levels, that older men respond to testosterone as well as young men, and that the extra muscle comes from larger fibers fed by more muscle stem (satellite) cells. Blocking conversion of testosterone to dihydrotestosterone did not reduce these gains.
   - A second thread is the safety and benefit of testosterone treatment in older and middle-aged men with low testosterone. A 2010 trial in older men with limited mobility was stopped early because of more cardiovascular events with testosterone; later trials were far larger. In TRAVERSE, which followed more than 5,000 men at high cardiovascular risk, testosterone did not increase major heart events or high-grade prostate cancer, and it improved sexual activity, mood, energy and anemia. It did not prevent diabetes or fractures, and fractures, atrial fibrillation and blood clots in the lungs were more frequent.
   - The work also defines how low testosterone should be diagnosed. It produced reference ranges for testosterone measured with accurate mass spectrometry and harmonized across laboratories in the United States and Europe, and it produced the Endocrine Society guideline that requires symptoms plus repeatedly low morning testosterone before treatment.
   - Beyond testosterone, the papers test other ways to preserve function with age, including selective androgen receptor modulators, nutrition and exercise. They show that eating more protein than the recommended allowance did not add muscle in older men, and that many products sold online as androgen receptor modulators are mislabeled or contain other unapproved drugs.
+highlights:
+  - "**Androgen dose-response.** Showed that testosterone increases muscle size and strength in a dose-dependent manner ([*N Engl J Med* 1996](paper:pmid-8637535)), and that older men respond to graded testosterone doses similarly to young men ([*J Clin Endocrinol Metab* 2005](paper:pmid-15562020))."
+  - "**Cardiovascular safety.** Reported excess cardiovascular events in a trial of testosterone in older men with limited mobility ([*N Engl J Med* 2010](paper:pmid-20592293)); the larger TRAVERSE trial found no increase in major adverse cardiac events ([*N Engl J Med* 2023](paper:pmid-37326322))."
+  - "**Diagnosis and guidelines.** Led the Endocrine Society clinical practice guideline on testosterone therapy in men with hypogonadism ([*J Clin Endocrinol Metab* 2018](paper:pmid-29562364))."
+  - "**Sarcopenia.** Contributed to international consensus definitions of sarcopenia ([*J Am Med Dir Assoc* 2011](paper:pmid-21527165); [*J Am Geriatr Soc* 2020](paper:pmid-32150289))."
 tags: [Testosterone therapy, Safety, Muscle and function, Diagnosis, Other therapies]
 search: 'Bhasin S[Author]'
 questions:

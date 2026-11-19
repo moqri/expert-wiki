@@ -4,12 +4,17 @@ credentials: MD, PhD
 affiliation: University of Gothenburg and Sahlgrenska University Hospital
 department: Department of Psychiatry and Neurochemistry, Institute of Neuroscience and Physiology, Sahlgrenska Academy
 areas: [Alzheimer's]
-headline: Develops the spinal fluid and blood tests that show whether Alzheimer's disease, or other damage to brain cells, is under way, often years before dementia.
+headline: Development and clinical validation of cerebrospinal fluid and blood biomarkers for Alzheimer's disease and neuronal injury.
 summary:
   - Kaj Blennow's work turns the brain changes of Alzheimer's disease into lab tests. Starting in the 1990s, Blennow's studies showed that the spinal fluid (CSF) of people with Alzheimer's has high levels of tau, the protein that forms tangles inside nerve cells, and low levels of amyloid-β42, the protein that collects in plaques. In a community clinic in Sweden these two tests found 94% of people with probable Alzheimer's, and a 12-centre study of 750 people with mild memory problems showed they predict who goes on to Alzheimer's dementia.
   - A second thread is making these tests practical and trustworthy. Blennow's group set age-specific normal ranges, showed that the amyloid-β42/40 ratio predicts better than amyloid-β42 alone, helped validate automated lab tests now used in hospitals, and showed that a lumbar puncture is safe in memory clinics, with only about 1 in 300 patients needing treatment for a headache afterwards.
   - The work has since moved from spinal fluid to blood. Blood tests for p-tau181 and p-tau231 developed by Blennow's group pick out Alzheimer's with high accuracy, and p-tau231 and p-tau217 rise when amyloid is only beginning to build up, before a PET scan turns positive. Neurofilament light, a protein released when nerve fibres are damaged, can be measured in blood to track nerve cell loss over time, and now has normal values from age 5 to 90.
   - Blennow's papers also look beyond Alzheimer's plaques and tangles. Spinal fluid markers of synapse loss, such as neurogranin and GAP-43, track memory decline. Blood neurofilament light rises after concussion in boxers and ice hockey players and predicts recovery after severe head injury. In drug trials, these markers have shown that an anti-amyloid antibody lowered tau in spinal fluid.
+highlights:
+  - "**CSF tau and amyloid-β.** Early studies showed [elevated tau in Alzheimer's disease CSF](paper:pmid-8748926), and a community-based study established the [diagnostic value of CSF tau and Aβ42 in clinical practice](paper:pmid-11255440)."
+  - "**Clinical implementation.** Established [age-specific reference values](paper:pmid-11568086) for CSF tau and Aβ42 and assessed the [performance and complications of lumbar puncture](paper:pmid-26368321) in memory clinics, where few patients required medical intervention for complications."
+  - "**Blood phosphorylated tau.** Developed plasma [p-tau181](paper:pmid-32333900) and [p-tau231](paper:pmid-33585983) assays that identify Alzheimer's disease pathology, with p-tau231 rising at the earliest stages of amyloid-β accumulation."
+  - "**Synaptic and injury markers.** CSF [neurogranin correlated with cognitive decline](paper:pmid-25533203) in prodromal Alzheimer's disease, and [blood biomarkers of brain injury](paper:pmid-24627036) were elevated in concussed professional ice hockey players."
 tags: [Spinal fluid tests, Blood tests, Amyloid and tau, Synapses and nerve damage, Head injury, Using tests in the clinic]
 search: 'Blennow K[Author]'   # fetched with --first-name Kaj, plus one record spelled "Kay"; namesakes (Kristina Blennow, forestry) removed
 questions:

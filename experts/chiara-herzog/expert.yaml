@@ -4,11 +4,16 @@ credentials: PhD
 affiliation: King's College London and Universität Innsbruck
 department: Department of Twin Research and Genetic Epidemiology; European Translational Oncology Prevention and Screening (EUTOPS) Institute and Institute for Biomedical Aging Research
 areas: [Aging]
-headline: An epigenetics researcher who builds DNA methylation tests from simple samples, such as a cervical smear or cheek swab, to measure biological ageing and detect or predict women's cancers, and who helps set standards for validating biomarkers of aging.
+headline: DNA methylation biomarkers from accessible samples for cancer risk assessment and measurement of biological aging.
 summary:
   - Chiara Herzog's published work centres on DNA methylation, the chemical tags on DNA that change with age, exposures and disease. At the European Translational Oncology Prevention and Screening Institute in Innsbruck, Herzog helped develop the WID (Women's cancer risk IDentification) family of tests, which read methylation in easy-to-collect cervical, vaginal, cheek or blood samples to find women who have, or are about to develop, cervical, endometrial, ovarian or breast cancer.
   - Several of these tests have been validated in real-world settings. A simple swab test for endometrial and cervical cancer (WID-qEC) matched or outperformed ultrasound in women with abnormal bleeding in London and Ghana, and a methylation triage for HPV-positive women (WID-qCIN) predicted far more future precancers than cytology in a Stockholm screening cohort of 28,017 women. Related work shows that smoking and e-cigarette use leave shared methylation marks linked to lung cancer, and that the anti-progesterone drug mifepristone reverses methylation signs of breast cancer risk.
   - Herzog's ageing research links these tools to biological age. Herzog built tissue-specific epigenetic clocks, showed that the gap between epithelial and general clocks tracks hormone-related cancer risk, and is a leading author of the Biomarkers of Aging Consortium papers that define, validate and benchmark biomarkers of aging for use in longevity trials. These summaries are drawn from Herzog's published work, not Herzog's personal views.
+highlights:
+  - "**Uterine cancer detection.** Contributed to the WID-qEC cervicovaginal methylation test for endometrial cancer ([*J Clin Oncol* 2022](paper:pmid-36001862)) and its prospective comparison with sonography in women with abnormal uterine bleeding ([*Lancet Oncology* 2023](paper:pmid-37944542))."
+  - "**Cervical screening triage.** Evaluated WID-qCIN methylation triage of HPV-positive samples in a real-world Stockholm screening cohort, where it predicted more incident precancers than cytology ([*Nature Medicine* 2024](paper:pmid-38834848))."
+  - "**Epigenetic risk signatures.** Showed that a cervical cell methylation signature can identify women with ovarian cancer ([*Nature Communications* 2022](paper:pmid-35105887)) and that smoking and e-cigarette use induce shared methylation changes linked to carcinogenesis ([*Cancer Research* 2024](paper:pmid-38503267))."
+  - "**Biomarkers of aging.** Co-authored Biomarkers of Aging Consortium papers on the validation ([*Nature Medicine* 2024](paper:pmid-38355974)) and systematic evaluation ([*Nature Aging* 2025](paper:pmid-41188602)) of aging biomarkers."
 tags: [Biomarkers of aging, Epigenetic clocks, Cancer detection, Cancer prevention, Smoking and exposures, Brain injury]
 search: 'Herzog, Chiara[Full Author Name] OR Herzog CMS[Author]'
 links:
