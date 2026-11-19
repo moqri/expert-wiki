@@ -1,0 +1,175 @@
+- rank: 1
+  figure: 18-24 years
+  figure_label: later onset of major diseases in people who live to about 100
+  statement: People aged 95 and older developed cancer, heart disease, diabetes, high blood pressure and osteoporosis much later than younger comparison groups. The age at which 20% of them had a given disease was 18 to 24 years later, and the same pattern held in two separate centenarian studies.
+  paper: pmid-27377170
+  evidence: Case-control study of 1,937 people aged 95+ in two cohorts (Longevity Genes Project, New England Centenarian Study)
+  tags: [Centenarians]
+- rank: 2
+  figure: 42% lower
+  figure_label: risk of death for children of centenarians
+  statement: Across three independent cohorts in the US and UK, children of centenarians had a 42% lower risk of death, 33% lower risk of heart disease and 32% lower risk of high blood pressure than people whose parents lived shorter lives. Death came about 3 years later and high blood pressure about 5 years later.
+  paper: pmid-42646838
+  evidence: Meta-analysis of three cohorts, 4,030 participants (LonGenity, New England Centenarian Study, UK Biobank)
+  tags: [Centenarians, Heart and cholesterol]
+- rank: 3
+  figure: No difference
+  figure_label: in diet, exercise, smoking or drinking between centenarians and their peers
+  statement: People living independently at 95 and older had the same body weight, drinking, exercise and diet habits as people of the same birth years in the general population. Their long life did not come from a healthier lifestyle.
+  paper: pmid-21812767
+  evidence: Comparison of 477 people aged 95-109 with 3,164 people from the same birth cohort (NHANES I)
+  tags: [Centenarians]
+- rank: 4
+  figure: "43% lower"
+  figure_label: rate of Alzheimer's disease in children of long-lived parents
+  statement: Older adults with at least one parent who lived to 85 or beyond developed Alzheimer's disease at a lower rate (hazard ratio 0.57) and had slower memory decline over up to 23 years of follow-up, even after accounting for heart disease, diabetes and stroke.
+  paper: pmid-20487085
+  evidence: Community cohort of 424 adults aged 75-85 followed up to 23 years (Bronx Aging Study)
+  tags: [Brain health, Centenarians]
+- rank: 5
+  figure: 3x
+  figure_label: more common CETP "VV" genotype in centenarian men
+  statement: Centenarians and their children had larger HDL and LDL cholesterol particles, linked to less high blood pressure, heart disease and metabolic syndrome. They were about three times (men) as likely to carry two copies of a CETP variant (I405V) that lowers CETP and enlarges these particles.
+  paper: pmid-14559957
+  evidence: Case-control study of 213 centenarians, 216 offspring and 847 controls
+  tags: [Genetics of longevity, Heart and cholesterol]
+- rank: 6
+  figure: 2x
+  figure_label: as likely to have good memory at 99 with the CETP longevity genotype
+  statement: Among people about 99 years old, those with a good memory score were twice as likely to carry the CETP VV longevity genotype. In a younger cohort, the same genotype was about five times more common in people without dementia.
+  paper: pmid-17190939
+  evidence: Two cohorts, 158 people with exceptional longevity and the Einstein Aging Study
+  tags: [Brain health, Genetics of longevity]
+- rank: 7
+  figure: 25% vs 10%
+  figure_label: carry the protective APOC3 genotype, centenarians vs controls
+  statement: A variant in the APOC3 gene that lowers blood APOC3 was carried in two copies by 25% of centenarians and 20% of their children, versus 10% of controls. Carriers had better cholesterol profiles, less high blood pressure, better insulin sensitivity and longer survival.
+  paper: pmid-16602826
+  evidence: Genetic association study of 66 variants in 36 genes in 687 people, plus a prospective survival cohort
+  tags: [Genetics of longevity, Heart and cholesterol]
+- rank: 8
+  figure: IGF1R
+  figure_label: mutations that reduce growth signaling are enriched in female centenarians
+  statement: Female centenarians more often carried mutations in the IGF-1 receptor gene that reduce how strongly cells respond to IGF-1, a growth hormone signal. Their daughters were shorter and had higher IGF-1 levels, suggesting that slightly dampened growth signaling favors long life in humans as in animals.
+  paper: pmid-18316725
+  evidence: Gene sequencing and cell studies in Ashkenazi centenarians, offspring and controls
+  tags: [Genetics of longevity, Growth hormone and IGF-1]
+- rank: 9
+  figure: Lower IGF-1
+  figure_label: predicts longer survival in women in their 90s
+  statement: Among people in their 90s, women with IGF-1 levels below the median lived significantly longer than women above it. In men and women with a history of cancer, lower IGF-1 also predicted longer survival.
+  paper: pmid-24618355
+  evidence: Survival study of 184 nonagenarians
+  tags: [Growth hormone and IGF-1]
+- rank: 10
+  figure: U-shaped
+  figure_label: link between IGF-1 and disease, harmful when high in later life
+  statement: In 440,185 UK adults, younger people with high IGF-1 were protected from disease while older people with high IGF-1 had more disease and death. Both very high and very low levels carried risk, across dementia, heart disease, diabetes, osteoporosis and death.
+  paper: pmid-34363732
+  evidence: Prospective analysis of 440,185 UK Biobank participants
+  tags: [Growth hormone and IGF-1]
+- rank: 11
+  figure: +9%
+  figure_label: median lifespan in old female mice given an IGF-1 receptor antibody
+  statement: Blocking the IGF-1 receptor with an antibody starting at 18 months of age, roughly late middle age, improved health and raised median lifespan by 9% in female mice, with fewer tumors and less inflammation. Males did not benefit in the same way.
+  paper: pmid-29921922
+  evidence: Preclinical study in aged male and female mice
+  tags: [Growth hormone and IGF-1, Drugs to target aging]
+- rank: 12
+  figure: ~10 years
+  figure_label: added lifespan linked to a growth hormone receptor variant in men
+  statement: Two copies of a common growth hormone receptor variant (exon 3 deletion) became more frequent with age among long-lived men in four cohorts. Carriers were about an inch taller with lower IGF-1, and the genotype was estimated to add about 10 years of life.
+  paper: pmid-28630896
+  evidence: Four cohorts of long-lived people, 841 participants
+  tags: [Genetics of longevity, Growth hormone and IGF-1]
+- rank: 13
+  figure: 11-22%
+  figure_label: fewer gene-breaking mutations in centenarians
+  statement: Centenarians carried 11 to 22% fewer rare loss-of-function mutations than controls, and their children showed the same trend. The analysis pointed to new longevity genes, including RGP1, PCNX2 and ANO9.
+  paper: pmid-39424787
+  evidence: Whole-exome sequencing in two Ashkenazi cohorts, validated in UK Biobank
+  tags: [Genetics of longevity]
+- rank: 14
+  figure: Same
+  figure_label: number of known disease mutations in centenarians as in others
+  statement: Centenarians, their children and controls carried a similar number of known disease-causing variants. Variants linked to cancer and Alzheimer's disease were, however, less common in centenarians.
+  paper: pmid-32860726
+  evidence: Whole-exome sequencing of 1,879 Ashkenazi participants
+  tags: [Genetics of longevity, Brain health]
+- rank: 15
+  figure: Insulin/IGF-1 and AMPK
+  figure_label: pathways where centenarians' rare protective variants cluster
+  statement: Rare protein-changing variants enriched in centenarians mostly fell in the insulin/IGF-1 and AMPK signaling pathways, the same pathways that control lifespan in laboratory animals. Rare Wnt pathway variants appeared to protect people carrying the Alzheimer's risk gene APOE4.
+  paper: pmid-37117627
+  evidence: Whole-exome sequencing of Ashkenazi centenarians and controls
+  tags: [Genetics of longevity]
+- rank: 16
+  figure: Stronger
+  figure_label: genetic protection against Alzheimer's at older ages
+  statement: Centenarians carried more genetic variants that protect against Alzheimer's disease (not counting APOE) than people without family longevity, and protection rose further in those who reached 105 and 110. Higher scores were tied to better thinking and lower mortality.
+  paper: pmid-40615639
+  evidence: Polygenic protective score across five studies in the USA, Europe and Asia
+  tags: [Brain health, Genetics of longevity]
+- rank: 17
+  figure: P3S
+  figure_label: humanin variant enriched in centenarians who carry APOE4
+  statement: A rare variant of humanin, a small protein made by mitochondria, was enriched in centenarians carrying APOE4. In APOE4 mice it reduced amyloid buildup in the brain more than normal humanin, apparently by helping clear amyloid.
+  paper: pmid-38520065
+  evidence: Genetic analysis in centenarians plus mouse and cell experiments
+  tags: [Brain health, Genetics of longevity]
+- rank: 18
+  figure: Higher humanin
+  figure_label: in children of centenarians
+  statement: Humanin extended lifespan in worms and improved metabolic health in middle-aged mice. In people, children of centenarians had much higher blood humanin than matched controls, while levels were lower in Alzheimer's disease.
+  paper: pmid-32575074
+  evidence: Worm, mouse, naked mole-rat and human studies
+  tags: [Centenarians, Brain health]
+- rank: 19
+  figure: Longer life
+  figure_label: in rats after removing belly fat
+  statement: Rats whose visceral (belly) fat was surgically removed at 5 months lived longer on average and at maximum, with less severe kidney disease, than normally fed rats. Calorie-restricted rats lived longest of all.
+  paper: pmid-18363902
+  evidence: Prospective lifespan study in rats
+  tags: [Body fat and metabolism]
+- rank: 20
+  figure: ~18% of fat
+  figure_label: removed restored young-level insulin action in old rats
+  statement: Removing visceral fat, about 18% of total body fat, restored insulin action in old rats to young levels and delayed diabetes in diabetes-prone rats, with lower TNF-alpha and leptin in remaining fat.
+  paper: pmid-12351432
+  evidence: Surgical study in aging and diabetic (ZDF) rats
+  tags: [Body fat and metabolism]
+- rank: 21
+  figure: TAME
+  figure_label: proposed trial of metformin to delay diseases of aging
+  statement: Metformin has protective effects against several age-related diseases in humans. The TAME (Targeting Aging with Metformin) trial was proposed to test it as a first drug aimed at aging itself, opening a path to more effective next-generation drugs.
+  paper: pmid-27304507
+  evidence: Perspective and trial rationale
+  tags: [Drugs to target aging]
+- rank: 22
+  figure: 647 genes
+  figure_label: changed in muscle after 6 weeks of metformin in older adults
+  statement: In a placebo-controlled crossover trial in 14 people about 70 years old, 6 weeks of metformin lowered blood sugar and insulin after meals and changed 647 genes in muscle and 146 in fat, including pathways beyond metabolism such as DNA repair.
+  paper: pmid-29383869
+  evidence: Randomized, double-blind, placebo-controlled crossover trial, 14 participants
+  tags: [Drugs to target aging, Body fat and metabolism]
+- rank: 23
+  figure: Blunted
+  figure_label: muscle gains when metformin is added to strength training
+  statement: In older adults doing 14 weeks of resistance training, metformin blunted the gain in muscle size compared with placebo, though it shifted muscle genes toward aging-related pathways such as autophagy and cellular senescence.
+  paper: pmid-33071237
+  evidence: Muscle gene analysis in 47 participants of a randomized trial
+  tags: [Drugs to target aging]
+- rank: 24
+  figure: 2.01 vs 2.53
+  figure_label: children per person, centenarians vs comparison group
+  statement: Centenarians had fewer children and were older at their first and last childbirth than a comparison group, in both men and women, consistent with a trade-off between reproduction and lifespan.
+  paper: pmid-22199025
+  evidence: Cohort comparison of Ashkenazi centenarians and controls
+  tags: [Centenarians]
+- rank: 25
+  figure: 94%
+  figure_label: of men aged 90-106 had a working brain-pituitary hormone axis
+  statement: In 84 men aged 90 to 106, 94% had normal hypothalamic-pituitary function, mostly an appropriate rise in LH in response to failing testes. Testosterone level was not linked to metabolism or survival.
+  paper: pmid-35770332
+  evidence: Hormone study of 84 men with exceptional longevity
+  tags: [Centenarians]
