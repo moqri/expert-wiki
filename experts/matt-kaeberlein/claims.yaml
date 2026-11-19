@@ -1,0 +1,182 @@
+- rank: 1
+  figure: Up to 60%
+  figure_label: longer life expectancy in middle-aged mice after only 3 months of rapamycin
+  statement: Three months of rapamycin given to middle-aged mice raised life expectancy by up to 60% and improved measures of health, with lasting effects after the drug was stopped. One dose in female mice did not extend life and shifted cancers toward aggressive blood cancers.
+  paper: pmid-27549339
+  evidence: Mouse lifespan and healthspan study of short-term rapamycin started in middle age
+  tags: [Rapamycin and mTOR]
+- rank: 2
+  figure: 6 of 10
+  figure_label: lifespan-extending yeast genes were in the TOR and Sch9 nutrient pathways
+  statement: A screen of 564 yeast gene deletions found 10 that lengthen lifespan, and 6 of them are in the nutrient-sensing TOR and Sch9 pathways. Calorie restriction gave no extra benefit to these mutants, pointing to TOR as a main route by which excess nutrients shorten life.
+  paper: pmid-16293764
+  evidence: Replicative lifespan screen of 564 single-gene deletion yeast strains
+  tags: [Rapamycin and mTOR, Genes of aging in yeast and worms, Diet and calorie restriction]
+- rank: 3
+  figure: Tens of thousands
+  figure_label: of pet dogs followed for life in the Dog Aging Project
+  statement: The Dog Aging Project follows tens of thousands of companion dogs over time, collecting surveys, environment data, veterinary records, genomes and blood and stool samples. Dogs share our homes and health care but live much shorter lives, so they can show which genes, environments and habits go with healthy aging.
+  paper: pmid-35110758
+  evidence: Design of a long-term, open-data community science cohort of companion dogs
+  tags: [Dogs and aging]
+- rank: 4
+  figure: No side effects
+  figure_label: and better heart measures in dogs given low-dose rapamycin for 10 weeks
+  statement: In 24 healthy middle-aged dogs, a low, non-immunosuppressive dose of rapamycin for 10 weeks caused no clinical side effects compared with placebo. Heart ultrasound suggested improved pumping and filling (ejection fraction, fractional shortening, E/A ratio) in the rapamycin group.
+  paper: pmid-28374166
+  evidence: Randomized placebo-controlled trial in 24 companion dogs
+  tags: [Rapamycin and mTOR, Dogs and aging]
+- rank: 5
+  figure: 333 adults
+  figure_label: taking rapamycin off-label to stay healthy were surveyed
+  statement: Survey data from 333 adults using rapamycin off-label for healthy aging, compared with 172 adults who never used it, gave initial evidence that rapamycin can be used safely in adults of normal health.
+  paper: pmid-37191826
+  evidence: Survey of 333 off-label rapamycin users and 172 non-users
+  tags: [Rapamycin and mTOR]
+- rank: 6
+  figure: No added benefit
+  figure_label: from weekly rapamycin on exercise gains in older adults
+  statement: In 40 sedentary adults aged 65 to 85 doing home exercise for 13 weeks, weekly rapamycin (6 mg) did not improve chair-stand gains over placebo and in some analyses reduced them by 2 to 3 repetitions. People on rapamycin had more minor side effects (99 vs. 63 events) and one possibly drug-related pneumonia.
+  paper: pmid-41985884
+  evidence: Randomized double-blind placebo-controlled trial, 40 older adults (RAPA-EX-01)
+  tags: [Rapamycin and mTOR]
+- rank: 7
+  figure: Survival
+  figure_label: greatly improved in mice with Leigh syndrome given rapamycin
+  statement: In mice lacking the mitochondrial gene Ndufs4, a model of the fatal childhood disease Leigh syndrome, rapamycin greatly improved survival, delayed neurological symptoms, reduced brain inflammation and prevented brain lesions.
+  paper: pmid-24231806
+  evidence: Mouse model of Leigh syndrome (Ndufs4 knockout) treated with rapamycin
+  tags: [Rapamycin and mTOR, Mitochondria and disease]
+- rank: 8
+  figure: Regrown bone
+  figure_label: and a younger mouth microbiome in old mice after brief rapamycin
+  statement: Short-term rapamycin in elderly mice regenerated bone lost to periodontal (gum) disease, reduced gum and bone inflammation, and shifted the oral microbiome toward a more youthful mix.
+  paper: pmid-32342860
+  evidence: Short-term rapamycin treatment in aged mice
+  tags: [Rapamycin and mTOR]
+- rank: 9
+  figure: More Sir2
+  figure_label: means longer life for yeast mother cells
+  statement: Sir2 is a limiting factor for yeast lifespan, and adding an extra copy of the SIR2 gene extends lifespan in normal cells. Without Sir2, cells fail to suppress harmful recombination in their ribosomal DNA and die young.
+  paper: pmid-10521401
+  evidence: Yeast genetics of replicative lifespan
+  tags: [Sirtuins and resveratrol, Genes of aging in yeast and worms]
+- rank: 10
+  figure: NAD-dependent
+  figure_label: enzyme activity explains how Sir2 works
+  statement: Yeast and mouse Sir2 proteins remove acetyl groups from specific histone sites using NAD, and this activity accounts for Sir2's effects on gene silencing and lifespan. This connected metabolism, gene silencing and aging.
+  paper: pmid-10693811
+  evidence: Biochemistry and yeast genetics of Sir2 mutants
+  tags: [Sirtuins and resveratrol]
+- rank: 11
+  figure: Sir2-independent
+  figure_label: route carries most of the lifespan benefit of calorie restriction in yeast
+  statement: Most of the lifespan gain from calorie restriction in yeast does not need Sir2. Combining calorie restriction with Sir2 overexpression or FOB1 deletion produced the longest-lived yeast strain reported at the time, showing the two act in parallel.
+  paper: pmid-15328540
+  evidence: Yeast replicative lifespan with combined genetic and dietary interventions
+  tags: [Sirtuins and resveratrol, Diet and calorie restriction]
+- rank: 12
+  figure: No effect
+  figure_label: of resveratrol on Sir2 activity in living yeast
+  statement: Resveratrol boosted Sir2 and human SIRT1 in test-tube assays only when the substrate carried an artificial fluorescent tag. In three yeast strains it had no detectable effect on Sir2 activity or on lifespan.
+  paper: pmid-15684413
+  evidence: Enzyme assays plus lifespan and silencing tests in three yeast strains
+  tags: [Sirtuins and resveratrol]
+- rank: 13
+  figure: No longer life
+  figure_label: from extra Sir2 in worms and flies once genetics were controlled
+  statement: When genetic background and proper controls were standardized, earlier reports that extra Sir2 lengthens life in worms and flies did not hold up. Dietary restriction also extended fly life without needing Sir2.
+  paper: pmid-21938067
+  evidence: Re-examination of sirtuin overexpression lines in C. elegans and Drosophila
+  tags: [Sirtuins and resveratrol, Genes of aging in yeast and worms]
+- rank: 14
+  figure: 4,698
+  figure_label: yeast gene deletions tested for effects on lifespan
+  statement: Testing lifespan in 4,698 yeast gene-deletion strains showed that many longevity pathways are shared between yeast and worms. Deleting the tRNA exporter LOS1 robustly extended life, and this works through the same route as dietary restriction and mTOR inhibition.
+  paper: pmid-26456335
+  evidence: Genome-wide replicative lifespan screen of 4,698 deletion strains
+  tags: [Genes of aging in yeast and worms, Rapamycin and mTOR]
+- rank: 15
+  figure: Once a day
+  figure_label: feeding linked to better health in pet dogs
+  statement: Among more than 24,000 dogs, those fed once a day had lower cognitive dysfunction scores and lower odds of digestive, dental, orthopedic, kidney/urinary and liver/pancreas disorders than dogs fed more often, after accounting for age, sex and breed.
+  paper: pmid-35484470
+  evidence: Cross-sectional Dog Aging Project data, 24,238 dogs (10,474 for cognition)
+  tags: [Dogs and aging, Diet and calorie restriction]
+- rank: 16
+  figure: 3.5-4.6 years
+  figure_label: shorter median life for "Mountain" breed dogs
+  statement: In 20,970 dogs from three US primary care clinics, bigger dogs lived shorter lives and spayed or neutered dogs lived longer, especially females. Mountain-group breeds lived 3.5 to 4.6 years less than other purebreds even after accounting for size, and more genetically diverse breeds lived 3 to 6 months longer.
+  paper: pmid-32835231
+  evidence: Survival analysis of 20,970 dogs from three US veterinary clinics
+  tags: [Dogs and aging]
+- rank: 17
+  figure: Faster
+  figure_label: epigenetic aging in large and male dogs, which live shorter lives
+  statement: An epigenetic clock built from 1,640 blood methylation profiles of 894 dogs predicted death and showed aging is fastest early in life. Larger and male dogs aged faster at the molecular level, with size effects concentrated in transposable elements.
+  paper: pmid-42848887
+  evidence: DNA methylation study, 1,640 methylomes from 894 dogs
+  tags: [Dogs and aging]
+- rank: 18
+  figure: Amyloid
+  figure_label: in dog brains rises with age and tracks dementia scores
+  statement: In pet dog brains, amyloid beta 42 levels rose with age in three brain regions and were linked to canine cognitive dysfunction scores, supporting companion dogs as a natural model of Alzheimer's-like disease.
+  paper: pmid-34417706
+  evidence: Brain tissue and spinal fluid measurements from a companion dog biobank
+  tags: [Dogs and aging]
+- rank: 19
+  figure: Taurine
+  figure_label: declines with age, and adding it back extended healthy life in mice
+  statement: Blood taurine falls with age in mice, monkeys and humans. Taurine supplements extended healthspan and lifespan in mice and healthspan in monkeys, and in people lower taurine went with several age-related diseases.
+  paper: pmid-37289866
+  evidence: Supplementation studies in worms, mice and monkeys plus human cohort data
+  tags: [Diet and calorie restriction]
+- rank: 20
+  figure: Rapamycin + acarbose
+  figure_label: beat either drug alone in male mice
+  statement: In the NIA Interventions Testing Program, male mice given rapamycin plus acarbose from 9 months lived longer than earlier groups given rapamycin alone. Captopril gave female mice a small 4 to 5% lifespan gain, while four other compounds had no benefit.
+  paper: pmid-36179270
+  evidence: Multi-site lifespan study in genetically diverse mice (ITP C2017 cohort)
+  tags: [Rapamycin and mTOR]
+- rank: 21
+  figure: 3 species
+  figure_label: lived longer on ibuprofen
+  statement: Ibuprofen extended lifespan in yeast, worms and flies. In yeast it works by reducing tryptophan uptake through the Tat2 transporter.
+  paper: pmid-25521617
+  evidence: Lifespan studies in yeast, C. elegans and Drosophila
+  tags: [Genes of aging in yeast and worms]
+- rank: 22
+  figure: Starvation
+  figure_label: lengthens worm life more than partial food restriction
+  statement: Removing all bacterial food from adult worms extended lifespan more than partial food reduction, through a route independent of insulin signaling and sirtuins. It worked even when started after reproduction ended.
+  paper: pmid-17081160
+  evidence: C. elegans lifespan assays without bacterial food
+  tags: [Diet and calorie restriction, Genes of aging in yeast and worms]
+- rank: 23
+  figure: Fewer ribosomes
+  figure_label: of one type slow aging in yeast
+  statement: Reducing the large (60S) ribosomal subunit, by gene deletion or a drug, extended yeast lifespan by activating the stress-response factor Gcn4, apparently the same route used by dietary restriction.
+  paper: pmid-18423200
+  evidence: Yeast replicative lifespan and genetic epistasis analysis
+  tags: [Genes of aging in yeast and worms, Diet and calorie restriction]
+- rank: 24
+  figure: Longer survival
+  figure_label: in lamin-deficient mice given rapamycin
+  statement: Mice lacking A-type lamins, which model muscular dystrophy and heart muscle disease, had overactive mTORC1 in heart and muscle. Rapamycin improved heart and muscle function and extended their survival.
+  paper: pmid-22837538
+  evidence: Lmna knockout mouse model treated with rapamycin
+  tags: [Rapamycin and mTOR]
+- rank: 25
+  figure: Light-powered
+  figure_label: boost to mitochondria extended worm lifespan
+  statement: Raising mitochondrial membrane potential in adult worms with a light-activated proton pump improved age-related traits and extended lifespan, direct evidence that its decline with age helps drive aging.
+  paper: pmid-36873708
+  evidence: Optogenetic experiments in C. elegans
+  tags: [Mitochondria and disease]
+- rank: 26
+  figure: 11 of 40
+  figure_label: apparently healthy middle-aged dogs had hidden heart valve leaks
+  statement: Heart ultrasound of 40 dogs aged 6 or older with no history of heart disease found valve leakage in 11, but a stethoscope exam picked up only one. Silent valve disease may be common in middle-aged dogs, as in people.
+  paper: pmid-28299636
+  evidence: Echocardiography screening of 40 companion dogs
+  tags: [Dogs and aging]
