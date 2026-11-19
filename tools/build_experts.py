@@ -133,11 +133,6 @@ def expert_page(ex, papers, claims):
       <p class="label">{areas}</p>
       <h1>{e(full)}</h1>
       <p class="aff">{aff}</p>
-      <p class="lede">{e(ex['headline'])}</p>
-      <div class="summary">
-{summary}
-        <p class="meta">Drawn from {len(papers)} papers and preprints{(' · ' + links) if links else ''}</p>
-      </div>
     </section>
 
     <section class="ask" id="ask" aria-labelledby="ask-h">
@@ -145,12 +140,21 @@ def expert_page(ex, papers, claims):
       <p class="hint">Answers are drawn only from {e(name)}'s published papers listed on this page, with each point linked to its paper. They describe what the papers report, not personal views or advice from {e(name)}. This is not medical advice.</p>
       <form id="ask-form" autocomplete="off">
         <label class="sr" for="ask-q">Your question</label>
-        <textarea id="ask-q" name="q" rows="2" maxlength="600" placeholder="For example: which aging clocks best predict disease?" required></textarea>
+        <textarea id="ask-q" name="q" rows="2" maxlength="600" placeholder="{e(qs[0] if qs else "Type a question about this research")}" required></textarea>
         <button class="go" type="submit">Ask</button>
       </form>
       {examples}
       <div id="ask-out" aria-live="polite"></div>
     </section>
+
+    <section class="intro person about">
+      <p class="lede">{e(ex['headline'])}</p>
+      <div class="summary">
+{summary}
+        <p class="meta">Drawn from {len(papers)} papers and preprints{(' · ' + links) if links else ''}</p>
+      </div>
+    </section>
+
 
     <h2 class="sec">Key findings</h2>
     <div class="controls" id="controls" role="region" aria-label="Filter and sort findings">
