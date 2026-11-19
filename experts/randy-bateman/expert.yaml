@@ -12,3 +12,7 @@ summary:
   - "Bateman leads the DIAN Trials Unit, a platform trial testing drugs to delay or prevent inherited Alzheimer's. Its first arms showed that gantenerumab cleared amyloid plaques while solanezumab did not, and long-term full amyloid removal in an open-label extension pointed toward a delay in symptom onset, a result that still needs confirmation in longer trials."
 tags: [Inherited Alzheimer's, Blood tests, Tau, Amyloid production and clearance, Prevention trials, Sleep]
 search: 'Bateman RJ[Author]'   # fetched with --first-name Randall, plus 15 hand-checked papers where PubMed lists only initials or a misspelled first name
+questions:
+  - "How early does Alzheimer's start in families with inherited forms?"
+  - "How accurate is a blood p-tau217 test?"
+  - "Have prevention drugs worked in inherited Alzheimer's?"

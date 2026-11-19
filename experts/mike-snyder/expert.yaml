@@ -14,3 +14,7 @@ tags: [Aging trajectories, Biomarkers of aging, Wearables, Blood sugar and metab
 search: 'Snyder M[Author] AND (Stanford[Affiliation] OR Yale[Affiliation])'
 links:
   - {label: Lab website, url: https://snyderlab.stanford.edu/}
+questions:
+  - "At what ages do our molecules change the most?"
+  - "What are ageotypes?"
+  - "Can a smartwatch detect an infection before symptoms?"

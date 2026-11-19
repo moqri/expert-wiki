@@ -13,3 +13,7 @@ tags: [Biomarkers of aging, Epigenetic clocks, Organ and multi-omic aging, Alzhe
 search: 'Moqri M[Author]'
 links:
   - {label: Lab website, url: "https://moqri.bwh.harvard.edu/"}
+questions:
+  - "Which aging clocks best predict disease?"
+  - "How should biomarkers of aging be validated?"
+  - "Can AI help find treatments that slow aging?"

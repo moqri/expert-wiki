@@ -12,3 +12,7 @@ summary:
   - "Most recently, Yankner's group found that natural lithium in the brain falls in mild cognitive impairment, is trapped by amyloid plaques in Alzheimer's disease, and that lithium loss speeds Alzheimer's changes in mice, while low-dose lithium orotate prevented them. These are animal results; whether lithium replacement helps people still needs clinical trials."
 tags: [Brain resilience and REST, Brain aging, Longevity, Amyloid and tau, APOE4, Lithium, Down syndrome, Other brain diseases]
 search: 'Yankner BA[Author] OR Yankner B[Author] OR Yankner Bruce[Author]'   # fetched with --first-name Bruce; all 89 PubMed hits for Yankner checked, 2 errata dropped
+questions:
+  - "What does lithium have to do with Alzheimer's disease?"
+  - "What is REST and how does it protect the aging brain?"
+  - "When do memory genes in the brain start to decline?"

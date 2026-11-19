@@ -12,3 +12,7 @@ summary:
   - "Tanzi's group also proposed the antimicrobial protection hypothesis: amyloid-β, and more recently tau, behave like natural antimicrobial proteins that trap bacteria, fungi and herpes viruses, so infection may seed the plaques and tangles of Alzheimer's. Other work, relevant to brain aging generally, found that exercise protects memory in Alzheimer's mice by making new neurons and raising BDNF and the exercise hormone irisin."
 tags: [Alzheimer's genes, Infection and immunity, Microglia, Lab models, Amyloid production, Exercise and brain health, Treatments, Other inherited diseases]
 search: 'Tanzi RE[Author]'   # fetched with --first-name Rudolph, plus 38 hand-checked papers where PubMed lists only "Tanzi R"; preprints with a published version removed
+questions:
+  - "Could infections play a role in Alzheimer's disease?"
+  - "Which genes cause inherited Alzheimer's?"
+  - "What is the 'Alzheimer's in a dish' model?"
