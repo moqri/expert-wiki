@@ -1,0 +1,210 @@
+- rank: 1
+  figure: "37% / 66% / 84%"
+  figure_label: of hospitalised older adults have sarcopenia, (risk of) malnutrition, and physical (pre-)frailty
+  statement: In hospitalised older adults, frailty, sarcopenia and malnutrition are each common and frequently occur together. About half of patients have two and perhaps all three conditions, which supports standardised screening at admission.
+  paper: pmid-32327302
+  evidence: Systematic review and meta-analysis of 47 studies, 18,039 patients
+  tags: [Muscle and sarcopenia, Nutrition, Frailty and hospital care]
+- rank: 2
+  figure: "0 to 45%"
+  figure_label: range of sarcopenia prevalence in the same cohort depending on which definition is used
+  statement: Applying seven published definitions of sarcopenia to the same middle-aged and older adults gave prevalence anywhere from 0% to 45%, and only one person met every definition. Without a shared definition, studies cannot be compared or used in clinical care.
+  paper: pmid-22314402
+  evidence: Cross-sectional study, 654 participants of the Leiden Longevity Study
+  tags: [Muscle and sarcopenia]
+- rank: 3
+  figure: "HR 1.35 to 2.04"
+  figure_label: higher risk of death for people aged 85 to 89 with weaker grip
+  statement: Among people aged 85, lower handgrip strength, and a larger loss of grip strength over four years, predicted higher all-cause mortality over about 10 years. A simple grip test may help estimate mortality risk in the oldest old.
+  paper: pmid-20142372
+  evidence: Population-based cohort (Leiden 85-plus Study), 555 participants, 9.5-year follow-up
+  tags: [Muscle and sarcopenia, Biomarkers of aging]
+- rank: 4
+  figure: "−0.09 SD"
+  figure_label: lower GrimAge acceleration per 1 SD more physical activity
+  statement: People who are more physically active tend to have a lower biological age on DNA methylation clocks, with significant links for the Horvath and GrimAge clocks but not Hannum or PhenoAge. Most evidence is cross-sectional, so cause and effect is not yet shown.
+  paper: pmid-42068988
+  evidence: Systematic review of 44 studies (145,465 participants), meta-analysis of 7
+  tags: [Biomarkers of aging, Longevity interventions]
+- rank: 5
+  figure: "600 mg/day"
+  figure_label: NMN dose with the best NAD and walking results
+  statement: In healthy middle-aged adults, 60 days of NMN raised blood NAD at every dose, was safe up to 900 mg a day, and improved six-minute walking distance versus placebo. Blood biological age rose in the placebo group but stayed unchanged with NMN.
+  paper: pmid-36482258
+  evidence: Randomised, double-blind, placebo-controlled trial, 80 adults, 60 days
+  tags: [Longevity interventions]
+- rank: 6
+  figure: "+28.6% to −100%"
+  figure_label: deviation of NMN and urolithin A supplement content from the label
+  statement: Off-the-shelf NMN and urolithin A supplements bought online or in pharmacies often did not contain the amount stated on the label, with some containing none. Quality control of supplements sold as geroprotectors is limited.
+  paper: pmid-38935229
+  evidence: Laboratory testing of commercially available supplements
+  tags: [Longevity interventions, Healthy longevity medicine]
+- rank: 7
+  figure: "HR 0.54"
+  figure_label: 1-year mortality for metformin users after geriatric rehabilitation
+  statement: Among older rehabilitation inpatients, those taking metformin, ACE inhibitors or ARBs, aspirin or beta-blockers had lower one-year mortality after discharge, and those taking three or more of these drugs had a 41% lower risk. Physical function and readmission did not differ. These are observational associations.
+  paper: pmid-41713660
+  evidence: Observational cohort (RESORT), 1,890 inpatients, mean age 83
+  tags: [Longevity interventions, Frailty and hospital care]
+- rank: 8
+  figure: "14"
+  figure_label: biomarkers of aging agreed by experts for intervention studies
+  statement: An international Delphi panel agreed on 14 biomarkers of aging suitable as outcomes in intervention studies, including IGF-1, GDF-15, hs-CRP, IL-6, muscle mass and strength, grip strength, gait speed, frailty index, blood pressure and epigenetic clocks.
+  paper: pmid-39708300
+  evidence: Three-round Delphi consensus, up to 116 experts
+  tags: [Biomarkers of aging]
+- rank: 9
+  figure: "r = 0.97"
+  figure_label: accuracy of a step-count-only aging clock for age
+  statement: MoveIt! Age estimates biological age from wearable step counts alone. It predicted mortality better than the blood-based PhenoAge in US survey data and was more closely linked to frailty, grip strength and function in rehabilitation patients than other clocks.
+  paper: pmid-41241677
+  evidence: Model development in NHANES, validated in two cohorts (55 and 145 people)
+  tags: [Biomarkers of aging]
+- rank: 10
+  figure: "+2.8 years"
+  figure_label: higher Horvath epigenetic age in people with clonal haematopoiesis (CHIP)
+  statement: People with clonal haematopoiesis of indeterminate potential had older epigenetic ages on all four clocks studied, larger clones were linked to older epigenetic age, and TET2 mutations showed stronger effects than DNMT3A.
+  paper: pmid-42463064
+  evidence: Systematic review of 5 studies (7,483 people), meta-analysis of 3
+  tags: [Biomarkers of aging]
+- rank: 11
+  figure: "HR 0.74"
+  figure_label: mortality for 85-year-olds with a strong, unopposed inflammatory response
+  statement: At age 85, people whose immune cells mounted a high pro-inflammatory and low anti-inflammatory response survived longer over 10 years, while those with a weak response overall had higher mortality (HR 1.79).
+  paper: pmid-21177757
+  evidence: Population-based cohort (Leiden 85-plus Study), 562 participants, 10-year follow-up
+  tags: [Biomarkers of aging, Familial longevity]
+- rank: 12
+  figure: "Fewer"
+  figure_label: senescent (p16INK4a-positive) skin cells in people who are biologically younger
+  statement: Middle-aged people from long-lived families, who are biologically younger, had fewer senescent cells in their skin as marked by p16INK4a, linking cellular senescence to biological age in humans.
+  paper: pmid-22612594
+  evidence: Skin biopsy study within the Leiden Longevity Study
+  tags: [Biomarkers of aging, Familial longevity]
+- rank: 13
+  figure: "1.4 years"
+  figure_label: younger-looking faces in men from long-lived families
+  statement: Offspring of long-lived siblings had less skin wrinkling on a sun-protected site, and men looked 1.4 years younger than controls. Women with the lowest cardiovascular risk looked more than 2 years younger for their age.
+  paper: pmid-22879455
+  evidence: Cross-sectional study, 261 offspring of nonagenarians and 253 controls
+  tags: [Familial longevity, Biomarkers of aging]
+- rank: 14
+  figure: "4.8 vs 5.2 mmol/L"
+  figure_label: night-time glucose in people from long-lived families vs controls
+  statement: Continuous glucose monitoring showed that glucose levels rise and become more variable with age, and that middle-aged people from long-lived families had lower glucose levels, especially at night, than people of the same age from the general population.
+  paper: pmid-23279694
+  evidence: Continuous glucose monitoring, 84 non-diabetic adults
+  tags: [Familial longevity, Biomarkers of aging]
+- rank: 15
+  figure: "Absent"
+  figure_label: CMV-driven immune ageing in members of long-lived families
+  statement: In the general population, cytomegalovirus infection was linked to typical signs of immune ageing such as fewer naive T cells. These changes were not seen in offspring of long-lived families, who also had lower CRP and stronger T-cell responses to the virus.
+  paper: pmid-20855876
+  evidence: Comparison of 97 Leiden Longevity Study offspring with 97 partners
+  tags: [Familial longevity, Biomarkers of aging]
+- rank: 16
+  figure: "Higher BP"
+  figure_label: linked to slower physical and cognitive decline after age 85
+  statement: In 85-year-olds, higher systolic blood pressure and pulse pressure were linked to less decline in daily activities and cognition over the following years, especially in people who were already disabled.
+  paper: pmid-23126669
+  evidence: Population-based cohort (Leiden 85-plus Study), 572 participants
+  tags: [Frailty and hospital care]
+- rank: 17
+  figure: "1,406"
+  figure_label: rehabilitation patients in whom sarcopenia predicted death within a year
+  statement: In geriatric rehabilitation inpatients, sarcopenia, low muscle mass and low muscle strength at admission were linked to higher mortality at 3 months and 1 year after discharge, which supports measuring muscle in routine care.
+  paper: pmid-34260683
+  evidence: Prospective cohort (RESORT), 1,406 inpatients, median age 83
+  tags: [Muscle and sarcopenia, Frailty and hospital care]
+- rank: 18
+  figure: "OR 2.07"
+  figure_label: odds of severe sarcopenia among malnourished rehabilitation patients
+  statement: Half of older rehabilitation inpatients were malnourished and 19% had severe sarcopenia. Malnutrition was linked to severe sarcopenia but not to probable sarcopenia, and the two coexisted in 13% of patients.
+  paper: pmid-33622573
+  evidence: Cohort (RESORT), 506 inpatients
+  tags: [Muscle and sarcopenia, Nutrition]
+- rank: 19
+  figure: "κ = 0.08"
+  figure_label: agreement between grip strength and chair stand test for probable sarcopenia
+  statement: Grip strength and the chair stand test identified very different groups of patients as having probable sarcopenia, and only grip strength predicted institutionalisation and death. Grip strength should be used rather than the chair stand test in rehabilitation inpatients.
+  paper: pmid-36413590
+  evidence: Cohort (RESORT), 1,250 inpatients
+  tags: [Muscle and sarcopenia, Frailty and hospital care]
+- rank: 20
+  figure: "HR 1.4"
+  figure_label: higher post-discharge mortality per point on the Clinical Frailty Scale
+  statement: A higher Clinical Frailty Scale score at admission or discharge from geriatric rehabilitation predicted death within 3 months and 1 year, and patients whose frailty worsened during the stay had twice the 3-month risk.
+  paper: pmid-35151896
+  evidence: Cohort (RESORT), 1,766 inpatients
+  tags: [Frailty and hospital care]
+- rank: 21
+  figure: "26 to 31%"
+  figure_label: of people with heart disease, dementia, diabetes or lung disease have sarcopenia
+  statement: Sarcopenia is common in people with cardiovascular disease (31%), diabetes (31%), respiratory disease (27%) and dementia (26%), roughly two to three times the rate in people without these diseases.
+  paper: pmid-31887347
+  evidence: Meta-analysis of 63 studies, 17,206 patients and 22,375 controls
+  tags: [Muscle and sarcopenia]
+- rank: 22
+  figure: "277,921"
+  figure_label: people whose grip strength data set the first pan-Asian reference values
+  statement: Pooled data from 20 national cohorts in 12 Asian countries produced age- and sex-specific reference values for grip strength, gait speed, chair stand, muscle mass and calf circumference, with clear differences between Asian regions.
+  paper: pmid-41674016
+  evidence: Pooled individual participant data, 20 cohorts, 12 countries
+  tags: [Muscle and sarcopenia]
+- rank: 23
+  figure: "OR 2.80"
+  figure_label: odds of severe white matter lesions on brain MRI in malnourished older adults
+  statement: Older outpatients who were malnourished or at risk of malnutrition, and those with lower vitamin B1 and B12, were more likely to have severe white matter lesions on MRI, but not more brain atrophy.
+  paper: pmid-27792245
+  evidence: Cross-sectional study, 359 geriatric outpatients
+  tags: [Nutrition]
+- rank: 24
+  figure: "0 to 14%"
+  figure_label: malnutrition prevalence across four groups using the ESPEN definition
+  statement: Under the ESPEN definition, malnutrition ranged from 0% in healthy young people to 6% in geriatric outpatients and 14% in acutely ill middle-aged patients, while low fat-free mass was common in all groups.
+  paper: pmid-26143744
+  evidence: Cross-sectional study, 969 people in four populations
+  tags: [Nutrition]
+- rank: 25
+  figure: "Mixed"
+  figure_label: benefits of multivitamins across 19 meta-analyses
+  statement: Multivitamin and mineral supplements improved some measures of memory and lowered blood pressure in some groups, but showed no benefit for overall mortality. Effects varied by population, which argues for targeted rather than blanket supplementation.
+  paper: pmid-41308839
+  evidence: Rapid review of 19 meta-analyses
+  tags: [Nutrition, Longevity interventions]
+- rank: 26
+  figure: "5 studies"
+  figure_label: of urolithin A in 250 healthy people
+  statement: Urolithin A taken for up to four months had a dose-dependent anti-inflammatory effect and increased muscle strength and endurance, but did not change physical function, body measures or cardiovascular outcomes. Side effects were mild or moderate.
+  paper: pmid-39002645
+  evidence: Systematic review of 5 human studies, 250 participants
+  tags: [Longevity interventions]
+- rank: 27
+  figure: "41%"
+  figure_label: of Singapore adults could correctly define healthspan
+  statement: In a national survey, 82% of Singapore adults correctly defined lifespan but only 41% defined healthspan, and 56% were interested in healthy longevity clinics. Interest was higher among younger, more educated and more active people.
+  paper: pmid-41775955
+  evidence: Nationwide cross-sectional survey (HELO), 3,034 participants
+  tags: [Healthy longevity medicine]
+- rank: 28
+  figure: "49%"
+  figure_label: of Singapore adults report experiencing ageism
+  statement: Almost half of Singapore adults reported experiencing ageism, most often among the youngest and oldest age groups and those with lower education. Feeling older than one's actual age was one of the strongest predictors.
+  paper: pmid-41917534
+  evidence: Nationwide cross-sectional survey (HELO), 3,034 participants
+  tags: [Healthy longevity medicine]
+- rank: 29
+  figure: "1,218"
+  figure_label: older adults randomised in Southeast Asia's first large multidomain dementia prevention trial
+  statement: The SINGER trial randomised 1,218 older Singaporeans at increased dementia risk to a structured or self-guided lifestyle programme. At baseline, inactivity, low cognitive engagement and poor diet were common.
+  paper: pmid-41943481
+  evidence: Randomised controlled trial, baseline report
+  tags: [Longevity interventions]
+- rank: 30
+  figure: "Gerogenes"
+  figure_label: and gerosuppressors as the basis of precision geromedicine
+  statement: Ageing can be seen as driven by gerogenes and slowed by gerosuppressors, much as cancer involves oncogenes and tumour suppressors. Measuring these pathways as biomarkers could allow treatments for ageing to be tailored to each person, pending clinical trials.
+  paper: pmid-40250404
+  evidence: Review
+  tags: [Healthy longevity medicine, Biomarkers of aging]
