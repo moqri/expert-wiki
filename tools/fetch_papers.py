@@ -39,8 +39,9 @@ def main():
     ap.add_argument("query")
     ap.add_argument("--first-name", default="")
     ap.add_argument("--max", type=int, default=400)
+    ap.add_argument("--last-name", default="", help="surname as PubMed spells it, e.g. Wyss-Coray (default: last part of the slug)")
     a = ap.parse_args()
-    last = a.slug.split("-")[-1].lower()
+    last = (a.last_name or a.slug.split("-")[-1]).lower()
 
     q = urllib.parse.urlencode({"db": "pubmed", "term": a.query, "retmax": a.max, "retmode": "json", "sort": "pub_date"})
     ids = json.loads(get(EUTILS + "esearch.fcgi?" + q))["esearchresult"]["idlist"]

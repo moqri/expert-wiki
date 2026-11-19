@@ -1,0 +1,18 @@
+slug: tony-wyss-coray
+name: Tony Wyss-Coray
+credentials: PhD
+affiliation: Stanford University School of Medicine
+department: Department of Neurology and Neurological Sciences; Phil and Penny Knight Initiative for Brain Resilience
+areas: [Aging, Alzheimer's]
+headline: Studies how factors carried in the blood age the brain or keep it young, and uses blood proteins to measure how fast each organ is aging and who is at risk of Alzheimer's disease.
+summary:
+  - "Wyss-Coray's best-known work shows that blood carries signals that age or rejuvenate the brain. In mice that share a circulation, old blood reduced the birth of new neurons and impaired memory in young mice, and proteins such as CCL11, β2-microglobulin and VCAM1 were identified as part of the harm. The reverse also held: young mouse plasma, human umbilical cord plasma (through the protein TIMP2), plasma from running mice (through clusterin) and young spinal fluid (through Fgf17) each improved memory or brain repair in old mice. A small Stanford trial then showed that young plasma infusions were safe and feasible in people with Alzheimer's disease, though it was not designed to test benefit."
+  - "Wyss-Coray's group turned these ideas into tools for measuring aging in people. Thousands of blood proteins change with age in waves, in people's 30s, 60s and 70s. Proteins that come from specific organs can estimate the age of each organ: about one in five adults has one organ aging much faster than the rest, and in 44,498 UK Biobank participants an old brain carried Alzheimer's risk similar to one copy of APOE4, while a young brain and immune system went with longer life. Newer models estimate the age of more than 40 cell types from blood."
+  - "In the aging brain itself, the work points to the brain's immune cells and barriers. Old microglia fill with fat droplets and stop clearing debris, a state linked to the APOE4/4 genotype in Alzheimer's disease, and blocking the receptor CD22 restored their clean-up function in mice. The blood-brain barrier shifts how it lets proteins in, its sugar coating breaks down with age, and the choroid plexus switches on an interferon response. T cells that recognize Epstein-Barr virus are found expanded in the spinal fluid of people with Alzheimer's disease."
+  - "For Alzheimer's disease, Wyss-Coray's group has built blood and spinal fluid tests. An early study used 18 blood proteins to classify Alzheimer's disease, and a recent one of 3,397 people found that a ratio of two synapse proteins in spinal fluid predicts who will decline beyond what amyloid and tau explain. Most of the treatment findings come from mice and have not yet been tested in large human trials."
+tags: [Young blood and brain rejuvenation, Organ aging clocks, Blood and spinal fluid biomarkers, Microglia, Brain barriers, Immune cells in the brain, APOE4, Amyloid and clearance]
+search: 'Wyss-Coray T[Author]'   # fetched with --first-name Tony (last name matched as "Wyss-Coray"); all 342 PubMed hits for Wyss-Coray checked, 11 errata and 2 namesakes (Christina/C Wyss-Coray) dropped, 20 preprints with published versions dropped
+questions:
+  - "Can young blood make an old brain work better?"
+  - "Can a blood test tell how fast my brain is aging?"
+  - "How do the brain's immune cells change with age and Alzheimer's disease?"
