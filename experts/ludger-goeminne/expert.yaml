@@ -1,0 +1,19 @@
+slug: ludger-goeminne
+name: Ludger J. E. Goeminne
+credentials: PhD
+affiliation: Brigham and Women's Hospital and Harvard Medical School
+department: Division of Genetics, Department of Medicine (Gladyshev lab)
+areas: [Aging]
+headline: A computational biologist who builds blood-protein aging clocks for individual organs and uses large molecular datasets to test what speeds aging up or turns it back.
+summary:
+  - Ludger Goeminne's recent work, in Vadim Gladyshev's lab at Brigham and Women's Hospital and Harvard Medical School, is about measuring how fast the body ages. Using blood protein data from more than 50,000 people in the UK Biobank and other cohorts, Goeminne led the development of organ-specific aging models that estimate how old each organ system looks. These models show that faster aging of an organ comes before disease in that organ, that men age faster than women in most organs, and that diet, lifestyle, job and medicines shift organ aging rates. Goeminne has also helped compare dozens of aging clocks side by side, applied protein clocks to a drug trial, and joined field-wide recommendations for bringing aging biomarkers into the clinic.
+  - A second line of work tests whether aging can be reversed. Goeminne's papers show that a cocktail of chemicals lowered the biological age of old mouse skin cells and boosted their mitochondria, but at higher doses in living mice it caused toxic fat build-up in the liver and kidney. In women's health, transplant and shared-circulation experiments in mice show that ovaries age faster or slower depending on the age of their host, and that young ovaries can make other organs look younger. Genetic work in centenarians finds that very long-lived people carry fewer broken genes.
+  - Before joining the Gladyshev lab, Goeminne worked at EPFL in Lausanne on how genes, diet and mitochondria shape metabolism and aging in mice, worms and people, including studies on ceramides in muscle aging, the mitokine GDF15 and inflammation, and the metal content of aging organs. Goeminne's PhD work at Ghent University produced MSqRob, a widely used statistical method for comparing protein levels in mass spectrometry experiments. These summaries are drawn from Goeminne's published papers.
+tags: [Biomarkers of aging, Organ aging, Rejuvenation, Genetics of longevity, Muscle and mitochondria, Metabolism and diet, Proteomics methods]
+search: 'Goeminne L[Author] AND 2010:2030[dp]'
+links:
+  - {label: PubMed, url: "https://pubmed.ncbi.nlm.nih.gov/?term=Goeminne+L%5BAuthor%5D"}
+questions:
+  - "Can a blood test show which of my organs is aging fastest?"
+  - "Can chemical reprogramming make cells younger, and is it safe?"
+  - "Does the age of the body change how fast the ovaries age?"
