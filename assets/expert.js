@@ -85,8 +85,17 @@
           var tf = p._w.filter(function (x) { return x === w || (w.length > 4 && x.indexOf(w.slice(0, -1)) === 0); }).length;
           if (tf) s += Math.log(1 + N / (df[w] || 1)) * (tf / (tf + 1.5));
         });
-        var sents = (p.abstract || '').split(/(?<=\.)\s+/), best = '', bs = 0;
-        sents.forEach(function (t) { var tw = words(t), k = qw.filter(function (w) { return tw.indexOf(w) > -1; }).length; if (k > bs) { bs = k; best = t; } });
+        var sents = (p.abstract || '').split(/(?<=\.)\s+/), best = '', bs = -99;
+        // Prefer sentences that share words with the question AND report a result, over background sentences.
+        sents.forEach(function (t, j) {
+          var tw = words(t), k = qw.filter(function (w) { return tw.some(function (x) { return x === w || (w.length > 4 && x.indexOf(w.slice(0, -1)) === 0); }); }).length;
+          if (!k) return;
+          var sc = k + 0.5 * (j / Math.max(1, sents.length - 1));
+          if (/\b(we (found|show|observed|identified|demonstrate)|found|showed|shows|revealed|was associated|were associated|associated with|predicted|outperformed|improved|reduced|increased|higher|lower|accuracy|AUC|hazard|odds|\d+(\.\d+)?%|conclusions?:)/i.test(t)) sc += 1.5;
+          if (/\b(remains? (unclear|unknown)|is (unclear|unknown|needed)|have been|has been|aims? to|here,? we|we (aimed|sought)|background:|objectives?:|introduction:|could|may)\b/i.test(t)) sc -= 1.2;
+          if (t.length < 40) sc -= 1;
+          if (sc > bs) { bs = sc; best = t; }
+        });
         return { p: p, s: s, quote: best.length > 260 ? best.slice(0, 257) + '…' : best };
       }).filter(function (x) { return x.s > 0; }).sort(function (a, b) { return b.s - a.s; }).slice(0, 5);
       return scored.map(function (x) { var p = Object.assign({}, x.p); p.quote = x.quote; return p; });
@@ -96,7 +105,18 @@
   var showLocal = function (q, lead) {
     return localSearch(q).then(function (ps) {
       if (!ps.length) { out.innerHTML = '<p class="note">None of the papers here mention that. Try other words.</p>'; return; }
-      out.innerHTML = '<p class="note">' + esc(lead || 'The papers most relevant to your question:') + '</p><ol class="srcs">' + ps.map(srcItem).join('') + '</ol>';
+      // Short written answer: the most relevant sentence from each of the top papers, each cited.
+      var seen = {}, parts = [];
+      ps.slice(0, 3).forEach(function (p, i) {
+        var t = (p.quote || '').trim(); if (!t || seen[t]) return; seen[t] = 1;
+        if (!/[.!?…]$/.test(t)) t += '.';
+        var who = (p.year ? 'A ' + p.year + ' paper' : 'One paper') + (p.journal ? ' in ' + p.journal : '');
+        parts.push(esc(who) + ' reports: ' + esc(t) + '<sup><a href="#src-' + (i + 1) + '">' + (i + 1) + '</a></sup>');
+      });
+      var ans = parts.length ? '<div class="answer"><p>' + parts.join(' ') + '</p></div>' : '';
+      out.innerHTML = (lead ? '<p class="note">' + esc(lead) + '</p>' : '') + ans +
+        '<p class="note">Quoted from the abstracts of the most relevant papers below.</p>' +
+        '<ol class="srcs">' + ps.map(function (p, i) { var c = Object.assign({}, p); delete c.quote; return srcItem(c, i); }).join('') + '</ol>';
     });
   };
 
@@ -121,7 +141,7 @@
           (used.length ? '<ol class="srcs">' + used.map(function (p, i) { var c = Object.assign({}, p); delete c.quote; return srcItem(c, i); }).join('') + '</ol>' : '') +
           '<p class="note">Drawn from published papers, not the researcher\'s personal views. Not medical advice.</p>';
       })
-      .catch(function () { return showLocal(q, 'The answer service is busy, so here are the most relevant papers instead:'); })
+      .catch(function () { return showLocal(q, 'The answer service is busy, so here is what the most relevant papers say:'); })
       .then(done, done);
   });
 })();
