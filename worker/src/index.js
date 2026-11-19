@@ -3,8 +3,8 @@
 // POST { expert: "<slug>", question: "..." }
 // -> { blocks: [{ text, cites: [sourceIndex] }], sources: [{ title, journal, year, doi, pmid }] }
 //
+// No dependencies: paste this file into a Cloudflare Worker in the dashboard, or deploy with wrangler.
 // The papers come from https://expert.wiki/<slug>/corpus.json, built by tools/build_experts.py.
-import Anthropic from "@anthropic-ai/sdk";
 
 const SLUG = /^[a-z]+(-[a-z]+)+$/;
 const MAX_PAPERS = 40; // larger corpora are narrowed to the most relevant papers first
@@ -98,20 +98,29 @@ export default {
       `- Write for a general reader: plain words, short paragraphs, numbers where the papers give them. Keep it under about 200 words.\n` +
       `- Do not give personal medical advice; for decisions about care, suggest talking with a clinician.`;
 
-    const client = new Anthropic({ apiKey: env.ANTHROPIC_API_KEY });
     let msg;
     try {
-      msg = await client.beta.messages.create({
-        model: env.MODEL || "claude-opus-5-5",
-        max_tokens: 2000,
-        betas: ["server-side-fallback-2026-07-01"],
-        fallbacks: "default",
-        output_config: { effort: env.EFFORT || "low" },
-        system,
-        messages: [{ role: "user", content: [...documents, { type: "text", text: question }] }],
+      const r = await fetch("https://api.anthropic.com/v1/messages", {
+        method: "POST",
+        headers: {
+          "content-type": "application/json",
+          "x-api-key": env.ANTHROPIC_API_KEY,
+          "anthropic-version": "2023-06-01",
+          "anthropic-beta": "server-side-fallback-2026-07-01",
+        },
+        body: JSON.stringify({
+          model: env.MODEL || "claude-opus-5-5",
+          max_tokens: 2000,
+          fallbacks: "default",
+          output_config: { effort: env.EFFORT || "low" },
+          system,
+          messages: [{ role: "user", content: [...documents, { type: "text", text: question }] }],
+        }),
       });
+      if (!r.ok) throw new Error(`${r.status} ${(await r.text()).slice(0, 300)}`);
+      msg = await r.json();
     } catch (err) {
-      console.error("anthropic error", err?.status, err?.message);
+      console.error("anthropic error", err?.message);
       return json({ error: "Answer service unavailable" }, 502, h);
     }
     if (msg.stop_reason === "refusal") {
