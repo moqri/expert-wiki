@@ -1,0 +1,189 @@
+- rank: 1
+  figure: "40 Hz"
+  figure_label: light flicker lowered amyloid in Alzheimer's mice
+  statement: Mice modeling Alzheimer's disease had weaker gamma brain rhythms before plaques or memory problems appeared. Driving the brain at 40 Hz, first with light-activated neurons and then with a simple 40 Hz flickering light, reduced amyloid-β in the visual cortex and lowered plaque load in older mice, while microglia, the brain's immune cells, moved in around amyloid.
+  paper: pmid-27929004
+  evidence: Mouse study (5XFAD and APP/PS1 models), optogenetic and visual 40 Hz stimulation
+  tags: [Gamma stimulation (40 Hz)]
+- rank: 2
+  figure: "80,660"
+  figure_label: single brain-cell profiles from 48 people
+  statement: The first single-cell map of Alzheimer's disease in the human brain found that the strongest disease-related changes appear early and differ by cell type, that myelin-related processes are disrupted in several cell types, and that female cells are overrepresented in disease-associated groups.
+  paper: pmid-31042697
+  evidence: Single-nucleus RNA sequencing of prefrontal cortex, 48 people with varying Alzheimer's pathology
+  tags: [Brain cell atlases]
+- rank: 3
+  figure: "Less shrinkage"
+  figure_label: after 3 months of daily 40 Hz light and sound in mild Alzheimer's
+  statement: In a small randomized, placebo-controlled pilot in people with mild Alzheimer's dementia, daily 40 Hz light and sound for 3 months was safe and well tolerated. Compared with the control group, the 40 Hz group had less ventricle enlargement and hippocampal shrinkage, stronger brain network connectivity, better face-name memory recall and steadier daily activity rhythms.
+  paper: pmid-36454969
+  evidence: Phase 1 feasibility study (43 people) and randomized placebo-controlled phase 2A pilot (15 patients with mild Alzheimer's)
+  tags: [Gamma stimulation (40 Hz)]
+- rank: 4
+  figure: "Glymphatic"
+  figure_label: waste clearance carries amyloid out after 40 Hz stimulation
+  statement: Multisensory 40 Hz stimulation increased the flow of cerebrospinal fluid into and out of the cortex in Alzheimer's mice, and blocking this glymphatic clearance stopped 40 Hz stimulation from removing amyloid. A group of interneurons that release the peptide VIP drove the effect by changing how blood vessels pulse.
+  paper: pmid-38418876
+  evidence: Mouse study (5XFAD model) with fluid tracers, chemogenetics and imaging
+  tags: [Gamma stimulation (40 Hz)]
+- rank: 5
+  figure: "Light + sound"
+  figure_label: improved memory and cleared amyloid across the brain in mice
+  statement: Seven days of 40 Hz sound improved spatial and recognition memory and reduced amyloid in the auditory cortex and hippocampus of Alzheimer's mice, and also reduced phosphorylated tau in a tau model. Combining 40 Hz light and sound, but not either alone, reduced amyloid in the prefrontal cortex and across much of the neocortex.
+  paper: pmid-30879788
+  evidence: Mouse study (5XFAD and P301S tau models), auditory and audiovisual stimulation
+  tags: [Gamma stimulation (40 Hz)]
+- rank: 6
+  figure: "APOE4"
+  figure_label: changes neurons, astrocytes and microglia in different ways
+  statement: Using gene editing in human stem-cell-derived brain cells, APOE4 neurons released more Aβ42, APOE4 astrocytes took up less amyloid and accumulated cholesterol, and APOE4 microglia cleared less amyloid. Converting APOE4 to APOE3 in cells from people with Alzheimer's reduced several of these disease features.
+  paper: pmid-29861287
+  evidence: Isogenic CRISPR-edited human iPSC-derived neurons, astrocytes, microglia and organoids
+  tags: [APOE4 and lipids]
+- rank: 7
+  figure: "Less myelin"
+  figure_label: APOE4 traps cholesterol in myelin-making cells
+  statement: Single-cell profiling of post-mortem brains from APOE4 carriers and non-carriers showed that APOE4 alters cholesterol pathways across all brain cell types. Cholesterol built up in oligodendrocytes, myelin was reduced, and a drug that helps move cholesterol increased myelination and improved learning and memory in APOE4 mice.
+  paper: pmid-36385529
+  evidence: Single-nucleus RNA sequencing of human post-mortem brains, plus iPSC-derived cells and APOE4 mice
+  tags: [APOE4 and lipids]
+- rank: 8
+  figure: "2.3 million"
+  figure_label: brain cells from 427 people mapped for dementia and resilience
+  statement: A single-cell atlas of the aged prefrontal cortex identified somatostatin inhibitory neurons that are selectively lost in Alzheimer's, and two groups of inhibitory neurons that were more plentiful in people who kept high cognitive function late in life, linking inhibitory neurons to resilience against Alzheimer's pathology.
+  paper: pmid-37774677
+  evidence: Single-nucleus RNA sequencing, 2.3 million cells from 427 people (ROSMAP)
+  tags: [Brain cell atlases, Cognitive resilience]
+- rank: 9
+  figure: "p25"
+  figure_label: builds up in Alzheimer's brains and overactivates Cdk5
+  statement: p25, a cut-down form of the Cdk5 activator p35, accumulates in neurons of people with Alzheimer's disease. Unlike p35 it is not readily broken down, so it keeps Cdk5 switched on, which over-phosphorylates tau and causes neurons to break down and die in culture.
+  paper: pmid-10604467
+  evidence: Human Alzheimer's brain tissue and cultured neurons
+  tags: [Cdk5 and tau]
+- rank: 10
+  figure: "HDAC2"
+  figure_label: silences memory genes in the neurodegenerating brain
+  statement: The enzyme HDAC2 is increased in two mouse models of neurodegeneration and in people with Alzheimer's disease, where it shuts down genes for learning and memory. Lowering HDAC2 in mice restored synaptic plasticity and reversed memory problems, suggesting that memory capacity is blocked rather than lost.
+  paper: pmid-22388814
+  evidence: Mouse models (CK-p25, 5XFAD), cultured neurons and human post-mortem brain
+  tags: [Memory and epigenetics]
+- rank: 11
+  figure: "Choline"
+  figure_label: was safe and reached the brain in healthy APOE4 carriers
+  statement: In a 6-month open-label pilot, 13 cognitively healthy APOE4 carriers aged about 70 took 2,200 mg of choline a day. It was well tolerated, raised choline in blood and spinal fluid, and spinal fluid neurofilament light, a marker of nerve damage, was lower at the end, though the study was not designed to test benefit.
+  paper: pmid-42746101
+  evidence: Phase 1 open-label pilot, 13 APOE4 carriers, 6 months
+  tags: [APOE4 and lipids]
+- rank: 12
+  figure: "Fat droplets"
+  figure_label: build up in APOE4 astrocytes, and choline reverses it
+  statement: APOE4, but not APOE3, disrupted the fats inside human stem-cell-derived astrocytes and yeast, causing lipid droplets to build up. Adding choline, a building block of cell membranes, to the culture medium restored a normal lipid balance.
+  paper: pmid-33658354
+  evidence: Human iPSC-derived astrocytes and yeast, lipidomics and genome-wide genetic screens
+  tags: [APOE4 and lipids]
+- rank: 13
+  figure: "MEF2"
+  figure_label: genes linked to keeping cognition despite brain disease
+  statement: An enriched, stimulating environment switched on MEF2 genes in mice, and in human brain data the MEF2 network was overrepresented among the genes that best predicted late-life cognition. People who stayed cognitively well despite pathology had more MEF2C in a group of excitatory neurons, and raising MEF2 in tau mice improved cognitive flexibility.
+  paper: pmid-34731014
+  evidence: Mouse enrichment studies, human transcriptomic data and single-nucleus RNA sequencing, tau mouse model
+  tags: [Cognitive resilience]
+- rank: 14
+  figure: "Tangles"
+  figure_label: and neuron loss caused by p25 in adult mice
+  statement: Switching on p25 in the adult mouse forebrain led to loss of neurons in the cortex and hippocampus, brain shrinkage, tau over-phosphorylation and progressive tangle pathology, evidence that overactive Cdk5 can cause neurodegeneration.
+  paper: pmid-14642273
+  evidence: Inducible p25 transgenic mouse model (CK-p25)
+  tags: [Cdk5 and tau]
+- rank: 15
+  figure: "6 regions"
+  figure_label: of the aging brain mapped cell by cell
+  statement: A single-cell atlas of 1.3 million cells from six brain regions of 48 people found vulnerable neuron groups lost in specific regions in Alzheimer's, implicated Reelin signaling in that vulnerability, and found an astrocyte program involving choline metabolism linked to preserved cognition.
+  paper: pmid-39048816
+  evidence: Single-nucleus RNA sequencing, 283 samples from 6 brain regions of 48 people
+  tags: [Brain cell atlases, Cognitive resilience]
+- rank: 16
+  figure: "Gamma"
+  figure_label: stimulation preserved neurons and synapses in mice
+  statement: Daily 40 Hz visual stimulation started early in two mouse models of neurodegeneration entrained gamma rhythms in visual cortex, hippocampus and prefrontal cortex, preserved neurons and synapses across several brain areas, reduced DNA damage in neurons and lowered inflammation in microglia.
+  paper: pmid-31076275
+  evidence: Mouse study (Tau P301S and CK-p25 models), chronic daily stimulation
+  tags: [Gamma stimulation (40 Hz)]
+- rank: 17
+  figure: "Tau → cGAS"
+  figure_label: an immune alarm that weakens resilience
+  statement: Disease-causing tau switches on the cGAS interferon alarm in microglia, which turns down the MEF2C resilience network in neurons. Removing or blocking cGAS in tau mice protected synapses and memory without changing the amount of tau.
+  paper: pmid-37095396
+  evidence: Tauopathy mouse models with genetic and drug inhibition of cGAS
+  tags: [Cognitive resilience]
+- rank: 18
+  figure: "DNA breaks"
+  figure_label: are part of how neurons switch on learning genes
+  statement: Neuronal activity causes double-strand DNA breaks in the promoters of early-response genes such as Fos, Npas4 and Egr1, made by the enzyme topoisomerase IIβ. Making such breaks was enough to turn these genes on, suggesting that brief DNA breaks are a normal step in learning-related gene expression.
+  paper: pmid-26052046
+  evidence: Cultured neurons and mouse brain, genome-wide sequencing
+  tags: [DNA damage]
+- rank: 19
+  figure: "Gene fusions"
+  figure_label: more common in Alzheimer's neurons with DNA damage
+  statement: Excitatory neurons from people with Alzheimer's disease carried more somatic gene fusions, especially neurons with DNA repair and senescence signatures. In mice, neurons burdened with lasting DNA breaks showed structural changes in the genome and disrupted 3D genome organization.
+  paper: pmid-37774679
+  evidence: Single-nucleus RNA sequencing of human prefrontal cortex and CK-p25 mouse model
+  tags: [DNA damage]
+- rank: 20
+  figure: "HDAC2"
+  figure_label: limits synapses and memory formation
+  statement: Raising HDAC2, but not HDAC1, in mouse neurons reduced dendritic spines, synapses, plasticity and memory formation, while removing HDAC2 increased synapses and improved memory, pointing to HDAC2-selective inhibitors for memory disorders.
+  paper: pmid-19424149
+  evidence: Neuron-specific HDAC2 overexpression and knockout mice
+  tags: [Memory and epigenetics]
+- rank: 21
+  figure: "ABCA7"
+  figure_label: risk variants disrupt neurons, and CDP-choline helps
+  statement: Brain cells from people carrying loss-of-function variants in ABCA7, a lipid transporter that raises Alzheimer's risk, showed disrupted lipid metabolism, mitochondria and DNA repair, especially in excitatory neurons. In stem-cell-derived neurons, CDP-choline restored phosphatidylcholine and normalized amyloid release and overexcitability.
+  paper: pmid-40931065
+  evidence: Single-nucleus RNA sequencing of human brains and iPSC-derived neurons
+  tags: [APOE4 and lipids]
+- rank: 22
+  figure: "2 years"
+  figure_label: of daily 40 Hz stimulation in 5 people with mild Alzheimer's
+  statement: Five patients used 1 hour of 40 Hz light and sound daily for 2 years with no adverse events. Three women with late-onset Alzheimer's kept strong brain entrainment and declined less on memory and function scores than matched controls from other studies, and plasma p-tau217 fell by 47% and 19% in the two people tested.
+  paper: pmid-41137616
+  evidence: Open-label extension of a phase 2A pilot, 5 patients, 2 years, compared with external matched controls
+  tags: [Gamma stimulation (40 Hz)]
+- rank: 23
+  figure: "Lipid-laden"
+  figure_label: APOE4 microglia respond poorly to neurons
+  statement: In gene-edited human stem-cell models, APOE4 microglia accumulated lipids, took up fewer fatty acids and lipoproteins, became more inflammatory, and disrupted the coordinated firing of neuron networks.
+  paper: pmid-35931030
+  evidence: CRISPR-edited human iPSC-derived microglia co-cultured with neurons
+  tags: [APOE4 and lipids]
+- rank: 24
+  figure: "Immune"
+  figure_label: enhancers carry Alzheimer's genetic risk
+  statement: In a mouse model of neurodegeneration, synaptic genes were turned down and immune genes turned up, driven by PU.1-family factors. The human versions of the activated regulatory regions were enriched for Alzheimer's risk variants, pointing to the immune system in Alzheimer's predisposition.
+  paper: pmid-25693568
+  evidence: Chromatin and transcription profiling in CK-p25 mice, integrated with human genetics
+  tags: [Memory and epigenetics]
+- rank: 25
+  figure: "SIRT1"
+  figure_label: protected neurons in Alzheimer's and ALS models
+  statement: SIRT1, a longevity-linked enzyme, rose in mouse models of Alzheimer's and ALS. SIRT1 and the SIRT1 activator resveratrol helped neurons survive, and in p25 mice resveratrol reduced hippocampal degeneration and prevented learning impairment.
+  paper: pmid-17581637
+  evidence: Cell models and CK-p25 transgenic mice
+  tags: [Cdk5 and tau]
+- rank: 26
+  figure: "p35"
+  figure_label: the brain-specific switch that turns on Cdk5
+  statement: Cdk5 is abundant in several tissues but active only in the brain. Cloning p35 showed it is a neuron-specific partner that binds and activates Cdk5, and that it is a new type of regulator, distinct from cyclins.
+  paper: pmid-8090221
+  evidence: Molecular cloning and biochemistry in mouse tissues
+  tags: [Cdk5 and tau]
+- rank: 27
+  figure: "Remote fears"
+  figure_label: weakened by an HDAC2 inhibitor during recall
+  statement: In mice, standard reconsolidation approaches failed to weaken month-old fear memories. Giving an HDAC2-targeting inhibitor during memory recall restored plasticity and lastingly reduced even remote fear memories.
+  paper: pmid-24439381
+  evidence: Mouse fear-conditioning study
+  tags: [Memory and epigenetics]
