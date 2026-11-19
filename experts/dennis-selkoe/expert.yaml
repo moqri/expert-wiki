@@ -1,0 +1,18 @@
+slug: dennis-selkoe
+name: Dennis J. Selkoe
+credentials: MD
+affiliation: Brigham and Women's Hospital and Harvard Medical School
+department: Ann Romney Center for Neurologic Diseases, Department of Neurology
+areas: [Alzheimer's]
+headline: Studies how the amyloid-β protein is made, cleared and turned toxic in Alzheimer's disease, and how those findings lead to treatments, with a parallel program on α-synuclein in Parkinson's disease.
+summary:
+  - "Selkoe's work is closely tied to the amyloid hypothesis, the idea that an imbalance between making and clearing the amyloid-β (Aβ) protein starts Alzheimer's disease. In the 1980s Selkoe's group helped show that tau protein is a main part of the tangles inside dying neurons. In 1992 the group found that cells make Aβ during normal metabolism, which opened the way to cell-based drug screens, and showed that a mutation in the APP gene from a Swedish family raises Aβ production six- to eight-fold."
+  - "Selkoe's group then linked every known inherited cause of early-onset Alzheimer's to Aβ. Mutations in APP and in the presenilin genes raised the long, sticky Aβ42 form in the blood of carriers, in cells and in mice. The group found that presenilin carries the two key aspartate residues of γ-secretase, the enzyme that releases Aβ, and that γ-secretase is a complex of four proteins. On the clearance side, the group identified insulin-degrading enzyme as an Aβ-degrading enzyme and showed that raising it or neprilysin in mice prevented plaques."
+  - "A second theme is that small soluble clumps of Aβ, rather than plaques, harm synapses. Selkoe's group showed that naturally made Aβ oligomers, and Aβ dimers extracted from Alzheimer's brains, block the synaptic strengthening behind memory, remove dendritic spines, trigger tau changes and impair learning in rats, and that antibodies against Aβ prevent these effects. Selkoe has co-written appropriate use recommendations for the antibodies lecanemab, donanemab and aducanumab."
+  - "In Parkinson's disease, Selkoe's group reported that α-synuclein normally exists partly as a folded tetramer that resists clumping, that Parkinson's-causing mutations shift it toward unfolded monomers, and that mice unable to form tetramers develop a Parkinson's-like movement disorder that responds to L-DOPA. Recent work points to fatty acid metabolism, including the enzyme stearoyl-CoA desaturase, as a possible drug target."
+tags: [Amyloid hypothesis, Toxic Aβ oligomers, Aβ production and clearance, Inherited Alzheimer's, Tau, Treatments and biomarkers, Parkinson's disease]
+search: 'Selkoe D[Author]'   # fetched with --first-name Dennis; 1980-81 oculomotor papers of uncertain authorship and preprints with a published version removed; Haass et al. 1992 (PMID 1383826) added by hand because PubMed's pre-1996 author list stops at 10 names
+questions:
+  - "What is the amyloid hypothesis and what supports it?"
+  - "Which forms of amyloid-β harm synapses?"
+  - "What keeps α-synuclein from clumping in Parkinson's disease?"
