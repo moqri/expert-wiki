@@ -4,16 +4,16 @@ credentials: PhD
 affiliation: Brigham and Women's Hospital and Harvard Medical School
 department: Division of Genetics, Department of Medicine
 areas: [Aging, Alzheimer's]
-headline: Building the yardsticks that can tell whether a treatment actually slows human aging.
+headline: Development and validation of biomarkers of aging for evaluating longevity interventions in humans.
 summary:
   - Mahdi Moqri's work centers on biomarkers of aging, the measurements that could show whether a treatment slows aging without waiting decades for disease or death. Moqri is first author of the Biomarkers of Aging Consortium's framework for what such a biomarker is and how it should be validated before it reaches clinics and trials (Cell 2023; Nature Medicine 2024). With colleagues, Moqri has built open ways to compare them head to head, including the Biolearn platform (39 biomarkers, more than 20,000 people), a comparison of 14 epigenetic clocks against 174 diseases in 18,859 people, and an open Biomarkers of Aging competition.
   - A second thread asks what aging clocks actually measure. Moqri's papers show that most of the DNA methylation people gain with age falls in regions controlled by the Polycomb complex PRC2, that genes changing in both methylation and expression with age in blood point to the adaptive immune system, and that epigenetic aging has a large random component alongside coordinated change. Related work splits clocks into damaging and adaptive parts, reads age cell type by cell type, and uses blood proteins from more than 50,000 people to estimate how fast each organ is aging.
   - The same tools are applied to Alzheimer's disease, rejuvenation and AI. In Alzheimer's, collaborations map blood proteins and metabolites by APOE genotype and find a plasma protein signature of brain amyloid. In rejuvenation, they review partial reprogramming and show that a young body can make an old ovary molecularly younger. In AI, they build systems such as OpenScientist and ClockBase Agent that analyze biomedical data and search millions of public samples for treatments that lower biological age.
 highlights:
-  - "**Wrote the rulebook.** Led the Biomarkers of Aging Consortium's framework for what makes an aging biomarker trustworthy ([*Cell* 2023](paper:pmid-37657418)) and how to validate one ([*Nature Medicine* 2024](paper:pmid-38355974))."
-  - "**Put the clocks head to head.** Built [Biolearn](paper:pmid-41188602), an open platform that tests dozens of aging clocks on the same people, and [compared 14 clocks against 174 diseases](paper:pmid-41402269) to see which actually predict illness."
-  - "**Asked what clocks really measure.** Much of the DNA methylation gained with age piles up at the same [Polycomb-controlled spots](paper:pmid-39009581), and a large share of epigenetic aging looks like [*random drift*](paper:pmid-38724733)."
-  - "**Taught AI to hunt for rejuvenation.** [Autonomous AI agents](paper:pmid-41332661) scanned millions of public profiles for treatments that lower biological age, and [blood proteins](paper:pmid-39488213) now reveal how fast each organ ages."
+  - "**Biomarker frameworks.** First author of the Biomarkers of Aging Consortium's definitions and evaluation criteria for aging biomarkers ([*Cell* 2023](paper:pmid-37657418)) and of its framework for their validation ([*Nature Medicine* 2024](paper:pmid-38355974))."
+  - "**Benchmarking.** Co-developed [Biolearn](paper:pmid-41188602), an open framework for evaluating aging biomarkers across cohorts, and a [comparison of 14 epigenetic clocks against 174 incident diseases](paper:pmid-41402269)."
+  - "**Mechanisms of epigenetic aging.** Age-associated DNA methylation gain is concentrated at [PRC2 (Polycomb) targets](paper:pmid-39009581), and [single-cell analyses](paper:pmid-38724733) indicate a substantial stochastic component."
+  - "**Multi-omic and computational approaches.** [Plasma proteomic models](paper:pmid-39488213) estimate organ-specific aging, and [AI agents](paper:pmid-41332661) screen public molecular profiles for interventions associated with lower biological age."
 tags: [Biomarkers of aging, Epigenetic clocks, Organ and multi-omic aging, Alzheimer's, Rejuvenation, Longevity genetics, AI for science]
 search: 'Moqri M[Author]'
 links:
