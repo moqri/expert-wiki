@@ -1,0 +1,175 @@
+- rank: 1
+  figure: "38"
+  figure_label: proteins in spinal fluid nominated as likely causes of Alzheimer's, 15 with existing drugs
+  statement: Measuring 6,361 proteins in spinal fluid from 3,506 people and linking them to genetics found 3,885 genetic controls of protein levels, most of them new. Combining this map with Alzheimer's genetics pointed to 38 proteins that are likely causal, 15 of which already have drugs, and a protein-based model predicted Alzheimer's better than genetics alone.
+  paper: pmid-39528825
+  evidence: Spinal fluid protein genetics study, 3,506 samples, with Mendelian randomization
+  tags: [Protein maps, Alzheimer's genetics]
+- rank: 2
+  figure: "2x"
+  figure_label: Alzheimer's risk for carriers of a rare PLD3 variant
+  statement: Sequencing families with many cases of late-onset Alzheimer's found a rare variant in the PLD3 gene (Val232Met) that tracked with disease in two families and doubled Alzheimer's risk across seven case-control groups totalling more than 11,000 people. PLD3 is lower in neurons from Alzheimer's brains and affects how amyloid precursor protein is handled.
+  paper: pmid-24336208
+  evidence: Whole-exome sequencing of 14 families plus case-control follow-up in over 11,000 people
+  tags: [Alzheimer's genetics]
+- rank: 3
+  figure: "Protective"
+  figure_label: MS4A variants that raise soluble TREM2 lower Alzheimer's risk
+  statement: A genome-wide study of soluble TREM2 in spinal fluid found that common variants in the MS4A gene region set its level. The variants that raise soluble TREM2 were linked to lower Alzheimer's risk and later onset, and lab work showed that the MS4A4A protein controls how much soluble TREM2 is made.
+  paper: pmid-31413141
+  evidence: Genome-wide association study of spinal fluid sTREM2 with replication and cell experiments
+  tags: [TREM2 and microglia, Alzheimer's genetics]
+- rank: 4
+  figure: "Fewer plaques"
+  figure_label: in mice lacking Ms4a4a
+  statement: Removing Ms4a4a in a mouse model of amyloid build-up reduced overall plaque burden and made plaques more compact, with microglia that were more inflammatory and made more MMP-9. People carrying the MS4A4A resilience variant also had higher MMP-9 in spinal fluid, supporting lower MS4A4A as a possible treatment approach.
+  paper: pmid-40843775
+  evidence: Knockout mouse study (5xFAD) plus human spinal fluid measures
+  tags: [TREM2 and microglia, Treatment response]
+- rank: 5
+  figure: "8"
+  figure_label: spinal fluid proteins that change before standard Alzheimer's markers in inherited Alzheimer's
+  statement: In 286 carriers of inherited Alzheimer's mutations and 177 non-carrier relatives, 137 spinal fluid proteins followed different paths over the disease course, and eight changed before the usual amyloid and tau markers. Early changes involved stress response and mitochondrial damage, middle-stage changes neuronal death, and late presymptomatic changes microglia.
+  paper: pmid-39332414
+  evidence: Spinal fluid proteomics in 463 members of families with inherited Alzheimer's
+  tags: [Inherited Alzheimer's, Protein maps]
+- rank: 6
+  figure: "AUC 0.945"
+  figure_label: blood circular RNA test for biomarker-confirmed Alzheimer's
+  statement: A set of 34 circular RNAs measured in blood classified biomarker-confirmed Alzheimer's better than plasma p-tau217 (AUC 0.945 vs 0.877), and the two together reached 0.977. The test replicated in two independent groups, was specific to Alzheimer's over Parkinson's and frontotemporal dementia, and predicted progression to symptoms.
+  paper: pmid-42387213
+  evidence: Blood RNA study in 1,221 people with replication in 551 and 1,767 people
+  tags: [Blood and spinal fluid tests]
+- rank: 7
+  figure: "27%"
+  figure_label: of the variation in cognitive impairment explained by a synapse protein ratio beyond amyloid and tau
+  statement: Across 3,397 people from six cohorts, synapse proteins in spinal fluid were the strongest correlates of cognitive impairment, independent of amyloid and tau. The YWHAG to NPTX2 ratio predicted who would move from normal cognition to mild impairment, and from mild impairment to dementia, over 15 years, and rose about 20 years before expected onset in inherited Alzheimer's.
+  paper: pmid-40164724
+  evidence: Spinal fluid proteomics in 3,397 people from six cohorts, up to 15 years of follow-up
+  tags: [Blood and spinal fluid tests, Inherited Alzheimer's]
+- rank: 8
+  figure: "Mixed"
+  figure_label: directions of blood marker change on lecanemab
+  statement: In 197 patients receiving lecanemab in routine care, 34 of 130 plasma proteins changed. Amyloid and tau markers such as p-tau217 moved toward normal, while markers such as TREM2 and NPTXR moved further from normal and NfL did not change, suggesting different blood markers may serve different purposes in monitoring treatment.
+  paper: pmid-42785333
+  evidence: Longitudinal cohort of 197 treated patients compared with 1,312 untreated and 458 amyloid-negative people
+  tags: [Treatment response, Blood and spinal fluid tests]
+- rank: 9
+  figure: "7 proteins"
+  figure_label: blood panel that identifies biomarker-defined Alzheimer's (AUC above 0.88)
+  statement: Measuring about 6,100 plasma proteins in more than 3,300 people found 416 linked to Alzheimer's, 294 of them new, and validated them in over 7,000 more samples. A seven-protein machine-learning panel identified biomarker-defined Alzheimer's with AUC above 0.88 and replicated across cohorts and platforms.
+  paper: pmid-40394224
+  evidence: Plasma proteomics in 3,300+ people with external validation in 7,000+ samples
+  tags: [Blood and spinal fluid tests, Protein maps]
+- rank: 10
+  figure: "HR 11"
+  figure_label: risk of progression in the highest-risk group when p-tau217 is combined with the protein panel
+  statement: In people with normal cognition, plasma p-tau217 alone and the seven-protein panel each predicted progression to symptomatic Alzheimer's similarly. Combining them identified a high-risk group with about 11 times the hazard of progression, and simple protein ratios such as ACHE to NPTXR also improved on p-tau217 alone.
+  paper: pmid-42598783
+  evidence: Longitudinal Knight ADRC cohort with replication in ADNI
+  tags: [Blood and spinal fluid tests]
+- rank: 11
+  figure: "<30%"
+  figure_label: of genetic controls of protein levels are shared by plasma and spinal fluid
+  statement: Of almost 5,000 genetic controls of protein levels, fewer than 30% appeared in both plasma and spinal fluid. Of 427 links between proteins and 14 neurological traits, only 69 showed up in both fluids, and spinal fluid captured disease biology that plasma missed.
+  paper: pmid-42054495
+  evidence: Comparison of plasma and spinal fluid protein genetics across 14 neurological traits
+  tags: [Protein maps]
+- rank: 12
+  figure: "2,029"
+  figure_label: spinal fluid proteins altered across the Alzheimer's continuum, 57% newly reported
+  statement: A three-stage spinal fluid study found 2,029 proteins altered in Alzheimer's, grouped by stage, from neuronal death and tau phosphorylation early, to microglia and lysosome problems in the middle, to microglia-neuron crosstalk late. Models built from these proteins predicted biomarker status and clinical diagnosis with AUC above 0.90.
+  paper: pmid-40088886
+  evidence: Multi-cohort spinal fluid proteomics with discovery, replication and meta-analysis
+  tags: [Protein maps, Blood and spinal fluid tests]
+- rank: 13
+  figure: "10,527"
+  figure_label: plasma samples compared across Alzheimer's, Parkinson's and frontotemporal dementia
+  statement: Plasma proteomics in 10,527 samples found thousands of proteins linked to each disease. Immune, glycolysis and extracellular matrix pathways were shared, while Alzheimer's showed disease-specific apoptosis changes, and Alzheimer's and Parkinson's overlapped least.
+  paper: pmid-40665052
+  evidence: Global Neurodegeneration Proteomics Consortium plasma study, 10,527 samples
+  tags: [Protein maps]
+- rank: 14
+  figure: "1,807"
+  figure_label: spinal fluid proteins linked to amyloid in people with normal cognition
+  statement: Profiling 6,175 spinal fluid proteins in 994 cognitively normal people aged 43 to 91 found and replicated 2,172 age-linked, 711 sex-linked, 193 APOE4-linked and 1,807 amyloid-linked proteins, with heavy overlap between them. These signatures differed from those seen in plasma.
+  paper: pmid-41087722
+  evidence: Spinal fluid proteomics in 994 cognitively normal adults
+  tags: [Protein maps, APOE4]
+- rank: 15
+  figure: "Higher in women"
+  figure_label: APOE4's link to tau in spinal fluid
+  statement: Across 4,592 people from 20 cohorts, APOE4 dose was tied to lower amyloid-beta 42 in spinal fluid, a sign of more amyloid in the brain. Women had higher p-tau and total tau, and APOE4's association with tau measures was stronger in women than in men in some ancestry groups.
+  paper: pmid-40067298
+  evidence: Cohort study, 4,592 people of African, Asian and European ancestry
+  tags: [APOE4]
+- rank: 16
+  figure: "OR 10.7"
+  figure_label: Alzheimer's risk for APOE4 carriers who also carry PSEN1 E318G
+  statement: People who carry APOE4 and the PSEN1 E318G variant had Alzheimer's risk (odds ratio 10.7) similar to APOE4 homozygotes (9.9), about double that of APOE4 carriers without the variant (3.9). The variant was also linked to higher spinal fluid tau.
+  paper: pmid-23990795
+  evidence: Deep sequencing plus case-control series of 5,161 people
+  tags: [APOE4, Alzheimer's genetics]
+- rank: 17
+  figure: "33 and 11"
+  figure_label: cell type-gene pairs in APOE4 non-carriers and carriers
+  statement: A genome-wide study of Alzheimer's split by APOE4 status (447,669 people) and linked to brain cell-type data identified 33 cell type-gene pairs in non-carriers and 11 in carriers, with oligodendrocytes most prominent in carriers. Several genes are druggable, pointing to treatments that could differ by APOE4 status.
+  paper: pmid-42328930
+  evidence: APOE4-stratified genome-wide association study, 447,669 people
+  tags: [APOE4, Alzheimer's genetics]
+- rank: 18
+  figure: "Higher"
+  figure_label: soluble TREM2 in spinal fluid in Alzheimer's
+  statement: People with Alzheimer's had higher soluble TREM2 in spinal fluid than controls, and levels tracked tau but not amyloid. Carriers of variants that cause Nasu-Hakola disease had lower levels, while R47H risk-variant carriers had higher levels, suggesting R47H raises risk by a different mechanism.
+  paper: pmid-26754641
+  evidence: Spinal fluid study of 180 cases and controls plus 40 TREM2 variant carriers
+  tags: [TREM2 and microglia]
+- rank: 19
+  figure: "OR 1.27"
+  figure_label: Alzheimer's risk for TREM2 L211P in African Americans
+  statement: In 906 African American people with Alzheimer's and 2,487 controls, TREM2 L211P raised risk, while the TREM2 variants that raise risk in people of European ancestry were extremely rare and not linked to risk. Risk variants in the same gene differed by ancestry.
+  paper: pmid-25886450
+  evidence: Exonic sequencing and case-control study, 3,393 African American participants
+  tags: [TREM2 and microglia, Alzheimer's genetics]
+- rank: 20
+  figure: "4 loci"
+  figure_label: genetic controls of soluble TREM2, including TGFBR2 and NECTIN2
+  statement: The largest genome-wide study of spinal fluid soluble TREM2 (3,350 people) found four regions, including two MS4A missense variants that interact to affect both TREM2 and Alzheimer's risk. Lab experiments showed that changing TGFBR2 or NECTIN2 changes soluble TREM2 levels.
+  paper: pmid-38172904
+  evidence: Genome-wide association study of 3,350 people with fine mapping and cell assays
+  tags: [TREM2 and microglia, Alzheimer's genetics]
+- rank: 21
+  figure: "8 new"
+  figure_label: genetic regions controlling spinal fluid amyloid and tau
+  statement: A genome-wide meta-analysis of spinal fluid amyloid-beta 42, total tau and p-tau181 in 18,948 people found 12 genetic regions, eight of them new, including BIN1 and MS4A6A. These variants were also linked to Alzheimer's risk, progression or brain amyloid, and implicate lipid handling and autophagy.
+  paper: pmid-42014397
+  evidence: Genome-wide association meta-analysis, 18,948 people
+  tags: [Alzheimer's genetics, Blood and spinal fluid tests]
+- rank: 22
+  figure: "13,409"
+  figure_label: amyloid PET scans in the largest genetic study of brain amyloid
+  statement: A multi-ethnic genetic study of amyloid PET in 13,409 people confirmed a very strong APOE4 signal, weakest in Asian participants, and found ABCA7, CR1 and FERMT2 as additional regions that also affect Alzheimer's risk, plus two signals specific to women.
+  paper: pmid-37101235
+  evidence: Multi-ethnic genome-wide association study of amyloid PET, 13,409 people
+  tags: [Alzheimer's genetics, APOE4]
+- rank: 23
+  figure: "OR 2.27"
+  figure_label: per-score effect of late-onset risk genes in sporadic early-onset Alzheimer's
+  statement: A polygenic risk score built from 21 late-onset Alzheimer's risk regions was most strongly tied to sporadic early-onset Alzheimer's (odds ratio 2.27), then familial late-onset (1.75) and sporadic late-onset (1.40). In inherited autosomal dominant Alzheimer's the score did not change risk but may modify age at onset.
+  paper: pmid-28943286
+  evidence: Polygenic risk score analysis across sporadic, familial and autosomal dominant Alzheimer's
+  tags: [Alzheimer's genetics, Inherited Alzheimer's]
+- rank: 24
+  figure: "3 loci"
+  figure_label: for spinal fluid tau, one also raising Alzheimer's risk
+  statement: A genome-wide study of spinal fluid tau and p-tau in 1,269 people found three regions, including one near the TREM genes. The 3q28 variant also predicted Alzheimer's risk, tangle pathology and faster cognitive decline in independent groups, showing that biomarker levels can reveal new risk genes.
+  paper: pmid-23562540
+  evidence: Genome-wide association study of spinal fluid tau, 1,269 people
+  tags: [Alzheimer's genetics, Blood and spinal fluid tests]
+- rank: 25
+  figure: "Slower decline"
+  figure_label: with a CHI3L1 variant that lowers spinal fluid YKL-40
+  statement: A human CHI3L1 variant that lowers spinal fluid YKL-40 was linked to slower Alzheimer's progression. In mice, removing Chi3l1 reduced amyloid plaques and increased clearance of amyloid by glial cells, and the gene is regulated by the body clock.
+  paper: pmid-33328329
+  evidence: Human genetic association plus mouse and cell experiments
+  tags: [Alzheimer's genetics, TREM2 and microglia]
