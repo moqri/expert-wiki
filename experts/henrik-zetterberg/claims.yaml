@@ -48,19 +48,19 @@
   evidence: Longitudinal autopsy cohort, 115 participants with blood samples 8, 4 and 2 years before death
   tags: [Blood tests, Disease timeline]
 - rank: 8
-  figure: "AUC 0.90 to 0.98"
-  figure_label: for blood p-tau181 separating Alzheimer's from normal ageing
-  statement: A new ultrasensitive blood test for p-tau181 rose step by step along the Alzheimer's continuum and separated Alzheimer's dementia from cognitively normal older adults (AUC 0.90 to 0.98) and from frontotemporal dementia (AUC 0.83 to 1.00). In a primary care cohort it did not separate Alzheimer's from mild cognitive impairment (AUC 0.55).
-  paper: pmid-32333900
-  evidence: Assay development and validation in 4 cohorts, 1,131 participants
-  tags: [Blood tests]
+  figure: "10,059 people"
+  figure_label: show spinal fluid NfL is raised in most brain diseases
+  statement: Pooling spinal fluid neurofilament light data from 10,059 people with 35 diagnoses, levels were higher than in healthy controls in most neurological conditions, highest in HIV with cognitive impairment, ALS, frontotemporal dementia and Huntington's disease. Levels rose with age and were often higher in men, so age- and sex-specific reference values may be needed.
+  paper: pmid-31206160
+  evidence: Systematic review and individual-level meta-analysis, 10,059 participants
+  tags: [Nerve damage (NfL), Brain injury and other diseases]
 - rank: 9
-  figure: "Earliest"
-  figure_label: blood p-tau231 rises before amyloid scans turn positive
-  statement: Plasma p-tau231 identified Alzheimer's with AUCs of 0.92 to 0.94 and, in samples taken about 4 years before death, identified Alzheimer's at autopsy with an AUC of 0.99. It began to rise at lower amyloid levels than the usual amyloid PET positivity threshold, earlier than plasma p-tau181.
-  paper: pmid-33585983
-  evidence: Assay validation in 4 cohorts, 588 participants, including an autopsy cohort
-  tags: [Blood tests, Disease timeline]
+  figure: "Together"
+  figure_label: microglial activation and tau spread through the brain
+  statement: Brain scans of 130 people across ageing and Alzheimer's showed that activated microglia, the brain's immune cells, and tau spread together in the same Braak-like stages. Tau spread over time followed the baseline microglia network, and having amyloid, tau and microglial activation together best predicted cognitive impairment.
+  paper: pmid-34446931
+  evidence: PET imaging study of microglia, amyloid and tau, 130 participants, with longitudinal follow-up
+  tags: [Inflammation and astrocytes, Disease timeline]
 - rank: 10
   figure: "231 studies"
   figure_label: confirm spinal fluid tau, p-tau and Aβ42 as core Alzheimer's markers
@@ -69,12 +69,12 @@
   evidence: Systematic review and meta-analysis of 15 biomarkers, 231 studies
   tags: [Spinal fluid tests, Blood tests]
 - rank: 11
-  figure: "AUC 0.87"
-  figure_label: for blood NfL separating Alzheimer's dementia from healthy people
-  statement: Plasma neurofilament light was higher in mild cognitive impairment (42.8 ng/L) and Alzheimer's dementia (51.0 ng/L) than in healthy controls (34.7 ng/L), separated Alzheimer's dementia from controls with an AUC of 0.87, and higher levels went with faster cognitive decline and brain atrophy.
-  paper: pmid-28346578
-  evidence: Case-control study in ADNI, 570 participants
-  tags: [Nerve damage (NfL)]
+  figure: "AUC 0.78 → 0.91"
+  figure_label: adding blood GFAP to detect amyloid in people with normal memory
+  statement: In cognitively normal older adults, plasma GFAP was much higher in those with amyloid on PET scans. A model of age, sex and APOE4 detected amyloid with an AUC of 0.78, which rose to 0.91 when plasma GFAP was added.
+  paper: pmid-33431793
+  evidence: Cross-sectional study, 96 cognitively normal older adults with amyloid PET
+  tags: [Inflammation and astrocytes, Blood tests]
 - rank: 12
   figure: "AUC 0.76"
   figure_label: for blood GFAP flagging amyloid build-up
