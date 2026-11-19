@@ -4,12 +4,17 @@ credentials: PhD
 affiliation: Optispan; formerly University of Washington
 department: Co-founder, Dog Aging Project
 areas: [Aging]
-headline: Studies the biology that sets how fast we age, from genes in yeast to the drug rapamycin in mice, pet dogs and people.
+headline: Genetic and pharmacological modulation of aging, from yeast longevity genes to mTOR inhibition in mammals.
 summary:
   - The early work used budding yeast to find the genes that control lifespan. Kaeberlein and colleagues showed that the protein Sir2 extends yeast lifespan and works as an NAD-dependent enzyme that strips acetyl groups from histones. Later papers found that calorie restriction lengthens yeast life mostly through a separate route, that resveratrol's apparent boost of Sir2 was an artifact of the test chemistry, and that extra Sir2 did not lengthen life in worms or flies once genetic background was controlled.
   - A screen of 564 and later 4,698 yeast gene deletions pointed to the nutrient-sensing TOR pathway as a main link between food intake and aging, a pathway shared with worms and mammals. This led to work with rapamycin, a drug that blocks mTOR. In mice, 3 months of rapamycin in middle age raised life expectancy by up to 60%, regrew bone lost to gum disease in old mice, and greatly improved survival in a mouse model of the childhood mitochondrial disease Leigh syndrome.
   - Kaeberlein co-founded the Dog Aging Project, a study of tens of thousands of pet dogs that share our homes and our risks. Its papers report that rapamycin was safe in a 10-week trial in 24 middle-aged dogs and may have improved heart function, that dogs fed once a day had fewer health problems, and that large dogs and male dogs show faster epigenetic aging, in line with their shorter lives.
   - In people, the work collected the experience of 333 adults taking rapamycin off-label and found it can be used safely in healthy adults, while a 2026 trial in 40 older adults found weekly rapamycin did not help, and may have slightly blunted, gains from exercise. The papers argue that slowing aging itself is the best form of preventive medicine.
+highlights:
+  - "**Sirtuins and dietary restriction in yeast.** Showed that [Sir2 is an NAD-dependent histone deacetylase](paper:pmid-10693811) (*Nature* 2000) and that [calorie restriction extends yeast lifespan independently of Sir2](paper:pmid-15328540)."
+  - "**TOR signaling.** Identified [TOR and Sch9 as regulators of replicative lifespan](paper:pmid-16293764) in response to nutrients, and analyzed [4,698 single-gene deletion strains](paper:pmid-26456335) to identify conserved aging mechanisms."
+  - "**Rapamycin in mice.** Showed that [transient rapamycin treatment in middle age](paper:pmid-27549339) increased life expectancy and healthspan, and that mTOR inhibition [alleviated disease in a mouse model of Leigh syndrome](paper:pmid-24231806)."
+  - "**Companion dogs and humans.** Co-founded the [Dog Aging Project](paper:pmid-35110758); a survey of [333 adults using off-label rapamycin](paper:pmid-37191826) suggested it can be used safely, while a [trial in older adults](paper:pmid-41985884) found it did not enhance gains from exercise."
 tags: [Rapamycin and mTOR, Dogs and aging, Diet and calorie restriction, Sirtuins and resveratrol, Genes of aging in yeast and worms, Mitochondria and disease]
 search: 'Kaeberlein M[Author]'
 links:

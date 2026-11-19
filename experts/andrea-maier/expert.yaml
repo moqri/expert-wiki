@@ -4,11 +4,16 @@ credentials: MD, PhD
 affiliation: National University of Singapore and Vrije Universiteit Amsterdam
 department: NUS Academy for Healthy Longevity, Yong Loo Lin School of Medicine; Department of Human Movement Sciences, @AgeAmsterdam
 areas: [Aging]
-headline: A geriatrician who studies how to measure and slow biological ageing in people, from muscle health in hospital patients to healthy longevity clinics and supplement trials.
+headline: Measurement of biological ageing, sarcopenia and malnutrition in older adults, and evaluation of longevity interventions.
 summary:
   - Andrea Maier's published work spans the full path from the biology of ageing to the clinic. Maier's early research in the Leiden Longevity Study and the Leiden 85-plus Study compared people from long-lived families with their peers and followed 85-year-olds for a decade, showing that markers such as skin senescent cells, glucose rhythms, immune profiles and grip strength track how fast a person is ageing and how long they are likely to live.
   - A large part of Maier's work is about muscle and nutrition in older adults. Maier's studies show that sarcopenia (loss of muscle mass and strength), malnutrition and frailty are common, often occur together in hospitalised older people, and predict death after discharge. Through the RESORT cohort of more than 1,800 geriatric rehabilitation patients in Melbourne, and pooled data from over 270,000 people across Asia, Maier has worked on how these conditions should be measured.
   - Maier's recent papers build the case for Healthy Longevity Medicine and precision geromedicine, which aim to measure biological age and slow it with lifestyle, supplements and repurposed drugs. This includes meta-analyses linking DNA methylation clocks to physical activity and other exposures, a step-count clock, trials and reviews of NAD boosters and urolithin A, and surveys of what the public knows about healthspan. These summaries are drawn from Maier's published work, not Maier's personal views.
+highlights:
+  - "**Markers of biological age.** In the Leiden studies, showed that handgrip strength predicts mortality in the oldest old ([*CMAJ* 2010](paper:pmid-20142372)) and that the number of p16INK4a-positive cells in skin reflects biological age ([*Aging Cell* 2012](paper:pmid-22612594))."
+  - "**Sarcopenia.** Meta-analyses associated sarcopenia with falls and fractures ([*J Cachexia Sarcopenia Muscle* 2019](paper:pmid-30993881)) and with mortality ([*Gerontology* 2022](paper:pmid-34315158)) in adults."
+  - "**Frailty and malnutrition in hospital.** Showed that frailty, sarcopenia and malnutrition frequently co-occur in hospitalised older adults ([*J Am Med Dir Assoc* 2020](paper:pmid-32327302)), and compared malnutrition criteria in the RESORT geriatric rehabilitation cohort ([*Clinical Nutrition* 2020](paper:pmid-32273200))."
+  - "**Longevity interventions.** Co-authored a framework for precision geromedicine ([*Cell* 2025](paper:pmid-40250404)) and a randomized, placebo-controlled trial of nicotinamide mononucleotide supplementation in healthy middle-aged adults ([*GeroScience* 2023](paper:pmid-36482258))."
 tags: [Biomarkers of aging, Muscle and sarcopenia, Nutrition, Frailty and hospital care, Longevity interventions, Familial longevity, Healthy longevity medicine]
 search: 'Maier AB[Author]'
 links:

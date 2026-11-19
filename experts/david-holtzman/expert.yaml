@@ -4,12 +4,17 @@ credentials: MD
 affiliation: Washington University School of Medicine in St. Louis
 department: Department of Neurology
 areas: [Alzheimer's]
-headline: How the APOE gene, sleep and the brain's immune cells shape the build-up of amyloid and tau in Alzheimer's disease, and how to turn that into treatments.
+headline: Roles of APOE, sleep and immune cells in amyloid and tau pathology in Alzheimer's disease.
 summary:
   - "Holtzman's work centers on APOE, the strongest genetic risk factor for late-onset Alzheimer's disease. In mice, the APOE4 form of the protein led to more than 10 times as many fibrillar amyloid deposits as APOE3, and human APOE forms differ in how fast they clear amyloid-β from the brain rather than in how much is made. Later studies showed APOE4 also worsens tau-driven brain shrinkage independently of amyloid, while removing APOE, especially the APOE4 made by astrocytes, strongly protected the brain."
   - "A second thread is sleep. Using microdialysis to sample brain fluid in living mice, Holtzman's group found that amyloid-β rises during wakefulness and falls during sleep, that chronic sleep restriction increases plaques, and that the same holds for tau: one night of sleep deprivation raised spinal fluid tau in people by more than 50%. In human studies, worse sleep quality and less deep slow-wave sleep went along with amyloid and tau before memory problems appear."
   - "Holtzman's lab has also shown that the brain's immune cells drive much of the damage. In tau mouse models, depleting microglia or T cells blocked brain shrinkage, and changing the gut microbiome reduced tau pathology in an APOE-dependent way. Work on the protective APOE Christchurch variant and on TREM2 points to the microglial response around plaques as a lever for stopping tau from spreading."
   - "Much of this work is aimed at therapies. Holtzman's group helped develop anti-amyloid and anti-tau antibodies, showed that lowering APOE4 with antisense drugs protects against neurodegeneration in mice, and found an antibody against aggregated APOE that clears amyloid from blood vessels without the brain bleeding seen with some anti-amyloid antibodies. Collaborations at Washington University also mapped the decades-long order of brain changes in inherited Alzheimer's and validated a blood test for amyloid."
+highlights:
+  - "**APOE and amyloid.** Showed in mouse models that APOE isoform influences [amyloid deposition](paper:pmid-10694577), and that human APOE isoforms differ in [clearance of amyloid-β from the brain](paper:pmid-21715678) rather than in its production."
+  - "**APOE and tau.** Found that APOE4 [markedly exacerbates tau-mediated neurodegeneration](paper:pmid-28959956) in a tauopathy model independently of amyloid, and that [selective removal of astrocytic APOE4](paper:pmid-33831349) strongly protects against it."
+  - "**Sleep-wake cycle.** In vivo microdialysis showed that brain interstitial amyloid-β [rises with wakefulness and sleep deprivation](paper:pmid-19779148); sleep loss similarly [increased tau in mouse brain fluid and human CSF](paper:pmid-30679382)."
+  - "**Immune mechanisms and therapies.** In tauopathy mice, [microglia-mediated T cell infiltration](paper:pmid-36890231) drove neurodegeneration. Therapeutic work includes [anti-tau antibodies that block aggregate seeding](paper:pmid-24075978) and reduce pathology."
 tags: [APOE, Sleep, Microglia and immunity, Tau, Amyloid, Therapies, Biomarkers]
 search: 'Holtzman DM[Author] OR (Holtzman D[Author] AND (alzheimer* OR amyloid OR apolipoprotein OR apoe OR tau OR neurodegenerat* OR microglia OR sleep OR "brain injury" OR clioquinol OR proteom* OR cerebrospinal))'
 questions:
