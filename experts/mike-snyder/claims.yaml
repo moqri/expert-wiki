@@ -1,0 +1,161 @@
+- rank: 1
+  figure: "44 and 60"
+  figure_label: years of age when many molecules shift most sharply
+  statement: Molecular aging is not steady. Across many types of molecules, the biggest changes clustered around age 44 (cardiovascular, lipid and alcohol metabolism) and age 60 (immune regulation and carbohydrate metabolism).
+  paper: pmid-39143318
+  evidence: Longitudinal multi-omics study, 108 adults aged 25 to 75, followed up to 6.8 years
+  tags: [Aging trajectories, Multi-omics profiling]
+- rank: 2
+  figure: "Ageotypes"
+  figure_label: different molecular routes of aging in different people
+  statement: People age along different molecular pathways, called ageotypes, and personal aging markers could be seen changing within just 2 to 3 years. Insulin-resistant and insulin-sensitive people showed distinct aging patterns.
+  paper: pmid-31932806
+  evidence: Longitudinal multi-omics study, 106 healthy adults aged 29 to 75
+  tags: [Aging trajectories, Biomarkers of aging]
+- rank: 3
+  figure: "67+"
+  figure_label: clinically actionable health findings in 109 people
+  statement: Deep, repeated profiling of people at risk of type 2 diabetes produced more than 67 clinically actionable health discoveries, and most participants changed their diet and exercise as a result of taking part.
+  paper: pmid-31068711
+  evidence: Prospective cohort, 109 people sampled quarterly for up to 8 years (median 2.8)
+  tags: [Multi-omics profiling, Blood sugar and metabolism]
+- rank: 4
+  figure: "1 person, 14 months"
+  figure_label: of genome, RNA, protein, metabolite and antibody profiling
+  statement: Profiling one person's genome alongside repeated molecular measurements over 14 months revealed medical risks including type 2 diabetes, and showed extensive molecular changes between healthy and sick periods.
+  paper: pmid-22424236
+  evidence: Single-person longitudinal multi-omics profile (iPOP)
+  tags: [Multi-omics profiling]
+- rank: 5
+  figure: "80%"
+  figure_label: of SARS-CoV-2 infections flagged by a real-time smartwatch alert
+  statement: A real-time smartwatch alert based on heart rate and steps flagged 67 of 84 infections, with signals a median of 3 days before symptoms. Stress, alcohol and travel also triggered alerts, but far less often.
+  paper: pmid-34845389
+  evidence: Prospective study, 3,318 participants, 84 infected
+  tags: [Wearables]
+- rank: 6
+  figure: "63%"
+  figure_label: of COVID-19 cases detectable before symptoms from smartwatch data
+  statement: Smartwatch data showed changes in heart rate, steps or sleep in 26 of 32 people with COVID-19, and a resting heart rate warning could have detected 63% of cases before symptom onset.
+  paper: pmid-33208926
+  evidence: Retrospective analysis, 32 infected people from a cohort of about 5,300
+  tags: [Wearables]
+- rank: 7
+  figure: "15%"
+  figure_label: of the time in the prediabetic range, even with normal standard tests
+  statement: Continuous glucose monitoring showed that even people classed as normal by standard tests had glucose in the prediabetic range 15% of the time and in the diabetic range 2% of the time. Responses to the same meal differed a lot between people.
+  paper: pmid-30040822
+  evidence: Continuous glucose monitoring study with standardized meals
+  tags: [Blood sugar and metabolism, Wearables]
+- rank: 8
+  figure: "AUC 0.88"
+  figure_label: for detecting muscle insulin resistance from an at-home glucose curve
+  statement: The shape of the glucose curve from an at-home glucose tolerance test, recorded by a continuous glucose monitor, predicted the underlying cause of early glucose problems, such as muscle insulin resistance or beta-cell dysfunction.
+  paper: pmid-39715896
+  evidence: Gold-standard metabolic testing in 32 people, at-home validation in 29
+  tags: [Blood sugar and metabolism, Wearables]
+- rank: 9
+  figure: "IL-1RA, CRP"
+  figure_label: inflammation markers rose before one person's diabetes onset
+  statement: Following people with and without prediabetes showed that each healthy profile is distinct, that insulin-resistant people respond differently to viral infections, and that inflammation markers rose before one participant developed type 2 diabetes.
+  paper: pmid-31142858
+  evidence: Longitudinal multi-omics and microbiome study, 106 people over about 4 years
+  tags: [Blood sugar and metabolism, Microbiome and environment, Multi-omics profiling]
+- rank: 10
+  figure: ">800"
+  figure_label: blood lipid species tracked over up to 9 years
+  statement: Blood lipids change with aging, infection and insulin resistance. People with insulin resistance showed faster age-related changes in specific lipid classes.
+  paper: pmid-37697054
+  evidence: Longitudinal lipidomics, more than 1,500 samples from 112 people
+  tags: [Aging trajectories, Blood sugar and metabolism]
+- rank: 11
+  figure: "~90%"
+  figure_label: of age-related DNA methylation gain falls in PRC2 target regions
+  statement: Regions bound by the PRC2 complex in stem cells gain DNA methylation with age in all dividing body cells examined, accounting for about 90% of age-related methylation gain. Their average, the PRC2-AgeIndex, is proposed as a universal aging biomarker that can compare anti-aging interventions.
+  paper: pmid-39009581
+  evidence: Genome-wide DNA methylation analysis across somatic tissues
+  tags: [Biomarkers of aging]
+- rank: 12
+  figure: "Framework"
+  figure_label: for defining and validating biomarkers of aging
+  statement: Biomarkers of aging are needed to test longevity treatments in realistic time frames, but the field lacks agreed standards. This review sets out terms, categories, clinical uses and validation steps.
+  paper: pmid-37657418
+  evidence: Consensus review by aging biomarker researchers
+  tags: [Biomarkers of aging]
+- rank: 13
+  figure: "Multi-omic aging genes"
+  figure_label: replicate better than single-omic aging genes
+  statement: Genes that change with age in both DNA methylation and RNA levels in blood are enriched for adaptive immune functions, replicate better across populations, and relate more strongly to aging outcomes than genes found with one data type alone.
+  paper: pmid-41554691
+  evidence: Integrative epigenetic and transcriptomic analysis of blood across populations
+  tags: [Biomarkers of aging, Aging trajectories]
+- rank: 14
+  figure: "Thousands"
+  figure_label: of blood molecules change after one bout of exercise
+  statement: A single bout of hard exercise triggered thousands of molecular changes in energy use, oxidative stress, inflammation and tissue repair. Many responses were blunted or reversed in insulin-resistant people.
+  paper: pmid-32470399
+  evidence: Multi-omics time series before and after exercise, 36 volunteers
+  tags: [Multi-omics profiling, Blood sugar and metabolism]
+- rank: 15
+  figure: "Lab tests"
+  figure_label: predicted from smartwatch vital signs
+  statement: Heart rate, temperature, skin conductance and movement from consumer wearables gave a more consistent resting heart rate than clinic measurements and predicted several clinical lab values better than clinic vital signs.
+  paper: pmid-34031607
+  evidence: Machine learning on wearable and clinical lab data
+  tags: [Wearables]
+- rank: 16
+  figure: "250,000"
+  figure_label: daily wearable measurements from up to 43 people
+  statement: Wearable sensors spotted early signs of Lyme disease and inflammation, recorded drops in blood oxygen on flights, and distinguished insulin-sensitive from insulin-resistant people.
+  paper: pmid-28081144
+  evidence: Wearable biosensor study with frequent medical measurements, up to 43 people
+  tags: [Wearables]
+- rank: 17
+  figure: ">1,000"
+  figure_label: blood measures that vary with the seasons
+  statement: More than 1,000 molecules and clinical measures varied by season, grouping into two patterns that peak in late spring and in late fall or early winter in California, including markers of inflammation, immunity and heart health.
+  paper: pmid-33004787
+  evidence: Longitudinal multi-omics, 105 people over 4 years
+  tags: [Multi-omics profiling]
+- rank: 18
+  figure: "Weight gain"
+  figure_label: switches on inflammatory signatures, some persisting after loss
+  statement: Gaining weight activated inflammatory and heart-muscle stress signatures in blood. Losing the weight reversed some changes but others persisted.
+  paper: pmid-29361466
+  evidence: Controlled weight gain and loss study with multi-omics
+  tags: [Blood sugar and metabolism, Multi-omics profiling]
+- rank: 19
+  figure: "4 body sites"
+  figure_label: of microbiome tracked over 6 years
+  statement: Gut and mouth microbiomes are more stable than skin and nose microbiomes, each person carries their own stable set of bacteria, and insulin-resistant people show altered microbiome stability.
+  paper: pmid-38479397
+  evidence: Longitudinal microbiome study, 86 people over 6 years
+  tags: [Microbiome and environment]
+- rank: 20
+  figure: "15 people, 890 days"
+  figure_label: of personal airborne exposure monitoring
+  statement: Personal exposure to airborne microbes and chemicals, including insecticides and carcinogens, is highly variable and differs even between people living in the same region.
+  paper: pmid-30241608
+  evidence: Personal exposome monitoring, 15 people across 66 locations
+  tags: [Microbiome and environment]
+- rank: 21
+  figure: "Mannose"
+  figure_label: blood level linked to insulin resistance
+  statement: Network analysis of fat and liver tissue pointed to mannose metabolism in obesity, and higher blood mannose was associated with insulin resistance in three cohorts, independent of obesity.
+  paper: pmid-27345421
+  evidence: Tissue transcriptomics in bariatric surgery patients plus two validation cohorts
+  tags: [Blood sugar and metabolism]
+- rank: 22
+  figure: "74.5%"
+  figure_label: of the yeast genome is transcribed
+  statement: An early RNA sequencing (RNA-Seq) method mapped the yeast transcriptome at high resolution and showed that most of the genome is transcribed, revealing a more complex transcriptome than expected.
+  paper: pmid-18451266
+  evidence: Method development and genome-wide transcriptome map in yeast
+  tags: [Genomics tools]
+- rank: 23
+  figure: "5,800"
+  figure_label: yeast proteins printed on a single chip
+  statement: Nearly the entire yeast proteome was printed on one slide, creating a protein microarray that found many new calmodulin- and lipid-binding proteins and can screen drug interactions.
+  paper: pmid-11474067
+  evidence: Method development, yeast proteome microarray
+  tags: [Genomics tools]
