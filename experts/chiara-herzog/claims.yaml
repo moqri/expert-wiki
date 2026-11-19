@@ -1,0 +1,189 @@
+- rank: 1
+  figure: "69% vs 18%"
+  figure_label: of future cervical precancers (CIN2+) predicted by a methylation test plus HPV16/18, versus cytology
+  statement: In HPV-positive women from a real-world Stockholm screening programme, the WID-qCIN methylation test combined with HPV16/18 typing detected 93% of CIN3 and all invasive cervical cancers. It needed 2.4 colposcopy referrals per precancer found, compared with 4.1 for cytology.
+  paper: pmid-38834848
+  evidence: Real-world screening cohort, 28,017 women (2,377 HPV-positive), 6-year follow-up
+  tags: [Cancer detection]
+- rank: 2
+  figure: "92% vs 79%"
+  figure_label: specificity of the WID-qEC swab test versus ultrasound for uterine cancer, at equal 91% sensitivity
+  statement: In women aged 45 and over with abnormal uterine bleeding at a London referral centre, a cervicovaginal methylation test found uterine cancers as well as ultrasound did but with far fewer false positives, doubling the positive predictive value (26% vs 12%). Triage with the test could reduce the number of women needing biopsies.
+  paper: pmid-37944542
+  evidence: Prospective consecutive cohort (EPI-SURE), 399 women
+  tags: [Cancer detection]
+- rank: 3
+  figure: "R = 0.12"
+  figure_label: correlation between how well a clock predicts age and how well it predicts death
+  statement: Across 39 biomarkers of aging tested in more than 20,000 people, a clock's accuracy for chronological age said almost nothing about its ability to predict mortality. GrimAge2 was the strongest predictor of death and healthspan, so the best biomarker depends on the outcome of interest.
+  paper: pmid-41188602
+  evidence: Standardised benchmark of 39 biomarkers (Biolearn) across cohorts of over 20,000 individuals
+  tags: [Biomarkers of aging, Epigenetic clocks]
+- rank: 4
+  figure: "22 years"
+  figure_label: before diagnosis that smoking-linked methylation in cheek cells predicted lung cancer
+  statement: Smoking left 535 DNA methylation marks that differed by cell type and body site. Marks raised in cheek cells of smokers were also raised in lung cancer and predicted lung cancer up to 22 years ahead, and the same marks were raised in e-cigarette users with little smoking history.
+  paper: pmid-38503267
+  evidence: Methylation analysis of over 3,500 cheek/saliva, cervical and blood samples
+  tags: [Smoking and exposures, Cancer detection]
+- rank: 5
+  figure: "Shared terms"
+  figure_label: and a framework for classifying and validating biomarkers of aging
+  statement: The Biomarkers of Aging Consortium set out shared terms and properties for biomarkers of aging, classified them by type and potential clinical use, and outlined the validation steps needed before they can be used to evaluate longevity interventions in humans.
+  paper: pmid-37657418
+  evidence: Consensus review, Biomarkers of Aging Consortium (28 authors)
+  tags: [Biomarkers of aging]
+- rank: 6
+  figure: "No consensus"
+  figure_label: yet on how omic biomarkers of aging should be validated before clinical use
+  statement: Reviewing how omic aging biomarkers have been tested in population studies, the authors found major gaps in comparability and generalisability and gave recommendations for systematic validation, so that biomarkers could become surrogate endpoints in gerotherapeutic trials.
+  paper: pmid-38355974
+  evidence: Review with recommendations, Biomarkers of Aging Consortium
+  tags: [Biomarkers of aging]
+- rank: 7
+  figure: "6 barriers"
+  figure_label: to bringing biomarkers of aging into the clinic
+  statement: A survey of experts identified six key barriers to clinical translation of aging biomarkers. Core recommendations were to link biomarkers to actionable clinical decisions, make them affordable and widely available, and validate that they are robust and responsive in individual people.
+  paper: pmid-39285015
+  evidence: Expert survey and consensus recommendations
+  tags: [Biomarkers of aging]
+- rank: 8
+  figure: "97%"
+  figure_label: sensitivity of a cervical swab methylation test for endometrial cancer in symptomatic women
+  statement: The WID-qEC test, which measures methylation in two genes (GYPC and ZSCAN12), detected endometrial cancer in 90 to 100% of cases across smear, vaginal swab and self-collected samples, and found 91% of cancers in samples taken up to a year before diagnosis. Because it works on self-samples, it could cut in-person visits.
+  paper: pmid-36001862
+  evidence: Development in 726 samples, validation in 562 samples across four clinical settings
+  tags: [Cancer detection]
+- rank: 9
+  figure: "AUC 0.98"
+  figure_label: for the WID-qEC test versus 0.56 for ultrasound in Ghanaian women with abnormal bleeding
+  statement: In Black women aged 40 and over with abnormal uterine bleeding in Ghana, ultrasound endometrial thickness barely distinguished cancer from no cancer, while the methylation swab test detected every endometrial and cervical cancer.
+  paper: pmid-39655721
+  evidence: Prospective observational cohort, 102 women with biopsy
+  tags: [Cancer detection]
+- rank: 10
+  figure: "OR 2.7"
+  figure_label: for breast cancer in premenopausal women with a lower epithelial-versus-general clock gap
+  statement: Herzog's team built cervical-sample epigenetic clocks for epithelial cells, immune cells and both together. A smaller gap between epithelial and general age was linked to breast cancer in premenopausal women and was reversed by anti-progesterone drugs, suggesting differing clock tick rates can signal disease risk.
+  paper: pmid-35189945
+  evidence: Clock development in 1,941 cervical samples, plus breast tissue datasets
+  tags: [Epigenetic clocks, Cancer prevention]
+- rank: 11
+  figure: "64%"
+  figure_label: of BRCA1/2 carriers whose breast tissue showed reduced mitotic age on mifepristone
+  statement: BRCA1/2 carriers had higher progesterone levels across the cycle. The anti-progesterone mifepristone lowered the epigenetic mitotic age and the share of luminal progenitor cells in normal breast tissue of all control women and 64% of carriers, and reduced TP53 mutations in responders, supporting antiprogestins for breast cancer prevention.
+  paper: pmid-35701800
+  evidence: Breast tissue from three clinical trials of antiprogestins (n = 44) plus tissue and saliva studies
+  tags: [Cancer prevention, Epigenetic clocks]
+- rank: 12
+  figure: "AUC 0.84"
+  figure_label: for identifying women with breast cancer from methylation in a cervical sample
+  statement: A methylation index read from cervical smear cells (WID-BC-index) identified women with breast cancer, with an AUC of 0.81 in external validation. Progesterone-receptor sites with low methylation in breast tissue of women with breast cancer were also low in their cervical cells, pointing to a body-wide epigenetic defect.
+  paper: pmid-35105882
+  evidence: 2,818 cervical, 357 cheek, 227 blood and 42 breast tissue samples
+  tags: [Cancer detection]
+- rank: 13
+  figure: "AUC 0.76"
+  figure_label: for detecting ovarian cancer from cervical cells, without any tumour DNA
+  statement: A methylation signature in cervical cells, which share their embryonic origin with most ovarian cancer tissue, identified women with ovarian cancer and endometrial cancer (AUC 0.81). The signature mirrored the epigenetic programme of at-risk tissues in BRCA1/2 carriers, suggesting cervical cells report cancer predisposition.
+  paper: pmid-35105887
+  evidence: Case-control methylation study of cervical samples
+  tags: [Cancer detection]
+- rank: 14
+  figure: "0.75 / 0.66 / 0.51"
+  figure_label: validation AUCs for breast cancer detection from cheek, cervical and blood methylation
+  statement: Comparing three non-invasive sample types, cheek and cervical cells carried breast cancer methylation signals while blood carried essentially none. Cheek cell changes aligned most closely with changes in breast tissue itself.
+  paper: pmid-40175335
+  evidence: Methylation profiling of 1,100 cervical, cheek and blood samples from cases and controls
+  tags: [Cancer detection]
+- rank: 15
+  figure: "9.6-fold"
+  figure_label: higher breast cancer risk for women high on both genetic and methylation risk scores
+  statement: Methylation at 104 breast cancer-linked genetic loci (WID-qtBC index) detected breast cancer from cervical samples. It changed with age, body mass index and a preventive drug, so it captures non-inherited risk; combined with a polygenic score it identified a top group with 9.6 times higher risk.
+  paper: pmid-37758816
+  evidence: Methylation in 1,848 samples and genotypes in 1,442 women
+  tags: [Cancer detection, Cancer prevention]
+- rank: 16
+  figure: ">50%"
+  figure_label: reduction in mammary cancer risk with mifepristone in mice
+  statement: In a hormone- and carcinogen-induced mouse model, mifepristone more than halved mammary cancer risk. The drop was matched by declines in methylation signatures both in the breast and in distant tissues such as the cervix, supporting these as markers of whether prevention is working.
+  paper: pmid-40175633
+  evidence: Mouse carcinogenesis model with multi-tissue methylation profiling
+  tags: [Cancer prevention]
+- rank: 17
+  figure: "Discordant"
+  figure_label: epigenetic aging in breast cancer, faster in the tumour and slower in some distant tissues
+  statement: Grouping age-related methylation changes by function (senescence, stem-cell genes, proliferation) across more than 12,500 human and 105 mouse samples showed accelerated aging in breast cancer tissue but slower epigenetic aging in cervical samples from the same patients. It also flagged sites that change earliest in carcinogenesis.
+  paper: pmid-40175686
+  evidence: Multi-organ methylation analysis, over 12,510 human and 105 mouse samples
+  tags: [Epigenetic clocks, Cancer detection]
+- rank: 18
+  figure: "52%"
+  figure_label: of women with a normal smear who went on to develop CIN3 within 1 to 4 years were flagged by WID-qCIN
+  statement: The three-gene WID-qCIN methylation test detected all invasive cervical cancers and 78% of CIN3 at 90% specificity, and flagged half of women aged 30 or over whose cytology was normal but who later developed CIN3.
+  paper: pmid-36414968
+  evidence: Diagnostic and nested case-control validation, 761 samples
+  tags: [Cancer detection]
+- rank: 19
+  figure: "AUC 0.92"
+  figure_label: for the WID-EC test identifying endometrial cancer in an external validation set
+  statement: A 500-site methylation signature read from cervical screening samples identified women with endometrial cancer and, in samples from routine Swedish screening, picked up women who developed the cancer within 3 years with 98% specificity.
+  paper: pmid-36533702
+  evidence: Discovery in 1,086 women; external (289) and prospective (150) validation
+  tags: [Cancer detection]
+- rank: 20
+  figure: "94%"
+  figure_label: sensitivity for high-risk ovarian cancer when blood cfDNA methylation was combined with CA125
+  statement: Targeted methylation of cell-free DNA in plasma detected 80% of high-risk ovarian cancers at 98% specificity, rising to 94% with CA125. In archived screening-trial samples it caught some cancers up to a year before diagnosis.
+  paper: pmid-37861205
+  evidence: Diagnostic case-control (68) and screening-trial nested case-control (58) samples
+  tags: [Cancer detection]
+- rank: 21
+  figure: "OR 2.93"
+  figure_label: for ovarian cancer among women with a positive WID-qEC test but no uterine cancer
+  statement: Among women without endometrial or cervical cancer, 54% of positive WID-qEC results came from women with ovarian cancer, and positivity was also linked to more lifetime ovulatory cycles. A positive test without uterine cancer may therefore warrant ovarian follow-up.
+  paper: pmid-41609407
+  evidence: 1,269 cervico-vaginal samples (624 healthy, 324 benign, 321 ovarian cancer)
+  tags: [Cancer detection]
+- rank: 22
+  figure: "No oncogenic change"
+  figure_label: in the endometrium of BRCA carriers after 3 months of mifepristone
+  statement: In a randomised placebo-controlled trial, mifepristone stopped periods in all treated BRCA1/2 carriers without increasing epithelial cells or shifting methylation and expression markers of endometrial cancer, easing a safety concern for antiprogestin prevention.
+  paper: pmid-41673285
+  evidence: Secondary analysis of a randomised controlled trial, 45 women (14 with paired biopsies)
+  tags: [Cancer prevention]
+- rank: 23
+  figure: "ρ = -0.43"
+  figure_label: correlation between an HPV-response methylation signature and replicative age of cervical cells
+  statement: High-risk HPV infection leaves a methylation signature in healthy cervical cells that is raised in mild lesions but absent in precancer and cancer. It tracks apoptosis and falls with replicative age, suggesting older cells lose the clearance response and progress to cancer.
+  paper: pmid-36810770
+  evidence: Cervical methylation array study across the HPV disease spectrum
+  tags: [Cancer detection, Epigenetic clocks]
+- rank: 24
+  figure: "Low-intensity probes"
+  figure_label: are the least reliable on Illumina methylation arrays, including the newer EPIC v2
+  statement: Probes with low signal intensity gave the most variable methylation readings between repeated samples. The team built a method and R package to score and exclude unreliable probes, which matters for any clock built on these arrays.
+  paper: pmid-39289706
+  evidence: Paired blood samples six weeks apart plus technical replicates across EPIC and 450k arrays
+  tags: [Epigenetic clocks]
+- rank: 25
+  figure: "5 criteria"
+  figure_label: to judge immune aging biomarkers for clinical trials
+  statement: There is no consensus on measuring immune aging. Applying five evaluation criteria to candidates, multidimensional immune function scores, inflammaging scores and functional assays performed best, in the context of the XPRIZE Healthspan competition.
+  paper: pmid-42399672
+  evidence: Consensus review and evaluation framework
+  tags: [Biomarkers of aging]
+- rank: 26
+  figure: "8 systems"
+  figure_label: of the body where digital biomarkers of ageing were found
+  statement: A review of wearable and other digital measures found biomarkers of ageing across eight of ten physiological systems, rated for validity, generalisability, response to interventions and cost, and listed trials already using them as outcomes.
+  paper: pmid-40517785
+  evidence: Narrative review with systematic search
+  tags: [Biomarkers of aging]
+- rank: 27
+  figure: "Minutes"
+  figure_label: for microglia to reach a brain injury and start clearing dead cells
+  statement: In live-imaged zebrafish larvae, microglia arrived at a brain lesion within minutes and engulfed dead cells. Slowing this clearance increased secondary neuronal death, showing that microglial debris removal protects the brain after injury.
+  paper: pmid-31076485
+  evidence: In vivo live imaging in larval zebrafish brain injury model
+  tags: [Brain injury]
