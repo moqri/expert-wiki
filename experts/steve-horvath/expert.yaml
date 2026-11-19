@@ -1,0 +1,13 @@
+slug: steve-horvath
+name: Steve Horvath
+affiliation: Altos Labs
+department: Previously Professor of Human Genetics and Biostatistics, University of California, Los Angeles
+areas: [Aging]
+headline: Builds DNA methylation "epigenetic clocks" that measure how old a tissue is biologically, and uses them to study what speeds up or slows down aging in humans and other mammals.
+summary:
+  - Steve Horvath's published work is best known for epigenetic clocks, which estimate age from chemical marks (DNA methylation) at a set of sites in the genome. His 2013 pan-tissue clock, built from about 8,000 samples covering 51 tissues and cell types, showed that one formula could estimate the age of almost any human tissue, reads near zero for embryonic and induced pluripotent stem cells, and gives a heritable measure of "age acceleration".
+  - Later clocks, built with colleagues, were trained to predict health rather than calendar age. DNAm PhenoAge (2018) tracks mortality, cancer, healthspan and Alzheimer's disease; DNAm GrimAge (2019) and GrimAge2 (2022) combine methylation-based estimates of plasma proteins and smoking history and are among the strongest methylation predictors of time to death and heart disease. Independent cohorts have found GrimAge more closely tied to frailty, walking speed and mortality than first-generation clocks.
+  - Applying these clocks, his papers report faster epigenetic aging with obesity (in liver), HIV infection, Down syndrome, Huntington's disease and earlier menopause, and slower aging in the cerebellum and in the offspring of people who lived past 105. Studies of older women link faster epigenetic aging with rising plasma Alzheimer's biomarkers and, for GrimAge2, with a higher risk of mild cognitive impairment or dementia.
+  - Through the Mammalian Methylation Consortium he extended clocks to 185 and later 348 mammalian species, showing that age-related methylation changes are shared across mammals, concentrate at Polycomb (PRC2) target regions near developmental genes, and that a species' maximum lifespan is written into its methylation profile. Earlier in his career he co-developed WGCNA, an R software package for finding networks of genes whose activity rises and falls together. Recent work uses clocks to test interventions such as young plasma fractions, partial reprogramming, metformin, plasmapheresis and torpor, with mixed results.
+tags: [Epigenetic clocks, Health and mortality risk, Brain and Alzheimer's, What speeds aging, Interventions, Aging across mammals, Network methods]
+search: 'Horvath S[Author]'   # kept papers where the author is Steve Horvath (first name or UCLA/Altos affiliation checked)
