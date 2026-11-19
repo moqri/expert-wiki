@@ -54,3 +54,4 @@ ol.people{list-style:none;margin:0;padding:8px 0 48px}
 /* Home and expert pages: intro text spans the full content width */
 @media (min-width:761px){.intro{padding-left:0}}
 .intro .lede,.ask .hint{max-width:none}
+.ptools{margin:6px 0 12px}.ptools .filter{margin:0 8px 0 0}

@@ -40,6 +40,18 @@
     [].forEach.call(document.querySelectorAll('#plist li'), function (li) { li.hidden = q && li.dataset.q.indexOf(q) < 0; });
   });
 
+  // ---- All papers: sort ----
+  var plist = document.getElementById('plist');
+  if (plist) document.addEventListener('click', function (ev) {
+    var b = ev.target.closest('[data-psort]'); if (!b) return;
+    var k = b.dataset.psort, lis = [].slice.call(plist.children);
+    lis.sort(function (x, y) {
+      if (k === 'title') return x.dataset.title.localeCompare(y.dataset.title);
+      var d = (+y.dataset[k]) - (+x.dataset[k]); return d || ((+y.dataset.year) - (+x.dataset.year));
+    }).forEach(function (li) { plist.appendChild(li); });
+    [].forEach.call(document.querySelectorAll('[data-psort]'), function (c) { c.setAttribute('aria-pressed', String(c === b)); });
+  });
+
   // ---- Ask ----
   var form = document.getElementById('ask-form');
   if (!form) return;

@@ -108,8 +108,8 @@ def expert_page(ex, papers, claims):
         url = paper_url(p)
         t = f'<a href="{e(url)}">{e(p["title"])}</a>' if url else e(p["title"])
         r = role(p)
-        meta = f'{e(p["journal"])} {p["year"]}' + (f' · {e(p["type"])}' if p.get("type") not in ("Article", "", None) else "") + (f" · {r}" if r else "")
-        plist.append(f'        <li data-q="{e((p["title"] + " " + p["journal"]).lower())}">{t}<span class="d">{meta}</span></li>')
+        meta = f'{e(p["journal"])} {p["year"]}' + (f' · {e(p["type"])}' if p.get("type") not in ("Article", "", None) else "") + (f" · {r}" if r else "") + (f' · {p["citations"]:,} citations' if p.get("citations") else "")
+        plist.append(f'        <li data-q="{e((p["title"] + " " + p["journal"]).lower())}" data-year="{p.get("year") or 0}" data-cites="{p.get("citations") or 0}" data-title="{e(p["title"].lower())}">{t}<span class="d">{meta}</span></li>')
 
     summary = "\n".join(f"        <p>{e(s)}</p>" for s in ex.get("summary", []))
     aff = e(ex["affiliation"]) + (f'<span class="dept">{e(ex["department"])}</span>' if ex.get("department") else "")
@@ -163,7 +163,7 @@ def expert_page(ex, papers, claims):
 
     <details class="more" id="papers">
       <summary>All {len(papers)} papers</summary>
-      <input class="filter" id="pfilter" type="search" placeholder="Filter papers by word" aria-label="Filter papers">
+      <div class="row ptools"><input class="filter" id="pfilter" type="search" placeholder="Filter papers by word" aria-label="Filter papers"><span class="label">Sort</span><button class="chip" type="button" data-psort="year" aria-pressed="true">Newest</button><button class="chip" type="button" data-psort="cites" aria-pressed="false">Most cited</button><button class="chip" type="button" data-psort="title" aria-pressed="false">Title A–Z</button></div>
       <ol class="plist" id="plist">
 {chr(10).join(plist)}
       </ol>
