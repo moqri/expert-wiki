@@ -80,3 +80,4 @@ a.skill:hover,a.skill:focus-visible{border-color:var(--e4);color:var(--e4)}
 .suggest .subtle:hover{color:var(--e4);text-decoration-color:var(--e4)}
 .reading .bar{height:4px;background:var(--rule);border-radius:4px;overflow:hidden;max-width:420px}
 .reading .bar span{display:block;height:100%;width:0;background:var(--e4);transition:width .25s linear}
+.intro h1 em{display:block}
