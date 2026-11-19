@@ -1,0 +1,189 @@
+- rank: 1
+  figure: "Biological AD"
+  figure_label: Alzheimer's defined by brain changes, not symptoms
+  statement: The 2018 NIA-AA research framework defines Alzheimer's disease in living people by its underlying brain changes, measured with biomarkers of amyloid, tau and neurodegeneration (AT(N)), rather than by symptoms. Cognitive stage is described separately.
+  paper: pmid-29653606
+  evidence: Consensus research framework of the NIA-AA workgroup
+  tags: [Defining Alzheimer's]
+- rank: 2
+  figure: "Core 1"
+  figure_label: one abnormal amyloid PET, CSF or accurate blood test is enough for diagnosis
+  statement: The 2024 Alzheimer's Association criteria say Alzheimer's disease begins with brain changes while people have no symptoms. An abnormal early "Core 1" biomarker, such as amyloid PET, an approved spinal fluid test or an accurate blood test (especially p-tau217), is enough to diagnose it.
+  paper: pmid-38934362
+  evidence: Revised diagnostic and staging criteria of the Alzheimer's Association workgroup
+  tags: [Defining Alzheimer's, Blood tests]
+- rank: 3
+  figure: "Amyloid first"
+  figure_label: then neurodegeneration, which tracks symptoms
+  statement: A model of Alzheimer's biomarkers proposed that amyloid markers (low CSF amyloid-beta 42, raised amyloid PET) become abnormal first while people are still cognitively normal, and markers of neuronal injury (CSF tau, MRI atrophy, low FDG-PET) become abnormal later and track how severe symptoms are.
+  paper: pmid-20083042
+  evidence: Hypothetical model built from published biomarker evidence
+  tags: [Disease model]
+- rank: 4
+  figure: "A/T/N"
+  figure_label: amyloid, tau and neurodegeneration, each rated positive or negative
+  statement: The A/T/N scheme sorts 7 major Alzheimer's biomarkers into 3 groups, amyloid (A), tau (T) and neurodegeneration (N), each rated normal or abnormal, giving profiles such as A+/T+/N-. It describes what is in the brain without assuming an order of events or a diagnosis.
+  paper: pmid-27371494
+  evidence: Proposed classification scheme
+  tags: [Defining Alzheimer's]
+- rank: 5
+  figure: "~15 years"
+  figure_label: for brain amyloid to rise from moderate to high
+  statement: In 260 people with repeated amyloid PET scans, amyloid built up slowly at low levels, fastest at mid levels, and then levelled off. Moving from an SUVR of 1.5 to 2.5 took about 15 years, a long window for prevention treatment.
+  paper: pmid-23446680
+  evidence: Serial amyloid PET in 260 adults aged 70-92 (Mayo Clinic Study of Aging and ADRC)
+  tags: [Disease model, Amyloid and tau PET]
+- rank: 6
+  figure: "Updated model"
+  figure_label: amyloid may speed up tau that started earlier
+  statement: The 2013 update to the biomarker model indexed people by time rather than symptom severity, allowed for differences between people in how much decline the same pathology causes, and proposed that amyloid and tau may start independently, with amyloid accelerating tau already present in limbic and brainstem areas.
+  paper: pmid-23332364
+  evidence: Updated hypothetical model reviewing evidence since 2010
+  tags: [Disease model]
+- rank: 7
+  figure: "84% vs 69%"
+  figure_label: lifetime risk of MCI at centiloid 100 vs 5 (women with APOE4, from age 75)
+  statement: In 5,158 cognitively unimpaired adults, lifetime risk of mild cognitive impairment and dementia rose steadily with amyloid PET level. For women carrying APOE4 starting at age 75, lifetime risk of MCI was 69% at centiloid 5 and 84% at centiloid 100; for men carrying APOE4 it was 56% and 77%.
+  paper: pmid-41240917
+  evidence: Population-based cohort, 5,158 cognitively unimpaired and 700 MCI participants, multistate modelling
+  tags: [Risk and prognosis, Amyloid and tau PET]
+- rank: 8
+  figure: ">90%"
+  figure_label: of people aged 85 have at least one abnormal brain biomarker
+  statement: In cognitively unimpaired people aged 50 to 95, having all-normal amyloid, tau and neurodegeneration markers was most common until the late 70s, after about 80 having all three abnormal was most common, and by 85 more than 90% of men and women had at least one abnormality.
+  paper: pmid-28456479
+  evidence: Cross-sectional population study, 435 with amyloid PET, tau PET and MRI plus 1,113 with amyloid PET and MRI
+  tags: [Population studies, Amyloid and tau PET]
+- rank: 9
+  figure: "85%"
+  figure_label: of Alzheimer's patients below the healthy range of hippocampal volume
+  statement: An MRI method for measuring the hippocampus separated 20 people with Alzheimer's dementia from 22 healthy older controls, with 85% of patients falling below the range of the controls, across the whole age range studied.
+  paper: pmid-1734300
+  evidence: Case-control MRI volumetry, 20 patients and 22 controls
+  tags: [Brain MRI]
+- rank: 10
+  figure: "27 of 80"
+  figure_label: people with MCI developed Alzheimer's; smaller hippocampus predicted who
+  statement: In 80 people with mild cognitive impairment followed for about 33 months, 27 developed dementia. A smaller hippocampus on MRI at the start predicted conversion to Alzheimer's, even after accounting for age, memory tests, APOE genotype and heart risk factors.
+  paper: pmid-10227624
+  evidence: Prospective cohort, 80 patients with MCI
+  tags: [Brain MRI, Risk and prognosis]
+- rank: 11
+  figure: "3.7% vs 1.7%"
+  figure_label: yearly hippocampal loss in MCI decliners vs stable controls
+  statement: In 129 older adults scanned twice about 3 years apart, the hippocampus shrank faster in people whose memory got worse. Yearly loss was 1.7% in stable controls, 2.8% in controls who declined, 2.6% in stable MCI, 3.7% in MCI who declined, and 3.5% in Alzheimer's.
+  paper: pmid-10953178
+  evidence: Longitudinal MRI cohort, 129 participants
+  tags: [Brain MRI]
+- rank: 12
+  figure: "Atrophy, not amyloid"
+  figure_label: tracks memory decline over a year
+  statement: In 61 people with repeat amyloid PET and MRI one year apart, amyloid rose slowly at the same rate whatever their clinical stage and did not track cognitive change, while brain shrinkage was faster with worse stage and tracked worsening on memory and function scores.
+  paper: pmid-19339253
+  evidence: Serial PIB PET and MRI, 21 normal, 32 MCI and 8 Alzheimer's
+  tags: [Disease model, Brain MRI, Amyloid and tau PET]
+- rank: 13
+  figure: "89%"
+  figure_label: of people with Alzheimer's dementia had both high amyloid and high tau
+  statement: Among 1,343 people with amyloid and tau PET, abnormal tau rarely appeared without abnormal amyloid, but abnormal amyloid without tau was common. High amyloid was compatible with normal thinking, but highly abnormal tau was not, and 89% of people with Alzheimer's clinical syndrome were high on both.
+  paper: pmid-31501889
+  evidence: Amyloid and tau PET in 1,343 participants across 5 clinical groups
+  tags: [Amyloid and tau PET, Disease model]
+- rank: 14
+  figure: "Centiloid 19"
+  figure_label: cut point for an abnormal amyloid PET scan
+  statement: Comparing five ways of setting cut points, the group chose an amyloid PET threshold of SUVR 1.42 (centiloid 19) based on reliable worsening over time, and set lenient and conservative cut points for tau PET, FDG-PET and MRI cortical thickness.
+  paper: pmid-27697430
+  evidence: Methods comparison in Mayo Clinic imaging cohorts
+  tags: [Amyloid and tau PET, Brain MRI]
+- rank: 15
+  figure: "42%"
+  figure_label: of cognitively normal 89-year-olds had both amyloid and neurodegeneration
+  statement: In 985 cognitively normal people aged 50 to 89, all had normal amyloid and neurodegeneration markers at 50, but only 17% did by 89, when 42% had both abnormal. Amyloid without neurodegeneration peaked at 28% around age 74 and was more frequent in APOE4 carriers.
+  paper: pmid-25201514
+  evidence: Cross-sectional population study, 985 participants
+  tags: [Population studies]
+- rank: 16
+  figure: "11x"
+  figure_label: higher rate of new neurodegeneration at 85 than at 65
+  statement: In 4,049 people without dementia, rates of moving to a more abnormal biomarker state rose steeply with age. At 85 compared with 65, the move from normal to neurodegeneration alone was 11 times as frequent (17.2 vs 1.6 per 100 person-years), while new amyloid plateaued after about 75.
+  paper: pmid-26597325
+  evidence: Population-based longitudinal cohort, 4,049 participants, multistate Markov model
+  tags: [Population studies, Risk and prognosis]
+- rank: 17
+  figure: "74% vs 62%"
+  figure_label: lifetime dementia risk at 65 for women vs men with APOE4 and high amyloid
+  statement: In 4,984 people without dementia followed a median of 9.4 years, high amyloid doubled the hazard of dementia (HR 2.11). Among APOE4 carriers with high amyloid, remaining lifetime dementia risk from age 65 was 74% for women and 62% for men.
+  paper: pmid-35310829
+  evidence: Population-based cohort, 4,984 participants, multistate models with competing mortality
+  tags: [Risk and prognosis, Amyloid and tau PET]
+- rank: 18
+  figure: "R² 0.26 → 0.31"
+  figure_label: added by amyloid, tau and MRI to predicting memory decline
+  statement: In 480 older people without dementia followed for about 4.8 years, memory declined fastest when amyloid was abnormal together with tau or neurodegeneration. Adding the three scans to age, sex, education, health conditions and APOE improved prediction only modestly, from R² 0.26 to 0.31.
+  paper: pmid-31211344
+  evidence: Population-based cohort, 480 participants with amyloid PET, tau PET and MRI
+  tags: [Risk and prognosis, Amyloid and tau PET]
+- rank: 19
+  figure: "C = 0.90"
+  figure_label: plasma p-tau181 for intermediate/high Alzheimer's pathology in impaired people
+  statement: In 1,136 people with same-day amyloid PET, tau PET and blood draw, plasma biomarkers with risk factors predicted PET stages with acceptable to excellent accuracy. Plasma p-tau181 alone identified intermediate or high Alzheimer's pathology with C = 0.87 in unimpaired and 0.90 in impaired people.
+  paper: pmid-36789483
+  evidence: Cross-sectional study, 1,136 participants (864 unimpaired, 272 impaired)
+  tags: [Blood tests, Amyloid and tau PET]
+- rank: 20
+  figure: "Group, not person"
+  figure_label: p-tau217 and amyloid PET predict average memory decline
+  statement: In 645 cognitively unimpaired people, plasma p-tau217 and amyloid PET, along with age, were the key independent predictors of memory decline. They predicted average decline in groups well, but prediction for any single person was wide.
+  paper: pmid-38265198
+  evidence: Population-based cohort, 645 participants
+  tags: [Blood tests, Risk and prognosis]
+- rank: 21
+  figure: "AUC 0.81-0.86"
+  figure_label: for plasma p-tau to flag abnormal amyloid PET in the community
+  statement: In 1,329 community members aged 30 to 98, plasma p-tau181 and p-tau217 predicted abnormal amyloid PET (AUC 0.81 to 0.86). Chronic kidney disease raised p-tau about as much as brain amyloid did, so other illnesses must be considered when reading the tests.
+  paper: pmid-35618838
+  evidence: Population-based study, 1,329 participants
+  tags: [Blood tests, Population studies]
+- rank: 22
+  figure: "90%"
+  figure_label: of positive amyloid scans matched intermediate/high pathology at autopsy
+  statement: Among 259 people with a positive amyloid PET scan who later had an autopsy, 90% had intermediate or high Alzheimer's neuropathologic change. Even 10 or more years after a positive scan, only 3 of 39 had low or no change.
+  paper: pmid-42092343
+  evidence: Imaging-autopsy study, 259 participants
+  tags: [Amyloid and tau PET, Defining Alzheimer's]
+- rank: 23
+  figure: "0.5% vs 3%"
+  figure_label: yearly tau PET increase in unimpaired vs impaired people with amyloid
+  statement: In 126 people with two tau PET scans, tau did not build up measurably in unimpaired people with normal amyloid. It rose about 0.5% a year in unimpaired people with abnormal amyloid and about 3% a year in impaired people, across the whole brain rather than one region at a time.
+  paper: pmid-29538647
+  evidence: Serial tau PET, 126 participants
+  tags: [Amyloid and tau PET]
+- rank: 24
+  figure: "Age 57 vs 64"
+  figure_label: when 10% of APOE4 carriers vs non-carriers are amyloid positive
+  statement: In 1,246 cognitively normal people aged 30 to 95, amyloid stayed low until about 70 and then rose. APOE4 did not change memory or hippocampal size, but 10% of carriers had positive amyloid scans by 57 versus 64 for non-carriers. Men had worse memory and smaller hippocampi than women.
+  paper: pmid-25775353
+  evidence: Cross-sectional study, 1,246 cognitively normal participants
+  tags: [Population studies, Amyloid and tau PET]
+- rank: 25
+  figure: "~23%"
+  figure_label: of clinically normal people over 65 have SNAP
+  statement: Suspected non-Alzheimer pathophysiology (SNAP), brain injury markers without amyloid, is found in about 23% of clinically normal people over 65 and 25% of people with mild impairment. It is less linked to APOE4, and people with it do worse than those with all-normal markers.
+  paper: pmid-26782335
+  evidence: Perspective reviewing published cohort data
+  tags: [Defining Alzheimer's, Population studies]
+- rank: 26
+  figure: "8.7 years"
+  figure_label: later onset of impairment with high vs low lifetime intellectual enrichment (APOE4 carriers)
+  statement: In 1,995 older adults without dementia, more education, work complexity and mid- to late-life mental activity went with better thinking. For APOE4 carriers, high lifetime intellectual enrichment was linked to cognitive impairment starting about 8.7 years later than low enrichment.
+  paper: pmid-25054282
+  evidence: Population-based cohort, 1,995 participants
+  tags: [Lifestyle and health]
+- rank: 27
+  figure: "-4%"
+  figure_label: hippocampal volume with diabetes starting in midlife
+  statement: In 1,437 people without dementia, diabetes that began in midlife was linked to a 4% smaller hippocampus, 2.9% smaller brain, more small strokes and about double the odds of mild cognitive impairment. Midlife high blood pressure was linked to strokes and white matter damage.
+  paper: pmid-24647028
+  evidence: Population-based cross-sectional study, 1,437 participants, median age 80
+  tags: [Lifestyle and health, Brain MRI]
