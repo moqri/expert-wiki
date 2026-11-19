@@ -55,3 +55,7 @@ ol.people{list-style:none;margin:0;padding:8px 0 48px}
 @media (min-width:761px){.intro{padding-left:0}}
 .intro .lede,.ask .hint{max-width:none}
 .ptools{margin:6px 0 12px}.ptools .filter{margin:0 8px 0 0}
+/* home: area filter left, sort right, on one line */
+.row .grp{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.row .sortgrp{margin-left:auto}
+.controls .ecount{margin:6px 0 0;margin-left:0}
