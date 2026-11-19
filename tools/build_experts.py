@@ -198,7 +198,7 @@ def home(roster, built):
                 continue
             slug = r["slug"]
             aff = built.get(slug, {}).get("affiliation") or r["affiliation"]
-            name = e(r["name"])
+            name = e(built.get(slug, {}).get("name") or r["name"])
             link = f'<a href="/{slug}/">{name}</a>' if slug in built else name
             others = "".join(f'<span class="area">{e(a)}</span>' for a in r["areas"] if a != area["name"])
             rows.append(f'        <li class="person-row"><span class="pn">{link}</span><span class="pa">{e(aff)}</span>{others}</li>')
