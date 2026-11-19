@@ -1,0 +1,175 @@
+- rank: 1
+  figure: Up to 9 years
+  figure_label: of disagreement between repeat tests of the same sample, cut to within 1.5 years
+  statement: Technical noise made six prominent epigenetic clocks differ by up to 9 years between repeat measurements of the same DNA. Rebuilding the clocks from principal components of the methylation data brought most repeat measurements within 1.5 years, improved detection of intervention effects, and gave reliable trajectories over time in people and in cultured cells.
+  paper: pmid-36277076
+  evidence: Technical replicate datasets plus longitudinal human and cell culture data, six clocks retrained
+  tags: [Clock reliability]
+- rank: 2
+  figure: 11 body systems
+  figure_label: aged separately from one blood test
+  statement: Systems Age uses blood DNA methylation to estimate the age of 11 physiological systems, including heart, lung, kidney, liver, brain, immune and metabolic. The system scores predicted related diseases and aging traits better than existing single-number clocks, and grouping people by their scores revealed distinct aging subtypes with different patterns of decline.
+  paper: pmid-40954326
+  evidence: Machine learning on blood methylation combined with clinical biomarkers, function tests and mortality
+  tags: [New aging clocks]
+- rank: 3
+  figure: 51 studies
+  figure_label: of longevity interventions show mortality and pace-of-aging clocks respond most
+  statement: Across 51 longitudinal intervention studies, each scored with 16 epigenetic clocks and 94 other methylation biomarkers, clocks trained to predict mortality or pace of aging responded most strongly and agreed with one another. Drug and lifestyle interventions moved the biomarkers most, and the study population and study length strongly shaped whether a change was seen.
+  paper: pmid-42629466
+  evidence: Harmonized database (TranslAGE) of 51 public and private interventional studies
+  tags: [Testing longevity treatments]
+- rank: 4
+  figure: 0 extra clocks
+  figure_label: confirmed published single-clock intervention results
+  statement: When earlier intervention studies that reported a result with one clock were re-analyzed with additional clocks, none of the added clocks reached statistical significance. The authors propose trusting a result more when reliable principal-component clocks respond, mortality or pace-of-aging clocks respond, and several clocks move in the same direction.
+  paper: pmid-42850743
+  evidence: Re-analysis of published intervention datasets, positive-control datasets and simulations
+  tags: [Testing longevity treatments, Clock reliability]
+- rank: 5
+  figure: Day-to-day noise
+  figure_label: is much larger than lab noise for most clocks
+  statement: Across 18 methylation aging biomarkers, most clocks gave nearly identical results when the same sample was re-run, but were only low to moderately stable when a person was sampled again over short intervals with meals, stress or other exposures. Lab reproducibility did not predict this biological stability, and less stable clocks gave variable or misleading links to cognition and intervention responses. PCGrimAge and SystemsAge held up best to lab conditions.
+  paper: pmid-42525215
+  evidence: Replicate arrays and short-interval repeated sampling across multiple datasets
+  tags: [Clock reliability]
+- rank: 6
+  figure: Up to 5 years
+  figure_label: older mortality-clock age in schizophrenia
+  statement: In three blood datasets totaling 567 people with schizophrenia and 594 controls, all three mortality-linked epigenetic clocks were accelerated by up to 5 years, driven by smoking and six age-associated proteins. Two clocks that count cell divisions were slower, linked to anti-tumor immune cells, which may help explain reports of lower cancer rates. Clozapine was linked to slower aging on several clocks in men, by up to 7 years.
+  paper: pmid-32199607
+  evidence: 14 epigenetic clocks in 3 independent whole-blood methylation datasets, 1,161 people
+  tags: [Mental health and aging]
+- rank: 7
+  figure: 10 of 11
+  figure_label: body systems showed faster aging in schizophrenia
+  statement: A meta-analysis of seven datasets with 1,891 people with schizophrenia and 1,881 controls found faster aging on Systems Age, CausAge, DNAmEMRAge and OMICmAge. Ten of 11 system clocks were accelerated, most strongly heart and lung, and most clocks were already accelerated at the first psychotic episode. Clozapine use was linked to faster heart and inflammation aging, possibly partly through smoking.
+  paper: pmid-39574874
+  evidence: Meta-analysis of 7 cross-sectional methylation datasets (preprint)
+  tags: [Mental health and aging, New aging clocks]
+- rank: 8
+  figure: 156 studies
+  figure_label: show which factors speed up the epigenetic clock
+  statement: A systematic review of 156 publications and over 1,300 findings found that the Horvath, Hannum, Levine and GrimAge clocks usually agree in direction but differ in size of effect. Higher body mass index, HIV infection and male sex were linked to faster clocks, and faster clocks were linked to death, heart disease, cancer and diabetes.
+  paper: pmid-33930583
+  evidence: Systematic review with statistical synthesis of 57 relationships across 4 clocks
+  tags: [Standards for aging biomarkers]
+- rank: 9
+  figure: ~31,000 patients
+  figure_label: of routine lab data turned into a methylation aging score
+  statement: Routine clinical lab results from about 31,000 Mass General Brigham Biobank patients were used to build EMRAge, a mortality-risk score, which was then reproduced from DNA methylation (DNAmEMRAge) and from multi-omics (OMICmAge). Both were strongly linked to new and existing chronic diseases and death in a discovery cohort and in validation cohorts of 14,213 and 18,672 people, matching or beating current clocks, and OMICmAge can be measured from methylation alone.
+  paper: pmid-41741793
+  evidence: Biobank discovery cohort of 3,451 with validation in 2 cohorts totaling about 33,000
+  tags: [New aging clocks]
+- rank: 10
+  figure: Brain-trained clock
+  figure_label: tracked Alzheimer's disease and APOE4 better than earlier clocks
+  statement: PCBrainAge, an epigenetic clock trained only on cortex samples and built with principal components to cut noise, showed stronger links to clinical Alzheimer's dementia, Alzheimer's brain pathology and APOE4 carrier status than existing clocks, across several cortical and subcortical regions.
+  paper: pmid-35907208
+  evidence: Multi-region brain methylation from the Religious Orders Study and Rush Memory and Aging Project
+  tags: [Brain aging and Alzheimer's, New aging clocks]
+- rank: 11
+  figure: 2.4% of sites
+  figure_label: carry the shared signal of senescence, age and mortality, and senolytics did not lower it
+  statement: Only 9,363 of 396,333 DNA methylation sites (2.4%) were shared by cellular senescence, age and mortality risk. Clocks built from these sites to predict senescence, age or mortality stayed the same or even rose after senolytic treatment in cells and in living organisms, questioning whether methylation captures senescence and whether aging biomarkers always fall after geroscience treatments.
+  paper: pmid-41746138
+  evidence: Methylation analysis of senescent cells and senolytic-treated samples in vitro and in vivo
+  tags: [Testing longevity treatments, Cell aging and energy]
+- rank: 12
+  figure: 3 countries
+  figure_label: show the same links between epigenetic clocks and health
+  statement: In 6,336 adults aged 50 and older from Ireland, the United States and Northern Ireland, with harmonized questions and analysis, PhenoAge, GrimAge and DunedinPACE were linked to death, cognitive loss, grip strength and mobility in remarkably similar ways, suggesting they capture a common aging process.
+  paper: pmid-40091605
+  evidence: Harmonized nationally representative cohorts (TILDA, HRS, NICOLA), 6,336 adults
+  tags: [Standards for aging biomarkers]
+- rank: 13
+  figure: ~60% more energy
+  figure_label: burned by cells under chronic stress hormone, with faster epigenetic aging
+  statement: Lifelong exposure of human fibroblasts to a glucocorticoid stress hormone increased their energy use by about 60%, shifted metabolism toward mitochondria, and sped up aging measured by DNA methylation clocks, telomere shortening and shorter cell lifespan.
+  paper: pmid-37423094
+  evidence: Longitudinal profiling of 3 primary human fibroblast lines across their lifespan
+  tags: [Cell aging and energy, Mental health and aging]
+- rank: 14
+  figure: 690 patients
+  figure_label: with mitochondrial disease show a hypermetabolic state linked to faster aging
+  statement: Data from 17 cohorts of 690 patients with mitochondrial oxidative phosphorylation defects showed raised resting energy use. In patient cells, disrupting mitochondrial energy production roughly doubled energy expenditure and sped up telomere erosion and epigenetic aging per cell division.
+  paper: pmid-36635485
+  evidence: 17 patient cohorts plus longitudinal patient-derived fibroblast studies
+  tags: [Cell aging and energy]
+- rank: 15
+  figure: CellDRIFT
+  figure_label: a cell-division methylation signature shared by aging and cancer
+  statement: A DNA methylation signature of repeated cell division, modeled in long-passaged human cells, increased with age across tissues, separated tumors from normal tissue, was higher in normal breast tissue of cancer patients, and was reset by reprogramming. Tissue differences in the signature tracked estimated lifetime stem cell divisions and tissue cancer risk.
+  paper: pmid-37467337
+  evidence: Immortalized cell culture model tested on clinical tissue methylation data
+  tags: [Cell aging and energy, New aging clocks]
+- rank: 16
+  figure: 2.1 years older
+  figure_label: on a principal-component PhenoAge clock after COVID-19 in people over 50
+  statement: In 21 people sampled before and after mild, test-confirmed COVID-19, principal-component PhenoAge and GrimAge rose by an average of 2.1 and 0.84 years in those over 50, while PCPhenoAge fell in younger people. In 36 people sampled around mRNA vaccination, the principal-component Horvath clock fell by an average of 3.91 years in Moderna recipients over 50, changes tied to shifts in immune cell types.
+  paper: pmid-35719387
+  evidence: Longitudinal blood methylation in 21 infected and 36 vaccinated participants
+  tags: [Testing longevity treatments]
+- rank: 17
+  figure: Ketamine
+  figure_label: lowered several epigenetic age scores in depression and PTSD
+  statement: In 20 patients with major depression or PTSD who received six ketamine infusions, symptom scores fell, and epigenetic age on OMICmAge, GrimAge V2 and PhenoAge decreased, along with changes in methylation-based proxies of clinical proteins.
+  paper: pmid-41173838
+  evidence: Pilot before-and-after study, 20 participants (NCT05294835)
+  tags: [Mental health and aging, Testing longevity treatments]
+- rank: 18
+  figure: 26–33%
+  figure_label: of APOE4's effect on Alzheimer's ran through two brain proteins
+  statement: In brain tissue from 310 people enriched for APOE4 carriers, carriers without Alzheimer's had lower levels of 27 proteins tied to synapses and metabolism, while carriers with Alzheimer's showed higher inflammatory and protein-handling proteins. GRIPAP1 and GSTK1 each accounted for about 26–33% of APOE4's effect, and methylation of ELAVL4 for about 12%.
+  paper: pmid-41279801
+  evidence: Post-mortem prefrontal cortex proteomics (n=302) and methylation (n=310) from ROSMAP (preprint)
+  tags: [Brain aging and Alzheimer's]
+- rank: 19
+  figure: 24–39% and 46–67%
+  figure_label: of detected epigenetic mutations did not repeat on re-testing
+  statement: Stochastic epigenetic mutations, outlier methylation sites proposed as aging markers, were often not reproducible between technical replicates. A machine learning filter removed unreliable calls, and links with aging outcomes in the Framingham Heart Study held after filtering and strengthened after adjusting for blood cell types.
+  paper: pmid-38736015
+  evidence: Technical replicates in 3 datasets plus the Framingham Heart Study
+  tags: [Clock reliability]
+- rank: 20
+  figure: CultureAGE
+  figure_label: a clock from aging cells in a dish that also tracks aging in mouse tissues
+  statement: A methylation measure built from repeatedly passaged mouse fibroblasts rose with age in liver, lung, kidney, blood and fat, was slowed by caloric restriction, and reset when cells were reprogrammed to stem cells. It was not a marker of senescence, and pointed to Polycomb proteins such as EED as regulators.
+  paper: pmid-35104377
+  evidence: Reduced representation bisulfite sequencing of mouse cells and tissues
+  tags: [New aging clocks, Cell aging and energy]
+- rank: 21
+  figure: 38% lower
+  figure_label: risk of death per step up in frailty resilience
+  statement: A Frailty Resilience Score combining frailty genetic risk, age and sex was tested in 467 older adults (average age 74). Each standard deviation higher score predicted a 38% lower risk of death, regardless of current frailty, and was used to find a protein profile of resilience.
+  paper: pmid-37246648
+  evidence: LonGenity cohort, 467 older adults
+  tags: [Standards for aging biomarkers]
+- rank: 22
+  figure: 6 barriers
+  figure_label: hold back aging biomarkers from clinical use
+  statement: A survey of experts identified six main barriers to bringing biomarkers of aging into the clinic. Core recommendations are to link biomarkers to clinically actionable insights, make them affordable and widely available, and validate that they are robust and responsive in individual people.
+  paper: pmid-39285015
+  evidence: Expert survey and consensus recommendations
+  tags: [Standards for aging biomarkers]
+- rank: 23
+  figure: Shared terms
+  figure_label: for what a biomarker of aging is and how it should be used
+  statement: A consortium framework defines terminology and categories for biomarkers of aging, sets out their possible clinical uses, and describes the validation steps needed before they can be used in trials and practice.
+  paper: pmid-37657418
+  evidence: Consensus framework from the Biomarkers of Aging Consortium
+  tags: [Standards for aging biomarkers]
+- rank: 24
+  figure: 179 datasets
+  figure_label: and over 42,000 samples harmonized to benchmark clocks
+  statement: TranslAGE is a public resource that harmonizes 179 human blood methylation datasets with 41 precalculated aging biomarker scores for over 42,000 samples. It rates biomarkers on stability, treatment response, associations and risk prediction, combined into one composite score.
+  paper: pmid-41279588
+  evidence: Public data platform built from harmonized methylation datasets (preprint)
+  tags: [Standards for aging biomarkers, Clock reliability]
+- rank: 25
+  figure: 3 patterns
+  figure_label: of synapse loss explain 70% of variation in early Alzheimer's
+  statement: In 45 amyloid-positive people with early Alzheimer's disease and 19 cognitively normal people, synaptic density PET imaging showed three regional patterns explaining 70.2% of the variation. The broadest pattern correlated with performance across all cognitive domains, reinforcing synaptic density as a marker of disease presence and severity.
+  paper: pmid-37422964
+  evidence: "[11C]UCB-J PET imaging in 64 participants"
+  tags: [Brain aging and Alzheimer's]

@@ -1,0 +1,20 @@
+slug: jesse-poganik
+name: Jesse Poganik
+credentials: PhD
+affiliation: Brigham and Women's Hospital and Harvard Medical School
+department: Division of Genetics, Department of Medicine
+areas: [Aging]
+headline: Studies how biological age rises and falls over a lifetime, under stress, pregnancy, surgery and organ transplants, and how to measure it reliably.
+summary:
+  - "Jesse Poganik's work treats biological age as something that moves in both directions rather than only climbing. In mice and people, Poganik and colleagues found that biological age rose quickly during stresses such as major surgery, pregnancy and severe COVID-19, then came back down after recovery. Joining the blood supply of young and old mice aged the young animals, and separating them reversed it."
+  - "Transplant studies extend this idea to single organs. Transplanted hearts, fat tissue and ovaries took on the biological age of the body they were placed in, so an old organ in a young host became molecularly younger. In heart transplant patients, the heart's biological age tracked the recipient's age more than the donor's. Building on the pregnancy findings, Poganik has proposed that the time between pregnancies may shape how much a mother's biological age recovers."
+  - "A second thread is making biomarkers of aging trustworthy. Poganik co-authored the Biomarkers of Aging Consortium's framework for what an aging biomarker is and how to validate it, surveys of experts on the barriers to using these tests in clinics, recommendations for trials, and Biolearn, an open tool that compared 39 aging clocks in more than 20,000 people. A survey of aging researchers led by Poganik found no majority view even on what aging is or when it begins."
+  - "Before moving to aging research, Poganik trained in chemical biology, building tools to deliver reactive molecules to one chosen protein in living cells and zebrafish, and using them to work out how the multiple sclerosis drug dimethyl fumarate (Tecfidera) kills specific immune cells."
+tags: [Biological age dynamics, Rejuvenation and transplantation, Biomarkers of aging, Epigenetic clocks, Concepts of aging, Interventions, Chemical biology]
+search: 'Poganik J[Author] OR Poganik JR[Author]'
+links:
+  - {label: Gladyshev Lab, url: https://gladyshevlab.bwh.harvard.edu/}
+questions:
+  - "Does a transplanted organ keep the donor's age?"
+  - "How does pregnancy affect a mother's biological age?"
+  - "How should a biomarker of aging be validated?"
