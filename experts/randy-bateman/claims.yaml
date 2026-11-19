@@ -1,0 +1,175 @@
+- rank: 1
+  figure: 25 years
+  figure_label: before expected symptoms, spinal fluid amyloid-β starts to fall in inherited Alzheimer's
+  statement: In families with an Alzheimer's-causing gene, amyloid-β in spinal fluid began to decline about 25 years before expected symptom onset. Amyloid plaques on PET, rising tau and brain shrinkage appeared about 15 years before, memory problems about 10 years before, and dementia about 3 years after.
+  paper: pmid-22784036
+  evidence: Prospective DIAN cohort, 128 people from families with inherited Alzheimer's
+  tags: [Inherited Alzheimer's]
+- rank: 2
+  figure: 89–90%
+  figure_label: accuracy of a blood %p-tau217 test for brain amyloid in people with memory problems
+  statement: A mass spectrometry blood test for %p-tau217 classified amyloid PET status as well as FDA-approved spinal fluid tests (AUC 0.95–0.97 for both) and was generally better at detecting tau tangles. Using two cut-offs raised accuracy to 95%.
+  paper: pmid-38382645
+  evidence: Two cohorts, 1,422 people in Sweden and 337 in the US, with PET as the reference
+  tags: [Blood tests]
+- rank: 3
+  figure: Slower clearance
+  figure_label: not faster production, marks late-onset Alzheimer's
+  statement: Measuring amyloid-β turnover directly in the brain showed that people with common late-onset Alzheimer's clear both Aβ42 and Aβ40 more slowly than cognitively normal people, while production rates did not differ on average.
+  paper: pmid-21148344
+  evidence: Stable isotope labeling study in people with Alzheimer's and controls
+  tags: [Amyloid production and clearance]
+- rank: 4
+  figure: 7.6% and 8.3% per hour
+  figure_label: of brain amyloid-β made and cleared, the first such measurement in living people
+  statement: A new method using a labeled amino acid and serial spinal fluid sampling measured, for the first time, how fast amyloid-β is produced (7.6% per hour) and cleared (8.3% per hour) in the human brain.
+  paper: pmid-16799555
+  evidence: Method development in healthy volunteers
+  tags: [Amyloid production and clearance]
+- rank: 5
+  figure: HR 0.53
+  figure_label: for clinical decline in people without symptoms who took gantenerumab longest
+  statement: In an open-label extension of the DIAN-TU trial, three years of high-dose gantenerumab strongly reduced amyloid plaques. Partial or short-term amyloid removal showed no clear clinical effect, but long-term full removal potentially delayed symptom onset (hazard ratio 0.53, 95% CI 0.27–1.03); this needs confirming in longer controlled trials. Amyloid-related imaging abnormalities occurred in 53% of participants.
+  paper: pmid-40120616
+  evidence: Open-label extension of a phase 2/3 trial, 73 participants, external controls
+  tags: [Prevention trials, Inherited Alzheimer's]
+- rank: 6
+  figure: No cognitive benefit
+  figure_label: from gantenerumab or solanezumab in the first inherited Alzheimer's prevention trial
+  statement: In the DIAN-TU trial, neither antibody slowed cognitive decline after 4–7 years of treatment. Gantenerumab did clear amyloid plaques and lowered spinal fluid tau and p-tau181, while solanezumab showed no downstream biomarker benefit. Brain swelling (ARIA-E) occurred in 19.2% on gantenerumab.
+  paper: pmid-34155411
+  evidence: Randomized placebo-controlled trial, 144 mutation carriers
+  tags: [Prevention trials, Inherited Alzheimer's]
+- rank: 7
+  figure: ±3–3.7 years
+  figure_label: error of a blood p-tau217 "clock" in predicting when symptoms begin
+  statement: Repeated blood %p-tau217 tests were used to estimate the age a person turned positive, which predicted the age Alzheimer's symptoms began with a median error of 3.0–3.7 years. The time from turning positive to symptoms was much shorter in older people.
+  paper: pmid-41714746
+  evidence: Two longitudinal cohorts, 258 and 345 people
+  tags: [Blood tests]
+- rank: 8
+  figure: 2 decades
+  figure_label: before tau tangles, p-tau217 and p-tau181 start to rise in spinal fluid
+  statement: Different sites on the tau protein become phosphorylated at different stages of inherited Alzheimer's. p-tau217 and p-tau181 rise with early amyloid plaques, as much as two decades before tau tangles form, while p-tau205 and total tau rise later, near symptom onset.
+  paper: pmid-32161412
+  evidence: Spinal fluid from the DIAN cohort across four decades of disease
+  tags: [Tau, Inherited Alzheimer's]
+- rank: 9
+  figure: AUC 0.88
+  figure_label: for a blood amyloid-β 42/40 test against amyloid PET
+  statement: A high-precision blood test for amyloid-β 42/40 matched amyloid PET well (AUC 0.88), rising to 0.94 when combined with age and APOE4 status. People with a negative scan but a positive blood test had 15 times the risk of later turning PET-positive.
+  paper: pmid-31371569
+  evidence: 158 mostly cognitively normal adults with plasma, spinal fluid and PET
+  tags: [Blood tests]
+- rank: 10
+  figure: R² = 0.56
+  figure_label: link between a blood tau fragment and tau tangles on PET
+  statement: A newly described blood tau fragment, eMTBR-tau243, specifically reflects tau tangles. It rose at the mild cognitive impairment stage, rose further in dementia, and tracked tau PET and cognition better than %p-tau217 or %p-tau205.
+  paper: pmid-40164726
+  evidence: Three cohorts of 108, 55 and 739 people
+  tags: [Blood tests, Tau]
+- rank: 11
+  figure: Tangle-specific
+  figure_label: spinal fluid MTBR-tau243 tracks tau tangles, not amyloid
+  statement: MTBR-tau243 in spinal fluid was most strongly tied to tau PET and cognition and least to amyloid PET, and it rose over time as tangles built up, unlike p-tau measures. The authors propose adding it to the A/T/N criteria as the marker for tangles.
+  paper: pmid-37443334
+  evidence: Two cohorts, 448 and 219 people
+  tags: [Tau]
+- rank: 12
+  figure: 0.93
+  figure_label: accuracy of %p-tau217 versus 0.83–0.88 for immunoassays
+  statement: In a head-to-head comparison of leading p-tau217 blood tests, all detected abnormal amyloid PET well (AUC 0.91–0.96), but the mass spectrometry %p-tau217 test performed best, with 91% sensitivity and 94% specificity.
+  paper: pmid-39468767
+  evidence: 998 people in the BioFINDER-2 cohort
+  tags: [Blood tests]
+- rank: 13
+  figure: 24% more
+  figure_label: Aβ42 relative to Aβ40 made by people with presenilin mutations
+  statement: Carriers of Alzheimer's-causing presenilin mutations produced 24% more Aβ42 relative to Aβ40 in the brain than non-carrier relatives, whether or not they had plaques. This supports overproduction of Aβ42 as the cause of this inherited form.
+  paper: pmid-23761040
+  evidence: Stable isotope labeling study in mutation carriers and non-carrier relatives
+  tags: [Amyloid production and clearance, Inherited Alzheimer's]
+- rank: 14
+  figure: 2.5-fold
+  figure_label: longer amyloid-β half-life over five decades of age
+  statement: Amyloid-β turnover in the brain slowed markedly with age, with a 2.5-fold longer half-life over five decades. This links aging, the biggest risk factor for Alzheimer's, to a buildup that makes protein misfolding more likely.
+  paper: pmid-26040676
+  evidence: Stable isotope labeling in 112 participants
+  tags: [Amyloid production and clearance]
+- rank: 15
+  figure: 16 years
+  figure_label: before symptoms, rising blood neurofilament flags inherited Alzheimer's
+  statement: The rate of change of neurofilament light in blood, a marker of nerve damage, distinguished mutation carriers from non-carriers 16.2 years before expected symptoms, almost a decade earlier than a single reading. It predicted brain thinning and cognitive decline.
+  paper: pmid-30664784
+  evidence: DIAN cohort, 405 people with serum and 196 with repeat samples
+  tags: [Inherited Alzheimer's, Blood tests]
+- rank: 16
+  figure: 25–30%
+  figure_label: rise in overnight amyloid-β after a night without sleep
+  statement: One night of sleep deprivation raised overnight amyloid-β38, 40 and 42 in spinal fluid by 25–30%, through increased production, compared with normal sleep.
+  paper: pmid-29220873
+  evidence: Randomized study with serial spinal fluid sampling and isotope labeling
+  tags: [Sleep, Amyloid production and clearance]
+- rank: 17
+  figure: 10–20% lower
+  figure_label: amyloid-β after a single dose of the sleep drug suvorexant
+  statement: A single 20 mg dose of suvorexant, an approved insomnia drug, lowered amyloid-β by about 10–20% and tau phosphorylation at one site (T181) by 10–15% in spinal fluid versus placebo. Long-term studies are needed to know whether it could help prevent Alzheimer's.
+  paper: pmid-36897120
+  evidence: Randomized placebo-controlled trial, 38 cognitively unimpaired adults aged 45–65
+  tags: [Sleep]
+- rank: 18
+  figure: 23 days
+  figure_label: half-life of tau in the human brain
+  statement: Tau protein turns over slowly in the human brain, with a half-life of about 23 days. Tau production rose with the amount of amyloid plaque, a biological link between plaques and tau.
+  paper: pmid-29566794
+  evidence: Stable isotope labeling in people and stem-cell-derived neurons
+  tags: [Tau]
+- rank: 19
+  figure: C index 0.91
+  figure_label: agreement of a two-marker blood test with PET-based Alzheimer's staging
+  statement: Combining blood %p-tau217 and eMTBR-tau243 staged Alzheimer's in close agreement with PET (C index 0.91), matched clinical severity, and aligned with autopsy findings (AUC 0.96), better than %p-tau217 alone.
+  paper: pmid-42189519
+  evidence: Longitudinal study with validation and autopsy subsamples
+  tags: [Blood tests, Tau]
+- rank: 20
+  figure: Up to 84%
+  figure_label: drop in brain amyloid-β production with a γ-secretase inhibitor
+  statement: Single doses of the γ-secretase inhibitor LY450139 cut amyloid-β production in the brain by 47%, 52% and 84% at 100, 140 and 280 mg, without changing clearance. This showed isotope labeling could test drug effects directly in people.
+  paper: pmid-19360898
+  evidence: Dose-ranging study in 20 healthy men
+  tags: [Amyloid production and clearance]
+- rank: 21
+  figure: 5 to 6 years earlier
+  figure_label: amyloid builds up in inherited Alzheimer's than in Down syndrome, relative to symptoms
+  statement: Amyloid plaques rose about 23 years before expected symptoms in carriers of Alzheimer's genes versus about 17.5 years in Down syndrome, but overall patterns were similar. The authors suggest adults with Down syndrome aged 35 or older warrant inclusion in prevention trials.
+  paper: pmid-36517172
+  evidence: Cross-sectional study, 192 people with Down syndrome and 265 mutation carriers
+  tags: [Inherited Alzheimer's]
+- rank: 22
+  figure: Tau stayed local
+  figure_label: in a gene carrier who stayed free of dementia past the expected age
+  statement: A PSEN2 mutation carrier who remained without symptoms well past the expected age had tau confined to the back of the brain without spread, a proteomic profile rich in heat shock proteins, and significant heat exposure, pointing to blocking tau spread as a treatment target.
+  paper: pmid-39930140
+  evidence: Longitudinal single-person case study
+  tags: [Inherited Alzheimer's, Tau]
+- rank: 23
+  figure: Earlier onset
+  figure_label: with presenilin variants that weaken γ-secretase more
+  statement: PSEN1 variants that reduce γ-secretase activity more were linked with earlier symptom onset, faster amyloid buildup, faster hippocampal shrinkage and faster memory decline, partly explaining why inherited Alzheimer's varies between families.
+  paper: pmid-39074479
+  evidence: Cross-sectional and longitudinal analysis of the DIAN observational study
+  tags: [Inherited Alzheimer's, Amyloid production and clearance]
+- rank: 24
+  figure: 35–55% up in fluid, 5–15% down in blood
+  figure_label: Alzheimer's markers after a sleepless night
+  statement: Sleep deprivation raised amyloid-β and tau in spinal fluid by about 35–55% but lowered them in blood by about 5–15%, by slowing clearance from brain to blood. Ratios such as Aβ42/40 stayed stable, so they are safer to interpret than single blood values.
+  paper: pmid-36695437
+  evidence: Crossover study, 5 cognitively normal adults sampled every 2 hours for 36 hours
+  tags: [Sleep, Blood tests]
+- rank: 25
+  figure: 1.5- to 4-fold
+  figure_label: swing in spinal fluid amyloid-β levels within a day
+  statement: Amyloid-β in spinal fluid varied 1.5- to 4-fold within individuals over 36 hours, tied to time of day or activity, so studies should control for when samples are taken.
+  paper: pmid-17325273
+  evidence: Hourly spinal fluid sampling in 15 non-demented adults
+  tags: [Sleep, Amyloid production and clearance]

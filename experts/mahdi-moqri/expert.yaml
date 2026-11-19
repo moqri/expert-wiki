@@ -1,0 +1,15 @@
+slug: mahdi-moqri
+name: Mahdi Moqri
+credentials: PhD
+affiliation: Brigham and Women's Hospital and Harvard Medical School
+department: Division of Genetics, Department of Medicine
+areas: [Aging, Alzheimer's]
+headline: How to measure biological aging well enough to test treatments in people, and what that reveals about aging and Alzheimer's disease.
+summary:
+  - Mahdi Moqri's work centers on biomarkers of aging, the measurements that could show whether a treatment slows aging without waiting decades for disease or death. Moqri is first author of the Biomarkers of Aging Consortium's framework for what such a biomarker is and how it should be validated before it reaches clinics and trials (Cell 2023; Nature Medicine 2024). With colleagues, Moqri has built open ways to compare them head to head, including the Biolearn platform (39 biomarkers, more than 20,000 people), a comparison of 14 epigenetic clocks against 174 diseases in 18,859 people, and an open Biomarkers of Aging competition.
+  - A second thread asks what aging clocks actually measure. Moqri's papers show that most of the DNA methylation people gain with age falls in regions controlled by the Polycomb complex PRC2, that genes changing in both methylation and expression with age in blood point to the adaptive immune system, and that epigenetic aging has a large random component alongside coordinated change. Related work splits clocks into damaging and adaptive parts, reads age cell type by cell type, and uses blood proteins from more than 50,000 people to estimate how fast each organ is aging.
+  - The same tools are applied to Alzheimer's disease, rejuvenation and AI. In Alzheimer's, collaborations map blood proteins and metabolites by APOE genotype and find a plasma protein signature of brain amyloid. In rejuvenation, they review partial reprogramming and show that a young body can make an old ovary molecularly younger. In AI, they build systems such as OpenScientist and ClockBase Agent that analyze biomedical data and search millions of public samples for treatments that lower biological age.
+tags: [Biomarkers of aging, Epigenetic clocks, Organ and multi-omic aging, Alzheimer's, Rejuvenation, Longevity genetics, AI for science]
+search: 'Moqri M[Author]'
+links:
+  - {label: Lab website, url: "https://moqri.bwh.harvard.edu/"}

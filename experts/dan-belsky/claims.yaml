@@ -1,0 +1,215 @@
+- rank: 1
+  figure: 1 blood test
+  figure_label: estimates how fast a person is aging right now
+  statement: DunedinPACE condenses twenty years of decline in 19 measures of organ health into a single DNA methylation blood test. It gave consistent results on repeat testing, was linked to disease, disability and death, and added prediction beyond the GrimAge clock.
+  paper: pmid-35029144
+  evidence: Dunedin Study birth cohort (born 1972-73), tested in five more datasets
+  tags: [Pace of aging, Measuring aging]
+
+- rank: 2
+  figure: 25%
+  figure_label: calorie restriction for 2 years slowed the pace of aging
+  statement: In the CALERIE trial, healthy adults without obesity assigned to cut calories by 25% for two years had a slower pace of aging on DunedinPACE than those on their usual diet. Biological age estimates from other clocks, including PhenoAge and GrimAge, did not change significantly, and the effects were small.
+  paper: pmid-37118425
+  evidence: Randomized controlled trial, 220 adults
+  tags: [Interventions and lifestyle, Pace of aging]
+
+- rank: 3
+  figure: 954
+  figure_label: young adults of the same age were already aging at different speeds
+  statement: In Dunedin Study members followed through their 20s and 30s, the decline of lungs, gums, heart, kidneys, liver and immune function ran faster in some people than others. By age 38, the faster agers were less physically able, showed early cognitive decline and brain aging, rated their health worse and looked older.
+  paper: pmid-26150497
+  evidence: Birth cohort, 954 people, 3 time points over 12 years
+  tags: [Pace of aging]
+
+- rank: 4
+  figure: HR 1.27
+  figure_label: higher dementia risk with faster DunedinPACE
+  statement: In older adults, the older Horvath, Hannum, PhenoAge and GrimAge clocks were not consistently tied to cognitive impairment, but faster DunedinPACE was tied to Alzheimer's diagnosis and worse test scores. In a second cohort, faster DunedinPACE predicted who went on to develop dementia (hazard ratio 1.27, 95% CI 1.07-1.49).
+  paper: pmid-35794023
+  evidence: ADNI (649 people) and Framingham Offspring Cohort (2,264 people)
+  tags: [Brain and mental health, Pace of aging]
+
+- rank: 5
+  figure: 2.9-3.8 months
+  figure_label: less biological aging over 3 years, mainly from omega-3
+  statement: In older adults in the DO-HEALTH trial, omega-3 (1 g a day) on its own slowed the PhenoAge, GrimAge2 and DunedinPACE clocks over three years. Omega-3, vitamin D (2,000 IU a day) and a home exercise program added up for PhenoAge. The benefit was small.
+  paper: pmid-39900648
+  evidence: Post hoc analysis of a randomized trial, 777 adults
+  tags: [Interventions and lifestyle]
+
+- rank: 6
+  figure: 11 measures
+  figure_label: of biological aging largely disagreed with each other
+  statement: When telomere length, three epigenetic clocks and three biomarker composites were measured in the same middle-aged people, they agreed poorly. The 71-site epigenetic clock and the biomarker composites tracked physical function, cognitive decline and looking older best, but effects were modest.
+  paper: pmid-29149257
+  evidence: Dunedin Study, 964 people
+  tags: [Measuring aging]
+
+- rank: 7
+  figure: about half
+  figure_label: of education's survival benefit was explained by slower aging
+  statement: People who got more education than their parents had a slower pace of aging on DunedinPACE (r = -0.18), including when siblings were compared. Upward educational mobility was linked to lower risk of death (hazard ratio 0.89), and slower aging accounted for about half of that link.
+  paper: pmid-38427354
+  evidence: Framingham Heart Study, 3,101 people across two generations
+  tags: [Social and early-life factors, Pace of aging]
+
+- rank: 8
+  figure: 6 decades
+  figure_label: after famine in the womb, survivors were aging faster
+  statement: People exposed before birth to the 1944-45 Dutch Hunger Winter had a faster DunedinPACE at about age 58 than matched controls, most strongly in women. GrimAge showed a smaller difference and PhenoAge none, and the effect did not depend on when in pregnancy the exposure happened.
+  paper: pmid-38833467
+  evidence: Natural experiment birth cohort, 951 people
+  tags: [Social and early-life factors]
+
+- rank: 9
+  figure: 19,045
+  figure_label: older adults in the US and UK measured with an adapted Pace of Aging
+  statement: An adapted Pace of Aging method that combines blood tests, physical measurements and function tests over time showed large differences in aging speed between population groups. Faster Pace of Aging consistently predicted new disease, disability and death.
+  paper: pmid-40419803
+  evidence: Health and Retirement Study and English Longitudinal Study of Ageing
+  tags: [Pace of aging, Measuring aging]
+
+- rank: 10
+  figure: 174
+  figure_label: diseases tested against 14 epigenetic clocks
+  statement: Over ten years of follow-up, second and third generation clocks predicted disease much better than first generation clocks. For 27 diseases, including primary lung cancer and diabetes, a clock's link to the disease was stronger than its link to death, with most promise for lung and liver conditions.
+  paper: pmid-41402269
+  evidence: Population cohort, 18,859 people
+  tags: [Measuring aging]
+
+- rank: 11
+  figure: r = 0.18
+  figure_label: link between family and neighborhood disadvantage and faster aging in children
+  statement: Children aged 8 to 18 living in more disadvantaged families and neighborhoods had a faster pace of aging measured from saliva DNA methylation. The link held after accounting for puberty, body mass index and tobacco exposure.
+  paper: pmid-34001641
+  evidence: Texas Twin Project, 600 children
+  tags: [Social and early-life factors]
+
+- rank: 12
+  figure: 140 studies
+  figure_label: lower income and status go with older clocks, mostly the newer ones
+  statement: Across 140 studies, links between socioeconomic status and biological age were weak for first generation clocks (r = -0.03) and stronger for second (r = -0.11) and third generation clocks (r = -0.13). Newer clocks are more responsive to social inequality.
+  paper: pmid-42286117
+  evidence: Pre-registered systematic review and meta-analysis, 65,919 people
+  tags: [Social and early-life factors, Measuring aging]
+
+- rank: 13
+  figure: 13-95%
+  figure_label: of Black-White differences in healthspan accounted for by biological aging
+  statement: Among older Americans, GrimAge, DunedinPoAm and three blood chemistry measures showed more advanced or faster biological aging in Black than White participants (Cohen's d 0.4-0.5). These measures accounted for 13% to 95% of the Black-White differences in health and survival.
+  paper: pmid-34850809
+  evidence: Health and Retirement Study, 9,005 people
+  tags: [Social and early-life factors]
+
+- rank: 14
+  figure: 2 decades
+  figure_label: of cognitive testing showed faster decline in faster agers
+  statement: Older adults with faster DunedinPACE started with poorer cognitive function and declined faster over about twenty years of testing. The association of DunedinPACE with cognitive decline explained about a quarter of dementia risk, and higher baseline cognition was protective.
+  paper: pmid-39583644
+  evidence: Framingham Heart Study Offspring Cohort, 2,296 people
+  tags: [Brain and mental health, Pace of aging]
+
+- rank: 15
+  figure: 3 cohorts
+  figure_label: faster pace of aging, smaller brains
+  statement: From midlife to old age, faster DunedinPACE was linked to lower total brain and hippocampal volume, more white matter lesions and thinner cortex. DunedinPACE and GrimAge had the strongest links with brain structure among five clocks tested.
+  paper: pmid-38301452
+  evidence: Dunedin, Framingham and ADNI MRI data, 2,322 people
+  tags: [Brain and mental health]
+
+- rank: 16
+  figure: Framework
+  figure_label: for naming, classifying and validating biomarkers of aging
+  statement: An expert consensus sets out shared terms, types and possible clinical uses for biomarkers of aging, the validation steps they need, and open challenges before they can be used in trials and practice.
+  paper: pmid-37657418
+  evidence: Expert consensus review
+  tags: [Measuring aging]
+
+- rank: 17
+  figure: 11.7%
+  figure_label: average calorie cut achieved, and aging still slowed
+  statement: In an early analysis of CALERIE biobank data, two blood-test measures of biological age (Klemera-Doubal biological age and homeostatic dysregulation) rose more slowly with calorie restriction than with usual diet. Weight loss did not account for the effect.
+  paper: pmid-28531269
+  evidence: Randomized controlled trial, 220 adults, 3 time points
+  tags: [Interventions and lifestyle]
+
+- rank: 18
+  figure: 10% faster
+  figure_label: aging with lifelong socioeconomic disadvantage
+  statement: Adults who were disadvantaged from childhood through adulthood aged about 10% faster over 11 years than those who were always advantaged. Health behaviors explained part, but not all, of the gap.
+  paper: pmid-34951641
+  evidence: Swiss population cohort, 5,309 adults, 12 biomarkers at 3 visits
+  tags: [Social and early-life factors, Pace of aging]
+
+- rank: 19
+  figure: 6 childhood factors
+  figure_label: predicted adult pace of aging
+  statement: Less longevity in the family, lower childhood social class, adverse childhood experiences, poorer childhood health, lower intelligence and lower self-control each predicted a faster Pace of Aging in young adults, and more of these risks meant faster aging.
+  paper: pmid-28401731
+  evidence: Dunedin Study, 954 people
+  tags: [Social and early-life factors, Pace of aging]
+
+- rank: 20
+  figure: 24 years
+  figure_label: faster rise in epigenetic clocks predicted death
+  statement: In older Italian adults, people whose epigenetic clocks advanced faster over time had a higher risk of death, independent of their starting epigenetic age and other factors.
+  paper: pmid-41826710
+  evidence: InCHIANTI cohort, 699 adults with repeat measures
+  tags: [Measuring aging]
+
+- rank: 21
+  figure: 42,625
+  figure_label: adults with healthier diet and activity had younger biological age
+  statement: People who followed a Mediterranean diet more closely or did more leisure-time exercise had younger PhenoAge biological ages, each on its own, regardless of age, sex or body mass index.
+  paper: pmid-36896965
+  evidence: US national surveys (NHANES 1999-2018)
+  tags: [Interventions and lifestyle]
+
+- rank: 22
+  figure: 11.3%
+  figure_label: higher risk of depression or anxiety per step of faster aging
+  statement: Over about nine years, people whose PhenoAge biological age ran ahead of their real age were more likely to develop depression or anxiety, an 11.3% higher risk per standard deviation. This added to genetic risk rather than overlapping with it.
+  paper: pmid-37080981
+  evidence: UK Biobank, 424,299 people
+  tags: [Brain and mental health]
+
+- rank: 23
+  figure: 57%
+  figure_label: higher risk of death with persistent loneliness
+  statement: Older Americans with persistent loneliness had a 57% higher risk of death than those never lonely, and social isolation a 28% higher risk. Both groups also showed signs of more advanced biological aging.
+  paper: pmid-33963758
+  evidence: Health and Retirement Study, 11,302 adults aged 50-95
+  tags: [Social and early-life factors]
+
+- rank: 24
+  figure: 24 to 72
+  figure_label: years, the spread of brain age among 45-year-olds
+  statement: Among people all aged 45, brain age estimated from MRI ranged from 24 to 72 years. Older brain age went with faster pace of aging, an older-looking face and cognitive decline, but also with poorer cognition in childhood, so it partly reflects lifelong differences, not only aging.
+  paper: pmid-31822815
+  evidence: Dunedin Study, 869 people
+  tags: [Brain and mental health]
+
+- rank: 25
+  figure: 6.4-7.8 hours
+  figure_label: of sleep went with the youngest biological age across organs
+  statement: Across 23 aging clocks from brain and body imaging, blood proteins and metabolites, both short and long sleep were linked to older biological age, in a U-shaped pattern. Sleeping under 6 or over 8 hours was linked to higher risk of disease and death.
+  paper: pmid-42129562
+  evidence: UK Biobank, adults aged 37-84
+  tags: [Interventions and lifestyle]
+
+- rank: 26
+  figure: 20,000+
+  figure_label: people in 5 studies show education genetics predicts social mobility
+  statement: People with higher education polygenic scores tended to climb above their parents' social position, including when siblings were compared. A mother's score also predicted her child's success beyond the child's own score, pointing to effects through the family environment.
+  paper: pmid-29987013
+  evidence: Five longitudinal studies in the US, UK and New Zealand
+  tags: [Genetics]
+
+- rank: 27
+  figure: about half
+  figure_label: of genetic obesity risk worked through fast early-childhood growth
+  statement: Children with higher genetic risk for obesity were not heavier at birth but gained weight faster in early childhood and reached adiposity rebound earlier. These growth patterns accounted for about half of the genetic effect on adult obesity.
+  paper: pmid-22665028
+  evidence: Dunedin Study, 1,037 people followed to age 38
+  tags: [Genetics]

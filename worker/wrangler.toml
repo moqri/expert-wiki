@@ -1,0 +1,19 @@
+name = "expert-wiki-ask"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+SITE_URL = "https://expert.wiki"
+ALLOWED_ORIGINS = "https://expert.wiki,https://www.expert.wiki"
+MODEL = "claude-opus-5-5"
+EFFORT = "low"
+
+# 8 questions per minute per visitor IP
+[[ratelimits]]
+name = "LIMITER"
+namespace_id = "1001"
+
+  [ratelimits.simple]
+  limit = 8
+  period = 60

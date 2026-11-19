@@ -1,0 +1,210 @@
+- rank: 1
+  figure: "51"
+  figure_label: tissues and cell types read by one age formula
+  statement: A single DNA methylation formula based on 353 sites estimates the age of most human tissues and cell types. It reads close to zero for embryonic and induced pluripotent stem cells, rises with the number of times cells are passaged in culture, and its "age acceleration" is highly heritable.
+  paper: pmid-24138928
+  evidence: Pan-tissue clock built from 8,000 samples in 82 datasets; tested in 6,000 cancer samples
+  tags: [Epigenetic clocks]
+- rank: 2
+  figure: P = 2×10⁻⁷⁵
+  figure_label: for predicting time to death
+  statement: GrimAge combines methylation-based estimates of seven plasma proteins (including PAI-1 and GDF15) and smoking pack-years. It outperformed earlier epigenetic clocks in predicting time to death, coronary heart disease and cancer, and was linked to fatty liver, visceral fat and age at menopause.
+  paper: pmid-30669119
+  evidence: Clock development with validation in thousands of people from large cohorts
+  tags: [Epigenetic clocks, Health and mortality risk]
+- rank: 3
+  figure: PhenoAge
+  figure_label: a clock trained on health, not calendar age
+  statement: Training a methylation clock on a clinical measure of "phenotypic age" produced DNAm PhenoAge, which strongly outperformed earlier clocks in predicting death, cancers, healthspan, physical functioning and Alzheimer's disease. Faster PhenoAge went with more inflammatory and interferon activity and less DNA repair and mitochondrial activity.
+  paper: pmid-29676998
+  evidence: Two-step clock development in blood, tested across tissues and sorted cells
+  tags: [Epigenetic clocks, Health and mortality risk]
+- rank: 4
+  figure: r > 0.96
+  figure_label: accuracy of one clock across 185 mammal species
+  statement: Universal pan-mammalian clocks estimate tissue age across 185 species and 59 tissue types. The age-related sites are concentrated at Polycomb (PRC2) binding locations near developmental genes, suggesting that aging is conserved across mammals and intertwined with development.
+  paper: pmid-37563227
+  evidence: 11,754 methylation arrays from the Mammalian Methylation Consortium
+  tags: [Aging across mammals, Epigenetic clocks]
+- rank: 5
+  figure: 8 of 9
+  figure_label: health outcomes linked to GrimAge, versus none for first-generation clocks
+  statement: In older Irish adults, faster GrimAge was associated with 8 of 9 clinical measures, including walking speed, frailty and cognition, and still predicted walking speed, polypharmacy, frailty and death after full adjustment. The Horvath and Hannum clocks did not predict these outcomes.
+  paper: pmid-33211845
+  evidence: Cohort of 490 adults (TILDA), up to 10 years of follow-up
+  tags: [Health and mortality risk]
+- rank: 6
+  figure: P = 4×10⁻¹⁶⁷
+  figure_label: GrimAge2 prediction of death across 9 cohorts
+  statement: GrimAge version 2 adds methylation estimates of C-reactive protein and hemoglobin A1c. It predicted mortality better than the original GrimAge across racial and ethnic groups, and also applies to younger people and saliva samples.
+  paper: pmid-36516495
+  evidence: 13,399 blood samples from nine cohorts
+  tags: [Epigenetic clocks, Health and mortality risk]
+- rank: 7
+  figure: HR 1.11
+  figure_label: higher risk of MCI or dementia per 1 SD faster GrimAge2
+  statement: Among 6,069 cognitively healthy older women followed for a median of 9.3 years, faster GrimAge2 aging was linked to a higher risk of mild cognitive impairment or probable dementia, and was the only clock that stayed significant after correction for multiple testing. First-generation clocks were not linked.
+  paper: pmid-41721741
+  evidence: Women's Health Initiative Memory Study, 1,307 incident cases
+  tags: [Brain and Alzheimer's, Health and mortality risk]
+- rank: 8
+  figure: 15 years
+  figure_label: of plasma Alzheimer's biomarker tracking
+  statement: In cognitively healthy older women, a faster pace of biological aging (DunedinPACE) at baseline was linked to faster rises over 15 years in plasma p-tau181, p-tau217, neurofilament light and GFAP.
+  paper: pmid-41399190
+  evidence: 2,366 women (873 with repeat samples), Women's Health Initiative Memory Study
+  tags: [Brain and Alzheimer's]
+- rank: 9
+  figure: h² = 0.41
+  figure_label: heritability of brain epigenetic age acceleration
+  statement: Older epigenetic age of the prefrontal cortex was associated with more neuritic plaques and amyloid load, and with faster decline in global cognition, episodic memory and working memory in people with Alzheimer's disease. Brain epigenetic age acceleration was itself heritable.
+  paper: pmid-26684672
+  evidence: 700 post-mortem prefrontal cortex samples (ROS/MAP)
+  tags: [Brain and Alzheimer's]
+- rank: 10
+  figure: 3.3 years
+  figure_label: older liver per 10 BMI units
+  statement: Higher body mass index was linked to older epigenetic age in the liver, but not in blood, muscle or fat tissue. The liver age acceleration did not reverse in the short term after rapid weight loss from bariatric surgery.
+  paper: pmid-25313081
+  evidence: Human blood, liver, muscle and adipose methylation datasets
+  tags: [What speeds aging]
+- rank: 11
+  figure: 6.6 years
+  figure_label: older blood and brain in Down syndrome
+  statement: Trisomy 21 increases the epigenetic age of blood and brain tissue by an average of 6.6 years, giving molecular evidence that Down syndrome accelerates aging.
+  paper: pmid-25678027
+  evidence: Epigenetic clock analysis of blood and brain samples
+  tags: [What speeds aging]
+- rank: 12
+  figure: 7.4 years
+  figure_label: older brain tissue with HIV infection
+  statement: HIV infection was associated with older epigenetic age in brain tissue (7.4 years) and blood (5.2 years). The blood effect may partly reflect shifts in blood cell types such as exhausted cytotoxic T cells.
+  paper: pmid-25969563
+  evidence: Six new DNA methylation datasets from brain and blood
+  tags: [What speeds aging]
+- rank: 13
+  figure: Earlier menopause
+  figure_label: goes with faster blood epigenetic aging
+  statement: Earlier menopause, removal of both ovaries, and longer time since menopause were each associated with faster epigenetic aging of blood. Women on menopausal hormone therapy had a lower epigenetic age in cheek cells.
+  paper: pmid-27457926
+  evidence: About 3,100 women from four studies, including the Women's Health Initiative, with Mendelian randomization
+  tags: [What speeds aging]
+- rank: 14
+  figure: 3.2 years
+  figure_label: older brain regions in Huntington's disease
+  statement: Huntington's disease was associated with older epigenetic age in specific brain regions (frontal lobe, parietal lobe and cingulate gyrus), with an estimated increase in biological age of 3.2 years.
+  paper: pmid-27479945
+  evidence: 475 brain samples from 26 cases and 39 controls
+  tags: [What speeds aging, Brain and Alzheimer's]
+- rank: 15
+  figure: 5.1 years
+  figure_label: younger blood in children of people who reached 105+
+  statement: Offspring of Italian semi-supercentenarians (age 105 to 109) had a lower epigenetic age than age-matched controls, and the semi-supercentenarians themselves were 8.6 years younger than expected for their age.
+  paper: pmid-26678252
+  evidence: 82 semi-supercentenarians, 63 offspring and 47 controls
+  tags: [Health and mortality risk]
+- rank: 16
+  figure: Cerebellum
+  figure_label: ages more slowly than other body sites
+  statement: Across up to 30 anatomic sites from supercentenarians and younger people, the cerebellum had a younger epigenetic age than other parts of the body, a pattern linked to RNA helicase genes.
+  paper: pmid-26000617
+  evidence: Three new and three published human methylation datasets
+  tags: [Epigenetic clocks, Brain and Alzheimer's]
+- rank: 17
+  figure: Men
+  figure_label: age faster epigenetically than women
+  statement: Men had higher epigenetic aging rates than women in blood, saliva and brain. Hispanics and Tsimane Amerindians had lower intrinsic but higher immune-related aging rates in blood than Caucasians, and epigenetic aging rates were not associated with later coronary heart disease events.
+  paper: pmid-27511193
+  evidence: Blood, saliva and brain samples from seven racial and ethnic groups
+  tags: [Health and mortality risk]
+- rank: 18
+  figure: "391"
+  figure_label: sites in the skin and blood clock
+  statement: The skin and blood clock accurately estimates the age of fibroblasts, skin cells, cheek swabs, saliva and blood. It detected faster aging in cells from children with progeria and showed that epigenetic age rises steadily as cells divide in culture.
+  paper: pmid-30048243
+  evidence: Clock development in multiple human cell types and tissues
+  tags: [Epigenetic clocks]
+- rank: 19
+  figure: r ≈ −0.75
+  figure_label: methylation telomere estimate versus age (measured telomeres ≈ −0.35)
+  statement: A methylation-based estimate of telomere length (DNAmTL) tracks age more closely than measured telomere length and better predicts time to death, coronary heart disease and heart failure.
+  paper: pmid-31422385
+  evidence: Validation in about 10,000 samples from cohorts including Framingham and the Women's Health Initiative
+  tags: [Epigenetic clocks, Health and mortality risk]
+- rank: 20
+  figure: ~90%
+  figure_label: of age-related methylation gain falls in PRC2 regions
+  statement: Low-methylated regions bound by Polycomb Repressive Complex 2 gain methylation with age in every somatic dividing cell type examined, accounting for about 90% of genome-wide age-related gain. Their average methylation (the PRC2-AgeIndex) is proposed as a universal marker of cellular aging and rejuvenation.
+  paper: pmid-39009581
+  evidence: Whole-genome methylation analysis across somatic tissues and cells
+  tags: [Epigenetic clocks, Aging across mammals]
+- rank: 21
+  figure: R = 0.89
+  figure_label: prediction of a species' maximum lifespan
+  statement: DNA methylation predicts a species' maximum lifespan, gestation time and age at sexual maturity. This lifespan signature is an intrinsic property of the species, is unaffected by caloric restriction or partial reprogramming, and differs from the signals that track an individual's mortality risk.
+  paper: pmid-38848365
+  evidence: 15,000 samples from 348 mammalian species
+  tags: [Aging across mammals]
+- rank: 22
+  figure: 348
+  figure_label: mammal species in a methylation "family tree"
+  statement: Methylation profiles of 348 mammals form trees that closely mirror the species' evolutionary family tree. Of 55 co-methylation modules, 30 relate to traits such as maximum lifespan, body weight, age and sex, and some respond to caloric restriction, growth hormone receptor loss, high-fat diet and Yamanaka factors.
+  paper: pmid-37561875
+  evidence: 15,456 methylation profiles from the Mammalian Methylation Consortium
+  tags: [Aging across mammals]
+- rank: 23
+  figure: Queens
+  figure_label: of naked mole rats age more slowly than non-breeders
+  statement: Naked mole rats, long thought to show negligible aging, do age epigenetically. Breeding queens age more slowly than non-breeding animals.
+  paper: pmid-35368774
+  evidence: 385 samples from 11 tissue types on a mammalian methylation array
+  tags: [Aging across mammals]
+- rank: 24
+  figure: Over half
+  figure_label: drop in rat blood, heart and liver epigenetic age
+  statement: In old rats, a fraction of young pig plasma more than halved the epigenetic age of blood, heart and liver by rat-specific clocks, with smaller effects in the hypothalamus, alongside improvements in organ function and cognition tests.
+  paper: pmid-37875652
+  evidence: Rat experiment using six new rat clocks built from 613 tissue samples
+  tags: [Interventions]
+- rank: 25
+  figure: No rejuvenation
+  figure_label: from repeated plasmapheresis in healthy adults
+  statement: Removing plasma 4 or 8 times over 18 weeks in healthy blood donors did not rejuvenate epigenetic clocks. GrimAge, the Hannum clock and DunedinPACE rose instead, although blood lipids fell.
+  paper: pmid-40592961
+  evidence: Randomized cross-over clinical trial in healthy adults
+  tags: [Interventions]
+- rank: 26
+  figure: ~6 years
+  figure_label: younger brain aging in metformin-treated monkeys
+  statement: Over 40 months, metformin slowed multiple aging clocks in adult male cynomolgus monkeys, with about a 6-year reduction in brain aging and preserved brain structure and cognition, partly through the antioxidant factor Nrf2.
+  paper: pmid-39270656
+  evidence: 40-month primate study with transcriptomic, methylation, proteomic and metabolomic clocks
+  tags: [Interventions]
+- rank: 27
+  figure: Lower body temperature
+  figure_label: slows blood epigenetic aging in mice
+  statement: Inducing a torpor-like state in mice slowed epigenetic aging across tissues and improved healthspan, and the slowing of blood aging was driven by lower core body temperature rather than lower metabolism or calorie intake.
+  paper: pmid-40055478
+  evidence: Mouse experiments with neuronal induction of torpor
+  tags: [Interventions]
+- rank: 28
+  figure: 39 days
+  figure_label: of Yamanaka-factor gene therapy in old rat brains
+  statement: Delivering the Yamanaka factors (OSKM) to the hippocampus of old rats improved performance in a maze memory test, partly reversed age-related methylation in the hippocampus, and caused no pathology within 39 days; rat clocks showed only marginal rejuvenation.
+  paper: pmid-39037528
+  evidence: Rat gene-therapy study in 25-month-old females
+  tags: [Interventions, Brain and Alzheimer's]
+- rank: 29
+  figure: WGCNA
+  figure_label: software for gene co-expression networks
+  statement: The WGCNA R package finds modules of genes whose activity is highly correlated, summarizes them by eigengenes or hub genes, and relates them to sample traits, helping to screen for candidate biomarkers and drug targets.
+  paper: pmid-19114008
+  evidence: Methods and software paper with tutorials
+  tags: [Network methods]
+- rank: 30
+  figure: Clock theory
+  figure_label: linking development and maintenance to aging
+  statement: Epigenetic clocks give accurate age estimates for any tissue across the whole life course, and link developmental and maintenance processes to biological aging in a unified "epigenetic clock theory" of aging.
+  paper: pmid-29643443
+  evidence: Review in Nature Reviews Genetics
+  tags: [Epigenetic clocks]

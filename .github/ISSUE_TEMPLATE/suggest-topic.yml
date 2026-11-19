@@ -1,0 +1,20 @@
+name: Suggest a topic or expert
+description: Tell us which area or researcher expert.wiki should cover next.
+title: "Suggestion: "
+labels: [suggestion]
+body:
+  - type: input
+    id: topic
+    attributes:
+      label: Topic
+      placeholder: e.g. Menopause and brain health
+    validations:
+      required: true
+  - type: input
+    id: experts
+    attributes:
+      label: Leading researchers in this area (optional)
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it matters to you (optional)

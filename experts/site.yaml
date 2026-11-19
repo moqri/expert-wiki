@@ -1,0 +1,13 @@
+updated: November 2026
+# Set this to the deployed Cloudflare Worker URL (see worker/README.md).
+# While empty, the ask box searches the expert's papers in the browser instead.
+ask_endpoint: ""
+suggest_url: https://github.com/moqri/expert-wiki/issues/new?template=suggest-topic.yml
+intro: Each page gathers one leading researcher's published work, sums it up in plain language, lists their key findings with the paper behind each one, and answers your questions from those papers. We are starting with aging and Alzheimer's disease, two of the most consequential areas of health research, where people face real decisions today.
+areas:
+  - id: aging
+    name: Aging
+    blurb: How we age, how to measure it, and what might slow it.
+  - id: alzheimers
+    name: Alzheimer's
+    blurb: Risk, genetics, early detection and prevention of Alzheimer's disease.

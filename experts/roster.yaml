@@ -1,0 +1,14 @@
+# Everyone shown on the home page. A name links once experts/<slug>/ has data.
+# An expert.yaml affiliation, when present, overrides the one here.
+- {slug: mahdi-moqri, name: Mahdi Moqri, affiliation: "Brigham and Women's Hospital and Harvard Medical School", areas: [Aging, "Alzheimer's"]}
+- {slug: vadim-gladyshev, name: Vadim Gladyshev, affiliation: "Brigham and Women's Hospital and Harvard Medical School", areas: [Aging]}
+- {slug: steve-horvath, name: Steve Horvath, affiliation: Altos Labs, areas: [Aging]}
+- {slug: dan-belsky, name: Dan Belsky, affiliation: Columbia University Mailman School of Public Health, areas: [Aging]}
+- {slug: shally-bhasin, name: Shally Bhasin, affiliation: "Brigham and Women's Hospital and Harvard Medical School", areas: [Aging]}
+- {slug: nir-barzilai, name: Nir Barzilai, affiliation: Albert Einstein College of Medicine, areas: [Aging]}
+- {slug: mike-snyder, name: Mike Snyder, affiliation: Stanford University, areas: [Aging]}
+- {slug: eric-verdin, name: Eric Verdin, affiliation: Buck Institute for Research on Aging, areas: [Aging]}
+- {slug: andrea-maier, name: Andrea Maier, affiliation: National University of Singapore, areas: [Aging]}
+- {slug: randy-bateman, name: Randy Bateman, affiliation: Washington University School of Medicine in St. Louis, areas: ["Alzheimer's"]}
+- {slug: carlos-cruchaga, name: Carlos Cruchaga, affiliation: Washington University School of Medicine in St. Louis, areas: ["Alzheimer's"]}
+- {slug: reisa-sperling, name: Reisa Sperling, affiliation: "Mass General Brigham and Harvard Medical School", areas: ["Alzheimer's"]}

@@ -3,47 +3,60 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<meta name="description" content="Expert-curated pages on aging and Alzheimer's science, as single-source claims.">
+<meta name="description" content="Leading researchers&#x27; published work, summarized, with questions answered from their papers.">
 <title>expert.wiki</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,600;1,400&family=Public+Sans:wght@400;600&family=JetBrains+Mono:wght@400;600&display=swap">
 <link rel="stylesheet" href="/agingclocks/style.css">
-<style>
-  .claim .stmt a{color:var(--ink);text-decoration:none;font-family:var(--display);font-weight:600;font-size:22px;line-height:1.2}
-  .claim:hover .stmt a{color:var(--e4)}
-</style>
+<link rel="stylesheet" href="/assets/expert.css">
 </head>
 <body>
-<a class="skip" href="#topics">Skip to the topics</a>
+<a class="skip" href="#aging">Skip to the experts</a>
 <div class="wrap">
   <header class="top">
     <a class="mark" href="/">expert<span>.wiki</span></a><span class="crumb">Home</span>
   </header>
   <main id="main">
     <section class="intro">
-      <p class="label">Expert-curated science, one claim at a time</p>
-      <h1>What the evidence says. <em>Checked by experts.</em></h1>
-      <p class="lede">Each topic sets out what the studies show as short, numbered claims, each with a number, a plain statement, and the single paper that supports it. Pick a topic below.</p>
+      <p class="label">Science from the people who do it</p>
+      <h1>Ask the research, <em>expert by expert.</em></h1>
+      <p class="lede">Each page gathers one leading researcher&#x27;s published work, sums it up in plain language, lists their key findings with the paper behind each one, and answers your questions from those papers. We are starting with aging and Alzheimer&#x27;s disease, two of the most consequential areas of health research, where people face real decisions today.</p>
+      <p class="suggest"><a class="go" href="https://github.com/moqri/expert-wiki/issues/new?template=suggest-topic.yml">Suggest the next topic</a></p>
     </section>
-    <div class="controls" role="region" aria-label="Topics">
-      <div class="row"><span class="label">Topics</span><span class="count">2 topics</span></div>
-    </div>
-    <ol class="claims" id="topics">
-      <li class="claim" id="agingclocks">
-        <span class="rank">1</span>
-        <div class="fig"><span class="n">33 claims</span><span class="fl">from 17 papers</span></div>
-        <div class="body"><p class="stmt"><a href="/agingclocks/">Aging clocks</a></p><p>What epigenetic clocks measure and how well they work: accuracy, predicting death, reliability, trials, and what speeds the clock.</p></div>
-        <div class="ev"><span class="d">Filter by tag; sort by key findings or newest</span></div>
-      </li>
-      <li class="claim" id="apoe4">
-        <span class="rank">2</span>
-        <div class="fig"><span class="n">ε4/ε4</span><span class="fl">strongest common genetic risk for Alzheimer's</span></div>
-        <div class="body"><p class="stmt"><a href="/apoe4/">APOE4</a></p><p>The ε4 allele of the apolipoprotein E gene: what it does to Alzheimer's risk, homozygotes, and clinical relevance.</p></div>
-        <div class="ev"><span class="d">See also <a href="https://apoe4.science">apoe4.science</a></span></div>
-      </li>
-    </ol>
+    <section class="area-block" id="aging">
+      <h2>Aging</h2>
+      <p class="blurb">How we age, how to measure it, and what might slow it.</p>
+      <ul class="people">
+        <li class="person-row"><span class="pn"><a href="/mahdi-moqri/">Mahdi Moqri</a></span><span class="pa">Brigham and Women&#x27;s Hospital and Harvard Medical School</span><span class="area">Alzheimer&#x27;s</span></li>
+        <li class="person-row"><span class="pn"><a href="/vadim-gladyshev/">Vadim Gladyshev</a></span><span class="pa">Brigham and Women&#x27;s Hospital and Harvard Medical School</span></li>
+        <li class="person-row"><span class="pn"><a href="/steve-horvath/">Steve Horvath</a></span><span class="pa">Altos Labs</span></li>
+        <li class="person-row"><span class="pn"><a href="/dan-belsky/">Dan Belsky</a></span><span class="pa">Columbia University Mailman School of Public Health</span></li>
+        <li class="person-row"><span class="pn"><a href="/shally-bhasin/">Shalender (Shally) Bhasin</a></span><span class="pa">Brigham and Women&#x27;s Hospital and Harvard Medical School</span></li>
+        <li class="person-row"><span class="pn"><a href="/nir-barzilai/">Nir Barzilai</a></span><span class="pa">Albert Einstein College of Medicine</span></li>
+        <li class="person-row"><span class="pn"><a href="/mike-snyder/">Mike Snyder</a></span><span class="pa">Stanford University School of Medicine</span></li>
+        <li class="person-row"><span class="pn">Eric Verdin</span><span class="pa">Buck Institute for Research on Aging</span></li>
+        <li class="person-row"><span class="pn"><a href="/andrea-maier/">Andrea B. Maier</a></span><span class="pa">National University of Singapore and Vrije Universiteit Amsterdam</span></li>
+      </ul>
+    </section>
+    <section class="area-block" id="alzheimers">
+      <h2>Alzheimer&#x27;s</h2>
+      <p class="blurb">Risk, genetics, early detection and prevention of Alzheimer&#x27;s disease.</p>
+      <ul class="people">
+        <li class="person-row"><span class="pn"><a href="/mahdi-moqri/">Mahdi Moqri</a></span><span class="pa">Brigham and Women&#x27;s Hospital and Harvard Medical School</span><span class="area">Aging</span></li>
+        <li class="person-row"><span class="pn"><a href="/randy-bateman/">Randall J. Bateman</a></span><span class="pa">Washington University School of Medicine in St. Louis</span></li>
+        <li class="person-row"><span class="pn"><a href="/carlos-cruchaga/">Carlos Cruchaga</a></span><span class="pa">Washington University School of Medicine in St. Louis</span></li>
+        <li class="person-row"><span class="pn"><a href="/reisa-sperling/">Reisa Sperling</a></span><span class="pa">Mass General Brigham and Harvard Medical School</span></li>
+      </ul>
+    </section>
+    <section class="area-block" id="topics">
+      <h2>Topic pages</h2>
+      <ul class="people">
+        <li class="person-row"><span class="pn"><a href="/agingclocks/">Aging clocks</a></span><span class="pa">What epigenetic clocks measure and how well they work</span></li>
+        <li class="person-row"><span class="pn"><a href="/apoe4/">APOE4</a></span><span class="pa">The strongest common genetic risk for Alzheimer's</span></li>
+      </ul>
+    </section>
   </main>
   <footer>
-    <span>expert.wiki · Built with the co-scientist pipeline by <a href="https://moqri.bwh.harvard.edu/">Mahdi Moqri</a>. Sister sites: <a href="https://apoe4.science">apoe4.science</a>, <a href="https://alzprevent.org">alzprevent.org</a></span>
+    <span>expert.wiki · Built with the co-scientist pipeline by <a href="https://moqri.bwh.harvard.edu/">Mahdi Moqri</a>. Sister sites: <a href="https://apoe4.science">apoe4.science</a>, <a href="https://alzprevent.org">alzprevent.org</a> · <a href="https://github.com/moqri/expert-wiki/issues/new?template=suggest-topic.yml">Suggest a topic</a></span>
     <span class="updated">November 2026</span>
   </footer>
 </div>
