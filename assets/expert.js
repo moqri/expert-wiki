@@ -115,7 +115,7 @@
       });
       var ans = parts.length ? '<div class="answer"><p>' + parts.join(' ') + '</p></div>' : '';
       out.innerHTML = (lead ? '<p class="note">' + esc(lead) + '</p>' : '') + ans +
-        '<p class="note">Quoted from the abstracts of the most relevant papers below.</p>' +
+        '<p class="note">Searched ' + (X.papers || 'all') + ' papers; quoted from the abstracts of the ' + ps.length + ' most relevant below.</p>' +
         '<ol class="srcs">' + ps.map(function (p, i) { var c = Object.assign({}, p); delete c.quote; return srcItem(c, i); }).join('') + '</ol>';
     });
   };
@@ -128,12 +128,14 @@
     var est = 20; try { est = Math.min(60, Math.max(8, +localStorage.getItem('askSecs') || 20)); } catch (e) {}
     if (!X.endpoint) est = 2;
     var t0 = Date.now();
+    var nRead = X.endpoint ? Math.min(40, X.abstracts || 40) : (X.abstracts || 0);
+    var reading = X.papers ? (X.endpoint && nRead < X.papers ? 'Reading the ' + nRead + ' most relevant of ' + X.papers + ' papers…' : 'Reading ' + (X.endpoint ? nRead : X.papers) + ' papers…') : 'Reading the papers…';
     out.innerHTML = '<div class="reading"><p class="note" id="ask-status"></p><div class="bar"><span id="ask-bar"></span></div></div>';
     var st = document.getElementById('ask-status'), bar = document.getElementById('ask-bar');
     var tick = function () {
       var el = (Date.now() - t0) / 1000, left = Math.ceil(est - el);
       if (!st.isConnected) return;
-      st.textContent = 'Reading the papers… ' + (left > 0 ? 'about ' + left + ' second' + (left === 1 ? '' : 's') + ' left' : 'almost done, taking a little longer than usual');
+      st.textContent = reading + ' ' + (left > 0 ? 'about ' + left + ' second' + (left === 1 ? '' : 's') + ' left' : 'almost done, taking a little longer than usual');
       bar.style.width = Math.min(95, 100 * (1 - Math.exp(-el / (est * 0.6)))) + '%';
     };
     tick(); var timer = setInterval(tick, 250);
@@ -155,7 +157,7 @@
         }).join('');
         out.innerHTML = '<div class="answer"><p>' + html + '</p></div>' +
           (used.length ? '<ol class="srcs">' + used.map(function (p, i) { var c = Object.assign({}, p); delete c.quote; return srcItem(c, i); }).join('') + '</ol>' : '') +
-          '<p class="note">Drawn from published papers, not the researcher\'s personal views. Not medical advice.</p>';
+          '<p class="note">Read ' + d.sources.length + (X.papers > d.sources.length ? ' of ' + X.papers : '') + ' papers; the answer cites ' + used.length + '. Drawn from published papers, not the researcher\'s personal views. Not medical advice.</p>';
       })
       .catch(function () { return showLocal(q, 'The answer service is busy, so here is what the most relevant papers say:'); })
       .then(done, done);

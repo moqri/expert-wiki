@@ -187,7 +187,7 @@ def expert_page(ex, papers, claims):
   </main>
 {footer('expert.wiki · <a href="/">All experts</a>')}
 </div>
-<script>window.EXPERT={json.dumps({"slug": slug, "endpoint": endpoint})};</script>
+<script>window.EXPERT={json.dumps({"slug": slug, "endpoint": endpoint, "papers": len(papers), "abstracts": sum(1 for q in papers if q.get("abstract"))})};</script>
 <script src="/assets/expert.js"></script>
 </body>
 </html>
