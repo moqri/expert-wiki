@@ -1,0 +1,182 @@
+- rank: 1
+  figure: "DamAge vs AdaptAge"
+  figure_label: two clocks that separate harmful from protective DNA methylation changes
+  statement: Using genetic data to find DNA methylation sites that plausibly cause changes in aging-related traits, this study built two clocks. DamAge tracks harmful changes and is linked to adverse outcomes including death, while AdaptAge tracks protective adaptations. Existing epigenetic clocks are not enriched for these causal sites.
+  paper: pmid-38243142
+  evidence: Epigenome-wide Mendelian randomization and clock development in large human cohorts
+  tags: [Causal aging clocks, Epigenetic clocks]
+- rank: 2
+  figure: "R = 0.12"
+  figure_label: correlation between how well a clock predicts age and how well it predicts death
+  statement: Across 39 aging biomarkers tested the same way, a clock's accuracy at predicting chronological age did not track its ability to predict mortality. The Horvath skin and blood clock predicted age best (R² = 0.88), while GrimAge2 had the strongest link with death (hazard ratio 2.57) and healthspan.
+  paper: pmid-41188602
+  evidence: Standardized evaluation of 39 biomarkers in over 20,000 people from multiple cohorts (Biolearn)
+  tags: [Biomarker validation, Epigenetic clocks]
+- rank: 3
+  figure: "11-22%"
+  figure_label: fewer rare loss-of-function gene variants in centenarians than in controls
+  statement: Centenarians carried a significantly lower burden of rare gene-disrupting variants than controls, and their children showed a similar pattern. Gene-level analysis found 35 genes with depleted variants in centenarians, 14 confirmed in UK Biobank, pointing to RGP1, PCNX2 and ANO9 as longevity genes.
+  paper: pmid-39424787
+  evidence: Whole-exome sequencing of Ashkenazi Jewish centenarians, offspring and controls, with UK Biobank replication
+  tags: [Genetics of longevity]
+- rank: 4
+  figure: "500+"
+  figure_label: interventions found to lower biological age when AI agents reanalyzed public data
+  statement: AI agents reanalyzed 43,602 intervention-versus-control comparisons with more than 40 aging clocks and found over 500 interventions that significantly lower biological age, many missed by the original studies. Far more interventions sped up aging than slowed it. The top candidate, ouabain, reduced frailty progression and neuroinflammation and improved heart function in aged mice.
+  paper: pmid-41332661
+  evidence: Reanalysis of millions of public methylation and RNA-seq samples (ClockBase Agent), with mouse validation; preprint
+  tags: [AI for aging research, Rejuvenation]
+- rank: 5
+  figure: "50,000+"
+  figure_label: people whose blood proteins were used to estimate the age of individual organs
+  statement: Blood protein models estimated the biological age of separate organs and systems. Faster aging of an organ predicted disease in that organ, men aged faster than women in most organs, and diet, lifestyle, occupation and medications were linked to organ aging rates.
+  paper: pmid-39488213
+  evidence: Plasma proteomics in over 50,000 UK Biobank participants and other cohorts
+  tags: [Organ and proteomic aging, Aging and disease]
+- rank: 6
+  figure: "27 diseases"
+  figure_label: where an epigenetic clock predicted the disease more strongly than it predicted death
+  statement: Among 14 widely used epigenetic clocks followed for 10 years, second- and third-generation clocks clearly outperformed first-generation ones in predicting 174 diseases. For 27 diseases, including lung cancer and diabetes, the clock's link was stronger than its link with overall mortality, especially for respiratory and liver conditions.
+  paper: pmid-41402269
+  evidence: Cohort study of 18,859 people (Generation Scotland), 10-year follow-up
+  tags: [Biomarker validation, Epigenetic clocks, Aging and disease]
+- rank: 7
+  figure: "No consensus"
+  figure_label: on how biomarkers of aging should be validated before clinical use
+  statement: Biomarkers of aging could predict aging-related outcomes and serve as surrogate endpoints in trials, but there is no agreed way to validate them. The review sets out recommendations for testing their predictive validity in population studies so they can be used in gerotherapeutic trials.
+  paper: pmid-38355974
+  evidence: Consensus review by the Biomarkers of Aging Consortium
+  tags: [Biomarker validation]
+- rank: 8
+  figure: "~90%"
+  figure_label: of age-related DNA methylation gain falls in Polycomb (PRC2) target regions
+  statement: Regions bound by Polycomb Repressive Complex 2 gain methylation with age in every somatic dividing cell type examined, accounting for about 90% of age-related methylation gain genome-wide. Their average methylation, the PRC2-AgeIndex, is proposed as a universal aging biomarker that can distinguish anti-aging interventions.
+  paper: pmid-39009581
+  evidence: Genome-wide methylation analysis across somatic tissues and cell types
+  tags: [Epigenetic clocks]
+- rank: 9
+  figure: "Stochastic"
+  figure_label: a large part of epigenetic aging is random drift
+  statement: Comparing tissue and single-cell DNA methylation in mice across development and adult aging showed that epigenetic aging combines coordinated changes with a major random component, which can be modeled like radiocarbon decay. This helps explain what epigenetic clocks measure.
+  paper: pmid-38724733
+  evidence: Tissue and single-cell methylation and RNA sequencing in mice, with modeling
+  tags: [Epigenetic clocks]
+- rank: 10
+  figure: "11,000+"
+  figure_label: transcriptomes from 4 mammals reveal shared signatures of aging and mortality
+  statement: Gene activity changes with aging and mortality risk were conserved across mouse, rat, macaque and human and across cell types, including CDKN1A and LGALS3, whose protein levels were linked to death and multimorbidity in UK Biobank. Chronic disease mainly aged inflammatory modules, while calorie restriction acted on mitochondrial and metabolic modules.
+  paper: pmid-42203874
+  evidence: Integration of over 11,000 transcriptomes from more than 25 tissues in 4 species
+  tags: [Organ and proteomic aging, Rejuvenation]
+- rank: 11
+  figure: "OR 0.31"
+  figure_label: lower odds of COVID-19 infection per 10 extra years of genetically predicted life
+  statement: Genetic variation that supports a longer life was linked to lower risk of COVID-19 infection (odds ratio 0.31) and hospitalization (0.46) per additional 10 years of life. Faster biological aging was associated with later COVID-19 incidence and severity, with Notch signaling and B cells implicated in both.
+  paper: pmid-35602207
+  evidence: Mendelian randomization and aging clock analysis in UK Biobank
+  tags: [Genetics of longevity, Aging and disease]
+- rank: 12
+  figure: "226,555"
+  figure_label: methylation profiles used to train MethylGPT, a foundation model of the methylome
+  statement: MethylGPT, a transformer model trained on 226,555 human methylation profiles, predicted methylation values accurately (R = 0.929), kept working with up to 70% missing data, and predicted age better than existing methods. Fine-tuned on 18,859 people, it predicted mortality and 60 major diseases.
+  paper: pmid-39574641
+  evidence: Foundation model trained on 5,281 public datasets; preprint
+  tags: [AI for aging research, Epigenetic clocks]
+- rank: 13
+  figure: "No majority"
+  figure_label: on any core question about aging among surveyed aging researchers
+  statement: A survey of aging researchers found broad disagreement on basic questions such as what aging is, what causes it, when it begins and what counts as rejuvenation. No question received a majority answer, which affects which experiments the field prioritizes.
+  paper: pmid-39660064
+  evidence: Survey of researchers in the aging field
+  tags: [Rejuvenation]
+- rank: 14
+  figure: "Both ways"
+  figure_label: ovarian molecular age shifts toward the age of the host
+  statement: When ovaries were transplanted between young and old mice, old ovaries became molecularly younger in young hosts and young ovaries became older in old hosts. Ovaries from 13-month-old donors supported live births at 17-18 months in young hosts but not in old hosts, and young ovaries also lowered the molecular age of the uterus, liver and brain.
+  paper: pmid-42999131
+  evidence: Heterochronic ovary transplantation and parabiosis in mice with aging clocks; preprint
+  tags: [Rejuvenation]
+- rank: 15
+  figure: "Ageome"
+  figure_label: biological age measured separately for thousands of molecular pathways
+  statement: Instead of one biological age, Ageome estimates the epigenetic age of thousands of pathways in mice and humans. It showed that cell reprogramming rejuvenates cells overall but accelerates aging of some modules, and some modules predicted age-related disease, especially cancer, better than existing clocks.
+  paper: pmid-39345525
+  evidence: Computational framework applied to mouse interventions and human cohorts; preprint
+  tags: [Epigenetic clocks, Rejuvenation]
+- rank: 16
+  figure: "848"
+  figure_label: protein ratios between spinal fluid and blood that rise with age
+  statement: In paired spinal fluid and blood samples, the spinal fluid to plasma ratio of 848 proteins rose with age in healthy people, pointing to changes in the brain barrier system. Higher ratios of some blood-derived proteins, including DCUN1D1, MFGE8 and VEGFA, were linked to preserved cognition.
+  paper: pmid-40665050
+  evidence: SomaScan proteomics of paired CSF and plasma from 2,171 older people, with genome-wide association
+  tags: [Organ and proteomic aging, Aging and disease]
+- rank: 17
+  figure: "Up to 100x"
+  figure_label: cheaper DNA methylation measurement for epigenetic clocks with TIME-seq
+  statement: TIME-seq, a highly multiplexed sequencing method, built accurate mouse epigenetic clocks across eight tissue and cell types at up to 100-fold lower cost than conventional methods. A human blood clock built the same way reached R above 0.96 with a median error of 3.39 years.
+  paper: pmid-38200273
+  evidence: Over 1,800 mouse DNA samples and 1,056 human blood samples
+  tags: [Epigenetic clocks]
+- rank: 18
+  figure: "6 of 6"
+  figure_label: proteomic aging clocks showed lower biological age with treatment in a drug trial
+  statement: In a 12-week phase 2a trial of the anti-fibrotic drug rentosertib for idiopathic pulmonary fibrosis, all six proteomic clocks predicted lower biological age in treated arms. Clocks alone could not separate aging from disease effects, but pathway analysis suggested shifts in senescence and metabolism, supporting trials that measure aging alongside disease outcomes.
+  paper: pmid-42706338
+  evidence: Reanalysis of serum proteomes from a phase 2a randomized trial
+  tags: [Organ and proteomic aging, Biomarker validation]
+- rank: 19
+  figure: "Reversible"
+  figure_label: old fat tissue becomes molecularly younger in a young body
+  statement: When subcutaneous white fat was transplanted between young and old mice, the molecular age of grafts shifted toward the host. Old fat in a young body showed lower epigenetic and transcriptomic age, smaller lipid droplets and activation of heat-producing pathways.
+  paper: pmid-41509418
+  evidence: Longitudinal heterochronic fat transplantation in mice; preprint
+  tags: [Rejuvenation]
+- rank: 20
+  figure: "Splicing"
+  figure_label: errors in RNA splicing rise with age and fall with calorie restriction or rapamycin
+  statement: Across mouse and human tissues, aging brings a genome-wide loss of fidelity in RNA splicing that alters the proteins made. This splicing degeneration rose with age and was reduced by calorie restriction or rapamycin, suggesting a new molecular hallmark of aging.
+  paper: pmid-42427714
+  evidence: Integrative analysis of mouse and human transcriptome data; preprint
+  tags: [Rejuvenation]
+- rank: 21
+  figure: "Multi-omic"
+  figure_label: aging genes in blood replicate better when methylation and gene activity agree
+  statement: Genes that change with age in both DNA methylation and gene activity in blood were enriched for adaptive immune functions, replicated more robustly across diverse populations and were more strongly tied to aging-related outcomes than genes found with either data type alone.
+  paper: pmid-41554691
+  evidence: Integrative epigenetic and transcriptomic analysis of human blood across populations
+  tags: [Epigenetic clocks]
+- rank: 22
+  figure: "OR 1.63"
+  figure_label: higher odds of severe COVID-19 with genetically higher blood ACE2
+  statement: The largest genetic study of blood ACE2, the coronavirus receptor, found 10 genetic loci explaining 30% of its heritability. Genetically higher ACE2 levels were linked to more severe COVID-19 (odds ratio 1.63), hospitalization and infection.
+  paper: pmid-35387486
+  evidence: Genome-wide association meta-analysis in over 28,000 people (SCALLOP Consortium)
+  tags: [Aging and disease]
+- rank: 23
+  figure: "Minutes"
+  figure_label: for analyses an open AI co-scientist completed that would take months by hand
+  statement: OpenScientist, an open-source agentic AI system, completed data analyses in minutes across five biomedical case studies reviewed by experts, including quantifying Alzheimer's blood biomarker performance and building a plasma protein survival model that held up in a hidden cohort. It can run fully offline for sensitive clinical data.
+  paper: pmid-43039361
+  evidence: Expert evaluation across five biomedical case studies
+  tags: [AI for aging research]
+- rank: 24
+  figure: "Clonal B cells"
+  figure_label: an age-associated B cell population drives lymphoma in old mice
+  statement: Mouse B cell lymphoma arose from an age-associated clonal B cell population driven by c-Myc activation, DNA hypermethylation and mutations, which looked biologically older and caused malignancy when moved into young mice. Blocking mTOR or c-Myc in old mice reduced the pre-cancerous changes.
+  paper: pmid-39117982
+  evidence: Experimental study in naturally aged mice with epigenetic comparison to human lymphoma
+  tags: [Aging and disease]
+- rank: 25
+  figure: "Acarbose"
+  figure_label: a longevity drug also eases a severe mitochondrial disease in mice
+  statement: Acarbose, a drug that extends lifespan in normal mice, suppressed symptoms and improved survival in a mouse model of Leigh syndrome, a severe mitochondrial disease. It acted independently of mTOR, added to the benefit of rapamycin, and remodeled the gut microbiome.
+  paper: pmid-37365290
+  evidence: Experimental study in Ndufs4 knockout mice
+  tags: [Aging and disease]
+- rank: 26
+  figure: "90% of peak"
+  figure_label: threshold that defines Peakspan, the years of near-peak function
+  statement: Peakspan is defined as the age range in which a person keeps at least 90% of peak performance in a given body system or cognitive domain. Most systems peak in the 20s or 30s, so people spend most of adult life healthy but functionally declined.
+  paper: pmid-41747171
+  evidence: Multi-system analysis of published functional data and conceptual framework
+  tags: [Rejuvenation]
