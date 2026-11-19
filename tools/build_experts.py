@@ -138,8 +138,8 @@ def expert_page(ex, papers, claims):
     </section>
 
     <section class="ask" id="ask" aria-labelledby="ask-h">
-      <h2 id="ask-h">Ask about {e(first)}'s research</h2>
-      <p class="hint">Answers are drawn only from {e(name)}'s published papers listed on this page, with each point linked to its paper. They describe what the papers report, not {e(first)}'s personal views, and are not medical advice.</p>
+      <h2 id="ask-h">Ask about {e(name)}'s research</h2>
+      <p class="hint">Answers are drawn only from {e(name)}'s published papers listed on this page, with each point linked to its paper. They describe what the papers report, not personal views or advice from {e(name)}. This is not medical advice.</p>
       <form id="ask-form" autocomplete="off">
         <label class="sr" for="ask-q">Your question</label>
         <textarea id="ask-q" name="q" rows="2" maxlength="600" placeholder="For example: which aging clocks best predict disease?" required></textarea>
