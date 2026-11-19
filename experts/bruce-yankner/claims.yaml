@@ -1,0 +1,175 @@
+- rank: 1
+  figure: ~50% less lithium
+  figure_label: in the brain speeds up Alzheimer's changes and memory loss in mice
+  statement: Of the metals measured, only lithium was lower in the brains of people with mild cognitive impairment, and in Alzheimer's disease it was further trapped by amyloid plaques. Halving brain lithium in mice increased amyloid plaques, tau buildup, brain inflammation and loss of synapses, and sped memory decline. Low-dose lithium orotate, a form that is not trapped by amyloid, prevented these changes and memory loss in Alzheimer's mice and old normal mice; human trials are still needed.
+  paper: pmid-40770094
+  evidence: Human brain metal measurements plus mouse diet and treatment studies
+  tags: [Lithium, Amyloid and tau]
+- rank: 2
+  figure: REST
+  figure_label: rises in healthy aging neurons and is lost in Alzheimer's disease
+  statement: The gene-silencing protein REST is switched on in neurons of the cortex and hippocampus during normal aging, where it turns off genes that promote cell death and Alzheimer's pathology and turns on stress defenses. REST is lost in mild cognitive impairment and Alzheimer's disease, and REST levels in aging tracked closely with keeping cognitive function and with longevity. Mice lacking REST in the brain developed age-related neurodegeneration.
+  paper: pmid-24670762
+  evidence: Postmortem human brains, mouse knockouts, cultured neurons and worms
+  tags: [Brain resilience and REST, Brain aging]
+- rank: 3
+  figure: After age 40
+  figure_label: genes for memory and energy in the human cortex start to decline
+  statement: Gene activity in the frontal cortex of people aged 26 to 106 showed a set of genes for synaptic plasticity, vesicle transport and mitochondria that drop after age 40, followed by a rise in stress response and DNA repair genes. DNA damage was markedly higher at the promoters of the declining genes, suggesting brain aging begins early in adult life.
+  paper: pmid-15190254
+  evidence: Gene expression profiling of human frontal cortex across ages 26–106, plus cultured human neurons
+  tags: [Brain aging]
+- rank: 4
+  figure: Lower neural excitation
+  figure_label: in the cortex of people who lived longest
+  statement: People with extended longevity had a cortex gene signature with lower activity of genes for neural excitation and synapses, and higher REST. In worms, reducing neural excitation extended lifespan, and adding the worm version of REST suppressed excitation and lengthened life. REST-deficient mice had overactive cortex during aging.
+  paper: pmid-31619788
+  evidence: Human brain transcriptomes from long-lived people, plus worm and mouse genetics
+  tags: [Longevity, Brain resilience and REST]
+- rank: 5
+  figure: Checkpoint
+  figure_label: REST holds back Alzheimer's changes in older people without symptoms
+  statement: Many older people carry Alzheimer's pathology without cognitive decline. REST was induced in cognitively intact older people and in Alzheimer's mice at the onset of amyloid and tau buildup, lowering gamma secretase, tau kinases and cell death genes. Deleting REST in two Alzheimer's mouse models sped amyloid and tau buildup, neurodegeneration and memory loss, while adding REST in the hippocampus reduced them.
+  paper: pmid-37919281
+  evidence: Postmortem human brains and two Alzheimer's mouse models with REST deleted or added
+  tags: [Brain resilience and REST, Amyloid and tau]
+- rank: 6
+  figure: Old brains only
+  figure_label: plaque-level amyloid-β killed neurons in aged but not young monkeys
+  statement: Injecting fibrillar amyloid-β at plaque-like concentrations into the cortex of aged rhesus monkeys caused severe neuron loss, tau phosphorylation and microglial growth, but not in young adult monkeys. Toxicity was weaker in aged marmosets and not significant in aged rats, suggesting long-lived primates are uniquely vulnerable.
+  paper: pmid-9662375
+  evidence: Brain microinjection study in rhesus monkeys, marmosets and rats
+  tags: [Amyloid and tau, Brain aging]
+- rank: 7
+  figure: APOE4
+  figure_label: changes neurons, astrocytes and microglia in human stem cell models
+  statement: Gene-edited human stem cell brain cells showed that APOE4 changes hundreds of genes in each cell type. APOE4 neurons made more Aβ42, APOE4 astrocytes took up less amyloid-β and stored excess cholesterol, and APOE4 microglia-like cells cleared less amyloid-β. Converting APOE4 to APOE3 in cells from people with Alzheimer's reduced several Alzheimer's-related changes.
+  paper: pmid-29861287
+  evidence: CRISPR-edited isogenic iPSC-derived neurons, astrocytes and microglia-like cells
+  tags: [APOE4]
+- rank: 8
+  figure: Fibrils, not soluble
+  figure_label: amyloid-β triggers tau changes like those in Alzheimer's tangles
+  statement: Fibrillar amyloid-β, but not soluble or amorphous forms, caused tau phosphorylation at Alzheimer's-linked sites in rat and human neurons. The modified tau detached from microtubules and collected in the cell body, as in the Alzheimer's brain, linking amyloid to tangle formation.
+  paper: pmid-7718249
+  evidence: Primary rat hippocampal and human cortical neuron cultures
+  tags: [Amyloid and tau]
+- rank: 9
+  figure: Neurotoxic
+  figure_label: a fragment of the amyloid precursor protein kills neurons
+  statement: Cells engineered to make an amyloid-containing fragment of the amyloid precursor protein degenerated as they became neuron-like, and their medium was toxic to hippocampal neurons. Removing the amyloid peptide with an antibody removed the toxicity, an early sign that amyloid may cause, not just mark, Alzheimer's damage.
+  paper: pmid-2474201
+  evidence: Transfected cell lines and primary hippocampal neuron cultures
+  tags: [Amyloid and tau]
+- rank: 10
+  figure: Early REST failure
+  figure_label: in neurons grown from people with Alzheimer's or APOE4
+  statement: Neural cells made from stem cells of people with sporadic Alzheimer's, and from APOE4 gene-edited cells, matured too early and renewed less. REST entered the nucleus and bound DNA less, and the nuclear lamina was disrupted, suggesting gene network changes may start the Alzheimer's cascade.
+  paper: pmid-30699343
+  evidence: iPSC-derived neural progenitors, neurons and cerebral organoids
+  tags: [Brain resilience and REST, APOE4]
+- rank: 11
+  figure: Requires fibrils
+  figure_label: amyloid-β toxicity, which the dye Congo red blocks
+  statement: Fibrillar amyloid-β, like compact plaques, killed hippocampal neurons and reduced synapses, while amorphous aggregates like diffuse plaques were harmless. Congo red, a dye that binds amyloid fibrils, blocked the toxicity.
+  paper: pmid-7991613
+  evidence: Primary rat hippocampal neuron cultures
+  tags: [Amyloid and tau]
+- rank: 12
+  figure: Shared aging changes
+  figure_label: and a primate-specific shutdown of neuron genes
+  statement: Comparing the aging cortex of humans, rhesus monkeys and mice, a few changes were shared by all three, such as more APOD and less CAMK4. Humans and monkeys showed far stronger age-related repression of neuron and synapse genes, including inhibitory GABA genes, which was not explained by loss of neurons or synapses.
+  paper: pmid-18830410
+  evidence: Genome-wide cortex gene expression in humans, rhesus macaques and mice
+  tags: [Brain aging]
+- rank: 13
+  figure: 3–4×
+  figure_label: more reactive oxygen species in Down syndrome neurons before they die
+  statement: Neurons from fetal Down syndrome brain developed normally in culture but then degenerated by apoptosis, after showing a three- to fourfold rise in reactive oxygen species. Antioxidants prevented the degeneration, pointing to a defect that may predispose people with Down syndrome to Alzheimer's.
+  paper: pmid-8524410
+  evidence: Cultured cortical neurons from fetal Down syndrome and control brain
+  tags: [Down syndrome]
+- rank: 14
+  figure: SIRT1 moves
+  figure_label: to repair DNA breaks, shifting gene activity as in the aging brain
+  statement: The longevity protein SIRT1 normally silences repetitive DNA and many genes. After DNA damage it leaves these sites to help repair breaks, causing gene changes that resemble the aging mouse brain. More SIRT1 improved survival in mice with genomic instability and suppressed age-related gene changes.
+  paper: pmid-19041753
+  evidence: Mouse embryonic stem cells and mouse models
+  tags: [Brain aging, Longevity]
+- rank: 15
+  figure: Presenilin-1 mutations
+  figure_label: destabilize β-catenin and make neurons more likely to die
+  statement: Presenilin-1, the gene most often mutated in early-onset inherited Alzheimer's, binds and stabilizes β-catenin. Disease mutations reduced this, β-catenin was markedly lower in brains of patients with presenilin-1 mutations, and loss of β-catenin signaling made neurons more vulnerable to amyloid-β.
+  paper: pmid-9790190
+  evidence: Transgenic mice, patient brains and cultured neurons
+  tags: [Amyloid and tau]
+- rank: 16
+  figure: Caspase-12
+  figure_label: mediates amyloid-β killing of neurons through stress in the endoplasmic reticulum
+  statement: Caspase-12 sits in the endoplasmic reticulum and is activated by stress there. Mice lacking caspase-12 resisted this kind of cell death, and their cortical neurons were protected from amyloid-β but not from other death signals.
+  paper: pmid-10638761
+  evidence: Caspase-12 knockout mice and cultured cortical neurons
+  tags: [Amyloid and tau]
+- rank: 17
+  figure: Autophagy
+  figure_label: falls in the normally aging brain but rises in Alzheimer's
+  statement: A genome-wide screen showed that reactive oxygen species switch on autophagy, the cell's cleanup system, including in response to amyloid-β. Autophagy genes were turned down during normal human brain aging but turned up in Alzheimer's brains, possibly as compensation.
+  paper: pmid-20660724
+  evidence: Genome-wide screen plus human brain gene expression
+  tags: [Brain aging, Amyloid and tau]
+- rank: 18
+  figure: Shorter life
+  figure_label: from a brain inflammation pathway that damages inhibitory neurons
+  statement: Raising neuronal C/EBPβ, which is switched on by amyloid-β and inflammation, shortened lifespan in mice in a dose-dependent way by killing inhibitory GABA neurons and overexciting the brain. The same pathway shortened life in worms, and its components were lower in long-lived humans and inversely related to REST.
+  paper: pmid-35353567
+  evidence: Transgenic mice, worms and human brain tissue
+  tags: [Longevity]
+- rank: 19
+  figure: Amylin fibrils
+  figure_label: kill insulin-making cells, as amyloid-β kills neurons
+  statement: Fibrils of human amylin, the main component of pancreatic amyloid in type 2 diabetes, were toxic to insulin-producing beta cells from rats and humans by triggering apoptosis, pointing to a shared amyloid mechanism in Alzheimer's and type 2 diabetes.
+  paper: pmid-8152488
+  evidence: Cultured rat and human pancreatic islet cells
+  tags: [Other brain diseases]
+- rank: 20
+  figure: Dopamine-dependent
+  figure_label: α-synuclein toxicity may explain neuron loss in Parkinson's
+  statement: Excess α-synuclein killed cultured human dopamine neurons in a way that needed dopamine and reactive oxygen species, but protected non-dopamine cortical neurons. Soluble α-synuclein complexes with 14-3-3 protein were raised in the substantia nigra in Parkinson's disease.
+  paper: pmid-12042811
+  evidence: Cultured human dopaminergic and cortical neurons, plus Parkinson's brain tissue
+  tags: [Other brain diseases]
+- rank: 21
+  figure: Aging plus genes
+  figure_label: together trigger ALS and frontotemporal dementia in mice
+  statement: TBK1, a major ALS and frontotemporal dementia gene, restrains the cell death enzyme RIPK1. Another RIPK1 brake, TAK1, falls in the aging human brain, and in mice with half the normal TBK1, lower TAK1 led to the hallmarks of ALS and frontotemporal dementia, which RIPK1 inhibition blocked.
+  paper: pmid-30146158
+  evidence: Mouse genetics plus aging human brain tissue
+  tags: [Other brain diseases, Brain aging]
+- rank: 22
+  figure: Mitochondrial problems
+  figure_label: in Down syndrome brain cells shift amyloid processing toward Aβ42
+  statement: Astrocytes and neurons from fetal Down syndrome brain processed the amyloid precursor protein abnormally, with less protective secreted APP and buildup of insoluble Aβ42 inside cells, a pattern copied by blocking mitochondria in normal astrocytes. Secreted APP markedly improved survival of Down syndrome neurons.
+  paper: pmid-11879646
+  evidence: Cultured fetal Down syndrome astrocytes and neurons, plus Down syndrome and Alzheimer's brain tissue
+  tags: [Down syndrome, Amyloid and tau]
+- rank: 23
+  figure: REST loss
+  figure_label: in bipolar disorder brain organoids and patient cortex, reversed by lithium
+  statement: Brain organoids from people with bipolar disorder showed altered development, higher network activity and reduced nuclear REST. Lowering oxygen to physiological levels or treating with lithium restored REST, and reduced nuclear REST was also seen in the prefrontal cortex of patients with bipolar disorder.
+  paper: pmid-37938767
+  evidence: Human cerebral organoids from several iPSC lines, plus postmortem patient cortex
+  tags: [Brain resilience and REST, Lithium, Other brain diseases]
+- rank: 24
+  figure: Glia
+  figure_label: may be a major source of amyloid-β in the brain
+  statement: Amyloid-β is normally made and secreted through the cell's secretory pathway by many cell types. Human astrocytes produced more amyloid-β than any other cell type tested.
+  paper: pmid-8446635
+  evidence: Cultured neuronal and non-neuronal cells, including human astrocytes
+  tags: [Amyloid and tau]
+- rank: 25
+  figure: REST in the kidney
+  figure_label: protects filtering cells from injury during aging
+  statement: Mice lacking REST in podocytes, the kidney's filtering cells, developed protein in the urine, podocyte death and scarring during aging and were more vulnerable to kidney injury. REST rose in human podocytes with age, suggesting the same stress defense acts outside the brain.
+  paper: pmid-34078664
+  evidence: Mouse knockouts, cultured podocytes, organ-on-chip and human kidney tissue
+  tags: [Brain resilience and REST]
