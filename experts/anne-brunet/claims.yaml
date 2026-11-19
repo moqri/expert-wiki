@@ -1,0 +1,196 @@
+- rank: 1
+  figure: Akt → FOXO3
+  figure_label: growth signals switch off a Forkhead factor that triggers cell death
+  statement: When survival factors are present, the enzyme Akt tags the transcription factor FKHRL1 (now called FOXO3), which binds 14-3-3 proteins and is held outside the nucleus. When survival factors are withdrawn, FOXO3 moves into the nucleus and turns on genes needed for cell death, such as Fas ligand.
+  paper: pmid-10102273
+  evidence: Cell signaling experiments in mammalian cells
+  tags: [FOXO and longevity genes]
+- rank: 2
+  figure: SIRT1 + FOXO3
+  figure_label: the longevity enzyme steers FOXO3 toward stress resistance, away from cell death
+  statement: Under oxidative stress, the deacetylase SIRT1 (the mammalian version of the longevity enzyme Sir2) bound and deacetylated FOXO3. This made FOXO3 better at stopping the cell cycle and resisting oxidative stress, but worse at triggering cell death, suggesting one way Sir2-family proteins may extend life.
+  paper: pmid-14976264
+  evidence: Biochemical and cell experiments in mammalian cells
+  tags: [FOXO and longevity genes]
+- rank: 3
+  figure: 4.2 million cells
+  figure_label: mapped across 20 ages show T cells age their neighbors and neural stem cells rejuvenate theirs
+  statement: A spatial single-cell atlas of the mouse brain across the adult lifespan, plus exercise and partial reprogramming, was used to build spatial aging clocks. T cells, which increasingly enter the brain with age, had a strong aging effect on nearby cells, while neural stem cells had a strong rejuvenating effect on their neighbors.
+  paper: pmid-39695234
+  evidence: Spatial single-cell transcriptomics of 4.2 million mouse brain cells from 20 ages, with machine learning
+  tags: [Aging clocks, Brain immune cells, Neural stem cells, Rejuvenation]
+- rank: 4
+  figure: T cells
+  figure_label: enter old neurogenic niches and slow neural stem cells through interferon-γ
+  statement: Single-cell sequencing of 14,685 cells from young and old mouse neurogenic niches showed fewer active neural stem cells and an influx of T cells in old brains. These T cells were clonally expanded, distinct from blood T cells, and made interferon-γ, which reduced neural stem cell proliferation in culture and in mice.
+  paper: pmid-31270459
+  evidence: Single-cell RNA sequencing of 14,685 cells, co-culture and in vivo mouse experiments
+  tags: [Brain immune cells, Neural stem cells]
+- rank: 5
+  figure: 3 generations
+  figure_label: of worms lived longer after only their ancestors lacked a chromatin modifier
+  statement: When parent worms lacked members of the H3K4me3 methylation complex (ASH-2, WDR-5 or SET-2), their descendants lived longer up to the third generation, even though the descendants had normal genes. This inherited longevity needed the demethylase RBR-2 and a working germline, and came with lasting changes in gene expression.
+  paper: pmid-22012258
+  evidence: Multigenerational genetic lifespan experiments in C. elegans
+  tags: [Chromatin and inheritance]
+- rank: 6
+  figure: AMPK → FOXO
+  figure_label: an energy sensor is required for one form of dietary restriction to extend lifespan
+  statement: Using a new dietary restriction method in worms, the energy sensor AMPK was needed for longer life and delayed decline, acting partly through the FOXO factor DAF-16. An active form of AMPK alone increased stress resistance and lifespan in a FOXO-dependent way, and AMPK tagged FOXO directly at new sites.
+  paper: pmid-17900900
+  evidence: Genetic lifespan and stress experiments in C. elegans
+  tags: [Diet and fat metabolism, FOXO and longevity genes]
+- rank: 7
+  figure: Dietary MUFAs
+  figure_label: mono-unsaturated fatty acids in the diet were enough to extend worm lifespan
+  statement: Worms lacking an H3K4me3 methyltransferase lived longer and built up fat enriched in mono-unsaturated fatty acids (MUFAs), through intestinal genes that make these fats. The MUFA build-up was needed for the longer life, and adding MUFAs to the diet was enough to extend lifespan.
+  paper: pmid-28379943
+  evidence: Genetic, lipid and dietary lifespan experiments in C. elegans
+  tags: [Diet and fat metabolism, Chromatin and inheritance]
+- rank: 8
+  figure: 3.1× Alzheimer's risk
+  figure_label: for people whose blood proteins show an especially old brain
+  statement: Blood levels of 2,916 proteins in 44,498 UK Biobank participants were used to estimate the age of 11 organs. An especially aged brain raised Alzheimer's risk about as much as one copy of APOE4. Youthful brains and immune systems went with longer life (44% lower death risk when both were youthful), while each added aged organ raised death risk, up to 8.3 times for eight or more.
+  paper: pmid-40634782
+  evidence: Plasma proteomics in 44,498 UK Biobank participants with up to 17 years of follow-up
+  tags: [Aging clocks, Brain immune cells]
+- rank: 9
+  figure: 2–3 months
+  figure_label: to make stable mutant lines in the short-lived African turquoise killifish
+  statement: The lab assembled the killifish genome and built CRISPR gene-editing tools, mutating many genes tied to the hallmarks of aging and producing stable lines within 2–3 months. Fish lacking the protein part of telomerase showed the fastest onset of telomere-related disease of any vertebrate.
+  paper: pmid-25684364
+  evidence: Genome assembly and CRISPR/Cas9 genome editing in killifish
+  tags: [Killifish model]
+- rank: 10
+  figure: 300+ gene knockouts
+  figure_label: restored the ability of old neural stem cells to wake up and divide
+  statement: Genome-wide CRISPR screens in young and old mouse neural stem cells found more than 300 knockouts that specifically boosted old stem cells, and 24 that increased stem cell activation and new neuron production in old brains. Knocking out the glucose transporter GLUT4 was a top hit; glucose uptake rises with age, and brief glucose starvation restored old stem cell activation.
+  paper: pmid-39358505
+  evidence: Genome-wide in vitro and in vivo CRISPR-Cas9 screens in mouse neural stem cells
+  tags: [Neural stem cells, Rejuvenation]
+- rank: 11
+  figure: Lysosomes
+  figure_label: clear protein clumps so resting neural stem cells can wake up
+  statement: Resting (quiescent) neural stem cells store protein aggregates in large lysosomes. With age these lysosomes become defective, aggregates build up and the stem cells activate less. Boosting the lysosome pathway in old resting stem cells cleared the aggregates and restored a more youthful ability to activate.
+  paper: pmid-29590078
+  evidence: Transcriptomics and cell experiments on mouse neural stem cells
+  tags: [Neural stem cells, Rejuvenation]
+- rank: 12
+  figure: Cell-type clocks
+  figure_label: showed young blood and exercise reverse brain aging in different ways
+  statement: Single-cell transcriptomes from the neurogenic region of 28 mice were used to train aging clocks for each cell type, predicting both chronological age and stem cell function. The clocks worked in other cohorts, brain regions and species, and showed that heterochronic parabiosis (sharing young blood) and exercise each reversed transcriptomic aging, but in different ways.
+  paper: pmid-37118510
+  evidence: Single-cell RNA sequencing of 28 mice plus parabiosis and exercise datasets
+  tags: [Aging clocks, Rejuvenation, Neural stem cells]
+- rank: 13
+  figure: Young-age behavior
+  figure_label: forecast how long each fish would live
+  statement: Continuous behavioral tracking of individual killifish from adolescence to death showed distinct individual aging paths. Long-lived fish behaved differently from short-lived fish even early in life, and machine-learning models predicted an individual's future lifespan from young-age behavior alone. Adulthood unfolded in stable behavioral stages separated by abrupt transitions.
+  paper: pmid-41818367
+  evidence: Lifelong continuous behavioral tracking of individual killifish with machine learning
+  tags: [Killifish model, Aging clocks]
+- rank: 14
+  figure: FOXO3
+  figure_label: preserves the adult brain's pool of neural stem cells
+  statement: Adult mice lacking FoxO3 had fewer neural stem cells, and their stem cells renewed themselves less and made fewer types of brain cells. FoxO3 turns on genes that keep stem cells resting, prevent early differentiation and control oxygen metabolism.
+  paper: pmid-19896443
+  evidence: FoxO3 knockout mice and neural stem cell cultures
+  tags: [FOXO and longevity genes, Neural stem cells]
+- rank: 15
+  figure: Diapause
+  figure_label: preserves killifish embryos for long periods with no later cost to growth, fertility or lifespan
+  statement: Killifish embryos can enter diapause, a suspended state that helps them survive drought. Fish preserved this way showed no trade-offs in adult growth, fertility or lifespan. Diapause is actively maintained by Polycomb chromatin proteins, and the member CBX7 was needed to preserve muscle and keep diapause going.
+  paper: pmid-32079766
+  evidence: Transcriptomics, chromatin profiling and genetics in killifish embryos
+  tags: [Killifish model, Chromatin and inheritance]
+- rank: 16
+  figure: Ancient genes, new switches
+  figure_label: explain how killifish evolved suspended animation
+  statement: Comparing embryos of several killifish species showed that diapause evolved recently by rewiring the control regions of very old duplicated genes present in all vertebrates. The transcription factors REST/NRSF and FOXOs were critical for the diapause program, which includes a shift toward triglycerides with very-long-chain fatty acids.
+  paper: pmid-38810644
+  evidence: Multi-omics and CRISPR perturbations in embryos of multiple killifish species
+  tags: [Killifish model, FOXO and longevity genes]
+- rank: 17
+  figure: Engineered IL-10
+  figure_label: increased new neurons and improved memory in old mice
+  statement: Old mouse brains contained exhausted T cells; activating them with an engineered checkpoint inhibitor caused strong inflammation, especially in microglia. An engineered version of the anti-inflammatory signal IL-10, designed to avoid its inflammatory side, improved gene activity in many brain cell types, increased new neuron production and improved cognition in aged mice.
+  paper: pmid-41619730
+  evidence: Engineered proteins delivered directly to the brain in aged mice
+  tags: [Brain immune cells, Rejuvenation]
+- rank: 18
+  figure: Bone marrow cells
+  figure_label: enter the brain and join the microglia pool in all 20 older people studied
+  statement: Using naturally accumulated somatic mutations to trace cell lineages, the study found bone-marrow-derived cells entering the brain in all 20 older individuals examined. These cells resembled microglia and could make up a large share of them. In cohort data, most types of clonal hematopoiesis were linked to lower Alzheimer's risk.
+  paper: pmid-42686898
+  evidence: Somatic mutation lineage tracing and single-cell analysis of brains from 20 older people, plus cohort data
+  tags: [Brain immune cells]
+- rank: 19
+  figure: Partial reprogramming
+  figure_label: restored new neuron production in old mouse brains
+  statement: Pulsed expression of reprogramming factors, either throughout the body or targeted to the neurogenic niche, restored the share of neuroblasts (cells that become new neurons) in old mice toward youthful levels and improved several molecular aging signatures. It also increased new neuron production in culture and in old brains.
+  paper: pmid-38553564
+  evidence: Single-cell transcriptomics of aged mouse neurogenic niches after partial reprogramming
+  tags: [Rejuvenation, Neural stem cells]
+- rank: 20
+  figure: Lipid droplets + peroxisomes
+  figure_label: are both needed for fat-induced longevity in worms
+  statement: Dietary mono-unsaturated fatty acids increased the number of fat-storing lipid droplets in worms, which was needed for longer life and predicted remaining lifespan. MUFAs also increased peroxisomes and lowered lipid oxidation in middle age, and raising both organelles together was best for longevity.
+  paper: pmid-37127715
+  evidence: Lipidomics, imaging and a targeted genetic screen in C. elegans
+  tags: [Diet and fat metabolism]
+- rank: 21
+  figure: ASH-2 complex
+  figure_label: loss extends worm lifespan through the germline
+  statement: A screen in fertile worms found that loss of the ASH-2 complex, which adds the H3K4me3 mark to active genes, extends lifespan, while the enzyme that removes this mark (RBR-2) is needed for normal lifespan. The longer life required an intact germline making eggs, suggesting excess H3K4me3 is harmful for longevity.
+  paper: pmid-20555324
+  evidence: RNAi screen and genetic lifespan experiments in C. elegans
+  tags: [Chromatin and inheritance]
+- rank: 22
+  figure: Males
+  figure_label: shorten the lifespan of the opposite sex, even without mating
+  statement: In C. elegans the presence of males sped up aging and shortened the life of hermaphrodites, including long-lived and sterile ones. Mating was not needed; exposure to medium where males had been was enough, and the effect also occurred in other nematode species.
+  paper: pmid-24292626
+  evidence: Lifespan experiments in C. elegans and other nematodes
+  tags: [Sex and aging]
+- rank: 23
+  figure: Additive diets
+  figure_label: different dietary restriction regimens extend worm life through mostly separate genes
+  statement: AMPK and FOXO were needed for lifespan extension by two dietary restriction methods but not by two others, and AMPK was also needed for the lifespan effect of resveratrol. Combining two different dietary restriction regimens extended lifespan more than either alone.
+  paper: pmid-19239417
+  evidence: Genetic lifespan experiments across dietary restriction regimens in C. elegans
+  tags: [Diet and fat metabolism]
+- rank: 24
+  figure: Inflamed fibroblasts
+  figure_label: explain why old mice vary more in wound healing and reprogramming
+  statement: Skin cell (fibroblast) cultures from old mice varied widely in how well they could be reprogrammed to stem cells. Cultures with more 'activated' fibroblasts secreting inflammatory signals such as TNF reprogrammed worse, and old mice also varied in wound-healing speed, with distinct fibroblast types in slow versus fast healers.
+  paper: pmid-31645721
+  evidence: Multi-omics profiling of fibroblasts and single-cell RNA sequencing of wounds in young and old mice
+  tags: [Rejuvenation]
+- rank: 25
+  figure: Exercise
+  figure_label: dampened age-related inflammation across muscle, brain and blood stem cells
+  statement: A single-cell atlas of muscle, neural and blood-forming stem cells and their neighbors in young and old mice showed that aerobic exercise reduced many age-related inflammatory pathways and restored aspects of immune-cell communication in these stem cell compartments.
+  paper: pmid-37080206
+  evidence: Single-cell transcriptomic atlas of exercised young and old mice
+  tags: [Rejuvenation, Brain immune cells]
+- rank: 26
+  figure: FOXO3 → Gadd45
+  figure_label: FOXO3 triggers repair of damaged DNA
+  statement: FOXO3a acts at the G2–M checkpoint of the cell cycle and triggers repair of damaged DNA, partly by directly turning on the DNA damage response gene Gadd45a. This links the longevity-related FOXO pathway to cell stress resistance.
+  paper: pmid-11964479
+  evidence: Gene array and cell experiments in mammalian cells
+  tags: [FOXO and longevity genes]
+- rank: 27
+  figure: 7 tissues
+  figure_label: show strikingly different protein clumping with age in killifish
+  statement: Profiling protein aggregates in seven tissues of aging killifish showed that age-related clumping is highly tissue-specific, driven by protein features and tissue-specific quality control, not just by how much of a protein is made. Many proteins that clump with age are the same ones that cause human diseases when mutated.
+  paper: pmid-38810654
+  evidence: Proteomics in 7 killifish tissues, yeast experiments and machine learning
+  tags: [Killifish model]
+- rank: 28
+  figure: Membrane lipids
+  figure_label: from young stem cells helped old neural stem cells activate
+  statement: Lipid profiling showed age-related changes in complex lipids at the plasma membrane of resting neural stem cells and a loss of membrane order. Knocking out the enzyme MBOAT2 worsened these changes, while raising MBOAT2 or adding membrane lipids from young stem cells improved old stem cells' ability to activate.
+  paper: pmid-42525742
+  evidence: Lipidomics, spatial lipidomics and genetic studies in mouse neural stem cells
+  tags: [Neural stem cells, Diet and fat metabolism]
