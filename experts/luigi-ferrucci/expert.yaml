@@ -1,0 +1,18 @@
+slug: luigi-ferrucci
+name: Luigi Ferrucci
+credentials: MD, PhD
+affiliation: National Institute on Aging, NIH
+department: Intramural Research Program; Baltimore Longitudinal Study of Aging
+areas: [Aging]
+headline: Tracks how people age over decades, showing that simple tests like walking speed and blood markers like inflammation predict who will lose independence, and building measures of biological age.
+summary:
+  - Much of this work rests on long-running studies of older adults, including the Baltimore Longitudinal Study of Aging, the InCHIANTI study in Tuscany and the Women's Health and Aging Study. A three-part test of balance, walking speed and rising from a chair (the Short Physical Performance Battery) was shown to predict disability, nursing home admission and death, even in people who reported no problems. Across nine cohorts and more than 34,000 older adults, each 0.1 m/s faster usual walking speed went with about 12% lower risk of death.
+  - A second theme is chronic low-grade inflammation, sometimes called "inflammaging". Older people with higher blood levels of interleukin-6 and C-reactive protein were more likely to become disabled and to die, partly through faster loss of muscle strength. Part of the rise in inflammation with age is explained by heart disease and its risk factors, but not all of it.
+  - Ferrucci's group also defined how to diagnose frailty and sarcopenia (age-related muscle loss) with evidence-based cut-offs for grip strength and lean mass, and found that poorer mitochondrial energy production in muscle predicts later decline in walking.
+  - More recent papers look for biological measures of aging. They helped develop the PhenoAge and GrimAge DNA methylation clocks, built a plasma protein signature of age in which GDF15 stands out, and combined repeated measures over years into a longitudinal measure of how fast a person is aging. Other work linked hearing loss to faster cognitive decline and dementia, and showed that declining memory and walking speed together signal a high risk of dementia.
+tags: [Walking speed and physical function, Inflammation, Frailty and muscle loss, Biomarkers of aging, Brain health, Muscle and mitochondria, Blood and anemia]
+search: 'Ferrucci L[Author]'
+questions:
+  - "Why is walking speed such a good predictor of health in older adults?"
+  - "How does chronic inflammation affect aging and disability?"
+  - "How can biological age be measured in people?"

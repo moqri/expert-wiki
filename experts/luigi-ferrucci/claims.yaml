@@ -1,0 +1,189 @@
+- rank: 1
+  figure: 12% lower
+  figure_label: risk of death for every 0.1 m/s faster walking speed
+  statement: Across nine cohort studies of older adults, faster usual walking speed went with longer survival over the full range of speeds. At age 75, predicted 10-year survival ranged from 19% to 87% in men and from 35% to 91% in women depending on walking speed, and age, sex and walking speed together predicted survival as well as models using chronic diseases, blood pressure and hospital stays.
+  paper: pmid-21205966
+  evidence: Pooled analysis of 9 cohorts, 34,485 adults aged 65+ followed 6 to 21 years
+  tags: [Walking speed and physical function]
+- rank: 2
+  figure: 4.2-4.9x
+  figure_label: higher risk of disability four years later with the lowest physical performance scores
+  statement: Among people over 70 who reported no disability, those who scored lowest on a short test of balance, walking speed and rising from a chair were 4.2 to 4.9 times as likely to be disabled four years later as those who scored highest. Intermediate scores carried 1.6 to 1.8 times the risk.
+  paper: pmid-7838189
+  evidence: Prospective cohort of 1,122 non-disabled adults aged 71+ followed for 4 years
+  tags: [Walking speed and physical function]
+- rank: 3
+  figure: 3 simple tests
+  figure_label: balance, an 8-foot walk and five chair stands predict disability, nursing home admission and death
+  statement: A short battery of physical performance tests (now known as the Short Physical Performance Battery) was strongly linked to self-reported disability and predicted death and nursing home admission. Even among people reporting almost no disability, scores separated a clear gradient of risk.
+  paper: pmid-8126356
+  evidence: Population study of more than 5,000 adults aged 71+ in three US communities
+  tags: [Walking speed and physical function]
+- rank: 4
+  figure: 2.6x
+  figure_label: higher risk of death with high interleukin-6 and high C-reactive protein together
+  statement: In healthy, non-disabled older people, those in the top quarter of interleukin-6 had about twice the risk of death over 4.6 years, and those with both interleukin-6 and C-reactive protein elevated were 2.6 times as likely to die. The link held for heart and non-heart deaths and after adjusting for other risk factors.
+  paper: pmid-10335721
+  evidence: Prospective cohort of 1,293 non-disabled older adults (Iowa 65+ Rural Health Study)
+  tags: [Inflammation]
+- rank: 5
+  figure: 1.76x
+  figure_label: higher risk of mobility disability with the highest interleukin-6 levels
+  statement: Older people without disability who had the highest blood levels of interleukin-6 were 1.76 times as likely to develop mobility disability over four years. Risk rose quickly once levels passed about 2.5 pg/mL.
+  paper: pmid-10366160
+  evidence: Nested case-control study of 633 adults aged 71+ followed for 4 years
+  tags: [Inflammation, Walking speed and physical function]
+- rank: 6
+  figure: Muscle strength
+  figure_label: explains much of why high interleukin-6 speeds up physical decline
+  statement: Older women with the highest interleukin-6 levels had a 1.5 times higher risk of mobility disability and faster declines in walking speed. Accounting for their faster loss of knee strength weakened this link, pointing to muscle loss as one path from inflammation to disability.
+  paper: pmid-12473005
+  evidence: Cohort of 620 older women with disability followed over 3 years (Women's Health and Aging Study)
+  tags: [Inflammation, Frailty and muscle loss]
+- rank: 7
+  figure: Partly explained
+  figure_label: rise in inflammation with age by heart disease and its risk factors
+  statement: Interleukin-6, C-reactive protein, fibrinogen and other inflammatory markers were higher in older people. Adjusting for cardiovascular risk factors and disease made much of the age effect smaller, so part of the "pro-inflammatory state" of old age comes from these conditions.
+  paper: pmid-15572589
+  evidence: Population study of 1,343 people aged 20 to 102 (InCHIANTI)
+  tags: [Inflammation]
+- rank: 8
+  figure: PhenoAge
+  figure_label: a DNA methylation clock that predicts death, cancer, physical function and Alzheimer's disease
+  statement: Training a blood DNA methylation measure on a clinical measure of biological age, rather than on calendar age, produced DNAm PhenoAge. It predicted death, cancers, healthspan, physical function and Alzheimer's disease better than earlier clocks, and faster PhenoAge went with more activity in inflammation and interferon pathways.
+  paper: pmid-29676998
+  evidence: Development and validation in multiple large cohorts with blood DNA methylation data
+  tags: [Biomarkers of aging]
+- rank: 9
+  figure: GrimAge
+  figure_label: the DNA methylation clock that best predicted time to death
+  statement: DNAm GrimAge combines methylation-based estimates of seven blood proteins and smoking pack-years. It outperformed other epigenetic clocks for predicting time to death, heart disease and cancer, and was linked to fatty liver, number of chronic conditions and age at menopause.
+  paper: pmid-30669119
+  evidence: Development and validation in thousands of people from several cohorts
+  tags: [Biomarkers of aging]
+- rank: 10
+  figure: 76 proteins
+  figure_label: form a blood signature of age that predicts chronic disease and death
+  statement: Of 1,301 plasma proteins measured in people aged 21 to 102, 651 changed with age, many tied to inflammation, the extracellular matrix and senescent cells. A 76-protein signature of age predicted the build-up of chronic diseases and death from any cause.
+  paper: pmid-33210602
+  evidence: Plasma proteomics in 997 adults aged 21 to 102
+  tags: [Biomarkers of aging]
+- rank: 11
+  figure: GDF15
+  figure_label: the blood protein most strongly tied to age in healthy people
+  statement: In 240 healthy adults free of disease, 217 of 1,301 plasma proteins were linked to age, and growth differentiation factor 15 (GDF15) had the strongest link. A 76-protein model tracked calendar age closely (r = 0.94).
+  paper: pmid-29992704
+  evidence: Plasma proteomics in 240 healthy adults aged 22 to 93
+  tags: [Biomarkers of aging]
+- rank: 12
+  figure: Faster aging
+  figure_label: measured over years predicts decline, disease and death better than one-time measures
+  statement: Combining how far each person drifts from typical trajectories in body composition, energy use, internal balance and brain health, measured repeatedly over time, gave a longitudinal measure of aging. Faster aging on this measure went with faster physical and cognitive decline, more chronic disease and shorter survival, more robustly than single-time-point clinical or epigenetic measures.
+  paper: pmid-36910594
+  evidence: Longitudinal phenotyping across adulthood in the Baltimore Longitudinal Study of Aging
+  tags: [Biomarkers of aging]
+- rank: 13
+  figure: 4.9x
+  figure_label: higher risk of dementia with severe hearing loss
+  statement: Over about 12 years, dementia risk rose steadily with worse hearing, by 27% for every 10 decibels of loss. Compared with normal hearing, risk was 1.9 times higher with mild, 3.0 times with moderate and 4.9 times with severe hearing loss.
+  paper: pmid-21320988
+  evidence: Prospective cohort of 639 dementia-free adults (Baltimore Longitudinal Study of Aging)
+  tags: [Brain health]
+- rank: 14
+  figure: 41% faster
+  figure_label: decline in global thinking scores in older adults with hearing loss
+  statement: Older adults with hearing loss had 41% and 32% faster yearly declines on two thinking tests than those with normal hearing, and a 24% higher risk of developing cognitive impairment over six years. Decline was steeper the worse the hearing loss.
+  paper: pmid-23337978
+  evidence: Prospective cohort of 1,984 adults with mean age 77 followed for 6 years (Health ABC)
+  tags: [Brain health]
+- rank: 15
+  figure: 6.3x
+  figure_label: higher risk of dementia when memory and walking speed decline together
+  statement: Compared with people aging typically, those whose memory declined had 3.5 times, and those whose walking slowed had 2.2 times, the risk of dementia. People with both declines had 6.3 times the risk.
+  paper: pmid-32083691
+  evidence: Individual-level meta-analysis of 6 cohorts, 8,699 adults aged 60+
+  tags: [Brain health, Walking speed and physical function]
+- rank: 16
+  figure: Less sleep
+  figure_label: linked to more amyloid in the brain
+  statement: In older adults from the community, reports of shorter sleep and poorer sleep quality went with more beta-amyloid, the protein that builds up in Alzheimer's disease, on brain PET scans.
+  paper: pmid-24145859
+  evidence: Cross-sectional PET study of 70 adults with mean age 76 (Baltimore Longitudinal Study of Aging)
+  tags: [Brain health]
+- rank: 17
+  figure: 89.6%
+  figure_label: accuracy of blood vesicle markers in predicting Alzheimer's disease years before symptoms
+  statement: Brain-derived vesicles in blood from people who later developed Alzheimer's disease carried more phosphorylated tau and altered insulin signaling proteins than in matched controls, years before symptoms. A model built on these markers reached an area under the curve of 89.6% and 80% when tested in a separate set.
+  paper: pmid-31305918
+  evidence: Case-control study of 887 plasma samples from 350 people (Baltimore Longitudinal Study of Aging)
+  tags: [Brain health, Biomarkers of aging]
+- rank: 18
+  figure: "<26 kg / <16 kg"
+  figure_label: grip strength cut-offs for weakness in older men and women
+  statement: Pooling nine studies, the FNIH Sarcopenia Project recommended defining weakness as grip strength under 26 kg in men and 16 kg in women, and low lean mass as arm and leg lean mass adjusted for body mass index under 0.789 in men and 0.512 in women.
+  paper: pmid-24737557
+  evidence: Pooled analysis of 26,625 older adults from 9 study sources
+  tags: [Frailty and muscle loss]
+- rank: 19
+  figure: Frailty
+  figure_label: confirmed as a distinct syndrome that predicts disability and death
+  statement: A standard definition of frailty (weight loss, exhaustion, weakness, slowness and low activity) behaved as a single syndrome in older women. Women classified as frail were more likely to become disabled, enter long-term care and die, independently of other factors.
+  paper: pmid-16567375
+  evidence: Validation in the Women's Health and Aging Studies cohorts
+  tags: [Frailty and muscle loss]
+- rank: 20
+  figure: 9 years
+  figure_label: before frailty, exhaustion already separates people who become frail
+  statement: Exhaustion distinguished people who later became frail about nine years before onset, while slowness, low activity and weakness appeared about six years before. Each added frailty component was reached with a probability of about 0.4.
+  paper: pmid-30084927
+  evidence: Two cohorts, 2,438 older adults followed 9 to 15 years (LASA and InCHIANTI)
+  tags: [Frailty and muscle loss]
+- rank: 21
+  figure: Weaker mitochondria
+  figure_label: in muscle predict faster loss of walking ability
+  statement: Among well-functioning adults aged 60 and older, slower muscle energy recovery after exercise, a measure of mitochondrial capacity, predicted greater decline in walking speed and 400-meter walk time over about 2.5 years. Loss of muscle strength and mass explained part of this link.
+  paper: pmid-35048491
+  evidence: Cohort of 380 adults aged 60+ with muscle MR spectroscopy (Baltimore Longitudinal Study of Aging)
+  tags: [Muscle and mitochondria, Walking speed and physical function]
+- rank: 22
+  figure: Less energy, more immunity
+  figure_label: proteins in aging human muscle
+  statement: Muscle from older healthy people had fewer ribosome and energy metabolism proteins, including mitochondrial ones, and more proteins tied to immunity, protein quality control and RNA splicing, pointing to impaired energy production and a pro-inflammatory environment.
+  paper: pmid-31642809
+  evidence: Proteomics of muscle biopsies from 58 healthy people aged 20 to 87
+  tags: [Muscle and mitochondria]
+- rank: 23
+  figure: 12% fewer calories
+  figure_label: for two years shifted muscle gene activity toward stress resistance and longevity pathways
+  statement: In healthy people randomized to eat about 12% fewer calories for two years, muscle showed changes in genes for protein quality control, DNA repair, mitochondrial growth, circadian rhythm and inflammation. Some of these changes helped explain why muscle quality was preserved despite a small loss of muscle mass.
+  paper: pmid-37823711
+  evidence: RNA sequencing of muscle biopsies from 90 participants in the CALERIE randomized trial
+  tags: [Muscle and mitochondria]
+- rank: 24
+  figure: 1 in 3
+  figure_label: cases of anemia in older Americans have no identifiable cause
+  statement: About 11% of men and 10% of women aged 65 and older in the US were anemic, rising past 20% at age 85 and older. A third of cases came from nutrient deficiencies, a third from chronic inflammation or kidney disease, and a third had no clear cause.
+  paper: pmid-15238427
+  evidence: National survey of non-institutionalized US adults (NHANES III, 1988-1994)
+  tags: [Blood and anemia]
+- rank: 25
+  figure: 22% higher
+  figure_label: risk of death for every 1% increase in red blood cell size variation
+  statement: Red blood cell distribution width, a routine part of a blood count, strongly predicted death in adults 45 and older. The top fifth had 2.1 times the risk of the bottom fifth, and the link held in people without anemia or vitamin and iron deficiencies.
+  paper: pmid-19273783
+  evidence: National cohort of 8,175 US adults aged 45+ (NHANES III) followed to 2000
+  tags: [Blood and anemia]
+- rank: 26
+  figure: Earlier menopause
+  figure_label: linked to faster epigenetic aging of blood
+  statement: Women with earlier menopause or removal of both ovaries had older-looking blood DNA methylation for their age. Genetic (Mendelian randomization) analysis suggested menopause itself speeds up epigenetic aging of blood.
+  paper: pmid-27457926
+  evidence: Epigenetic clock analysis in 4 studies, about 3,100 women
+  tags: [Biomarkers of aging]
+- rank: 27
+  figure: 1.55x
+  figure_label: higher odds of physical decline with depressive symptoms
+  statement: Older people with depressed mood were 1.55 times as likely to decline on physical performance tests over four years, even after accounting for their health. The link held among people who reported no disability.
+  paper: pmid-9624025
+  evidence: Prospective cohort of 1,286 adults aged 71+ followed for 4 years (Iowa)
+  tags: [Walking speed and physical function]
