@@ -123,8 +123,24 @@
   form.addEventListener('submit', function (ev) {
     ev.preventDefault();
     var q = qbox.value.trim(); if (!q) return;
-    btn.disabled = true; out.innerHTML = '<p class="note">Reading the papers…</p>';
-    var done = function () { btn.disabled = false; };
+    btn.disabled = true;
+    // Progress with an estimated time, learned from this visitor's previous answers.
+    var est = 20; try { est = Math.min(60, Math.max(8, +localStorage.getItem('askSecs') || 20)); } catch (e) {}
+    if (!X.endpoint) est = 2;
+    var t0 = Date.now();
+    out.innerHTML = '<div class="reading"><p class="note" id="ask-status"></p><div class="bar"><span id="ask-bar"></span></div></div>';
+    var st = document.getElementById('ask-status'), bar = document.getElementById('ask-bar');
+    var tick = function () {
+      var el = (Date.now() - t0) / 1000, left = Math.ceil(est - el);
+      if (!st.isConnected) return;
+      st.textContent = 'Reading the papers… ' + (left > 0 ? 'about ' + left + ' second' + (left === 1 ? '' : 's') + ' left' : 'almost done, taking a little longer than usual');
+      bar.style.width = Math.min(95, 100 * (1 - Math.exp(-el / (est * 0.6)))) + '%';
+    };
+    tick(); var timer = setInterval(tick, 250);
+    var done = function () {
+      clearInterval(timer); btn.disabled = false;
+      if (X.endpoint) { var secs = (Date.now() - t0) / 1000; try { localStorage.setItem('askSecs', String(Math.round((est + secs) / 2))); } catch (e) {} }
+    };
     if (!X.endpoint) { showLocal(q).then(done, done); return; }
     fetch(X.endpoint, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ expert: X.slug, question: q }) })
       .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
