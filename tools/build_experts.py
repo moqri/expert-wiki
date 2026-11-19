@@ -155,8 +155,7 @@ def expert_page(ex, papers, claims):
     <h2 class="sec">Key findings</h2>
     <div class="controls" id="controls" role="region" aria-label="Filter and sort findings">
       <div class="row" role="group" aria-label="Filter by tag"><span class="label">Tags</span>{''.join(chips)}</div>
-      <div class="row" role="group" aria-label="Sort"><span class="label">Sort</span><button class="chip" type="button" data-sort="rank" aria-pressed="true">Most important</button><button class="chip" type="button" data-sort="year" aria-pressed="false">Newest</button></div>
-      <div class="row" role="group" aria-label="Sort experts"><span class="label">Sort</span><button class="chip" type="button" data-esort="name" aria-pressed="true">A–Z</button><button class="chip" type="button" data-esort="cites" aria-pressed="false">Most cited</button><span class="count" id="count" aria-live="polite"></span></div>
+      <div class="row" role="group" aria-label="Sort"><span class="label">Sort</span><button class="chip" type="button" data-sort="rank" aria-pressed="true">Most important</button><button class="chip" type="button" data-sort="year" aria-pressed="false">Newest</button><span class="count" id="count" aria-live="polite"></span></div>
     </div>
     <ol class="claims" id="claims">
 {chr(10).join(items)}
@@ -236,8 +235,8 @@ def home(roster, built):
       <p class="suggest"><a class="go" href="{e(suggest)}">Suggest the next topic</a></p>
     </section>
     <div class="controls" role="region" aria-label="Filter experts">
-      <div class="row" role="group" aria-label="Filter by area"><span class="label">Area</span>{''.join(chips)}</div>
-      <div class="row" role="group" aria-label="Sort experts"><span class="label">Sort</span><button class="chip" type="button" data-esort="name" aria-pressed="true">A–Z</button><button class="chip" type="button" data-esort="cites" aria-pressed="false">Most cited</button><span class="count" id="count" aria-live="polite"></span></div>
+      <div class="row"><span class="grp" role="group" aria-label="Filter by area"><span class="label">Area</span>{''.join(chips)}</span><span class="grp sortgrp" role="group" aria-label="Sort experts"><span class="label">Sort</span><button class="chip" type="button" data-esort="name" aria-pressed="true">A–Z</button><button class="chip" type="button" data-esort="cites" aria-pressed="false">Most cited</button></span></div>
+      <p class="count ecount" id="count" aria-live="polite"></p>
     </div>
     <ol class="people" id="experts">
 {chr(10).join(rows)}
