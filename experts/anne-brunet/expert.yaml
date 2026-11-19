@@ -1,0 +1,20 @@
+slug: anne-brunet
+name: Anne Brunet
+credentials: PhD
+affiliation: Stanford University School of Medicine
+department: Department of Genetics; Paul F. Glenn Laboratories for the Biology of Aging
+areas: [Aging]
+headline: Studies the genes, diets and cell signals that set how long animals live, how the aging brain loses its ability to make new neurons, and uses a very short-lived fish to study vertebrate aging quickly.
+summary:
+  - "Brunet's early work helped explain how growth signals keep cells alive. In 1999 Brunet and colleagues showed that the enzyme Akt switches off a Forkhead transcription factor, now called FOXO3, by keeping it out of the nucleus, and that without growth signals FOXO3 turns on genes that trigger cell death. Later studies showed FOXO3 also drives DNA repair, and that the longevity enzyme SIRT1 tips FOXO3 away from cell death and toward stress resistance. FOXO genes are among the best-known longevity genes across species."
+  - "In the worm C. elegans, Brunet's lab found that an energy sensor, AMPK, works through FOXO to extend life under one form of dietary restriction, and that different diet regimens act through largely separate genes and add together. The lab also showed that lowering a chromatin mark, H3K4me3, extends lifespan, that this longer life is passed on to descendants for up to three generations, and that it works through the build-up of mono-unsaturated fats, which on their own extend worm lifespan. Males also shorten the lives of the opposite sex, even without mating."
+  - "In the mouse brain, the group studies the neural stem cells that make new neurons. With age these cells struggle to wake up from rest: they collect protein clumps that larger lysosomes can clear, take up more glucose, and are held back by T cells that enter the old brain and release interferon-γ. Single-cell and spatial 'aging clocks' built from millions of brain cells showed that T cells age the cells around them while neural stem cells make neighbors younger, and that exercise, young blood and partial reprogramming each reverse parts of brain aging in mice."
+  - "Brunet's lab built the African turquoise killifish, the shortest-lived vertebrate that can be raised in the lab, into a model for vertebrate aging, with a genome, fast gene editing and lifelong tracking. In this fish, behavior early in life forecast each animal's lifespan, and an embryo 'pause' state called diapause preserved fish for long periods without later cost. Brunet also contributed to UK Biobank work linking youthful brain and immune proteins in blood to longer life. Most findings come from worms, fish, mice and cells and have not been tested as treatments in people."
+tags: [FOXO and longevity genes, Diet and fat metabolism, Chromatin and inheritance, Neural stem cells, Brain immune cells, Aging clocks, Rejuvenation, Killifish model, Sex and aging]
+search: 'Brunet A[Author] OR Brunet AE[Author] OR Brunet Anne[Author]'   # 669 PubMed hits checked by name, affiliation (Nice, Harvard/Children's Hospital Boston, Stanford) and coauthors; ~490 namesakes (Alain, Annie, Anne-Sophie, French surgeons and others), errata and 5 preprints with published versions dropped
+links:
+  - {label: PubMed, url: "https://pubmed.ncbi.nlm.nih.gov/?term=Brunet+Anne%5BAuthor%5D"}
+questions:
+  - "Can diet or the fats we eat change how long animals live?"
+  - "Why does the aging brain make fewer new neurons, and can that be reversed?"
+  - "What can a very short-lived fish teach us about aging?"
