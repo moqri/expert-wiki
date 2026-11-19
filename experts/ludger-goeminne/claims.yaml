@@ -1,0 +1,191 @@
+- rank: 1
+  figure: "50,000+"
+  figure_label: people whose blood proteins were used to build organ-specific aging clocks
+  statement: Blood protein levels can estimate how fast each organ system is aging. Faster aging of an organ predicts disease in that organ, men age faster than women in most organs, and diet, lifestyle, job and medicines change organ aging rates.
+  paper: pmid-39488213
+  evidence: Plasma proteome models in over 50,000 UK Biobank and other cohort participants
+  tags: [Biomarkers of aging, Organ aging]
+
+- rank: 2
+  figure: Diseases
+  figure_label: of aging are accelerated aging of specific organs
+  statement: Age-related chronic diseases look like speeded-up aging of the affected organ or body system. This supports both whole-body and personalized organ-specific anti-aging treatments.
+  paper: pmid-39488213
+  evidence: Organ-specific aging and mortality models trained on plasma proteomics in over 50,000 people
+  tags: [Organ aging, Biomarkers of aging]
+
+- rank: 3
+  figure: "R = 0.12"
+  figure_label: correlation between how well a clock predicts age and how well it predicts death
+  statement: A clock that predicts calendar age well is not necessarily good at predicting death. Across 39 aging biomarkers, the Horvath skin and blood clock was best at predicting age (R² = 0.88), while GrimAge2 best predicted death (hazard ratio 2.57) and healthspan (hazard ratio 2.00).
+  paper: pmid-41188602
+  evidence: Biolearn open-source framework testing 39 biomarkers in over 20,000 people from diverse cohorts
+  tags: [Biomarkers of aging]
+
+- rank: 4
+  figure: 11-22%
+  figure_label: fewer loss-of-function mutations in centenarians
+  statement: Centenarians carry 11 to 22% fewer rare gene-breaking mutations than controls, and their children show a similar pattern. RGP1, PCNX2 and ANO9 emerged as longevity genes with consistent effects on aging-related traits.
+  paper: pmid-39424787
+  evidence: Whole-exome sequencing of Ashkenazi Jewish centenarians, offspring and controls, with UK Biobank validation
+  tags: [Genetics of longevity]
+
+- rank: 5
+  figure: 6 of 6
+  figure_label: protein clocks showed lower biological age with treatment
+  statement: In a 12-week phase 2a trial of the anti-fibrotic drug rentosertib for idiopathic pulmonary fibrosis, all six protein-based aging clocks predicted lower biological age in treated patients. Clocks alone could not separate anti-aging from anti-disease effects, so pathway analyses were used alongside them.
+  paper: pmid-42706338
+  evidence: Six proteomic clocks applied to serum proteomes from a randomized phase 2a trial
+  tags: [Biomarkers of aging]
+
+- rank: 6
+  figure: Younger
+  figure_label: biological age of old mouse cells after chemical reprogramming
+  statement: A chemical cocktail lowered the biological age of fibroblasts from young and old mice by both gene expression and DNA methylation clocks. The strongest change was a boost in mitochondrial energy production, along with fewer aging-related metabolites.
+  paper: pmid-38517750
+  evidence: Epigenome, transcriptome, proteome, phosphoproteome and metabolome profiling of mouse fibroblasts
+  tags: [Rejuvenation, Muscle and mitochondria]
+
+- rank: 7
+  figure: Toxic
+  figure_label: fat build-up when the reprogramming cocktail was given to mice
+  statement: In living middle-aged mice, low doses of the chemical reprogramming cocktail were safe but did not lower the biological age of kidney or liver. Higher doses caused severe weight loss and lipid droplet build-up in liver and kidney, a warning for this approach.
+  paper: pmid-41589348
+  evidence: In vivo dosing in genetically diverse UM-HET3 male mice plus cell studies
+  tags: [Rejuvenation]
+
+- rank: 8
+  figure: Both ways
+  figure_label: ovarian aging shifts with the age of the host
+  statement: Old mouse ovaries became molecularly younger in young hosts and young ovaries became older in old hosts. Ovaries from 13-month-old donors supported live births at 17 to 18 months in young hosts but not in old ones, and young ovaries lowered the molecular age of aged liver and brain.
+  paper: pmid-42999131
+  evidence: Preprint; heterochronic ovary transplantation and parabiosis in mice with new ovarian clock (OvaAge)
+  tags: [Organ aging, Rejuvenation]
+
+- rank: 9
+  figure: Immune genes
+  figure_label: top the list of aging genes seen in both DNA methylation and gene activity
+  statement: Genes whose methylation and expression both change with age in blood are enriched for adaptive immune functions. They replicate better across populations and track aging outcomes more strongly than genes found by either data type alone.
+  paper: pmid-41554691
+  evidence: Integrative multi-omic analysis of human blood across diverse cohorts
+  tags: [Biomarkers of aging, Genetics of longevity]
+
+- rank: 10
+  figure: 6
+  figure_label: key barriers to using aging biomarkers in the clinic
+  statement: A survey of experts found six main barriers to bringing biomarkers of aging into clinical use. Recommendations include tying them to clinical decisions, making them affordable and widely available, and validating them in individuals.
+  paper: pmid-39285015
+  evidence: Expert survey and consensus recommendations
+  tags: [Biomarkers of aging]
+
+- rank: 11
+  figure: Ceramides
+  figure_label: build up in aging muscle in worms, mice and humans
+  statement: Ceramide fats accumulate in skeletal muscle with age. Blocking their production with the drug myriocin restored mitochondrial and protein health, extended lifespan in worms, and improved muscle health and fitness in old mice.
+  paper: pmid-37196064
+  evidence: Lipidomics and interventions in C. elegans, mice and human muscle cells, plus human muscle transcriptomes
+  tags: [Muscle and mitochondria]
+
+- rank: 12
+  figure: CERS1
+  figure_label: decline with age weakens muscle
+  statement: The enzyme CERS1 falls with age in human muscle. Blocking it in old mice worsened muscle mass and function, and human gene variants that lower CERS1 were linked to weaker grip strength and poorer health in the UK Biobank.
+  paper: pmid-38506902
+  evidence: Human muscle data, aged mice, C. elegans, and Mendelian randomization in the UK Biobank
+  tags: [Muscle and mitochondria, Genetics of longevity]
+
+- rank: 13
+  figure: GDF15
+  figure_label: protects against age-related inflammation
+  statement: Blood GDF15, a signal released by stressed mitochondria, rises in older people. Mice lacking GDF15 had more tissue inflammation, liver injury and liver fat at old age, and genetically lower GDF15 in humans was linked to higher body weight and inflammation.
+  paper: pmid-32691494
+  evidence: Elderly human subjects, BXD mouse population, Gdf15 knockout mice and Mendelian randomization
+  tags: [Muscle and mitochondria, Metabolism and diet]
+
+- rank: 14
+  figure: CBP/p300
+  figure_label: links mitochondrial stress to longer life
+  statement: The worm version of CBP/p300 is needed for the mitochondrial stress response, lower amyloid-beta aggregation and lifespan extension. In mice and people, higher CBP/p300 levels go with this stress response and with longevity.
+  paper: pmid-33718883
+  evidence: C. elegans genetics with mouse and human population data and mammalian cell experiments
+  tags: [Muscle and mitochondria, Genetics of longevity]
+
+- rank: 15
+  figure: Metal clock
+  figure_label: copper isotope makeup of the liver changes with age
+  statement: The metal content of mouse organs changes with age in a consistent pattern, and the copper isotope ratio in liver tracks age. Iron levels and copper isotopes also relate to body fat and running capacity.
+  paper: pmid-35105883
+  evidence: Metallome and isotope profiling of five organs across ages in mice, with multi-omics
+  tags: [Biomarkers of aging, Metabolism and diet]
+
+- rank: 16
+  figure: Fitness
+  figure_label: gene variant in COX7A2L raises respiration and fitness
+  statement: A common 10-letter DNA insertion in the COX7A2L gene raises its level in muscle, increasing mitochondrial supercomplexes and respiration. Higher COX7A2L goes with lower body fat and better cardiorespiratory fitness in people, and restoring it in mice raised maximal oxygen use.
+  paper: pmid-36253618
+  evidence: Human eQTL data, human muscle cells and mouse genetic models
+  tags: [Muscle and mitochondria, Genetics of longevity]
+
+- rank: 17
+  figure: Myriocin
+  figure_label: beat glucocorticoids in a muscular dystrophy model
+  statement: The sphingolipid production pathway is switched up in muscle of people with Duchenne muscular dystrophy. Blocking it with myriocin in mdx mice improved muscle function and reduced inflammation and fibrosis more than glucocorticoids did.
+  paper: pmid-35089797
+  evidence: Human patient muscle transcriptomes and mdx mouse treatment study
+  tags: [Muscle and mitochondria]
+
+- rank: 18
+  figure: "1 of 7"
+  figure_label: mouse strains progressed to fatty liver disease with fibrosis
+  statement: Of seven mouse strains fed a liver-disease diet, only PWK/PhJ developed NASH with extensive fibrosis, while CAST/EiJ was fully resistant. Low liver mitochondrial function marked the susceptible strain, whose gene profile best matched human NASH.
+  paper: pmid-36787127
+  evidence: Comparison of seven genetically diverse mouse strains
+  tags: [Metabolism and diet, Muscle and mitochondria]
+
+- rank: 19
+  figure: "9 strains"
+  figure_label: responded very differently to a high-fat diet
+  statement: Like people, genetically different mice and the two sexes respond to a high-fat diet in very different ways, including immune, translation and mitochondrial changes. This argues for diverse mouse populations in metabolic research.
+  paper: pmid-35677645
+  evidence: Nine genetically diverse mouse strains of both sexes
+  tags: [Metabolism and diet]
+
+- rank: 20
+  figure: Ces1c
+  figure_label: controls blood levels of the protective bile acid TUDCA
+  statement: Both genetics and diet strongly shape bile acids in mice. Mapping hundreds of genetic loci identified the gene Ces1c as a master regulator of blood TUDCA, a bile acid with disease-preventing actions.
+  paper: pmid-36099916
+  evidence: Bile acid profiling in 360 BXD mice on chow or high-fat diet, confirmed in knockout mice
+  tags: [Metabolism and diet]
+
+- rank: 21
+  figure: MSqRob
+  figure_label: more accurate protein comparisons from mass spectrometry
+  statement: Modeling at the peptide level with robust ridge regression and shared variance estimates gives more precise and accurate protein fold changes than standard summarization methods, improving both sensitivity and specificity.
+  paper: pmid-26566788
+  evidence: Benchmarking on the CPTAC spike-in study and a Francisella proteome study
+  tags: [Proteomics methods]
+
+- rank: 22
+  figure: Peptide models
+  figure_label: outperform summarization pipelines
+  statement: Peptide-based statistical models beat pipelines that first summarize peptides to proteins on sensitivity, specificity, accuracy and precision. Imputing missing values helps low-abundance proteins but hurts moderate and high-abundance ones.
+  paper: pmid-25827922
+  evidence: Comparison of label-free proteomics analysis methods on benchmark data
+  tags: [Proteomics methods]
+
+- rank: 23
+  figure: Hurdle model
+  figure_label: handles missing values in proteomics
+  statement: Combining a peptide count model with an intensity model lets proteins with many missing values be quantified without harmful assumptions about why values are missing.
+  paper: pmid-32227882
+  evidence: Method development and benchmarking against state-of-the-art tools
+  tags: [Proteomics methods]
+
+- rank: 24
+  figure: IRG1
+  figure_label: rises in immune cells lacking A20
+  statement: Macrophages lacking the anti-inflammatory protein A20 have higher levels of several inflammatory proteins even without a stimulus, including IRG1, which is regulated at the gene expression level.
+  paper: pmid-29733654
+  evidence: Differential proteomics of bone marrow macrophages from myeloid A20 knockout mice
+  tags: [Proteomics methods]
