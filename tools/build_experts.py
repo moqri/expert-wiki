@@ -155,7 +155,8 @@ def expert_page(ex, papers, claims):
     <h2 class="sec">Key findings</h2>
     <div class="controls" id="controls" role="region" aria-label="Filter and sort findings">
       <div class="row" role="group" aria-label="Filter by tag"><span class="label">Tags</span>{''.join(chips)}</div>
-      <div class="row" role="group" aria-label="Sort"><span class="label">Sort</span><button class="chip" type="button" data-sort="rank" aria-pressed="true">Most important</button><button class="chip" type="button" data-sort="year" aria-pressed="false">Newest</button><span class="count" id="count" aria-live="polite"></span></div>
+      <div class="row" role="group" aria-label="Sort"><span class="label">Sort</span><button class="chip" type="button" data-sort="rank" aria-pressed="true">Most important</button><button class="chip" type="button" data-sort="year" aria-pressed="false">Newest</button></div>
+      <div class="row" role="group" aria-label="Sort experts"><span class="label">Sort</span><button class="chip" type="button" data-esort="name" aria-pressed="true">A–Z</button><button class="chip" type="button" data-esort="cites" aria-pressed="false">Most cited</button><span class="count" id="count" aria-live="polite"></span></div>
     </div>
     <ol class="claims" id="claims">
 {chr(10).join(items)}
@@ -203,7 +204,8 @@ def home(roster, built):
             pj = EXPERTS / slug / "papers.json"
             cites = sum(p.get("citations", 0) for p in json.loads(pj.read_text())) if pj.exists() else 0
         people.append((cites, r, ex))
-    people.sort(key=lambda x: (-x[0], x[1]["name"]))
+    surname = lambda r: r["name"].split()[-1].lower()
+    people.sort(key=lambda x: (surname(x[1]), x[1]["name"].lower()))
     area_id = {a["name"]: a["id"] for a in areas}
     rows = []
     for cites, r, ex in people:
@@ -214,7 +216,7 @@ def home(roster, built):
         ids = " ".join(area_id[x] for x in r["areas"] if x in area_id)
         skills = "".join(f'<span class="skill">{e(t)}</span>' for t in (ex.get("tags") or [])[:4])
         cc = f'<span class="cites">{cites:,} citations</span>' if cites else ""
-        rows.append(f'      <li class="person-row" data-areas="{ids}"><div class="who"><span class="pn">{link}</span><span class="pa">{aff}</span></div><div class="skills">{skills}</div>{cc}</li>')
+        rows.append(f'      <li class="person-row" data-areas="{ids}" data-last="{e(surname(r))}" data-cites="{cites}"><div class="who"><span class="pn">{link}</span><span class="pa">{aff}</span></div><div class="skills">{skills}</div>{cc}</li>')
     chips = [f'<button class="chip" type="button" data-area="" aria-pressed="true">All<span class="n">{len(people)}</span></button>']
     for a in areas:
         n = sum(a["name"] in r["areas"] for _, r, _ in people)
@@ -234,7 +236,8 @@ def home(roster, built):
       <p class="suggest"><a class="go" href="{e(suggest)}">Suggest the next topic</a></p>
     </section>
     <div class="controls" role="region" aria-label="Filter experts">
-      <div class="row" role="group" aria-label="Filter by area"><span class="label">Area</span>{''.join(chips)}<span class="count" id="count" aria-live="polite"></span></div>
+      <div class="row" role="group" aria-label="Filter by area"><span class="label">Area</span>{''.join(chips)}</div>
+      <div class="row" role="group" aria-label="Sort experts"><span class="label">Sort</span><button class="chip" type="button" data-esort="name" aria-pressed="true">A–Z</button><button class="chip" type="button" data-esort="cites" aria-pressed="false">Most cited</button><span class="count" id="count" aria-live="polite"></span></div>
     </div>
     <ol class="people" id="experts">
 {chr(10).join(rows)}
@@ -244,14 +247,20 @@ def home(roster, built):
 </div>
 <script>
 (function(){{
-  var rows=[].slice.call(document.querySelectorAll('#experts .person-row')),count=document.getElementById('count');
-  function set(id){{
-    var n=0;rows.forEach(function(li){{var ok=!id||li.dataset.areas.split(' ').indexOf(id)>-1;li.hidden=!ok;if(ok)n++;}});
-    [].forEach.call(document.querySelectorAll('[data-area]'),function(b){{b.setAttribute('aria-pressed',String(b.dataset.area===id));}});
-    count.textContent=n+' experts, most cited first (citation counts from Europe PMC)';
+  var list=document.getElementById('experts'),rows=[].slice.call(list.children),count=document.getElementById('count'),st={{area:'',sort:'name'}};
+  function render(){{
+    rows.sort(function(a,b){{return st.sort==='cites'?(+b.dataset.cites)-(+a.dataset.cites):a.dataset.last.localeCompare(b.dataset.last);}});
+    var n=0;rows.forEach(function(li){{var ok=!st.area||li.dataset.areas.split(' ').indexOf(st.area)>-1;li.hidden=!ok;if(ok)n++;list.appendChild(li);}});
+    [].forEach.call(document.querySelectorAll('[data-area]'),function(b){{b.setAttribute('aria-pressed',String(b.dataset.area===st.area));}});
+    [].forEach.call(document.querySelectorAll('[data-esort]'),function(b){{b.setAttribute('aria-pressed',String(b.dataset.esort===st.sort));}});
+    count.textContent=n+' experts, '+(st.sort==='cites'?'most cited first (citation counts from Europe PMC)':'A to Z by surname');
   }}
-  document.addEventListener('click',function(ev){{var b=ev.target.closest('[data-area]');if(!b)return;set(b.dataset.area);history.replaceState(null,'',b.dataset.area?'#'+b.dataset.area:location.pathname);}});
-  var h=location.hash.slice(1);set(document.querySelector('[data-area="'+h+'"]')?h:'');
+  document.addEventListener('click',function(ev){{
+    var b=ev.target.closest('[data-area],[data-esort]');if(!b)return;
+    if(b.hasAttribute('data-esort'))st.sort=b.dataset.esort;else{{st.area=b.dataset.area;history.replaceState(null,'',st.area?'#'+st.area:location.pathname);}}
+    render();
+  }});
+  var h=location.hash.slice(1);if(document.querySelector('[data-area="'+h+'"]'))st.area=h;render();
 }})();
 </script>
 </body>
