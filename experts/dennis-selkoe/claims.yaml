@@ -1,0 +1,189 @@
+- rank: 1
+  figure: Imbalance
+  figure_label: between making and clearing amyloid-β is a very early, often initiating step in Alzheimer's
+  statement: Every dominant mutation that causes early-onset Alzheimer's sits either in APP, the protein Aβ is cut from, or in presenilin, the enzyme that cuts it. An extra copy of APP in Down syndrome leads to Aβ deposits in the teens, APOE4 slows Aβ clearance, and low spinal fluid Aβ42 and amyloid PET precede other signs of the disease by many years.
+  paper: pmid-27025652
+  evidence: Review of genetic, biochemical, animal and human biomarker evidence, 25 years after the hypothesis was proposed
+  tags: [Amyloid hypothesis]
+- rank: 2
+  figure: Dimers
+  figure_label: of amyloid-β taken from Alzheimer's brains impair synapses and memory
+  statement: Soluble Aβ extracted from the cortex of people who died with Alzheimer's blocked long-term potentiation, enhanced long-term depression, reduced dendritic spines and disrupted a learned behavior in rats. The effects came from Aβ dimers, while insoluble plaque cores were inactive unless dissolved to release dimers.
+  paper: pmid-18568035
+  evidence: Human brain extracts tested in rodent hippocampal slices and live rats
+  tags: [Toxic Aβ oligomers]
+- rank: 3
+  figure: Normal metabolism
+  figure_label: produces amyloid-β, not only disease
+  statement: Ordinary cultured cells, including primary cells and untransfected cell lines, release the 4 kDa Aβ peptide into their medium under normal conditions. This showed that Aβ is made in soluble form throughout life and gave researchers simple cell systems to screen for drugs that block its production.
+  paper: pmid-1383826
+  evidence: Cell culture study with immunoprecipitation and peptide sequencing
+  tags: [Aβ production and clearance]
+- rank: 4
+  figure: 6–8×
+  figure_label: more amyloid-β made from APP carrying the Swedish familial mutation
+  statement: Cells expressing APP with the double mutation found in a Swedish family with inherited Alzheimer's produced about six to eight times more Aβ than cells with normal APP, mainly because of the methionine-to-leucine change. This was a direct link between a disease-causing gene and Aβ.
+  paper: pmid-1465129
+  evidence: Cell culture study of transfected cells
+  tags: [Inherited Alzheimer's, Aβ production and clearance]
+- rank: 5
+  figure: Oligomers alone
+  figure_label: of naturally secreted amyloid-β block memory-related synaptic strengthening in living rats
+  statement: Small Aβ oligomers secreted by cells, without fibrils and at concentrations found in human brain and spinal fluid, markedly inhibited hippocampal long-term potentiation when injected into rat brains. Removing all Aβ abolished the effect, and blocking oligomer formation with a γ-secretase inhibitor prevented it.
+  paper: pmid-11932745
+  evidence: In vivo electrophysiology in rats
+  tags: [Toxic Aβ oligomers]
+- rank: 6
+  figure: Aβ42 up
+  figure_label: in the blood of carriers of every tested familial Alzheimer's mutation
+  statement: Plasma Aβ ending at residue 42 was raised in carriers of presenilin 1, presenilin 2 and APP mutations compared with controls, and fibroblasts from presenilin carriers also secreted more Aβ42. The mutations likely cause Alzheimer's by increasing this highly aggregation-prone form.
+  paper: pmid-8705854
+  evidence: Blinded comparison of plasma and fibroblast Aβ in mutation carriers and controls
+  tags: [Inherited Alzheimer's]
+- rank: 7
+  figure: 2 aspartates
+  figure_label: in presenilin-1 are needed for γ-secretase to make amyloid-β
+  statement: Changing either of two aspartate residues inside the membrane portion of presenilin-1 (Asp257 or Asp385) sharply reduced Aβ production and blocked presenilin's own cleavage. This suggested that presenilin is itself γ-secretase, an unusual protease that cuts within the membrane.
+  paper: pmid-10206644
+  evidence: Mutation study in three cell lines and cell-free microsomes
+  tags: [Aβ production and clearance]
+- rank: 8
+  figure: Complement
+  figure_label: and microglia remove synapses early in Alzheimer's mouse models
+  statement: The complement protein C1q rose and gathered at synapses before plaques formed. Blocking C1q, C3 or the microglial receptor CR3 reduced early synapse loss, and C1q was needed for soluble Aβ oligomers to damage synapses and long-term potentiation.
+  paper: pmid-27033548
+  evidence: Mouse models of Alzheimer's with genetic and antibody blockade
+  tags: [Toxic Aβ oligomers]
+- rank: 9
+  figure: Rapid, reversible
+  figure_label: memory impairment from defined amyloid-β oligomers
+  statement: Soluble Aβ dimers and trimers were both necessary and sufficient to disrupt a learned behavior in rats. The effect was rapid, potent and transient, without lasting neurological damage. It was the first direct evidence that a defined form of Aβ interferes with cognition.
+  paper: pmid-15608634
+  evidence: Behavioral study in rats with biochemically defined Aβ species
+  tags: [Toxic Aβ oligomers]
+- rank: 10
+  figure: Picomolar
+  figure_label: amounts of Aβ oligomers cause synapse loss that can be reversed
+  statement: At physiological, picomolar concentrations, naturally secreted Aβ dimers and trimers, but not monomers, caused progressive loss of dendritic spines and active synapses in rat hippocampal slices. The loss required NMDA-type glutamate receptors and was reversed or prevented by Aβ antibodies or an aggregation blocker.
+  paper: pmid-17360908
+  evidence: Rat organotypic hippocampal slice cultures
+  tags: [Toxic Aβ oligomers]
+- rank: 11
+  figure: Tau
+  figure_label: is a major component of the tangles in Alzheimer's neurons
+  statement: Antibodies raised against purified paired helical filaments, the fibers that make up neurofibrillary tangles, recognized the microtubule protein tau, and absorbing them with tau removed almost all tangle staining. An antibody to tau specifically labeled tangles and the neurites around plaques in Alzheimer's brain.
+  paper: pmid-2424016
+  evidence: Immunochemical study of human brain tissue
+  tags: [Tau]
+- rank: 12
+  figure: Aβ dimers → tau
+  figure_label: changes and neurite damage, prevented by removing tau
+  statement: Aβ dimers isolated from Alzheimer's cortex, at subnanomolar concentrations, first triggered Alzheimer's-type tau phosphorylation in neurons and then broke down the microtubule skeleton and damaged neurites, with no fibrils present. Knocking down tau fully prevented the damage, and Aβ antibodies neutralized it.
+  paper: pmid-21421841
+  evidence: Cultured hippocampal neurons treated with human brain extracts
+  tags: [Toxic Aβ oligomers, Tau]
+- rank: 13
+  figure: ">50%"
+  figure_label: drop in amyloid-β breakdown in mice lacking insulin-degrading enzyme
+  statement: Mice without insulin-degrading enzyme degraded more than 50% less Aβ in brain and less insulin in liver. They accumulated Aβ in the brain and developed high insulin and glucose intolerance, linking Alzheimer's and type 2 diabetes biology.
+  paper: pmid-12634421
+  evidence: Knockout mouse study
+  tags: [Aβ production and clearance]
+- rank: 14
+  figure: Plaques prevented
+  figure_label: in mice by boosting amyloid-β-degrading enzymes
+  statement: Raising insulin-degrading enzyme or neprilysin in neurons of APP transgenic mice lowered brain Aβ, slowed or completely prevented plaque formation and its damage, and rescued the early deaths seen in these mice.
+  paper: pmid-14687544
+  evidence: Double transgenic mouse study
+  tags: [Aβ production and clearance, Treatments and biomarkers]
+- rank: 15
+  figure: Antibodies
+  figure_label: against amyloid-β neutralize oligomers that disrupt synapses
+  statement: An Aβ antibody injected after naturally secreted human Aβ fully prevented the block of long-term potentiation in rat hippocampus. Oligomers, not monomers or fibrils, caused the block, and active immunization worked in proportion to the antibodies made against oligomers.
+  paper: pmid-15834427
+  evidence: In vivo electrophysiology in rats with passive and active immunization
+  tags: [Toxic Aβ oligomers, Treatments and biomarkers]
+- rank: 16
+  figure: Age 12
+  figure_label: earliest Aβ42 deposits in Down syndrome; Aβ40 deposits appear around age 30
+  statement: In brains of 29 people with Down syndrome aged 3 to 73, Aβ42 was the first form deposited, seen in 7 of 16 people aged 3 to 30 and as early as age 12. Aβ40 deposits appeared around age 30, when damaged neurites first surrounded plaques, and Aβ42 plaques stayed more common at every age.
+  paper: pmid-9173910
+  evidence: Neuropathology study of 29 brains from people with Down syndrome
+  tags: [Inherited Alzheimer's, Amyloid hypothesis]
+- rank: 17
+  figure: 2–4 months
+  figure_label: of age, mutant presenilin mice already overproduce Aβ42
+  statement: Presenilin 1 and 2 mutations raised Aβ42 secretion in every mutant cell clone tested, and mice carrying mutant but not normal presenilin 1 overproduced Aβ42 in the brain by 2 to 4 months of age. Normal presenilins did not change APP processing, so the mutations act as a dominant gain of function.
+  paper: pmid-8986743
+  evidence: Transfected cells and transgenic mice
+  tags: [Inherited Alzheimer's]
+- rank: 18
+  figure: 4 proteins
+  figure_label: make up the active γ-secretase enzyme
+  statement: Aph-1 and Pen-2 bind directly to presenilin and nicastrin in the active γ-secretase complex. Making all four proteins together sharply increased presenilin processing, nicastrin maturation and γ-secretase activity, showing they are the limiting parts of the enzyme.
+  paper: pmid-12740439
+  evidence: Biochemical study in mammalian cells
+  tags: [Aβ production and clearance]
+- rank: 19
+  figure: Large oligomers
+  figure_label: in Alzheimer's brain are mostly inactive until they break into smaller ones
+  statement: Most soluble Aβ in Alzheimer's brains is in large assemblies that had little or no toxic activity. When these dissociated into smaller oligomers of about 8 to 70 kDa, they impaired long-term potentiation and activated microglia in mice, suggesting that conditions breaking up large oligomers drive Aβ toxicity.
+  paper: pmid-28053038
+  evidence: Human brain extracts tested in several bioassays and in mice
+  tags: [Toxic Aβ oligomers]
+- rank: 20
+  figure: 58 kDa tetramer
+  figure_label: is a normal, aggregation-resistant form of α-synuclein
+  statement: α-Synuclein isolated gently from cells, brain tissue and living human cells exists largely as a folded tetramer of about 58 kDa, not only as the unfolded monomer long assumed. The tetramers showed little amyloid-like clumping, unlike recombinant monomers, suggesting that stabilizing tetramers could protect against Parkinson's disease.
+  paper: pmid-21841800
+  evidence: Biochemical and structural study of native α-synuclein
+  tags: [Parkinson's disease]
+- rank: 21
+  figure: All 5 mutations
+  figure_label: tested that cause familial Parkinson's shift α-synuclein from tetramers to monomers
+  statement: Freshly biopsied normal human brain contained abundant α-synuclein tetramers. The A53T and E46K mutations and the other familial Parkinson's missense mutations lowered the tetramer-to-monomer ratio, and further destabilizing tetramers caused neurotoxicity and inclusions.
+  paper: pmid-26076669
+  evidence: Human brain, patient-derived neurons, mice and engineered cell models
+  tags: [Parkinson's disease]
+- rank: 22
+  figure: L-DOPA-responsive
+  figure_label: Parkinson's-like syndrome in mice that cannot form α-synuclein tetramers
+  statement: Mice carrying a tetramer-blocking α-synuclein mutation developed insoluble, phosphorylated α-synuclein, loss of dopamine neurons and a progressive movement disorder with tremor and gait problems that partly responded to L-DOPA.
+  paper: pmid-30308173
+  evidence: Transgenic mouse study
+  tags: [Parkinson's disease]
+- rank: 23
+  figure: SCD
+  figure_label: an enzyme that makes oleic acid, is a possible Parkinson's drug target
+  statement: Excess α-synuclein raised oleic acid and fat droplets in yeast, rodent and human neuron models. Blocking the enzyme stearoyl-CoA desaturase reduced α-synuclein toxicity in rat neurons, reversed inclusions in human neural cells and prevented dopamine neuron loss in worms.
+  paper: pmid-30527540
+  evidence: Lipid profiling and genetic or drug inhibition in yeast, rat and human neurons, and C. elegans
+  tags: [Parkinson's disease, Treatments and biomarkers]
+- rank: 24
+  figure: APOE genotyping
+  figure_label: recommended before starting lecanemab
+  statement: Recommendations for real-world use of lecanemab advise APOE testing because APOE4 carriers, especially those with two copies, are at higher risk of brain swelling and bleeding (ARIA). They advise against lecanemab for people who need anticoagulants until more data are available, and note that most ARIA causes no symptoms but rare cases are serious or fatal.
+  paper: pmid-37357276
+  evidence: Expert consensus recommendations based on phase 2 and 3 trial data
+  tags: [Treatments and biomarkers]
+- rank: 25
+  figure: AUC 0.96
+  figure_label: for a blood test of N-terminal tau separating Alzheimer's from controls
+  statement: A new blood assay for an N-terminal tau fragment (NT1) was raised in Alzheimer's and in mild cognitive impairment due to Alzheimer's. It separated controls from Alzheimer's with an AUC of 0.96 and from MCI with 0.88 in a discovery cohort, and 0.75 and 0.79 in a validation cohort.
+  paper: pmid-30419228
+  evidence: Assay development in discovery and validation cohorts with CSF-confirmed diagnoses
+  tags: [Tau, Treatments and biomarkers]
+- rank: 26
+  figure: 18.3 years
+  figure_label: later symptom onset with PSEN2 variants than with matching PSEN1 variants
+  statement: Across 74 PSEN2 variants, the pattern of Aβ production (Aβ42/40 and Aβ37/42 ratios) tracked the age when symptoms began. Variants with a matching PSEN1 mutation produced similar Aβ patterns, but symptoms started on average 18.3 years later with PSEN2.
+  paper: pmid-39559858
+  evidence: Cell study of 74 PSEN2 variants compared with clinical age at onset
+  tags: [Inherited Alzheimer's]
+- rank: 27
+  figure: Default network
+  figure_label: activity is disrupted in older people with amyloid but no dementia
+  statement: Older people without dementia who had high amyloid on PET showed abnormal fMRI activity in the brain's default network, a memory-related system, resembling the pattern seen in Alzheimer's. This supports the idea that amyloid-positive, cognitively normal people may be in an early stage of the disease.
+  paper: pmid-19640477
+  evidence: Amyloid PET and fMRI in cognitively normal and minimally impaired older adults
+  tags: [Amyloid hypothesis]
