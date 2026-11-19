@@ -192,6 +192,10 @@ def corpus(ex, papers):
             "papers": [{k: p.get(k) for k in keep} for p in papers]}
 
 
+def kslug(t):
+    return re.sub(r'[^a-z0-9]+', '-', str(t).lower()).strip('-')
+
+
 def home(roster, built):
     areas = SITE["areas"]
     people = []
@@ -213,9 +217,11 @@ def home(roster, built):
         link = f'<a href="/{slug}/">{name}</a>' if ex else name
         aff = e(ex.get("affiliation") or r["affiliation"])
         ids = " ".join(area_id[x] for x in r["areas"] if x in area_id)
-        skills = "".join(f'<span class="skill">{e(t)}</span>' for t in (ex.get("tags") or [])[:4])
+        alltags = ex.get("tags") or []
+        skills = "".join(f'<a class="skill" href="#k={e(kslug(t))}" data-k="{e(kslug(t))}">{e(t)}</a>' for t in alltags[:4])
+        ks = "|".join(kslug(t) for t in alltags)
         cc = f'<span class="cites">{cites:,} citations</span>' if cites else ""
-        rows.append(f'      <li class="person-row" data-areas="{ids}" data-last="{e(surname(r))}" data-cites="{cites}"><div class="who"><span class="pn">{link}</span><span class="pa">{aff}</span></div><div class="skills">{skills}</div>{cc}</li>')
+        rows.append(f'      <li class="person-row" data-areas="{ids}" data-last="{e(surname(r))}" data-cites="{cites}" data-k="{e(ks)}"><div class="who"><span class="pn">{link}</span><span class="pa">{aff}</span></div><div class="skills">{skills}</div>{cc}</li>')
     chips = [f'<button class="chip" type="button" data-area="" aria-pressed="true">All<span class="n">{len(people)}</span></button>']
     for a in areas:
         n = sum(a["name"] in r["areas"] for _, r, _ in people)
@@ -236,7 +242,7 @@ def home(roster, built):
     </section>
     <div class="controls" role="region" aria-label="Filter experts">
       <div class="row"><span class="grp" role="group" aria-label="Filter by area"><span class="label">Area</span>{''.join(chips)}</span><span class="grp sortgrp" role="group" aria-label="Sort experts"><span class="label">Sort</span><button class="chip" type="button" data-esort="name" aria-pressed="true">A–Z</button><button class="chip" type="button" data-esort="cites" aria-pressed="false">Most cited</button></span></div>
-      <p class="count ecount" id="count" aria-live="polite"></p>
+      <p class="count ecount"><span id="count" aria-live="polite"></span> <button class="kw" type="button" id="kw" hidden></button></p>
     </div>
     <ol class="people" id="experts">
 {chr(10).join(rows)}
@@ -246,20 +252,25 @@ def home(roster, built):
 </div>
 <script>
 (function(){{
-  var list=document.getElementById('experts'),rows=[].slice.call(list.children),count=document.getElementById('count'),st={{area:'',sort:'name'}};
+  var list=document.getElementById('experts'),rows=[].slice.call(list.children),count=document.getElementById('count'),st={{area:'',sort:'name',k:''}},kw=document.getElementById('kw');
   function render(){{
     rows.sort(function(a,b){{return st.sort==='cites'?(+b.dataset.cites)-(+a.dataset.cites):a.dataset.last.localeCompare(b.dataset.last);}});
-    var n=0;rows.forEach(function(li){{var ok=!st.area||li.dataset.areas.split(' ').indexOf(st.area)>-1;li.hidden=!ok;if(ok)n++;list.appendChild(li);}});
+    var n=0;rows.forEach(function(li){{var ok=(!st.area||li.dataset.areas.split(' ').indexOf(st.area)>-1)&&(!st.k||li.dataset.k.split('|').indexOf(st.k)>-1);li.hidden=!ok;if(ok)n++;list.appendChild(li);}});
     [].forEach.call(document.querySelectorAll('[data-area]'),function(b){{b.setAttribute('aria-pressed',String(b.dataset.area===st.area));}});
     [].forEach.call(document.querySelectorAll('[data-esort]'),function(b){{b.setAttribute('aria-pressed',String(b.dataset.esort===st.sort));}});
-    count.textContent=n+' experts, '+(st.sort==='cites'?'most cited first (citation counts from Europe PMC)':'A to Z by surname');
+    var kl=st.k&&document.querySelector('a.skill[data-k="'+st.k+'"]');kw.hidden=!st.k;if(st.k)kw.innerHTML='Keyword: <b></b> <span aria-hidden="true">×</span>',kw.querySelector('b').textContent=kl?kl.textContent:st.k.replace(/-/g,' '),kw.setAttribute('aria-label','Clear keyword filter');
+    count.textContent=n+(n===1?' expert, ':' experts, ')+(st.sort==='cites'?'most cited first (citation counts from Europe PMC)':'A to Z by surname');
   }}
   document.addEventListener('click',function(ev){{
-    var b=ev.target.closest('[data-area],[data-esort]');if(!b)return;
-    if(b.hasAttribute('data-esort'))st.sort=b.dataset.esort;else{{st.area=b.dataset.area;history.replaceState(null,'',st.area?'#'+st.area:location.pathname);}}
+    var b=ev.target.closest('[data-area],[data-esort],a.skill,#kw');if(!b)return;
+    if(b.hasAttribute('data-esort'))st.sort=b.dataset.esort;
+    else if(b.id==='kw'){{st.k='';history.replaceState(null,'',st.area?'#'+st.area:location.pathname);}}
+    else if(b.classList.contains('skill')){{ev.preventDefault();st.k=b.dataset.k;history.replaceState(null,'','#k='+st.k);document.querySelector('.controls').scrollIntoView({{block:'start'}});}}
+    else{{st.area=b.dataset.area;history.replaceState(null,'',st.area?'#'+st.area:location.pathname);}}
     render();
   }});
-  var h=location.hash.slice(1);if(document.querySelector('[data-area="'+h+'"]'))st.area=h;render();
+  function fromHash(){{var h=decodeURIComponent(location.hash.slice(1));st.k='';if(h.indexOf('k=')===0)st.k=h.slice(2);else if(document.querySelector('[data-area="'+h+'"]'))st.area=h;render();}}
+  window.addEventListener('hashchange',fromHash);fromHash();
 }})();
 </script>
 </body>
