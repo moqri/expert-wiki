@@ -250,6 +250,8 @@ def expert_page(ex, papers, claims, coauthors=(), names=None, pending=()):
 """
     pm = f' · <a href="{e(pub)}">Email alerts through PubMed</a>' if pub else ''
     follow = f'<p class="follow">Follow <a href="feed.xml">New papers (RSS)</a>{pm}</p>'
+    if links:
+        follow = f'<p class="follow web">{links}</p>\n        ' + follow
     cl = ex.get("claimed") or {}
     nver = sum(1 for c in claims if c.get("verified"))
     claimed_line = (f'<p class="claimed">Findings reviewed by {e(name)}' + (f' · {nver} of {len(claims)} expert verified' if nver else '') + '</p>') if cl else \

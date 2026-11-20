@@ -58,7 +58,9 @@ footer{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;paddin
 .person .aff{margin-top:6px;font-size:18px;line-height:1.4}
 .person .aff .dept{display:block;color:var(--muted);font-size:15px}
 .follow{margin:10px 0 0;font-family:var(--sans);font-size:14px;color:var(--muted)}
-.follow a:first-child{margin-left:6px}
+.follow:not(.web) a:first-child{margin-left:6px}
+.follow.web{margin-top:8px}
+.follow.web + .follow{margin-top:4px}
 .claim-link,.claimed{margin-top:10px;font-size:14px;color:var(--muted)}
 .intro.person.about{padding-top:8px}
 .intro.person.about .lede{font-size:20px;color:var(--ink);font-style:italic;max-width:none;margin-top:0}
