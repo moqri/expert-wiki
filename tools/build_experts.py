@@ -163,7 +163,6 @@ def head(title, desc, extra=""):
 def footer(left):
     return f"""  <footer>
     <span>{left}</span>
-    <span class="updated">{e(UPDATED)}</span>
   </footer>"""
 
 
