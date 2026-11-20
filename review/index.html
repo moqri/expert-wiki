@@ -6,7 +6,7 @@
 <meta name="description" content="Review an abstract or proposal against the published findings of a panel of experts.">
 <title>Expert panel review · expert.wiki</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Inter:wght@400;500;600&display=swap">
-<link rel="stylesheet" href="/assets/site.css?v=78f484b9">
+<link rel="stylesheet" href="/assets/site.css?v=52788a3a">
 </head>
 <body>
 <a class="skip" href="#review">Skip to the review form</a>
@@ -22,7 +22,7 @@
     </section>
 
     <section class="ask review" id="review" aria-labelledby="rv-h">
-      <p class="ai-tag"><svg class="spark" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5l1.9 5.6 5.6 1.9-5.6 1.9L12 17.5l-1.9-5.6L4.5 10l5.6-1.9z"/><path d="M19 15.5l.8 2.2 2.2.8-2.2.8-.8 2.2-.8-2.2-2.2-.8 2.2-.8z"/></svg>AI review from published papers</p>
+      <p class="ai-tag"><svg class="spark" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><defs><linearGradient id="aig" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="var(--ai-2)"/><stop offset="1" stop-color="var(--ai)"/></linearGradient></defs><path fill="url(#aig)" d="M9.5 4.5C12.20 10.80 12.20 10.80 18.5 13.5C12.20 16.20 12.20 16.20 9.5 22.5C6.80 16.20 6.80 16.20 0.5 13.5C6.80 10.80 6.80 10.80 9.5 4.5ZM19 1.2999999999999998C20.26 4.24 20.26 4.24 23.2 5.5C20.26 6.76 20.26 6.76 19 9.7C17.74 6.76 17.74 6.76 14.8 5.5C17.74 4.24 17.74 4.24 19 1.2999999999999998ZM19.5 16.7C20.34 18.66 20.34 18.66 22.3 19.5C20.34 20.34 20.34 20.34 19.5 22.3C18.66 20.34 18.66 20.34 16.7 19.5C18.66 18.66 18.66 18.66 19.5 16.7Z"/></svg>AI review from published papers</p>
       <h2 id="rv-h">1. Submission</h2>
       <label class="sr" for="rv-text">Abstract or aims</label>
       <textarea id="rv-text" rows="9" maxlength="8000" placeholder="Paste an abstract, manuscript summary or specific aims (up to about 1,200 words)"></textarea>
@@ -30,7 +30,7 @@
       <div class="row" role="group" aria-label="Filter experts by area"><span class="label">Area</span><button class="chip" type="button" data-rarea="" aria-pressed="true">All</button><button class="chip" type="button" data-rarea="Aging" aria-pressed="false">Aging</button><button class="chip" type="button" data-rarea="Alzheimer&#x27;s" aria-pressed="false">Alzheimer&#x27;s</button><input class="filter" id="rv-find" type="search" placeholder="Find an expert or topic" aria-label="Find an expert or topic"><button class="chip" type="button" id="rv-suggest">Suggest a panel from the text</button></div>
       <div class="panel-pick" id="rv-pick" role="group" aria-label="Experts"></div>
       <p class="note" id="rv-count" aria-live="polite"></p>
-      <button class="go" type="button" id="rv-go"><svg class="spark" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5l1.9 5.6 5.6 1.9-5.6 1.9L12 17.5l-1.9-5.6L4.5 10l5.6-1.9z"/><path d="M19 15.5l.8 2.2 2.2.8-2.2.8-.8 2.2-.8-2.2-2.2-.8 2.2-.8z"/></svg>Review</button>
+      <button class="go" type="button" id="rv-go"><svg class="spark" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path fill="currentColor" d="M9.5 4.5C12.20 10.80 12.20 10.80 18.5 13.5C12.20 16.20 12.20 16.20 9.5 22.5C6.80 16.20 6.80 16.20 0.5 13.5C6.80 10.80 6.80 10.80 9.5 4.5ZM19 1.2999999999999998C20.26 4.24 20.26 4.24 23.2 5.5C20.26 6.76 20.26 6.76 19 9.7C17.74 6.76 17.74 6.76 14.8 5.5C17.74 4.24 17.74 4.24 19 1.2999999999999998ZM19.5 16.7C20.34 18.66 20.34 18.66 22.3 19.5C20.34 20.34 20.34 20.34 19.5 22.3C18.66 20.34 18.66 20.34 16.7 19.5C18.66 18.66 18.66 18.66 19.5 16.7Z"/></svg>Review</button>
     </section>
     <div id="rv-out" class="rv-out" aria-live="polite"></div>
   </main>
