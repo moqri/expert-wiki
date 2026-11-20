@@ -219,31 +219,26 @@ def expert_page(ex, papers, claims, coauthors=(), names=None, pending=()):
     co = "".join(f'<li><a href="/{e(o)}/">{e(names.get(o, o))}</a> <span class="d">{n} paper{"s" if n != 1 else ""}</span></li>' for o, n in coauthors[:10])
     interests = ", ".join(f'<a href="/#k={e(kslug(t))}">{e(t)}</a>' for t in tags)
     pub = f"https://pubmed.ncbi.nlm.nih.gov/?term={urllib.parse.quote(ex['search'])}&sort=date" if ex.get("search") else ""
-    record = f"""    <section class="record" aria-labelledby="rec-h">
-      <h2 class="sec" id="rec-h">Publication record</h2>
-      <div class="rec-grid">
-        <div class="rec-num">
-          <div class="rec-row">
-          <table class="metrics">
-            <thead><tr><th scope="col"></th><th scope="col">All</th><th scope="col">Since {SINCE}</th></tr></thead>
-            <tbody>
-              <tr><th scope="row">Papers</th><td>{allm['papers']:,}</td><td>{recent['papers']:,}</td></tr>
-              <tr><th scope="row">Citations</th><td>{allm['citations']:,}</td><td>{recent['citations']:,}</td></tr>
-              <tr><th scope="row">h-index</th><td>{allm['h']}</td><td>{recent['h']}</td></tr>
-              <tr><th scope="row">i10-index</th><td>{allm['i10']}</td><td>{recent['i10']}</td></tr>
-            </tbody>
-          </table>
-          {chart}
-          </div>
-          <p class="fine">Citations from Europe PMC and Crossref. "Since {SINCE}" covers papers published from {SINCE} on.</p>
-        </div>
-        <dl class="facts">
-          <dt>Research interests</dt><dd>{interests}</dd>
-          {f'<dt>Co-authors on expert.wiki</dt><dd><ul class="coauthors">{co}</ul></dd>' if co else ''}
-          <dt>Follow</dt><dd><a href="feed.xml">New papers (RSS)</a> · {f'<a href="{e(pub)}">Email alerts through PubMed</a>' if pub else ''}</dd>
-        </dl>
-      </div>
-    </section>
+    record = f"""      <aside class="record" aria-labelledby="rec-h">
+        <h2 id="rec-h">Publication record</h2>
+        <table class="metrics">
+          <thead><tr><th scope="col"></th><th scope="col">All</th><th scope="col">Since {SINCE}</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">Papers</th><td>{allm['papers']:,}</td><td>{recent['papers']:,}</td></tr>
+            <tr><th scope="row">Citations</th><td>{allm['citations']:,}</td><td>{recent['citations']:,}</td></tr>
+            <tr><th scope="row">h-index</th><td>{allm['h']}</td><td>{recent['h']}</td></tr>
+            <tr><th scope="row">i10-index</th><td>{allm['i10']}</td><td>{recent['i10']}</td></tr>
+          </tbody>
+        </table>
+        {chart}
+        <p class="fine">Citations from Europe PMC and Crossref. "Since {SINCE}" covers papers published from {SINCE} on.</p>
+      </aside>
+"""
+    facts = f"""    <dl class="facts">
+      <dt>Research interests</dt><dd>{interests}</dd>
+      {f'<dt>Co-authors on expert.wiki</dt><dd><ul class="coauthors">{co}</ul></dd>' if co else ''}
+      <dt>Follow</dt><dd><a href="feed.xml">New papers (RSS)</a>{f' · <a href="{e(pub)}">Email alerts through PubMed</a>' if pub else ''}</dd>
+    </dl>
 """
     cl = ex.get("claimed") or {}
     nver = sum(1 for c in claims if c.get("verified"))
@@ -257,14 +252,15 @@ def expert_page(ex, papers, claims, coauthors=(), names=None, pending=()):
     <a class="mark" href="/">expert<span>.wiki</span></a><span class="crumb">{e(name)}</span>
   </header>
   <main id="main">
-    <section class="intro person">
-      <p class="label">{areas}</p>
-      <h1>{e(full)}</h1>
-      <p class="aff">{aff}</p>
-      {claimed_line}
-    </section>
-
-{record}
+    <div class="head-grid">
+      <section class="intro person">
+        <p class="label">{areas}</p>
+        <h1>{e(full)}</h1>
+        <p class="aff">{aff}</p>
+        {claimed_line}
+      </section>
+{record}    </div>
+{facts}
     <section class="ask" id="ask" aria-labelledby="ask-h">
       <h2 id="ask-h">Ask about {e(name)}'s research</h2>
       <p class="hint">Answers are drawn only from {e(name)}'s published papers listed on this page, with each point linked to its paper. They describe what the papers report, not personal views or advice from {e(name)}. This is not medical advice.</p>
