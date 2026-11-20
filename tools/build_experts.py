@@ -339,7 +339,7 @@ def expert_page(ex, papers, claims, coauthors=(), names=None, pending=()):
       </div>
     </details>
   </main>
-{footer('expert.wiki · <a href="/">All experts</a> · A proof of concept for the <a href="https://c-brain.org/c-brain-ai-discovery-partners/">C-BRAIN AI Discovery Partners</a> program, developed by <a href="https://moqri.bwh.harvard.edu/">Mahdi Moqri</a> in his personal capacity')}
+{footer('expert.wiki · <a href="/">All experts</a> · A proof of concept for the <a href="https://c-brain.org/c-brain-ai-discovery-partners/">C-BRAIN AI Discovery Partners</a> program, developed by <a href="https://www.linkedin.com/in/mahdi-moqri/">Mahdi Moqri</a> in his personal capacity')}
 </div>
 <script>window.EXPERT={json.dumps({"slug": slug, "name": name, "pending": [{k: q.get(k) for k in ("id", "title", "journal", "year", "doi", "pmid")} for q in pending], "endpoint": endpoint, "papers": len(papers), "abstracts": sum(1 for q in papers if q.get("abstract")), "claim_url": SITE.get("claim_url", "")})};</script>
 <script src="/assets/expert.js?v={asset_ver('/assets/expert.js')}"></script>
@@ -459,7 +459,7 @@ def home(roster, built):
 {chr(10).join(rows)}
     </ol>
   </main>
-{footer('expert.wiki · A proof of concept for the <a href="https://c-brain.org/c-brain-ai-discovery-partners/">C-BRAIN AI Discovery Partners</a> program, developed by <a href="https://moqri.bwh.harvard.edu/">Mahdi Moqri</a> in his personal capacity · <a href="' + e(suggest) + '">Feedback</a>')}
+{footer('expert.wiki · A proof of concept for the <a href="https://c-brain.org/c-brain-ai-discovery-partners/">C-BRAIN AI Discovery Partners</a> program, developed by <a href="https://www.linkedin.com/in/mahdi-moqri/">Mahdi Moqri</a> in his personal capacity · <a href="' + e(suggest) + '">Feedback</a>')}
 </div>
 <script>
 (function(){{
@@ -528,7 +528,7 @@ def review_page(roster, built):
     </section>
     <div id="rv-out" class="rv-out" aria-live="polite"></div>
   </main>
-{footer('expert.wiki · <a href="/">All experts</a> · A proof of concept for the <a href="https://c-brain.org/c-brain-ai-discovery-partners/">C-BRAIN AI Discovery Partners</a> program, developed by <a href="https://moqri.bwh.harvard.edu/">Mahdi Moqri</a> in his personal capacity')}
+{footer('expert.wiki · <a href="/">All experts</a> · A proof of concept for the <a href="https://c-brain.org/c-brain-ai-discovery-partners/">C-BRAIN AI Discovery Partners</a> program, developed by <a href="https://www.linkedin.com/in/mahdi-moqri/">Mahdi Moqri</a> in his personal capacity')}
 </div>
 <script>window.REVIEW={json.dumps({"endpoint": endpoint, "experts": idx}, ensure_ascii=False)};</script>
 <script src="/assets/review.js?v={asset_ver('/assets/review.js')}"></script>
