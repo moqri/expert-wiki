@@ -206,9 +206,9 @@ def expert_page(ex, papers, claims, coauthors=(), names=None, pending=()):
     allm, recent = metrics(papers)
     ys = per_year(papers)
     peak = max((n for _, n, _ in ys), default=1) or 1
-    bars = "".join(f'<span class="yb" style="height:{max(2, round(60 * n / peak))}px" title="{y}: {n} paper{"s" if n != 1 else ""}, cited {c:,} times"></span>' for y, n, c in ys)
+    bars = "".join(f'<span class="yb" style="height:{max(1, round(24 * n / peak))}px" title="{y}: {n} paper{"s" if n != 1 else ""}"></span>' for y, n, c in ys)
     chart = (f'<figure class="years"><div class="ybars" role="img" aria-label="Papers per year, {ys[0][0]} to {ys[-1][0]}">{bars}</div>'
-             f'<figcaption><span>{ys[0][0]}</span>Papers per year<span>{ys[-1][0]}</span></figcaption></figure>') if ys else ""
+             f'<figcaption>Papers per year, {ys[0][0]}–{ys[-1][0]}</figcaption></figure>') if ys else ""
     names = names or {}
     co = "".join(f'<li><a href="/{e(o)}/">{e(names.get(o, o))}</a> <span class="d">{n} paper{"s" if n != 1 else ""}</span></li>' for o, n in coauthors[:10])
     interests = ", ".join(f'<a href="/#k={e(kslug(t))}">{e(t)}</a>' for t in tags)
@@ -216,23 +216,25 @@ def expert_page(ex, papers, claims, coauthors=(), names=None, pending=()):
     record = f"""    <section class="record" aria-labelledby="rec-h">
       <h2 class="sec" id="rec-h">Publication record</h2>
       <div class="rec-grid">
-        <table class="metrics">
-          <thead><tr><th scope="col"></th><th scope="col">All</th><th scope="col">Since {SINCE}</th></tr></thead>
-          <tbody>
-            <tr><th scope="row">Papers</th><td>{allm['papers']:,}</td><td>{recent['papers']:,}</td></tr>
-            <tr><th scope="row">Citations</th><td>{allm['citations']:,}</td><td>{recent['citations']:,}</td></tr>
-            <tr><th scope="row">h-index</th><td>{allm['h']}</td><td>{recent['h']}</td></tr>
-            <tr><th scope="row">i10-index</th><td>{allm['i10']}</td><td>{recent['i10']}</td></tr>
-          </tbody>
-        </table>
-        {chart}
+        <div class="rec-num">
+          <table class="metrics">
+            <thead><tr><th scope="col"></th><th scope="col">All</th><th scope="col">Since {SINCE}</th></tr></thead>
+            <tbody>
+              <tr><th scope="row">Papers</th><td>{allm['papers']:,}</td><td>{recent['papers']:,}</td></tr>
+              <tr><th scope="row">Citations</th><td>{allm['citations']:,}</td><td>{recent['citations']:,}</td></tr>
+              <tr><th scope="row">h-index</th><td>{allm['h']}</td><td>{recent['h']}</td></tr>
+              <tr><th scope="row">i10-index</th><td>{allm['i10']}</td><td>{recent['i10']}</td></tr>
+            </tbody>
+          </table>
+          {chart}
+          <p class="fine">Citations from Europe PMC and Crossref. "Since {SINCE}" covers papers published from {SINCE} on.</p>
+        </div>
+        <dl class="facts">
+          <dt>Research interests</dt><dd>{interests}</dd>
+          {f'<dt>Co-authors on expert.wiki</dt><dd><ul class="coauthors">{co}</ul></dd>' if co else ''}
+          <dt>Follow</dt><dd><a href="feed.xml">New papers (RSS)</a> · {f'<a href="{e(pub)}">Email alerts through PubMed</a>' if pub else ''}</dd>
+        </dl>
       </div>
-      <p class="fine">Citation counts from Europe PMC and Crossref. "Since {SINCE}" counts papers published from {SINCE} on.</p>
-      <dl class="facts">
-        <dt>Research interests</dt><dd>{interests}</dd>
-        {f'<dt>Co-authors on expert.wiki</dt><dd><ul class="coauthors">{co}</ul></dd>' if co else ''}
-        <dt>Follow</dt><dd><a href="feed.xml">New papers (RSS)</a>{f' · <a href="{e(pub)}">Email alerts through PubMed</a>' if pub else ''}</dd>
-      </dl>
     </section>
 """
     cl = ex.get("claimed") or {}
