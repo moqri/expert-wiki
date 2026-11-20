@@ -20,6 +20,7 @@
       <p class="label"><span class="area">Alzheimer&#x27;s</span></p>
       <h1>David M. Holtzman, MD</h1>
       <p class="aff">Washington University School of Medicine in St. Louis<span class="dept">Department of Neurology</span></p>
+      <p class="claim-link"><a href="#claim" id="claim-open">Are you David? Claim this page</a> to verify or improve these findings.</p>
     </section>
 
     <section class="ask" id="ask" aria-labelledby="ask-h">
@@ -53,164 +54,183 @@
       <div class="row" role="group" aria-label="Filter by tag"><span class="label">Tags</span><button class="chip" type="button" data-filter="" aria-pressed="true">All<span class="n">26</span></button><button class="chip" type="button" data-filter="APOE" aria-pressed="false">APOE<span class="n">12</span></button><button class="chip" type="button" data-filter="Sleep" aria-pressed="false">Sleep<span class="n">6</span></button><button class="chip" type="button" data-filter="Microglia and immunity" aria-pressed="false">Microglia and immunity<span class="n">7</span></button><button class="chip" type="button" data-filter="Tau" aria-pressed="false">Tau<span class="n">13</span></button><button class="chip" type="button" data-filter="Amyloid" aria-pressed="false">Amyloid<span class="n">13</span></button><button class="chip" type="button" data-filter="Therapies" aria-pressed="false">Therapies<span class="n">7</span></button><button class="chip" type="button" data-filter="Biomarkers" aria-pressed="false">Biomarkers<span class="n">3</span></button></div>
       <div class="row" role="group" aria-label="Sort"><span class="label">Sort</span><button class="chip" type="button" data-sort="rank" aria-pressed="true">Most important</button><button class="chip" type="button" data-sort="year" aria-pressed="false">Newest</button><span class="count" id="count" aria-live="polite"></span></div>
     </div>
+    <section class="claim-panel" id="claim" hidden aria-labelledby="claim-h">
+      <h2 id="claim-h">Review these findings</h2>
+      <p>Mark each finding as correct, edit its wording, or flag it for removal. You can also add findings that are missing. Your progress is saved in this browser. When you send the review, we confirm your identity through the contact details on your ORCID record or institutional page before publishing any change, and confirmed findings then show "Expert verified".</p>
+      <p class="claim-progress" id="claim-progress" aria-live="polite"></p>
+    </section>
     <ol class="claims" id="claims">
-      <li class="claim" data-rank="1" data-year="2017" data-tags="APOE|Tau">
+      <li class="claim" data-rank="1" data-year="2017" data-tags="APOE|Tau" data-paper="pmid-28959956" data-cite="Shi et al. 2017, Nature">
         <span class="rank">1</span>
         <div class="fig"><span class="n">APOE4 → more tau damage</span><span class="fl">independent of amyloid</span></div>
         <div class="body"><p class="stmt">In tau mice carrying human APOE genes, APOE4 caused markedly more brain shrinkage and inflammation than APOE2 or APOE3, while mice with no APOE were largely protected. In people with amyloid and Alzheimer&#x27;s symptoms, APOE4 carriers progressed faster.</p><div class="c-top"><button class="tag" type="button" data-tag="APOE">APOE</button><button class="tag" type="button" data-tag="Tau">Tau</button></div></div>
         <div class="ev"><a href="https://doi.org/10.1038/nature24016">Shi et al. 2017 · <i>Nature</i></a><span class="d">Mouse tauopathy model on human APOE knock-in or knockout backgrounds, plus human imaging cohorts</span></div>
       </li>
-      <li class="claim" data-rank="2" data-year="2009" data-tags="Sleep|Amyloid">
+      <li class="claim" data-rank="2" data-year="2009" data-tags="Sleep|Amyloid" data-paper="pmid-19779148" data-cite="Kang et al. 2009, Science">
         <span class="rank">2</span>
         <div class="fig"><span class="n">Wake ↑ amyloid</span><span class="fl">sleep-wake cycle regulates brain amyloid-β</span></div>
         <div class="body"><p class="stmt">Amyloid-β in the fluid around brain cells rose with wakefulness and during sleep deprivation, and fell when the wake-promoting signal orexin was blocked. Chronic sleep restriction increased amyloid plaques in mice, and an orexin receptor blocker reduced them.</p><div class="c-top"><button class="tag" type="button" data-tag="Sleep">Sleep</button><button class="tag" type="button" data-tag="Amyloid">Amyloid</button></div></div>
         <div class="ev"><a href="https://doi.org/10.1126/science.1180962">Kang et al. 2009 · <i>Science</i></a><span class="d">In vivo brain microdialysis and chronic sleep restriction in amyloid mouse models</span></div>
       </li>
-      <li class="claim" data-rank="3" data-year="2019" data-tags="Sleep|Tau">
+      <li class="claim" data-rank="3" data-year="2019" data-tags="Sleep|Tau" data-paper="pmid-30679382" data-cite="Holth et al. 2019, Science">
         <span class="rank">3</span>
         <div class="fig"><span class="n">&gt;50%</span><span class="fl">rise in human spinal fluid tau after sleep deprivation</span></div>
         <div class="body"><p class="stmt">Tau in mouse brain fluid was about 90% higher during normal wakefulness than sleep and about 100% higher during sleep deprivation. In people, spinal fluid tau rose more than 50% with sleep deprivation, and chronic sleep loss sped the spread of tau pathology in mice.</p><div class="c-top"><button class="tag" type="button" data-tag="Sleep">Sleep</button><button class="tag" type="button" data-tag="Tau">Tau</button></div></div>
         <div class="ev"><a href="https://doi.org/10.1126/science.aav2546">Holth et al. 2019 · <i>Science</i></a><span class="d">Mouse microdialysis and tau-spreading model, plus human sleep deprivation with spinal fluid sampling</span></div>
       </li>
-      <li class="claim" data-rank="4" data-year="2011" data-tags="APOE|Amyloid">
+      <li class="claim" data-rank="4" data-year="2011" data-tags="APOE|Amyloid" data-paper="pmid-21715678" data-cite="Castellano et al. 2011, Sci Transl Med">
         <span class="rank">4</span>
         <div class="fig"><span class="n">Clearance, not production</span><span class="fl">how APOE forms change amyloid-β</span></div>
         <div class="body"><p class="stmt">In cognitively normal people, amyloid markers varied by APOE type. In mice with human APOE, brain amyloid-β clearance depended on the APOE form even before plaques appeared, while amyloid-β production did not differ.</p><div class="c-top"><button class="tag" type="button" data-tag="APOE">APOE</button><button class="tag" type="button" data-tag="Amyloid">Amyloid</button></div></div>
         <div class="ev"><a href="https://doi.org/10.1126/scitranslmed.3002156">Castellano et al. 2011 · <i>Sci Transl Med</i></a><span class="d">Human biomarker cohort plus in vivo microdialysis and stable isotope labeling in mice</span></div>
       </li>
-      <li class="claim" data-rank="5" data-year="2000" data-tags="APOE|Amyloid">
+      <li class="claim" data-rank="5" data-year="2000" data-tags="APOE|Amyloid" data-paper="pmid-10694577" data-cite="Holtzman et al. 2000, Proc Natl Acad Sci U S A">
         <span class="rank">5</span>
         <div class="fig"><span class="n">&gt;10×</span><span class="fl">more fibrillar amyloid with APOE4 than APOE3</span></div>
         <div class="body"><p class="stmt">Amyloid mice with no APOE had amyloid deposits but almost no damage to surrounding nerve fibers. Adding human APOE produced classic neuritic plaques, and APOE4 mice had more than 10 times as many fibrillar deposits as APOE3 mice.</p><div class="c-top"><button class="tag" type="button" data-tag="APOE">APOE</button><button class="tag" type="button" data-tag="Amyloid">Amyloid</button></div></div>
         <div class="ev"><a href="https://doi.org/10.1073/pnas.050004797">Holtzman et al. 2000 · <i>Proc Natl Acad Sci U S A</i></a><span class="d">Amyloid precursor protein transgenic mice expressing mouse, human or no APOE</span></div>
       </li>
-      <li class="claim" data-rank="6" data-year="2021" data-tags="APOE|Tau|Microglia and immunity">
+      <li class="claim" data-rank="6" data-year="2021" data-tags="APOE|Tau|Microglia and immunity" data-paper="pmid-33831349" data-cite="Wang et al. 2021, Neuron">
         <span class="rank">6</span>
         <div class="fig"><span class="n">Astrocyte APOE4 off</span><span class="fl">strongly protects against tau damage</span></div>
         <div class="body"><p class="stmt">Switching off APOE4 in astrocytes after tau pathology had started markedly reduced neurodegeneration and tau pathology, lowered disease-related gene activity in all brain cell types, and reduced microglia eating synapses.</p><div class="c-top"><button class="tag" type="button" data-tag="APOE">APOE</button><button class="tag" type="button" data-tag="Tau">Tau</button><button class="tag" type="button" data-tag="Microglia and immunity">Microglia and immunity</button></div></div>
         <div class="ev"><a href="https://doi.org/10.1016/j.neuron.2021.03.024">Wang et al. 2021 · <i>Neuron</i></a><span class="d">Conditional knockout of astrocyte APOE3 or APOE4 in tau mice, with single-nucleus RNA sequencing</span></div>
       </li>
-      <li class="claim" data-rank="7" data-year="2023" data-tags="Microglia and immunity|Tau">
+      <li class="claim" data-rank="7" data-year="2023" data-tags="Microglia and immunity|Tau" data-paper="pmid-36890231" data-cite="Chen et al. 2023, Nature">
         <span class="rank">7</span>
         <div class="fig"><span class="n">T cells</span><span class="fl">drive tau-related brain loss</span></div>
         <div class="body"><p class="stmt">Mice with tau pathology, but not those with only amyloid, developed a distinct immune response with many cytotoxic T cells, also seen in human Alzheimer&#x27;s brain. Removing microglia or T cells blocked brain shrinkage, and blocking interferon-γ or PD-1 signaling reduced it.</p><div class="c-top"><button class="tag" type="button" data-tag="Microglia and immunity">Microglia and immunity</button><button class="tag" type="button" data-tag="Tau">Tau</button></div></div>
         <div class="ev"><a href="https://doi.org/10.1038/s41586-023-05788-0">Chen et al. 2023 · <i>Nature</i></a><span class="d">Immune profiling of amyloid and tau mouse models and human Alzheimer&#x27;s brain tissue</span></div>
       </li>
-      <li class="claim" data-rank="8" data-year="2019" data-tags="Microglia and immunity|APOE|Tau">
+      <li class="claim" data-rank="8" data-year="2019" data-tags="Microglia and immunity|APOE|Tau" data-paper="pmid-31601677" data-cite="Shi et al. 2019, J Exp Med">
         <span class="rank">8</span>
         <div class="fig"><span class="n">Microglia</span><span class="fl">drive APOE-dependent neurodegeneration</span></div>
         <div class="body"><p class="stmt">In a tau mouse model, damage caused by microglia, rather than direct toxicity of tau, was the main driver of neurodegeneration, and APOE controlled neurodegeneration mainly by changing how activated microglia became.</p><div class="c-top"><button class="tag" type="button" data-tag="Microglia and immunity">Microglia and immunity</button><button class="tag" type="button" data-tag="APOE">APOE</button><button class="tag" type="button" data-tag="Tau">Tau</button></div></div>
         <div class="ev"><a href="https://doi.org/10.1084/jem.20190980">Shi et al. 2019 · <i>J Exp Med</i></a><span class="d">Microglia depletion in tau mice with different APOE genotypes</span></div>
       </li>
-      <li class="claim" data-rank="9" data-year="2005" data-tags="Amyloid">
+      <li class="claim" data-rank="9" data-year="2005" data-tags="Amyloid" data-paper="pmid-16364896" data-cite="Cirrito et al. 2005, Neuron">
         <span class="rank">9</span>
         <div class="fig"><span class="n">Minutes to hours</span><span class="fl">synaptic activity changes brain amyloid-β</span></div>
         <div class="body"><p class="stmt">Brain fluid amyloid-β levels rose and fell with synaptic activity within minutes to hours, driven mainly by release from synaptic vesicles, offering a reason why active brain regions are prone to amyloid build-up.</p><div class="c-top"><button class="tag" type="button" data-tag="Amyloid">Amyloid</button></div></div>
         <div class="ev"><a href="https://doi.org/10.1016/j.neuron.2005.10.028">Cirrito et al. 2005 · <i>Neuron</i></a><span class="d">In vivo microdialysis with field potential recordings in mice, and brain slice experiments</span></div>
       </li>
-      <li class="claim" data-rank="10" data-year="2011" data-tags="Amyloid">
+      <li class="claim" data-rank="10" data-year="2011" data-tags="Amyloid" data-paper="pmid-21532579" data-cite="Bero et al. 2011, Nat Neurosci">
         <span class="rank">10</span>
         <div class="fig"><span class="n">Less activity, fewer plaques</span><span class="fl">neuronal activity sets regional vulnerability</span></div>
         <div class="body"><p class="stmt">Before plaques formed, brain regions with higher amyloid-β and lactate, a marker of neuronal activity, later had more plaques. Long-term reduction of whisker input lowered amyloid-β and plaque growth in the matching brain area.</p><div class="c-top"><button class="tag" type="button" data-tag="Amyloid">Amyloid</button></div></div>
         <div class="ev"><a href="https://doi.org/10.1038/nn.2801">Bero et al. 2011 · <i>Nat Neurosci</i></a><span class="d">Microdialysis across brain regions and whisker deprivation in amyloid mice</span></div>
       </li>
-      <li class="claim" data-rank="11" data-year="2021" data-tags="Therapies|APOE|Amyloid">
+      <li class="claim" data-rank="11" data-year="2021" data-tags="Therapies|APOE|Amyloid" data-paper="pmid-33597265" data-cite="Xiong et al. 2021, Sci Transl Med">
         <span class="rank">11</span>
         <div class="fig"><span class="n">Ab-APOE, no bleeds</span><span class="fl">antibody to APOE cleared vessel amyloid</span></div>
         <div class="body"><p class="stmt">An antibody against aggregated human APOE (HAE-4) reduced amyloid in plaques and in blood vessel walls and improved vessel function, without the microbleeds that an anti-amyloid antibody caused in the same APOE4 mice.</p><div class="c-top"><button class="tag" type="button" data-tag="Therapies">Therapies</button><button class="tag" type="button" data-tag="APOE">APOE</button><button class="tag" type="button" data-tag="Amyloid">Amyloid</button></div></div>
         <div class="ev"><a href="https://doi.org/10.1126/scitranslmed.abd7522">Xiong et al. 2021 · <i>Sci Transl Med</i></a><span class="d">Chronic antibody treatment in APOE4 amyloid mice with cerebral amyloid angiopathy</span></div>
       </li>
-      <li class="claim" data-rank="12" data-year="2021" data-tags="Therapies|APOE|Tau">
+      <li class="claim" data-rank="12" data-year="2021" data-tags="Therapies|APOE|Tau" data-paper="pmid-33550655" data-cite="Litvinchuk et al. 2021, Ann Neurol">
         <span class="rank">12</span>
         <div class="fig"><span class="n">~50%</span><span class="fl">APOE4 lowering protected the brain</span></div>
         <div class="body"><p class="stmt">Antisense drugs that cut APOE4 protein by about 50% in tau mice protected against tau pathology and neurodegeneration, reduced inflammation, preserved synapses, and lowered the blood marker neurofilament light.</p><div class="c-top"><button class="tag" type="button" data-tag="Therapies">Therapies</button><button class="tag" type="button" data-tag="APOE">APOE</button><button class="tag" type="button" data-tag="Tau">Tau</button></div></div>
         <div class="ev"><a href="https://doi.org/10.1002/ana.26043">Litvinchuk et al. 2021 · <i>Ann Neurol</i></a><span class="d">Intraventricular antisense oligonucleotide treatment in P301S/APOE4 mice</span></div>
       </li>
-      <li class="claim" data-rank="13" data-year="2017" data-tags="Therapies|APOE|Amyloid">
+      <li class="claim" data-rank="13" data-year="2017" data-tags="Therapies|APOE|Amyloid" data-paper="pmid-29216448" data-cite="Huynh et al. 2017, Neuron">
         <span class="rank">13</span>
         <div class="fig"><span class="n">Timing matters</span><span class="fl">for lowering APOE against amyloid</span></div>
         <div class="body"><p class="stmt">Lowering APOE with an antisense drug soon after birth reduced amyloid pathology, but starting when plaques were forming did not change total plaque load, though plaques were larger and caused less nerve damage.</p><div class="c-top"><button class="tag" type="button" data-tag="Therapies">Therapies</button><button class="tag" type="button" data-tag="APOE">APOE</button><button class="tag" type="button" data-tag="Amyloid">Amyloid</button></div></div>
         <div class="ev"><a href="https://doi.org/10.1016/j.neuron.2017.11.014">Huynh et al. 2017 · <i>Neuron</i></a><span class="d">Antisense oligonucleotide treatment at two ages in APOE3 and APOE4 amyloid mice</span></div>
       </li>
-      <li class="claim" data-rank="14" data-year="2018" data-tags="Therapies|APOE|Amyloid">
+      <li class="claim" data-rank="14" data-year="2018" data-tags="Therapies|APOE|Amyloid" data-paper="pmid-29600961" data-cite="Liao et al. 2018, J Clin Invest">
         <span class="rank">14</span>
         <div class="fig"><span class="n">Aggregated APOE</span><span class="fl">as an antibody target</span></div>
         <div class="body"><p class="stmt">An antibody that prefers clumped, lipid-free APOE over the APOE in circulation bound APOE in plaques and reduced amyloid deposition when given into the brain or by injection, an effect that needed the antibody&#x27;s immune-activating Fc region.</p><div class="c-top"><button class="tag" type="button" data-tag="Therapies">Therapies</button><button class="tag" type="button" data-tag="APOE">APOE</button><button class="tag" type="button" data-tag="Amyloid">Amyloid</button></div></div>
         <div class="ev"><a href="https://doi.org/10.1172/JCI96429">Liao et al. 2018 · <i>J Clin Invest</i></a><span class="d">Antibody discovery and treatment in APOE4 amyloid mice, central and peripheral delivery</span></div>
       </li>
-      <li class="claim" data-rank="15" data-year="2024" data-tags="APOE|Tau|Microglia and immunity">
+      <li class="claim" data-rank="15" data-year="2024" data-tags="APOE|Tau|Microglia and immunity" data-paper="pmid-38086389" data-cite="Chen et al. 2024, Cell">
         <span class="rank">15</span>
         <div class="fig"><span class="n">APOE3 Christchurch</span><span class="fl">blocked amyloid-driven tau spread</span></div>
         <div class="body"><p class="stmt">Mice carrying the protective APOE3 Christchurch variant, found in a person who resisted inherited Alzheimer&#x27;s, had much less tau pathology around plaques, with a stronger microglial response and better clearance of tau clumps.</p><div class="c-top"><button class="tag" type="button" data-tag="APOE">APOE</button><button class="tag" type="button" data-tag="Tau">Tau</button><button class="tag" type="button" data-tag="Microglia and immunity">Microglia and immunity</button></div></div>
         <div class="ev"><a href="https://doi.org/10.1016/j.cell.2023.11.029">Chen et al. 2024 · <i>Cell</i></a><span class="d">New APOE3ch knock-in mouse crossed to amyloid model, injected with human Alzheimer&#x27;s tau</span></div>
       </li>
-      <li class="claim" data-rank="16" data-year="2013" data-tags="Therapies|Tau">
+      <li class="claim" data-rank="16" data-year="2013" data-tags="Therapies|Tau" data-paper="pmid-24075978" data-cite="Yanamandra et al. 2013, Neuron">
         <span class="rank">16</span>
         <div class="fig"><span class="n">Anti-tau antibodies</span><span class="fl">reduced tau and improved memory in mice</span></div>
         <div class="body"><p class="stmt">Antibodies chosen for blocking tau seeding, given into the brain for 3 months, reduced aggregated tau, microglial activation and seeding activity, and improved cognitive deficits in tau mice.</p><div class="c-top"><button class="tag" type="button" data-tag="Therapies">Therapies</button><button class="tag" type="button" data-tag="Tau">Tau</button></div></div>
         <div class="ev"><a href="https://doi.org/10.1016/j.neuron.2013.07.046">Yanamandra et al. 2013 · <i>Neuron</i></a><span class="d">Three-month antibody infusion in P301S tau mice</span></div>
       </li>
-      <li class="claim" data-rank="17" data-year="2001" data-tags="Therapies|Amyloid">
+      <li class="claim" data-rank="17" data-year="2001" data-tags="Therapies|Amyloid" data-paper="pmid-11438712" data-cite="DeMattos et al. 2001, Proc Natl Acad Sci U S A">
         <span class="rank">17</span>
         <div class="fig"><span class="n">1,000×</span><span class="fl">rise in blood amyloid-β with a peripheral antibody</span></div>
         <div class="body"><p class="stmt">An anti-amyloid antibody (m266) given into the blood bound plasma amyloid-β, raised it about 1,000-fold, and reduced brain amyloid deposits without binding the plaques, suggesting it worked by drawing amyloid-β out of the brain.</p><div class="c-top"><button class="tag" type="button" data-tag="Therapies">Therapies</button><button class="tag" type="button" data-tag="Amyloid">Amyloid</button></div></div>
         <div class="ev"><a href="https://doi.org/10.1073/pnas.151261398">DeMattos et al. 2001 · <i>Proc Natl Acad Sci U S A</i></a><span class="d">Peripheral antibody treatment in PDAPP amyloid mice</span></div>
       </li>
-      <li class="claim" data-rank="18" data-year="2024" data-tags="Therapies|APOE|Tau">
+      <li class="claim" data-rank="18" data-year="2024" data-tags="Therapies|APOE|Tau" data-paper="pmid-37995685" data-cite="Litvinchuk et al. 2024, Neuron">
         <span class="rank">18</span>
         <div class="fig"><span class="n">Lipid efflux</span><span class="fl">eased APOE4-linked tau damage</span></div>
         <div class="body"><p class="stmt">In tau mice, APOE4 led to fat build-up and cholesterol and lysosome problems in glial cells. Boosting lipid export with an LXR agonist or extra ABCA1 strongly reduced tau pathology and neurodegeneration.</p><div class="c-top"><button class="tag" type="button" data-tag="Therapies">Therapies</button><button class="tag" type="button" data-tag="APOE">APOE</button><button class="tag" type="button" data-tag="Tau">Tau</button></div></div>
         <div class="ev"><a href="https://doi.org/10.1016/j.neuron.2023.10.023">Litvinchuk et al. 2024 · <i>Neuron</i></a><span class="d">Drug and genetic treatment in P301S tau mice with human APOE4</span></div>
       </li>
-      <li class="claim" data-rank="19" data-year="2023" data-tags="Microglia and immunity|APOE|Tau">
+      <li class="claim" data-rank="19" data-year="2023" data-tags="Microglia and immunity|APOE|Tau" data-paper="pmid-36634180" data-cite="Seo et al. 2023, Science">
         <span class="rank">19</span>
         <div class="fig"><span class="n">Gut microbes</span><span class="fl">influence tau-related brain damage</span></div>
         <div class="body"><p class="stmt">Raising tau mice with human APOE germ-free, or altering their gut microbes with antibiotics, reduced gliosis, tau pathology and neurodegeneration, with effects that depended on sex and APOE type.</p><div class="c-top"><button class="tag" type="button" data-tag="Microglia and immunity">Microglia and immunity</button><button class="tag" type="button" data-tag="APOE">APOE</button><button class="tag" type="button" data-tag="Tau">Tau</button></div></div>
         <div class="ev"><a href="https://doi.org/10.1126/science.add1236">Seo et al. 2023 · <i>Science</i></a><span class="d">Germ-free and antibiotic-treated tau mice expressing human APOE isoforms</span></div>
       </li>
-      <li class="claim" data-rank="20" data-year="2017" data-tags="Microglia and immunity|Tau">
+      <li class="claim" data-rank="20" data-year="2017" data-tags="Microglia and immunity|Tau" data-paper="pmid-29073081" data-cite="Leyns et al. 2017, Proc Natl Acad Sci U S A">
         <span class="rank">20</span>
         <div class="fig"><span class="n">TREM2 loss protects</span><span class="fl">in tau mice, unlike in amyloid</span></div>
         <div class="body"><p class="stmt">Tau mice lacking the microglial receptor TREM2 had less brain shrinkage and less microglial activation by 9 months, though tau pathology itself was unchanged.</p><div class="c-top"><button class="tag" type="button" data-tag="Microglia and immunity">Microglia and immunity</button><button class="tag" type="button" data-tag="Tau">Tau</button></div></div>
         <div class="ev"><a href="https://doi.org/10.1073/pnas.1710311114">Leyns et al. 2017 · <i>Proc Natl Acad Sci U S A</i></a><span class="d">Trem2 knockout crossed to PS19 tau mice</span></div>
       </li>
-      <li class="claim" data-rank="21" data-year="2015" data-tags="Microglia and immunity|Amyloid">
+      <li class="claim" data-rank="21" data-year="2015" data-tags="Microglia and immunity|Amyloid" data-paper="pmid-25728668" data-cite="Wang et al. 2015, Cell">
         <span class="rank">21</span>
         <div class="fig"><span class="n">TREM2</span><span class="fl">lets microglia sense lipids and surround plaques</span></div>
         <div class="body"><p class="stmt">Without TREM2, microglia failed to cluster around amyloid plaques and amyloid built up. TREM2 senses lipids exposed on damaged neurons and amyloid, and the Alzheimer&#x27;s risk variant R47H weakens this sensing.</p><div class="c-top"><button class="tag" type="button" data-tag="Microglia and immunity">Microglia and immunity</button><button class="tag" type="button" data-tag="Amyloid">Amyloid</button></div></div>
         <div class="ev"><a href="https://doi.org/10.1016/j.cell.2015.01.049">Wang et al. 2015 · <i>Cell</i></a><span class="d">TREM2-deficient 5XFAD amyloid mice and lipid-binding assays</span></div>
       </li>
-      <li class="claim" data-rank="22" data-year="2017" data-tags="Sleep|Amyloid|Tau">
+      <li class="claim" data-rank="22" data-year="2017" data-tags="Sleep|Amyloid|Tau" data-paper="pmid-28899014" data-cite="Ju et al. 2017, Brain">
         <span class="rank">22</span>
         <div class="fig"><span class="n">Deep sleep</span><span class="fl">disruption raises amyloid-β the next morning</span></div>
         <div class="body"><p class="stmt">In 17 healthy adults, specifically disrupting slow-wave sleep for one night raised spinal fluid amyloid-β40, and poorer sleep at home over the prior six nights was linked to higher tau.</p><div class="c-top"><button class="tag" type="button" data-tag="Sleep">Sleep</button><button class="tag" type="button" data-tag="Amyloid">Amyloid</button><button class="tag" type="button" data-tag="Tau">Tau</button></div></div>
         <div class="ev"><a href="https://doi.org/10.1093/brain/awx148">Ju et al. 2017 · <i>Brain</i></a><span class="d">Within-person sleep disruption versus sham study, 17 adults aged 35-65</span></div>
       </li>
-      <li class="claim" data-rank="23" data-year="2013" data-tags="Sleep|Biomarkers">
+      <li class="claim" data-rank="23" data-year="2013" data-tags="Sleep|Biomarkers" data-paper="pmid-23479184" data-cite="Ju et al. 2013, JAMA Neurol">
         <span class="rank">23</span>
         <div class="fig"><span class="n">80.4% vs 83.7%</span><span class="fl">sleep efficiency with versus without amyloid</span></div>
         <div class="body"><p class="stmt">Among 142 cognitively normal adults, those with amyloid build-up spent less of their time in bed asleep and napped more often, while total sleep time did not differ.</p><div class="c-top"><button class="tag" type="button" data-tag="Sleep">Sleep</button><button class="tag" type="button" data-tag="Biomarkers">Biomarkers</button></div></div>
         <div class="ev"><a href="https://doi.org/10.1001/jamaneurol.2013.2334">Ju et al. 2013 · <i>JAMA Neurol</i></a><span class="d">Cross-sectional study with 2 weeks of actigraphy, 142 participants</span></div>
       </li>
-      <li class="claim" data-rank="24" data-year="2019" data-tags="Sleep|Tau|Biomarkers">
+      <li class="claim" data-rank="24" data-year="2019" data-tags="Sleep|Tau|Biomarkers" data-paper="pmid-30626715" data-cite="Lucey et al. 2019, Sci Transl Med">
         <span class="rank">24</span>
         <div class="fig"><span class="n">1-2 Hz</span><span class="fl">slow-wave sleep tracks tau</span></div>
         <div class="body"><p class="stmt">In mostly cognitively normal older adults wearing a forehead EEG device, less slow-wave activity in deep sleep, especially at 1 to 2 Hz, was linked to Alzheimer&#x27;s pathology, most strongly tau.</p><div class="c-top"><button class="tag" type="button" data-tag="Sleep">Sleep</button><button class="tag" type="button" data-tag="Tau">Tau</button><button class="tag" type="button" data-tag="Biomarkers">Biomarkers</button></div></div>
         <div class="ev"><a href="https://doi.org/10.1126/scitranslmed.aau6550">Lucey et al. 2019 · <i>Sci Transl Med</i></a><span class="d">Single-channel EEG sleep monitoring with PET and spinal fluid biomarkers in aging cohorts</span></div>
       </li>
-      <li class="claim" data-rank="25" data-year="2012" data-tags="Sleep|Amyloid">
+      <li class="claim" data-rank="25" data-year="2012" data-tags="Sleep|Amyloid" data-paper="pmid-22956200" data-cite="Roh et al. 2012, Sci Transl Med">
         <span class="rank">25</span>
         <div class="fig"><span class="n">Plaques disrupt sleep</span><span class="fl">and clearing them restored it</span></div>
         <div class="body"><p class="stmt">After plaques formed in amyloid mice, the sleep-wake cycle deteriorated and the daily rise and fall of brain amyloid-β disappeared, also seen in young adults with presenilin mutations. Removing plaques by immunization restored both.</p><div class="c-top"><button class="tag" type="button" data-tag="Sleep">Sleep</button><button class="tag" type="button" data-tag="Amyloid">Amyloid</button></div></div>
         <div class="ev"><a href="https://doi.org/10.1126/scitranslmed.3004291">Roh et al. 2012 · <i>Sci Transl Med</i></a><span class="d">Amyloid mice with sleep recordings and microdialysis, plus spinal fluid sampling in mutation carriers</span></div>
       </li>
-      <li class="claim" data-rank="26" data-year="2012" data-tags="Biomarkers|Amyloid">
+      <li class="claim" data-rank="26" data-year="2012" data-tags="Biomarkers|Amyloid" data-paper="pmid-22784036" data-cite="Bateman et al. 2012, N Engl J Med">
         <span class="rank">26</span>
         <div class="fig"><span class="n">25 years</span><span class="fl">before symptoms, amyloid changes begin in inherited AD</span></div>
         <div class="body"><p class="stmt">In 128 members of families with inherited Alzheimer&#x27;s, spinal fluid amyloid-β42 began to fall about 25 years before expected symptoms, amyloid plaques and tau rose about 15 years before, and memory problems appeared about 10 years before.</p><div class="c-top"><button class="tag" type="button" data-tag="Biomarkers">Biomarkers</button><button class="tag" type="button" data-tag="Amyloid">Amyloid</button></div></div>
         <div class="ev"><a href="https://doi.org/10.1056/NEJMoa1202753">Bateman et al. 2012 · <i>N Engl J Med</i></a><span class="d">DIAN prospective cohort, 128 participants</span></div>
       </li>
     </ol>
+
+    <section class="claim-send" id="claim-send" hidden aria-labelledby="claim-send-h">
+      <h2 id="claim-send-h">Missing findings and sending</h2>
+      <label for="claim-add">Findings to add (one per paragraph, with the paper's DOI or PMID)</label>
+      <textarea id="claim-add" rows="4"></textarea>
+      <div class="claim-who">
+        <label>Your name<input id="claim-name" type="text" autocomplete="name"></label>
+        <label>ORCID iD<input id="claim-orcid" type="text" placeholder="0000-0000-0000-0000"></label>
+      </div>
+      <label for="claim-note">Anything else (summary, tags, papers that are not yours)</label>
+      <textarea id="claim-note" rows="3"></textarea>
+      <p><button class="go" type="button" id="claim-submit">Send review</button> <button class="chip" type="button" id="claim-copy">Copy review as text</button> <button class="chip" type="button" id="claim-close">Close</button></p>
+      <p class="note" id="claim-status" aria-live="polite"></p>
+    </section>
 
     <details class="more" id="papers">
       <summary>All 708 papers</summary>
@@ -940,7 +960,7 @@
     <span class="updated">November 2026</span>
   </footer>
 </div>
-<script>window.EXPERT={"slug": "david-holtzman", "endpoint": "https://expert-wiki-ask.mahdi-moqri.workers.dev", "papers": 708, "abstracts": 659};</script>
+<script>window.EXPERT={"slug": "david-holtzman", "name": "David M. Holtzman", "endpoint": "https://expert-wiki-ask.mahdi-moqri.workers.dev", "papers": 708, "abstracts": 659, "claim_url": "https://github.com/moqri/expert-wiki/issues/new?template=claim-page.yml"};</script>
 <script src="/assets/expert.js"></script>
 </body>
 </html>

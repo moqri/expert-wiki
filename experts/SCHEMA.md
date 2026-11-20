@@ -79,3 +79,24 @@ has the same fields. No internal IDs or status words appear on the page.
 - Answers and summaries are described as drawn from the expert's published
   work, never as the expert's personal views.
 - Plain language for patients and families; numbers wherever the paper has them.
+
+## Claimed pages and verified findings
+
+Each expert page has a "Claim this page" link. The expert marks every
+finding as correct, edits it or flags it for removal, and sends the review,
+which opens a prefilled GitHub issue (template `claim-page`). Before
+applying it, confirm the sender's identity through the contact details on
+their ORCID record or institutional page.
+
+To apply a confirmed review:
+
+```yaml
+# expert.yaml
+claimed: {by: Randall J. Bateman, on: 2026-11-20}   # replaces the claim link with "Findings reviewed by ..."
+
+# claims.yaml, for each finding marked correct (or edited and confirmed)
+  verified: 2026-11-20                              # shows "Expert verified"
+```
+
+Edits replace `statement` (and `figure`/`figure_label` if needed). Removals
+delete the claim and re-number `rank`.

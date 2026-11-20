@@ -103,3 +103,19 @@ a.skill:hover,a.skill:focus-visible{border-color:var(--e4);color:var(--e4)}
 .rv-card .srcs .d{display:block;color:var(--muted);font-size:12.5px}
 .rv-card .note,.rv-foot{font-size:13px;color:var(--muted)}
 .rv-foot{grid-column:1/-1}
+/* claim this page */
+.claim-link,.claimed{font-size:14px;color:var(--muted);margin:6px 0 0}
+.claim-link a{color:var(--e4)}
+.verified{font-family:var(--mono);font-size:11.5px;color:var(--e4);border:1px solid var(--e4);border-radius:999px;padding:1px 8px;margin-left:6px;white-space:nowrap}
+.claim-panel,.claim-send{background:var(--e4-soft);border:2px solid var(--e4);border-radius:12px;padding:18px 22px;margin:0 0 20px}
+.claim-panel h2,.claim-send h2{font-size:22px;margin:0 0 8px;color:var(--e4)}
+.claim-panel p{margin:0 0 8px;max-width:80ch}
+.claim-progress{font-family:var(--mono);font-size:13px}
+.claim-act{margin-top:10px}.claim-act .row{display:flex;gap:6px;flex-wrap:wrap}
+.claim-act textarea,.claim-send textarea,.claim-send input{width:100%;box-sizing:border-box;font:inherit;font-size:14.5px;padding:8px 10px;border:1px solid var(--rule);border-radius:8px;background:var(--surface);color:var(--ink);margin-top:6px}
+.claim-send label{display:block;font-size:14px;margin:10px 0 0}
+.claim-who{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:640px){.claim-who{grid-template-columns:1fr}}
+.claiming .claim[data-decision="ok"]{box-shadow:inset 3px 0 0 var(--e4)}
+.claiming .claim[data-decision="remove"] .stmt{text-decoration:line-through;color:var(--muted)}
+.claim-send pre{white-space:pre-wrap;font-size:12px;background:var(--surface);padding:8px;border-radius:6px}

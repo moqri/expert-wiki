@@ -96,10 +96,11 @@ def expert_page(ex, papers, claims):
         tagbtns = "".join(f'<button class="tag" type="button" data-tag="{e(t)}">{e(t)}</button>' for t in ctags)
         url = paper_url(p)
         src = f'<a href="{e(url)}">{e(cite_name(p))} · <i>{e(p["journal"])}</i></a>' if url else f'{e(cite_name(p))} · <i>{e(p["journal"])}</i>'
-        items.append(f"""      <li class="claim" data-rank="{c['rank']}" data-year="{p['year']}" data-tags="{e('|'.join(ctags))}">
+        ver = '<span class="verified" title="Confirmed by ' + e(name) + (' on ' + e(str(c['verified'])) if c.get('verified') not in (True, None) else '') + '">Expert verified</span>' if c.get('verified') else ''
+        items.append(f"""      <li class="claim" data-rank="{c['rank']}" data-year="{p['year']}" data-tags="{e('|'.join(ctags))}" data-paper="{e(c['paper'])}" data-cite="{e(cite_name(p) + ', ' + p['journal'])}">
         <span class="rank">{c['rank']}</span>
         <div class="fig"><span class="n">{e(str(c['figure']))}</span><span class="fl">{e(c['figure_label'])}</span></div>
-        <div class="body"><p class="stmt">{e(c['statement'])}</p><div class="c-top">{tagbtns}</div></div>
+        <div class="body"><p class="stmt">{e(c['statement'])}</p><div class="c-top">{tagbtns}{ver}</div></div>
         <div class="ev">{src}<span class="d">{e(c.get('evidence', ''))}</span></div>
       </li>""")
 
@@ -125,6 +126,10 @@ def expert_page(ex, papers, claims):
     examples = ('<div class="examples" role="group" aria-label="Example questions"><span class="label">Try</span>'
                 + "".join(f'<button class="ex" type="button">{e(q)}</button>' for q in qs) + "</div>") if qs else ""
     first = name.split()[0]
+    cl = ex.get("claimed") or {}
+    nver = sum(1 for c in claims if c.get("verified"))
+    claimed_line = (f'<p class="claimed">Findings reviewed by {e(name)}' + (f' · {nver} of {len(claims)} expert verified' if nver else '') + '</p>') if cl else \
+        f'<p class="claim-link"><a href="#claim" id="claim-open">Are you {e(first)}? Claim this page</a> to verify or improve these findings.</p>'
 
     return head(f"{name} · expert.wiki", f"{name}: a summary of their published research, key findings, and answers drawn from their papers.") + f"""<body>
 <a class="skip" href="#ask">Skip to ask a question</a>
@@ -137,6 +142,7 @@ def expert_page(ex, papers, claims):
       <p class="label">{areas}</p>
       <h1>{e(full)}</h1>
       <p class="aff">{aff}</p>
+      {claimed_line}
     </section>
 
     <section class="ask" id="ask" aria-labelledby="ask-h">
@@ -165,9 +171,28 @@ def expert_page(ex, papers, claims):
       <div class="row" role="group" aria-label="Filter by tag"><span class="label">Tags</span>{''.join(chips)}</div>
       <div class="row" role="group" aria-label="Sort"><span class="label">Sort</span><button class="chip" type="button" data-sort="rank" aria-pressed="true">Most important</button><button class="chip" type="button" data-sort="year" aria-pressed="false">Newest</button><span class="count" id="count" aria-live="polite"></span></div>
     </div>
+    <section class="claim-panel" id="claim" hidden aria-labelledby="claim-h">
+      <h2 id="claim-h">Review these findings</h2>
+      <p>Mark each finding as correct, edit its wording, or flag it for removal. You can also add findings that are missing. Your progress is saved in this browser. When you send the review, we confirm your identity through the contact details on your ORCID record or institutional page before publishing any change, and confirmed findings then show "Expert verified".</p>
+      <p class="claim-progress" id="claim-progress" aria-live="polite"></p>
+    </section>
     <ol class="claims" id="claims">
 {chr(10).join(items)}
     </ol>
+
+    <section class="claim-send" id="claim-send" hidden aria-labelledby="claim-send-h">
+      <h2 id="claim-send-h">Missing findings and sending</h2>
+      <label for="claim-add">Findings to add (one per paragraph, with the paper's DOI or PMID)</label>
+      <textarea id="claim-add" rows="4"></textarea>
+      <div class="claim-who">
+        <label>Your name<input id="claim-name" type="text" autocomplete="name"></label>
+        <label>ORCID iD<input id="claim-orcid" type="text" placeholder="0000-0000-0000-0000"></label>
+      </div>
+      <label for="claim-note">Anything else (summary, tags, papers that are not yours)</label>
+      <textarea id="claim-note" rows="3"></textarea>
+      <p><button class="go" type="button" id="claim-submit">Send review</button> <button class="chip" type="button" id="claim-copy">Copy review as text</button> <button class="chip" type="button" id="claim-close">Close</button></p>
+      <p class="note" id="claim-status" aria-live="polite"></p>
+    </section>
 
     <details class="more" id="papers">
       <summary>All {len(papers)} papers</summary>
@@ -187,7 +212,7 @@ def expert_page(ex, papers, claims):
   </main>
 {footer('expert.wiki · <a href="/">All experts</a>')}
 </div>
-<script>window.EXPERT={json.dumps({"slug": slug, "endpoint": endpoint, "papers": len(papers), "abstracts": sum(1 for q in papers if q.get("abstract"))})};</script>
+<script>window.EXPERT={json.dumps({"slug": slug, "name": name, "endpoint": endpoint, "papers": len(papers), "abstracts": sum(1 for q in papers if q.get("abstract")), "claim_url": SITE.get("claim_url", "")})};</script>
 <script src="/assets/expert.js"></script>
 </body>
 </html>

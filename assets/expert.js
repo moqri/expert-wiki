@@ -52,6 +52,92 @@
     [].forEach.call(document.querySelectorAll('[data-psort]'), function (c) { c.setAttribute('aria-pressed', String(c === b)); });
   });
 
+
+  // ---- Claim this page: the expert marks each finding correct, edits it, or flags it for removal ----
+  var panel = document.getElementById('claim');
+  if (panel && list) {
+    var send = document.getElementById('claim-send'), prog = document.getElementById('claim-progress'), cstat = document.getElementById('claim-status');
+    var KEY = 'claim:' + X.slug, saved = {};
+    try { saved = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch (e) {}
+    saved.items = saved.items || {};
+    var save = function () { try { localStorage.setItem(KEY, JSON.stringify(saved)); } catch (e) {} };
+    var lis = [].slice.call(list.children);
+    var paint = function () {
+      var n = 0;
+      lis.forEach(function (li) {
+        var r = saved.items[li.dataset.rank] || {}, box = li.querySelector('.claim-act');
+        li.dataset.decision = r.d || '';
+        if (r.d) n++;
+        [].forEach.call(box.querySelectorAll('[data-d]'), function (b) { b.setAttribute('aria-pressed', String(b.dataset.d === r.d)); });
+        var ed = box.querySelector('.claim-edit'); ed.hidden = r.d !== 'edit' && r.d !== 'remove';
+        ed.querySelector('textarea').placeholder = r.d === 'remove' ? 'Why should this finding be removed? (optional)' : 'Corrected wording';
+      });
+      prog.textContent = n + ' of ' + lis.length + ' findings reviewed';
+    };
+    var open = function () {
+      if (!panel.hidden) return;
+      panel.hidden = false; send.hidden = false; document.body.classList.add('claiming');
+      lis.forEach(function (li) {
+        var stmt = li.querySelector('.stmt').textContent, r = saved.items[li.dataset.rank] || {};
+        var box = document.createElement('div'); box.className = 'claim-act';
+        box.innerHTML = '<div class="row" role="group" aria-label="Your review of this finding">' +
+          '<button class="chip" type="button" data-d="ok" aria-pressed="false">Correct</button>' +
+          '<button class="chip" type="button" data-d="edit" aria-pressed="false">Edit</button>' +
+          '<button class="chip" type="button" data-d="remove" aria-pressed="false">Remove</button></div>' +
+          '<div class="claim-edit" hidden><textarea rows="3" aria-label="Your edit or comment"></textarea></div>';
+        box.querySelector('textarea').value = r.text != null ? r.text : stmt;
+        box.querySelector('textarea').addEventListener('input', function (ev) { (saved.items[li.dataset.rank] = saved.items[li.dataset.rank] || {}).text = ev.target.value; save(); });
+        box.addEventListener('click', function (ev) {
+          var b = ev.target.closest('[data-d]'); if (!b) return;
+          var it = saved.items[li.dataset.rank] = saved.items[li.dataset.rank] || {};
+          it.d = it.d === b.dataset.d ? '' : b.dataset.d;
+          if (it.d === 'remove' && (it.text == null || it.text === stmt)) it.text = '';
+          if (it.d === 'edit' && !it.text) it.text = stmt;
+          box.querySelector('textarea').value = it.text != null ? it.text : stmt;
+          save(); paint();
+        });
+        li.querySelector('.body').appendChild(box);
+      });
+      ['claim-add', 'claim-name', 'claim-orcid', 'claim-note'].forEach(function (id) {
+        var el = document.getElementById(id); el.value = saved[id] || '';
+        el.addEventListener('input', function () { saved[id] = el.value; save(); });
+      });
+      // Show every finding while reviewing.
+      var all = document.querySelector('[data-filter=""]'); if (all) all.click();
+      paint(); panel.scrollIntoView({ block: 'start' });
+    };
+    var q = function (s) { return '"' + String(s).replace(/\\/g, '\\\\').replace(/"/g, '\\"').replace(/\n/g, ' ') + '"'; };
+    var report = function () {
+      var lines = ['page: expert.wiki/' + X.slug + '/', 'reviewer: ' + q(saved['claim-name'] || ''), 'orcid: ' + q(saved['claim-orcid'] || ''), 'findings:'];
+      lis.forEach(function (li) {
+        var r = saved.items[li.dataset.rank] || {};
+        if (!r.d) return;
+        lines.push('  - rank: ' + li.dataset.rank, '    paper: ' + li.dataset.paper, '    decision: ' + (r.d === 'ok' ? 'correct' : r.d));
+        if (r.d === 'edit') lines.push('    new_statement: ' + q(r.text || ''));
+        if (r.d === 'remove' && r.text) lines.push('    reason: ' + q(r.text));
+      });
+      if ((saved['claim-add'] || '').trim()) lines.push('add: |', saved['claim-add'].trim().split('\n').map(function (l) { return '  ' + l; }).join('\n'));
+      if ((saved['claim-note'] || '').trim()) lines.push('note: |', saved['claim-note'].trim().split('\n').map(function (l) { return '  ' + l; }).join('\n'));
+      return lines.join('\n');
+    };
+    document.addEventListener('click', function (ev) {
+      var t = ev.target.closest('#claim-open,#claim-submit,#claim-copy,#claim-close'); if (!t) return;
+      if (t.id === 'claim-open') { ev.preventDefault(); history.replaceState(null, '', '#claim'); open(); return; }
+      if (t.id === 'claim-close') { history.replaceState(null, '', location.pathname); location.reload(); return; }
+      var text = report();
+      if (t.id === 'claim-copy') {
+        (navigator.clipboard ? navigator.clipboard.writeText(text) : Promise.reject()).then(function () { cstat.textContent = 'Copied. Paste it into an email or the claim form.'; }, function () { cstat.textContent = 'Copy failed; select the text below.'; cstat.insertAdjacentHTML('beforeend', '<pre></pre>'); cstat.querySelector('pre').textContent = text; });
+        return;
+      }
+      if (!(saved['claim-name'] || '').trim()) { cstat.textContent = 'Please add your name first.'; document.getElementById('claim-name').focus(); return; }
+      var u = (X.claim_url || '') + '&title=' + encodeURIComponent('Claim page: ' + X.name) + '&page=' + encodeURIComponent('expert.wiki/' + X.slug + '/') + '&orcid=' + encodeURIComponent(saved['claim-orcid'] || '') + '&review=' + encodeURIComponent(text);
+      if (!X.claim_url) { cstat.textContent = 'Sending is not set up yet. Use "Copy review as text".'; return; }
+      if (u.length > 7500) { cstat.textContent = 'The review is too long to send in one link. Use "Copy review as text" and paste it into the form that opens.'; u = u.replace(/&review=.*$/, ''); }
+      window.open(u, '_blank', 'noopener');
+    });
+    if (location.hash === '#claim') open();
+  }
+
   // ---- Ask ----
   var form = document.getElementById('ask-form');
   if (!form) return;
