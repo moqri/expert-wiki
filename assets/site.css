@@ -57,9 +57,11 @@ footer{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;paddin
 .person h1{font-size:clamp(34px,4.6vw,48px)}
 .person .aff{margin-top:6px;font-size:18px;line-height:1.4}
 .person .aff .dept{display:block;color:var(--muted);font-size:15px}
+.follow{margin:10px 0 0;font-family:var(--sans);font-size:14px;color:var(--muted)}
+.follow a:first-child{margin-left:6px}
 .claim-link,.claimed{margin-top:10px;font-size:14px;color:var(--muted)}
 .intro.person.about{padding-top:8px}
-.intro.person.about .lede{font-size:20px;color:var(--ink);font-style:italic;max-width:none}
+.intro.person.about .lede{font-size:20px;color:var(--ink);font-style:italic;max-width:none;margin-top:0}
 .summary{display:grid;gap:12px;margin-top:18px}
 .summary .meta{font-size:14px;color:var(--muted)}
 .highlights{margin:0;padding:0 0 0 1.1em;display:grid;gap:10px}
@@ -83,20 +85,35 @@ section.record,.claims,details.more{margin-top:0}
 textarea,input[type=text],input[type=search],.filter{font-family:var(--sans);font-size:16px;color:var(--ink);background:var(--field);border:1px solid var(--rule-strong);border-radius:2px;padding:9px 11px}
 textarea{line-height:1.5;resize:vertical}
 
-/* Home: the two things you can do */
-.tasks{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;margin:4px 0 36px}
-.task{position:relative;display:flex;flex-direction:column;padding:20px 22px 22px;background:var(--ai-soft);border:1px solid var(--ai-rule);border-radius:10px}
-.task::before{content:"";position:absolute;inset:0 0 auto 0;height:3px;border-radius:10px 10px 0 0;background:linear-gradient(90deg,var(--ai),var(--ai-2))}
-.task h2{font-size:21px;margin:2px 0 6px}
-.task > p:not(.ai-tag):not(.task-go){font-size:16px;color:var(--muted);margin-bottom:16px}
-.task-go{display:flex;gap:10px;margin-top:auto}
-.task-go select{flex:1;min-width:0;font-family:var(--sans);font-size:15px;color:var(--ink);background:var(--field);border:1px solid var(--ai-rule);border-radius:6px;padding:9px 10px}
-.task .go{display:inline-flex;align-items:center;gap:7px;background:var(--ai);border-color:var(--ai);color:var(--ai-ink);border-radius:6px;padding:9px 18px;text-decoration:none}
-.task .go:hover{background:var(--ai-2);border-color:var(--ai-2);opacity:1}
-.task .go .spark{width:18px;height:18px}
-.roster-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;border-top:1px solid var(--rule);padding-top:22px}
-.roster-head h2{font-size:24px}
+/* Home: editorial front page */
+.masthead{display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:8px 24px;padding:28px 0 12px;border-bottom:3px double var(--ink)}
+.wordmark{font-family:var(--serif);font-size:34px;font-weight:600;letter-spacing:-.02em;color:var(--ink);text-decoration:none;line-height:1}
+.wordmark span{font-weight:400;font-style:italic;color:var(--muted)}
+.issue{display:flex;gap:0;font-family:var(--sans);font-size:12.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.issue span + span::before{content:"·";margin:0 10px;color:var(--faint)}
+.hero{display:grid;grid-template-columns:minmax(0,1fr) 220px;gap:24px 56px;padding:48px 0 40px;border-bottom:1px solid var(--rule)}
+.hero h1{grid-column:1;font-size:clamp(34px,5vw,54px);line-height:1.08;letter-spacing:-.015em;font-weight:600}
+.hero h1 em{font-weight:400;font-style:italic}
+.hero .lede{grid-column:1;font-size:19px;color:var(--muted);max-width:60ch}
+.stats{grid-column:2;grid-row:1 / span 2;align-self:end;margin:0;display:grid;gap:14px;border-left:1px solid var(--rule);padding-left:24px}
+.stats div{display:grid}
+.stats dt{font-family:var(--sans);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.stats dd{margin:0;font-size:30px;line-height:1.1;font-variant-numeric:lining-nums tabular-nums}
+.uses{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));border-bottom:1px solid var(--rule)}
+.use{display:flex;flex-direction:column;padding:28px 36px 32px 0}
+.use + .use{padding:28px 0 32px 36px;border-left:1px solid var(--rule)}
+.use-n{font-size:15px;font-style:italic;color:var(--faint);margin-bottom:6px}
+.use h2{font-size:26px;margin-bottom:8px}
+.use > p:not(.use-n):not(.use-go){font-size:17px;color:var(--muted);margin-bottom:20px;max-width:46ch}
+.use-go{display:flex;gap:10px;margin-top:auto}
+.use-go select{flex:1;min-width:0;max-width:320px;font-family:var(--sans);font-size:15px;color:var(--ink);background:var(--field);border:1px solid var(--rule-strong);border-radius:3px;padding:9px 10px}
+.go.ai{display:inline-flex;align-items:center;gap:7px;background:var(--ai);border-color:var(--ai);color:var(--ai-ink);border-radius:3px;padding:9px 18px;text-decoration:none}
+.go.ai:hover{background:var(--ai-2);border-color:var(--ai-2);opacity:1}
+.go.ai .spark{width:16px;height:16px}
+.roster-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;padding-top:36px}
+.roster-head h2{font-size:26px}
 .roster-head .subtle{font-family:var(--sans);font-size:14px;color:var(--muted)}
+.home .controls{border-top:0}
 
 /* filter and sort controls */
 .controls{position:sticky;top:0;z-index:5;background:var(--bg);display:grid;gap:4px;padding:10px 0;border-bottom:1px solid var(--rule)}
@@ -262,10 +279,17 @@ ol.people{list-style:none;margin:0;padding:6px 0 40px}
   .claim .fig,.claim .body,.claim .ev{grid-column:2}
   .person-row{grid-template-columns:1fr}
   .cites{text-align:left}
+  .issue{display:none}
   dl.facts{grid-template-columns:1fr;gap:2px}
   dl.facts dd{margin-bottom:12px}
   ul.coauthors{columns:1}
-  .tasks{grid-template-columns:1fr}
+  .hero{grid-template-columns:1fr;padding:32px 0 28px}
+  .stats{grid-column:1;grid-row:auto;grid-auto-flow:column;border-left:0;padding-left:0;border-top:1px solid var(--rule);padding-top:14px}
+  .stats dd{font-size:24px}
+  .uses{grid-template-columns:1fr}
+  .use,.use + .use{padding:24px 0;border-left:0}
+  .use + .use{border-top:1px solid var(--rule)}
+  .wordmark{font-size:28px}
   .head-grid{grid-template-columns:1fr;gap:24px;padding-top:24px}
   .controls{position:static}
   .count,.row .sortgrp{margin-left:0;width:100%}
