@@ -98,6 +98,12 @@ textarea{line-height:1.5;resize:vertical}
 .ask::before{content:"";position:absolute;inset:0 0 auto 0;height:3px;border-radius:10px 10px 0 0;background:linear-gradient(90deg,var(--ai),var(--ai-2))}
 .ai-tag{display:inline-flex;align-items:center;gap:6px;font-family:var(--sans);font-size:12.5px;font-weight:600;letter-spacing:.02em;color:var(--ai);margin-bottom:6px}
 .spark{width:16px;height:16px;fill:currentColor;flex:none}
+.intro .ai-tag{margin-bottom:10px}
+.intro h1 em.ai-em{color:var(--ai)}
+.ai-link{display:inline-flex;align-items:center;gap:6px;font-weight:600;color:var(--ai);text-decoration:none;padding:6px 12px;border:1px solid var(--ai-rule);border-radius:6px;background:var(--ai-soft)}
+.ai-link:hover{border-color:var(--ai)}
+.ai-link .spark{width:14px;height:14px}
+.suggest{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px}
 .ask h2{font-size:23px;margin-bottom:6px}
 .ask .hint{font-size:14px;color:var(--muted);margin-bottom:14px}
 .ask textarea,.ask input[type=search]{border-color:var(--ai-rule);background:var(--field)}
