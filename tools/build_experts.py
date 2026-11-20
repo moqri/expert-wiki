@@ -254,6 +254,7 @@ def expert_page(ex, papers, claims, coauthors=(), names=None, pending=()):
       {claimed_line}
     </section>
 
+{record}
     <section class="ask" id="ask" aria-labelledby="ask-h">
       <h2 id="ask-h">Ask about {e(name)}'s research</h2>
       <p class="hint">Answers are drawn only from {e(name)}'s published papers listed on this page, with each point linked to its paper. They describe what the papers report, not personal views or advice from {e(name)}. This is not medical advice.</p>
@@ -274,7 +275,6 @@ def expert_page(ex, papers, claims, coauthors=(), names=None, pending=()):
       </div>
     </section>
 
-{record}
     <h2 class="sec">Key findings</h2>
     <div class="controls" id="controls" role="region" aria-label="Filter and sort findings">
       <div class="row" role="group" aria-label="Filter by tag"><span class="label">Tags</span>{''.join(chips)}</div>
