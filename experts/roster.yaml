@@ -2,7 +2,7 @@
 # An expert.yaml affiliation, when present, overrides the one here.
 - {slug: mahdi-moqri, name: Mahdi Moqri, affiliation: "Brigham and Women's Hospital and Harvard Medical School", areas: [Aging, "Alzheimer's"]}
 - {slug: vadim-gladyshev, name: Vadim Gladyshev, affiliation: "Brigham and Women's Hospital and Harvard Medical School", areas: [Aging]}
-- {slug: steve-horvath, name: Steve Horvath, affiliation: Altos Labs, areas: [Aging]}
+- {slug: steve-horvath, name: Steve Horvath, affiliation: David Geffen School of Medicine at UCLA, areas: [Aging]}
 - {slug: dan-belsky, name: Dan Belsky, affiliation: Columbia University Mailman School of Public Health, areas: [Aging]}
 - {slug: shally-bhasin, name: Shally Bhasin, affiliation: "Brigham and Women's Hospital and Harvard Medical School", areas: [Aging]}
 - {slug: nir-barzilai, name: Nir Barzilai, affiliation: Albert Einstein College of Medicine, areas: [Aging]}
