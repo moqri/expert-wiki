@@ -25,6 +25,12 @@ FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="
 e = html.escape
 
 
+def asset_ver(path):
+    """Short content hash for an asset URL, so browsers fetch new CSS/JS after each deploy."""
+    import hashlib
+    return hashlib.sha1((ROOT / path.lstrip("/")).read_bytes()).hexdigest()[:8]
+
+
 NOW_YEAR = int(re.search(r"\d{4}", str(UPDATED)).group()) if re.search(r"\d{4}", str(UPDATED)) else 2026
 SINCE = NOW_YEAR - 4
 
@@ -143,7 +149,7 @@ def head(title, desc, extra=""):
 <meta name="description" content="{e(desc)}">
 <title>{e(title)}</title>
 {FONTS}
-<link rel="stylesheet" href="/assets/site.css">
+<link rel="stylesheet" href="/assets/site.css?v={asset_ver('/assets/site.css')}">
 {extra}</head>
 """
 
@@ -324,7 +330,7 @@ def expert_page(ex, papers, claims, coauthors=(), names=None, pending=()):
 {footer('expert.wiki · <a href="/">All experts</a>')}
 </div>
 <script>window.EXPERT={json.dumps({"slug": slug, "name": name, "pending": [{k: q.get(k) for k in ("id", "title", "journal", "year", "doi", "pmid")} for q in pending], "endpoint": endpoint, "papers": len(papers), "abstracts": sum(1 for q in papers if q.get("abstract")), "claim_url": SITE.get("claim_url", "")})};</script>
-<script src="/assets/expert.js"></script>
+<script src="/assets/expert.js?v={asset_ver('/assets/expert.js')}"></script>
 </body>
 </html>
 """
@@ -485,7 +491,7 @@ def review_page(roster, built):
 {footer('expert.wiki · <a href="/">All experts</a>')}
 </div>
 <script>window.REVIEW={json.dumps({"endpoint": endpoint, "experts": idx}, ensure_ascii=False)};</script>
-<script src="/assets/review.js"></script>
+<script src="/assets/review.js?v={asset_ver('/assets/review.js')}"></script>
 </body>
 </html>
 """
