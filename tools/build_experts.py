@@ -229,7 +229,6 @@ def expert_page(ex, papers, claims, coauthors=(), names=None, pending=()):
             <tr><th scope="row">Papers</th><td>{allm['papers']:,}</td><td>{recent['papers']:,}</td></tr>
             <tr><th scope="row">Citations</th><td>{allm['citations']:,}</td><td>{recent['citations']:,}</td></tr>
             <tr><th scope="row">h-index</th><td>{allm['h']}</td><td>{recent['h']}</td></tr>
-            <tr><th scope="row">i10-index</th><td>{allm['i10']}</td><td>{recent['i10']}</td></tr>
           </tbody>
         </table>
         {chart}
