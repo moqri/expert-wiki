@@ -212,7 +212,7 @@ def expert_page(ex, papers, claims, coauthors=(), names=None, pending=()):
     allm, recent = metrics(papers)
     ys = per_year(papers)
     peak = max((n for _, n, _ in ys), default=1) or 1
-    bars = "".join(f'<span class="yb" style="height:{max(1, round(24 * n / peak))}px" title="{y}: {n} paper{"s" if n != 1 else ""}"></span>' for y, n, c in ys)
+    bars = "".join(f'<span class="yb" style="height:{max(1, round(40 * n / peak))}px" title="{y}: {n} paper{"s" if n != 1 else ""}"></span>' for y, n, c in ys)
     chart = (f'<figure class="years"><div class="ybars" role="img" aria-label="Papers per year, {ys[0][0]} to {ys[-1][0]}">{bars}</div>'
              f'<figcaption>Papers per year, {ys[0][0]}–{ys[-1][0]}</figcaption></figure>') if ys else ""
     names = names or {}
@@ -223,6 +223,7 @@ def expert_page(ex, papers, claims, coauthors=(), names=None, pending=()):
       <h2 class="sec" id="rec-h">Publication record</h2>
       <div class="rec-grid">
         <div class="rec-num">
+          <div class="rec-row">
           <table class="metrics">
             <thead><tr><th scope="col"></th><th scope="col">All</th><th scope="col">Since {SINCE}</th></tr></thead>
             <tbody>
@@ -233,6 +234,7 @@ def expert_page(ex, papers, claims, coauthors=(), names=None, pending=()):
             </tbody>
           </table>
           {chart}
+          </div>
           <p class="fine">Citations from Europe PMC and Crossref. "Since {SINCE}" covers papers published from {SINCE} on.</p>
         </div>
         <dl class="facts">
