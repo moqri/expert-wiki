@@ -33,11 +33,30 @@
     render();
   }
 
-  // ---- All papers: word filter ----
-  var pf = document.getElementById('pfilter');
-  if (pf) pf.addEventListener('input', function () {
-    var q = pf.value.toLowerCase().trim();
-    [].forEach.call(document.querySelectorAll('#plist li'), function (li) { li.hidden = q && li.dataset.q.indexOf(q) < 0; });
+  // ---- All papers: word filter, and year filter from the papers-per-year chart ----
+  var pf = document.getElementById('pfilter'), yf = document.getElementById('yfilter'), pyear = '';
+  var pfilt = function () {
+    var q = pf ? pf.value.toLowerCase().trim() : '', n = 0;
+    [].forEach.call(document.querySelectorAll('#plist li'), function (li) {
+      var ok = (!q || li.dataset.q.indexOf(q) > -1) && (!pyear || li.dataset.year === pyear);
+      li.hidden = !ok; if (ok) n++;
+    });
+    if (yf) {
+      yf.hidden = !pyear;
+      if (pyear) { yf.innerHTML = 'Showing ' + n + ' paper' + (n === 1 ? '' : 's') + ' from ' + pyear + ' · <button class="chip" type="button" id="yclear">Show all years</button>'; }
+    }
+  };
+  if (pf) pf.addEventListener('input', pfilt);
+  document.addEventListener('click', function (ev) {
+    var bar = ev.target.closest('a.yb[data-year]'), clr = ev.target.closest('#yclear');
+    if (clr) { pyear = ''; pfilt(); [].forEach.call(document.querySelectorAll('a.yb'), function (b) { b.removeAttribute('aria-current'); }); return; }
+    if (!bar) return;
+    ev.preventDefault();
+    pyear = bar.dataset.year;
+    [].forEach.call(document.querySelectorAll('a.yb'), function (b) { if (b === bar) b.setAttribute('aria-current', 'true'); else b.removeAttribute('aria-current'); });
+    var d = document.getElementById('papers'); if (d) d.open = true;
+    pfilt();
+    (d || document.getElementById('plist')).scrollIntoView({ block: 'start', behavior: 'smooth' });
   });
 
   // ---- All papers: sort ----

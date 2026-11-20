@@ -214,7 +214,7 @@ def expert_page(ex, papers, claims, coauthors=(), names=None, pending=()):
     allm, recent = metrics(papers)
     ys = per_year(papers)
     peak = max((n for _, n, _ in ys), default=1) or 1
-    bars = "".join(f'<span class="yb" style="height:{max(1, round(40 * n / peak))}px" title="{y}: {n} paper{"s" if n != 1 else ""}"></span>' for y, n, c in ys)
+    bars = "".join(f'<a class="yb" href="#papers" data-year="{y}" style="height:{max(1, round(40 * n / peak))}px" title="{y}: {n} paper{"s" if n != 1 else ""}" aria-label="Show the {n} paper{"s" if n != 1 else ""} from {y}"></a>' for y, n, c in ys)
     chart = (f'<figure class="years"><div class="ybars" role="img" aria-label="Papers per year, {ys[0][0]} to {ys[-1][0]}">{bars}</div>'
              f'<figcaption>Papers per year, {ys[0][0]}–{ys[-1][0]}</figcaption></figure>') if ys else ""
     names = names or {}
@@ -313,6 +313,7 @@ def expert_page(ex, papers, claims, coauthors=(), names=None, pending=()):
 
     <details class="more" id="papers">
       <summary>All {len(papers)} papers</summary>
+      <p class="yfilter" id="yfilter" hidden></p>
       <div class="row ptools"><input class="filter" id="pfilter" type="search" placeholder="Filter papers by word" aria-label="Filter papers"><span class="label">Sort</span><button class="chip" type="button" data-psort="year" aria-pressed="true">Newest</button><button class="chip" type="button" data-psort="cites" aria-pressed="false">Most cited</button><button class="chip" type="button" data-psort="title" aria-pressed="false">Title A–Z</button></div>
       <ol class="plist" id="plist">
 {chr(10).join(plist)}
