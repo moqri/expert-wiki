@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Ludger J. E. Goeminne: new papers · expert.wiki</title>
+  <link href="https://expert.wiki/ludger-goeminne/"/>
+  <link rel="self" href="https://expert.wiki/ludger-goeminne/feed.xml"/>
+  <id>https://expert.wiki/ludger-goeminne/</id>
+  <updated>2026-01-01T00:00:00Z</updated>
+  <entry>
+    <title>Systemic control and inter-organ communication of ovarian aging</title>
+    <link href="https://doi.org/10.64898/2026.10.11.758357"/>
+    <id>https://doi.org/10.64898/2026.10.11.758357</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>bioRxiv 2026</summary>
+  </entry>
+  <entry>
+    <title>Integration of proteomic aging clocks in a phase 2a clinical trial supports simultaneous geroprotective assessment</title>
+    <link href="https://doi.org/10.1038/s41587-026-03286-y"/>
+    <id>https://doi.org/10.1038/s41587-026-03286-y</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>Nat Biotechnol 2026</summary>
+  </entry>
+  <entry>
+    <title>In Vivo Chemical Reprogramming Is Associated With a Toxic Accumulation of Lipid Droplets Hindering Rejuvenation</title>
+    <link href="https://doi.org/10.1111/acel.70390"/>
+    <id>https://doi.org/10.1111/acel.70390</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>Aging Cell 2026</summary>
+  </entry>
+  <entry>
+    <title>Integrative epigenetics and transcriptomics identify aging genes in human blood</title>
+    <link href="https://doi.org/10.1038/s41467-025-67369-1"/>
+    <id>https://doi.org/10.1038/s41467-025-67369-1</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>Nat Commun 2026</summary>
+  </entry>
+  <entry>
+    <title>A unified framework for systematic curation and evaluation of aging biomarkers</title>
+    <link href="https://doi.org/10.1038/s43587-025-00987-y"/>
+    <id>https://doi.org/10.1038/s43587-025-00987-y</id>
+    <updated>2025-01-01T00:00:00Z</updated>
+    <summary>Nat Aging 2025</summary>
+  </entry>
+  <entry>
+    <title>Cross-species proteomics quantification pipeline distinguishes donor versus host extracellular matrix in explanted biomaterials</title>
+    <link href="https://doi.org/10.1101/2025.06.24.661315"/>
+    <id>https://doi.org/10.1101/2025.06.24.661315</id>
+    <updated>2025-01-01T00:00:00Z</updated>
+    <summary>bioRxiv 2025</summary>
+  </entry>
+  <entry>
+    <title>Plasma protein-based organ-specific aging and mortality models unveil diseases as accelerated aging of organismal systems</title>
+    <link href="https://doi.org/10.1016/j.cmet.2024.10.005"/>
+    <id>https://doi.org/10.1016/j.cmet.2024.10.005</id>
+    <updated>2025-01-01T00:00:00Z</updated>
+    <summary>Cell Metab 2025</summary>
+  </entry>
+  <entry>
+    <title>Failure of metabolic checkpoint control during late-stage granulopoiesis drives neutropenia in reticular dysgenesis</title>
+    <link href="https://doi.org/10.1182/blood.2024024123"/>
+    <id>https://doi.org/10.1182/blood.2024024123</id>
+    <updated>2024-01-01T00:00:00Z</updated>
+    <summary>Blood 2024</summary>
+  </entry>
+  <entry>
+    <title>Depletion of loss-of-function germline mutations in centenarians reveals longevity genes</title>
+    <link href="https://doi.org/10.1038/s41467-024-52967-2"/>
+    <id>https://doi.org/10.1038/s41467-024-52967-2</id>
+    <updated>2024-01-01T00:00:00Z</updated>
+    <summary>Nat Commun 2024</summary>
+  </entry>
+  <entry>
+    <title>Challenges and recommendations for the translation of biomarkers of aging</title>
+    <link href="https://doi.org/10.1038/s43587-024-00683-3"/>
+    <id>https://doi.org/10.1038/s43587-024-00683-3</id>
+    <updated>2024-01-01T00:00:00Z</updated>
+    <summary>Nat Aging 2024</summary>
+  </entry>
+  <entry>
+    <title>Multi-omics characterization of partial chemical reprogramming reveals evidence of cell rejuvenation</title>
+    <link href="https://doi.org/10.7554/eLife.90579"/>
+    <id>https://doi.org/10.7554/eLife.90579</id>
+    <updated>2024-01-01T00:00:00Z</updated>
+    <summary>Elife 2024</summary>
+  </entry>
+  <entry>
+    <title>Inhibition of CERS1 in skeletal muscle exacerbates age-related muscle dysfunction</title>
+    <link href="https://doi.org/10.7554/eLife.90522"/>
+    <id>https://doi.org/10.7554/eLife.90522</id>
+    <updated>2024-01-01T00:00:00Z</updated>
+    <summary>Elife 2024</summary>
+  </entry>
+  <entry>
+    <title>Gene network based analysis identifies a coexpression module involved in regulating plasma lipids with high-fat diet response</title>
+    <link href="https://doi.org/10.1016/j.jnutbio.2023.109398"/>
+    <id>https://doi.org/10.1016/j.jnutbio.2023.109398</id>
+    <updated>2023-01-01T00:00:00Z</updated>
+    <summary>J Nutr Biochem 2023</summary>
+  </entry>
+  <entry>
+    <title>Inhibiting de novo ceramide synthesis restores mitochondrial and protein homeostasis in muscle aging</title>
+    <link href="https://doi.org/10.1126/scitranslmed.ade6509"/>
+    <id>https://doi.org/10.1126/scitranslmed.ade6509</id>
+    <updated>2023-01-01T00:00:00Z</updated>
+    <summary>Sci Transl Med 2023</summary>
+  </entry>
+  <entry>
+    <title>The genetic background shapes the susceptibility to mitochondrial dysfunction and NASH progression</title>
+    <link href="https://doi.org/10.1084/jem.20221738"/>
+    <id>https://doi.org/10.1084/jem.20221738</id>
+    <updated>2023-01-01T00:00:00Z</updated>
+    <summary>J Exp Med 2023</summary>
+  </entry>
+  <entry>
+    <title>Integrative systems analysis identifies genetic and dietary modulators of bile acid homeostasis</title>
+    <link href="https://doi.org/10.1016/j.cmet.2022.08.015"/>
+    <id>https://doi.org/10.1016/j.cmet.2022.08.015</id>
+    <updated>2022-01-01T00:00:00Z</updated>
+    <summary>Cell Metab 2022</summary>
+  </entry>
+  <entry>
+    <title>COX7A2L genetic variants determine cardiorespiratory fitness in mice and human</title>
+    <link href="https://doi.org/10.1038/s42255-022-00655-0"/>
+    <id>https://doi.org/10.1038/s42255-022-00655-0</id>
+    <updated>2022-01-01T00:00:00Z</updated>
+    <summary>Nat Metab 2022</summary>
+  </entry>
+  <entry>
+    <title>Evidence for a neuromuscular circuit involving hypothalamic interleukin-6 in the control of skeletal muscle metabolism</title>
+    <link href="https://doi.org/10.1126/sciadv.abm7355"/>
+    <id>https://doi.org/10.1126/sciadv.abm7355</id>
+    <updated>2022-01-01T00:00:00Z</updated>
+    <summary>Sci Adv 2022</summary>
+  </entry>
+  <entry>
+    <title>Genetic background and sex control the outcome of high-fat diet feeding in mice</title>
+    <link href="https://doi.org/10.1016/j.isci.2022.104468"/>
+    <id>https://doi.org/10.1016/j.isci.2022.104468</id>
+    <updated>2022-01-01T00:00:00Z</updated>
+    <summary>iScience 2022</summary>
+  </entry>
+  <entry>
+    <title>The mouse metallomic landscape of aging and metabolism</title>
+    <link href="https://doi.org/10.1038/s41467-022-28060-x"/>
+    <id>https://doi.org/10.1038/s41467-022-28060-x</id>
+    <updated>2022-01-01T00:00:00Z</updated>
+    <summary>Nat Commun 2022</summary>
+  </entry>
+  <entry>
+    <title>Inhibition of sphingolipid de novo synthesis counteracts muscular dystrophy</title>
+    <link href="https://doi.org/10.1126/sciadv.abh4423"/>
+    <id>https://doi.org/10.1126/sciadv.abh4423</id>
+    <updated>2022-01-01T00:00:00Z</updated>
+    <summary>Sci Adv 2022</summary>
+  </entry>
+  <entry>
+    <title>The transcriptional coactivator CBP/p300 is an evolutionarily conserved node that promotes longevity in response to mitochondrial stress</title>
+    <link href="https://doi.org/10.1038/s43587-020-00025-z"/>
+    <id>https://doi.org/10.1038/s43587-020-00025-z</id>
+    <updated>2021-01-01T00:00:00Z</updated>
+    <summary>Nat Aging 2021</summary>
+  </entry>
+  <entry>
+    <title>Growth differentiation factor 15 protects against the aging-mediated systemic inflammatory response in humans and mice</title>
+    <link href="https://doi.org/10.1111/acel.13195"/>
+    <id>https://doi.org/10.1111/acel.13195</id>
+    <updated>2020-01-01T00:00:00Z</updated>
+    <summary>Aging Cell 2020</summary>
+  </entry>
+  <entry>
+    <title>Robust Summarization and Inference in Proteome-wide Label-free Quantification</title>
+    <link href="https://doi.org/10.1074/mcp.RA119.001624"/>
+    <id>https://doi.org/10.1074/mcp.RA119.001624</id>
+    <updated>2020-01-01T00:00:00Z</updated>
+    <summary>Mol Cell Proteomics 2020</summary>
+  </entry>
+  <entry>
+    <title>MSqRob Takes the Missing Hurdle: Uniting Intensity- and Count-Based Proteomics</title>
+    <link href="https://doi.org/10.1021/acs.analchem.9b04375"/>
+    <id>https://doi.org/10.1021/acs.analchem.9b04375</id>
+    <updated>2020-01-01T00:00:00Z</updated>
+    <summary>Anal Chem 2020</summary>
+  </entry>
+  <entry>
+    <title>Identification of Immune-Responsive Gene 1 (IRG1) as a Target of A20</title>
+    <link href="https://doi.org/10.1021/acs.jproteome.8b00139"/>
+    <id>https://doi.org/10.1021/acs.jproteome.8b00139</id>
+    <updated>2018-01-01T00:00:00Z</updated>
+    <summary>J Proteome Res 2018</summary>
+  </entry>
+  <entry>
+    <title>Experimental design and data-analysis in label-free quantitative LC/MS proteomics: A tutorial with MSqRob</title>
+    <link href="https://doi.org/10.1016/j.jprot.2017.04.004"/>
+    <id>https://doi.org/10.1016/j.jprot.2017.04.004</id>
+    <updated>2018-01-01T00:00:00Z</updated>
+    <summary>J Proteomics 2018</summary>
+  </entry>
+  <entry>
+    <title>moFF: a robust and automated approach to extract peptide ion intensities</title>
+    <link href="https://doi.org/10.1038/nmeth.4075"/>
+    <id>https://doi.org/10.1038/nmeth.4075</id>
+    <updated>2016-01-01T00:00:00Z</updated>
+    <summary>Nat Methods 2016</summary>
+  </entry>
+  <entry>
+    <title>Peptide-level Robust Ridge Regression Improves Estimation, Sensitivity, and Specificity in Data-dependent Quantitative Label-free Shotgun Proteomics</title>
+    <link href="https://doi.org/10.1074/mcp.M115.055897"/>
+    <id>https://doi.org/10.1074/mcp.M115.055897</id>
+    <updated>2016-01-01T00:00:00Z</updated>
+    <summary>Mol Cell Proteomics 2016</summary>
+  </entry>
+  <entry>
+    <title>Summarization vs Peptide-Based Models in Label-Free Quantitative Proteomics: Performance, Pitfalls, and Data Analysis Guidelines</title>
+    <link href="https://doi.org/10.1021/pr501223t"/>
+    <id>https://doi.org/10.1021/pr501223t</id>
+    <updated>2015-01-01T00:00:00Z</updated>
+    <summary>J Proteome Res 2015</summary>
+  </entry>
+</feed>

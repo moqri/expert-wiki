@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Vadim Gladyshev: new papers · expert.wiki</title>
+  <link href="https://expert.wiki/vadim-gladyshev/"/>
+  <link rel="self" href="https://expert.wiki/vadim-gladyshev/feed.xml"/>
+  <id>https://expert.wiki/vadim-gladyshev/</id>
+  <updated>2026-01-01T00:00:00Z</updated>
+  <entry>
+    <title>Foundation artificial intelligence models for health recognition by use of face photographs (FAHR-Face): a model development and validation study</title>
+    <link href="https://doi.org/10.1016/j.landig.2026.101056"/>
+    <id>https://doi.org/10.1016/j.landig.2026.101056</id>
+    <updated>2027-01-01T00:00:00Z</updated>
+    <summary>Lancet Digit Health 2027</summary>
+  </entry>
+  <entry>
+    <title>Simply aging</title>
+    <link href="https://doi.org/10.1073/pnas.2605454123"/>
+    <id>https://doi.org/10.1073/pnas.2605454123</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>Proc Natl Acad Sci U S A 2026</summary>
+  </entry>
+  <entry>
+    <title>Ageing begins early: developmental origins of ageing trajectories</title>
+    <link href="https://doi.org/10.1098/rstb.2025.0326"/>
+    <id>https://doi.org/10.1098/rstb.2025.0326</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>Philos Trans R Soc Lond B Biol Sci 2026</summary>
+  </entry>
+  <entry>
+    <title>Engineering ATP import in yeast uncovers a synthetic route to extend cellular lifespan</title>
+    <link href="https://doi.org/10.7554/eLife.109761"/>
+    <id>https://doi.org/10.7554/eLife.109761</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>Elife 2026</summary>
+  </entry>
+  <entry>
+    <title>Systemic control and inter-organ communication of ovarian aging</title>
+    <link href="https://doi.org/10.64898/2026.10.11.758357"/>
+    <id>https://doi.org/10.64898/2026.10.11.758357</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>bioRxiv 2026</summary>
+  </entry>
+  <entry>
+    <title>Written in development and lost in ageing: the grammar of cellular identity</title>
+    <link href="https://doi.org/10.1038/s41586-026-10955-0"/>
+    <id>https://doi.org/10.1038/s41586-026-10955-0</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>Nature 2026</summary>
+  </entry>
+  <entry>
+    <title>A genome-scale ORF screen for resilience factors that protect the RPE and restore vision in aged mice</title>
+    <link href="https://doi.org/10.64898/2026.09.29.755187"/>
+    <id>https://doi.org/10.64898/2026.09.29.755187</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>bioRxiv 2026</summary>
+  </entry>
+  <entry>
+    <title>Transplanted hearts assimilate the recipient&#x27;s biological age</title>
+    <link href="https://doi.org/10.64898/2026.09.15.751836"/>
+    <id>https://doi.org/10.64898/2026.09.15.751836</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>bioRxiv 2026</summary>
+  </entry>
+  <entry>
+    <title>An open benchmark and language models for AI in aging biology</title>
+    <link href="https://doi.org/10.1016/j.cell.2026.08.026"/>
+    <id>https://doi.org/10.1016/j.cell.2026.08.026</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>Cell 2026</summary>
+  </entry>
+  <entry>
+    <title>MA-5 attenuates disease-associated transcriptomic aging and pathological microglial states in Gaucher disease</title>
+    <link href="https://doi.org/10.21203/rs.3.rs-10994808/v1"/>
+    <id>https://doi.org/10.21203/rs.3.rs-10994808/v1</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>Res Sq 2026</summary>
+  </entry>
+  <entry>
+    <title>Integration of proteomic aging clocks in a phase 2a clinical trial supports simultaneous geroprotective assessment</title>
+    <link href="https://doi.org/10.1038/s41587-026-03286-y"/>
+    <id>https://doi.org/10.1038/s41587-026-03286-y</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>Nat Biotechnol 2026</summary>
+  </entry>
+  <entry>
+    <title>Aging vs. biological age: Conceptual considerations for age reversal claims</title>
+    <link href="https://doi.org/10.1016/j.cmet.2026.06.015"/>
+    <id>https://doi.org/10.1016/j.cmet.2026.06.015</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>Cell Metab 2026</summary>
+  </entry>
+  <entry>
+    <title>Longitudinal alignments and syntheses of multimodal clinical data for personalized medicine with the PULSE framework</title>
+    <link href="https://doi.org/10.1038/s43588-026-01026-5"/>
+    <id>https://doi.org/10.1038/s43588-026-01026-5</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>Nat Comput Sci 2026</summary>
+  </entry>
+  <entry>
+    <title>Measuring the Effects of Pharmacological Compounds on Mitochondrial Morphology in Mouse Aging Models</title>
+    <link href="https://doi.org/10.3791/71930"/>
+    <id>https://doi.org/10.3791/71930</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>J Vis Exp 2026</summary>
+  </entry>
+  <entry>
+    <title>Nutritional Strategies for Targeting Biological Age</title>
+    <link href="https://doi.org/10.1146/annurev-nutr-062322-025848"/>
+    <id>https://doi.org/10.1146/annurev-nutr-062322-025848</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>Annu Rev Nutr 2026</summary>
+  </entry>
+  <entry>
+    <title>Proteomic ageing clocks: methods, mechanisms and the muscle connection</title>
+    <link href="https://doi.org/10.1186/s13059-026-04220-w"/>
+    <id>https://doi.org/10.1186/s13059-026-04220-w</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>Genome Biol 2026</summary>
+  </entry>
+  <entry>
+    <title>The association of frailty with age and lifespan in mice differs by strain and sex</title>
+    <link href="https://doi.org/10.1093/gerona/glag167"/>
+    <id>https://doi.org/10.1093/gerona/glag167</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>J Gerontol A Biol Sci Med Sci 2026</summary>
+  </entry>
+  <entry>
+    <title>Meta-analysis of DNA methylation aging signatures in 17 human tissues</title>
+    <link href="https://doi.org/10.1038/s43587-026-01164-5"/>
+    <id>https://doi.org/10.1038/s43587-026-01164-5</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>Nat Aging 2026</summary>
+  </entry>
+  <entry>
+    <title>Network-driven discovery of repurposable drugs targeting hallmarks of aging</title>
+    <link href="https://doi.org/10.1038/s43587-026-01161-8"/>
+    <id>https://doi.org/10.1038/s43587-026-01161-8</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>Nat Aging 2026</summary>
+  </entry>
+  <entry>
+    <title>Systemic epigenetic dysregulation as a driver of ageing and a therapeutic target</title>
+    <link href="https://doi.org/10.1038/s41580-026-00958-0"/>
+    <id>https://doi.org/10.1038/s41580-026-00958-0</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>Nat Rev Mol Cell Biol 2026</summary>
+  </entry>
+  <entry>
+    <title>Mammalian aging involves genome-wide splicing degeneration leading to functional decline</title>
+    <link href="https://doi.org/10.64898/2026.06.26.734787"/>
+    <id>https://doi.org/10.64898/2026.06.26.734787</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>bioRxiv 2026</summary>
+  </entry>
+  <entry>
+    <title>Delphi-derived Framework for Healthspan-Oriented Care: The Cardiometabolic Health Perspective</title>
+    <link href="https://doi.org/10.14336/AD.2026.0279"/>
+    <id>https://doi.org/10.14336/AD.2026.0279</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>Aging Dis 2026</summary>
+  </entry>
+  <entry>
+    <title>Architectural fragility of gene regulatory networks underlies hematopoietic stem cell aging</title>
+    <link href="https://doi.org/10.64898/2026.06.03.729976"/>
+    <id>https://doi.org/10.64898/2026.06.03.729976</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>bioRxiv 2026</summary>
+  </entry>
+  <entry>
+    <title>An open competition for biomarkers of aging</title>
+    <link href="https://doi.org/10.1038/s43587-026-01139-6"/>
+    <id>https://doi.org/10.1038/s43587-026-01139-6</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>Nat Aging 2026</summary>
+  </entry>
+  <entry>
+    <title>Universal transcriptomic hallmarks of mammalian ageing and mortality</title>
+    <link href="https://doi.org/10.1038/s41586-026-10542-3"/>
+    <id>https://doi.org/10.1038/s41586-026-10542-3</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>Nature 2026</summary>
+  </entry>
+  <entry>
+    <title>Extension of lifespan by epicatechin, halofuginone and mitoglitazone in male but not female genetically heterogeneous mice</title>
+    <link href="https://doi.org/10.1007/s11357-025-01881-6"/>
+    <id>https://doi.org/10.1007/s11357-025-01881-6</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>Geroscience 2026</summary>
+  </entry>
+  <entry>
+    <title>Short-lived Niemann-Pick type C mice with accelerated brain aging as a novel model for Alzheimer&#x27;s disease research</title>
+    <link href="https://doi.org/10.4103/NRR.NRR-D-24-01190"/>
+    <id>https://doi.org/10.4103/NRR.NRR-D-24-01190</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>Neural Regen Res 2026</summary>
+  </entry>
+  <entry>
+    <title>A Multimodal Framework for Organ- and Cell-Resolved Biological Aging and Longevity Intervention Discovery</title>
+    <link href="https://doi.org/10.64898/2026.05.08.26352759"/>
+    <id>https://doi.org/10.64898/2026.05.08.26352759</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>medRxiv 2026</summary>
+  </entry>
+  <entry>
+    <title>Replacement-Based Ageing Interventions for Systemic Rejuvenation: Shaping Longevity Science and Clinical Directions</title>
+    <link href="https://doi.org/10.1111/acel.70516"/>
+    <id>https://doi.org/10.1111/acel.70516</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>Aging Cell 2026</summary>
+  </entry>
+  <entry>
+    <title>Comparative analysis of naked mole-rat thermogenesis and its potential to maintain euthermia in response to cold</title>
+    <link href="https://doi.org/10.1073/pnas.2600755123"/>
+    <id>https://doi.org/10.1073/pnas.2600755123</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>Proc Natl Acad Sci U S A 2026</summary>
+  </entry>
+</feed>

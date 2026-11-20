@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Morgan E. Levine: new papers · expert.wiki</title>
+  <link href="https://expert.wiki/morgan-levine/"/>
+  <link rel="self" href="https://expert.wiki/morgan-levine/feed.xml"/>
+  <id>https://expert.wiki/morgan-levine/</id>
+  <updated>2026-01-01T00:00:00Z</updated>
+  <entry>
+    <title>MENTSH: A novel mitochondrial microprotein linked to a SNP associated with type 2 diabetes</title>
+    <link href="https://doi.org/10.7150/thno.134637"/>
+    <id>https://doi.org/10.7150/thno.134637</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>Theranostics 2026</summary>
+  </entry>
+  <entry>
+    <title>Beyond the Genotype: A Multi-Omic Analysis of APOEe4&#x27;s Role in Alzheimer&#x27;s Disease</title>
+    <link href="https://doi.org/10.1101/2025.10.16.682426"/>
+    <id>https://doi.org/10.1101/2025.10.16.682426</id>
+    <updated>2025-01-01T00:00:00Z</updated>
+    <summary>bioRxiv 2025</summary>
+  </entry>
+  <entry>
+    <title>Systems Age: a single blood methylation test to quantify aging heterogeneity across 11 physiological systems</title>
+    <link href="https://doi.org/10.1038/s43587-025-00958-3"/>
+    <id>https://doi.org/10.1038/s43587-025-00958-3</id>
+    <updated>2025-01-01T00:00:00Z</updated>
+    <summary>Nat Aging 2025</summary>
+  </entry>
+  <entry>
+    <title>Age-invariant genes: multi-tissue identification and characterization of murine reference genes</title>
+    <link href="https://doi.org/10.18632/aging.206192"/>
+    <id>https://doi.org/10.18632/aging.206192</id>
+    <updated>2025-01-01T00:00:00Z</updated>
+    <summary>Aging (Albany NY) 2025</summary>
+  </entry>
+  <entry>
+    <title>Disagreement on foundational principles of biological aging</title>
+    <link href="https://doi.org/10.1093/pnasnexus/pgae499"/>
+    <id>https://doi.org/10.1093/pnasnexus/pgae499</id>
+    <updated>2024-01-01T00:00:00Z</updated>
+    <summary>PNAS Nexus 2024</summary>
+  </entry>
+  <entry>
+    <title>Reliable detection of stochastic epigenetic mutations and associations with cardiovascular aging</title>
+    <link href="https://doi.org/10.1007/s11357-024-01191-3"/>
+    <id>https://doi.org/10.1007/s11357-024-01191-3</id>
+    <updated>2024-01-01T00:00:00Z</updated>
+    <summary>Geroscience 2024</summary>
+  </entry>
+  <entry>
+    <title>The Latent Aging of Cells</title>
+    <link href="https://doi.org/10.1101/2024.05.28.596284"/>
+    <id>https://doi.org/10.1101/2024.05.28.596284</id>
+    <updated>2024-01-01T00:00:00Z</updated>
+    <summary>bioRxiv 2024</summary>
+  </entry>
+  <entry>
+    <title>Fasting-mimicking diet causes hepatic and blood markers changes indicating reduced biological age and disease risk</title>
+    <link href="https://doi.org/10.1038/s41467-024-45260-9"/>
+    <id>https://doi.org/10.1038/s41467-024-45260-9</id>
+    <updated>2024-01-01T00:00:00Z</updated>
+    <summary>Nat Commun 2024</summary>
+  </entry>
+  <entry>
+    <title>Frailty Resilience Score: A Novel Measure of Frailty Resilience Associated With Protection From Frailty and Survival</title>
+    <link href="https://doi.org/10.1093/gerona/glad138"/>
+    <id>https://doi.org/10.1093/gerona/glad138</id>
+    <updated>2023-01-01T00:00:00Z</updated>
+    <summary>J Gerontol A Biol Sci Med Sci 2023</summary>
+  </entry>
+  <entry>
+    <title>Cellular allostatic load is linked to increased energy expenditure and accelerated biological aging</title>
+    <link href="https://doi.org/10.1016/j.psyneuen.2023.106322"/>
+    <id>https://doi.org/10.1016/j.psyneuen.2023.106322</id>
+    <updated>2023-01-01T00:00:00Z</updated>
+    <summary>Psychoneuroendocrinology 2023</summary>
+  </entry>
+  <entry>
+    <title>More than bad luck: Cancer and aging are linked to replication-driven changes to the epigenome</title>
+    <link href="https://doi.org/10.1126/sciadv.adf4163"/>
+    <id>https://doi.org/10.1126/sciadv.adf4163</id>
+    <updated>2023-01-01T00:00:00Z</updated>
+    <summary>Sci Adv 2023</summary>
+  </entry>
+  <entry>
+    <title>The EN-TEx resource of multi-tissue personal epigenomes &amp; variant-impact models</title>
+    <link href="https://doi.org/10.1016/j.cell.2023.02.018"/>
+    <id>https://doi.org/10.1016/j.cell.2023.02.018</id>
+    <updated>2023-01-01T00:00:00Z</updated>
+    <summary>Cell 2023</summary>
+  </entry>
+  <entry>
+    <title>Epigenetic-based age acceleration in a representative sample of older Americans: Associations with aging-related morbidity and mortality</title>
+    <link href="https://doi.org/10.1073/pnas.2215840120"/>
+    <id>https://doi.org/10.1073/pnas.2215840120</id>
+    <updated>2023-01-01T00:00:00Z</updated>
+    <summary>Proc Natl Acad Sci U S A 2023</summary>
+  </entry>
+  <entry>
+    <title>Live long &amp; prosper: evidence of evolutionary forces on lifespan</title>
+    <link href="https://doi.org/10.1038/s41576-022-00560-y"/>
+    <id>https://doi.org/10.1038/s41576-022-00560-y</id>
+    <updated>2023-01-01T00:00:00Z</updated>
+    <summary>Nat Rev Genet 2023</summary>
+  </entry>
+  <entry>
+    <title>OxPhos defects cause hypermetabolism and reduce lifespan in cells and in patients with mitochondrial diseases</title>
+    <link href="https://doi.org/10.1038/s42003-022-04303-x"/>
+    <id>https://doi.org/10.1038/s42003-022-04303-x</id>
+    <updated>2023-01-01T00:00:00Z</updated>
+    <summary>Commun Biol 2023</summary>
+  </entry>
+  <entry>
+    <title>A multi-omics longitudinal aging dataset in primary human fibroblasts with mitochondrial perturbations</title>
+    <link href="https://doi.org/10.1038/s41597-022-01852-y"/>
+    <id>https://doi.org/10.1038/s41597-022-01852-y</id>
+    <updated>2022-01-01T00:00:00Z</updated>
+    <summary>Sci Data 2022</summary>
+  </entry>
+  <entry>
+    <title>Contribution of life course circumstances to the acceleration of phenotypic and functional aging: A retrospective study</title>
+    <link href="https://doi.org/10.1016/j.eclinm.2022.101548"/>
+    <id>https://doi.org/10.1016/j.eclinm.2022.101548</id>
+    <updated>2022-01-01T00:00:00Z</updated>
+    <summary>EClinicalMedicine 2022</summary>
+  </entry>
+  <entry>
+    <title>Life course traumas and cardiovascular disease-the mediating role of accelerated aging</title>
+    <link href="https://doi.org/10.1111/nyas.14843"/>
+    <id>https://doi.org/10.1111/nyas.14843</id>
+    <updated>2022-01-01T00:00:00Z</updated>
+    <summary>Ann N Y Acad Sci 2022</summary>
+  </entry>
+  <entry>
+    <title>The Role of Epigenetic Clocks in Explaining Educational Inequalities in Mortality: A Multicohort Study and Meta-analysis</title>
+    <link href="https://doi.org/10.1093/gerona/glac041"/>
+    <id>https://doi.org/10.1093/gerona/glac041</id>
+    <updated>2022-01-01T00:00:00Z</updated>
+    <summary>J Gerontol A Biol Sci Med Sci 2022</summary>
+  </entry>
+  <entry>
+    <title>Aging the brain: multi-region methylation principal component based clock in the context of Alzheimer&#x27;s disease</title>
+    <link href="https://doi.org/10.18632/aging.204196"/>
+    <id>https://doi.org/10.18632/aging.204196</id>
+    <updated>2022-01-01T00:00:00Z</updated>
+    <summary>Aging (Albany NY) 2022</summary>
+  </entry>
+  <entry>
+    <title>A complex systems approach to aging biology</title>
+    <link href="https://doi.org/10.1038/s43587-022-00252-6"/>
+    <id>https://doi.org/10.1038/s43587-022-00252-6</id>
+    <updated>2022-01-01T00:00:00Z</updated>
+    <summary>Nat Aging 2022</summary>
+  </entry>
+  <entry>
+    <title>Longitudinal phenotypic aging metrics in the Baltimore Longitudinal Study of Aging</title>
+    <link href="https://doi.org/10.1038/s43587-022-00243-7"/>
+    <id>https://doi.org/10.1038/s43587-022-00243-7</id>
+    <updated>2022-01-01T00:00:00Z</updated>
+    <summary>Nat Aging 2022</summary>
+  </entry>
+  <entry>
+    <title>A computational solution for bolstering reliability of epigenetic clocks: Implications for clinical trials and longitudinal tracking</title>
+    <link href="https://doi.org/10.1038/s43587-022-00248-2"/>
+    <id>https://doi.org/10.1038/s43587-022-00248-2</id>
+    <updated>2022-01-01T00:00:00Z</updated>
+    <summary>Nat Aging 2022</summary>
+  </entry>
+  <entry>
+    <title>Longitudinal Study of DNA Methylation and Epigenetic Clocks Prior to and Following Test-Confirmed COVID-19 and mRNA Vaccination</title>
+    <link href="https://doi.org/10.3389/fgene.2022.819749"/>
+    <id>https://doi.org/10.3389/fgene.2022.819749</id>
+    <updated>2022-01-01T00:00:00Z</updated>
+    <summary>Front Genet 2022</summary>
+  </entry>
+  <entry>
+    <title>The Socioeconomic Gradient in Epigenetic Ageing Clocks: Evidence from the Multi-Ethnic Study of Atherosclerosis and the Health and Retirement Study</title>
+    <link href="https://doi.org/10.1080/15592294.2021.1939479"/>
+    <id>https://doi.org/10.1080/15592294.2021.1939479</id>
+    <updated>2022-01-01T00:00:00Z</updated>
+    <summary>Epigenetics 2022</summary>
+  </entry>
+  <entry>
+    <title>Resilience integrates concepts in aging research</title>
+    <link href="https://doi.org/10.1016/j.isci.2022.104199"/>
+    <id>https://doi.org/10.1016/j.isci.2022.104199</id>
+    <updated>2022-01-01T00:00:00Z</updated>
+    <summary>iScience 2022</summary>
+  </entry>
+  <entry>
+    <title>Evidence of accelerated epigenetic aging of breast tissues in patients with breast cancer is driven by CpGs associated with polycomb-related genes</title>
+    <link href="https://doi.org/10.1186/s13148-022-01249-z"/>
+    <id>https://doi.org/10.1186/s13148-022-01249-z</id>
+    <updated>2022-01-01T00:00:00Z</updated>
+    <summary>Clin Epigenetics 2022</summary>
+  </entry>
+  <entry>
+    <title>Tick tock, tick tock: Mouse culture and tissue aging captured by an epigenetic clock</title>
+    <link href="https://doi.org/10.1111/acel.13553"/>
+    <id>https://doi.org/10.1111/acel.13553</id>
+    <updated>2022-01-01T00:00:00Z</updated>
+    <summary>Aging Cell 2022</summary>
+  </entry>
+  <entry>
+    <title>Epigenetic aging of the demographically non-aging naked mole-rat</title>
+    <link href="https://doi.org/10.1038/s41467-022-27959-9"/>
+    <id>https://doi.org/10.1038/s41467-022-27959-9</id>
+    <updated>2022-01-01T00:00:00Z</updated>
+    <summary>Nat Commun 2022</summary>
+  </entry>
+  <entry>
+    <title>Extending human healthspan and longevity: a symposium report</title>
+    <link href="https://doi.org/10.1111/nyas.14681"/>
+    <id>https://doi.org/10.1111/nyas.14681</id>
+    <updated>2022-01-01T00:00:00Z</updated>
+    <summary>Ann N Y Acad Sci 2022</summary>
+  </entry>
+</feed>

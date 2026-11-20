@@ -102,6 +102,21 @@
         var el = document.getElementById(id); el.value = saved[id] || '';
         el.addEventListener('input', function () { saved[id] = el.value; save(); });
       });
+      // New papers from the weekly PubMed check, waiting for the expert to confirm authorship.
+      if ((X.pending || []).length) {
+        saved.pending = saved.pending || {};
+        var sec = document.createElement('div'); sec.className = 'claim-pending';
+        sec.innerHTML = '<h3>New papers to confirm</h3><p>These recent PubMed records match your name. Confirm the ones that are yours and they will be added to this page.</p><ol></ol>';
+        X.pending.forEach(function (pp) {
+          var li = document.createElement('li'), u = pp.doi ? 'https://doi.org/' + pp.doi : 'https://pubmed.ncbi.nlm.nih.gov/' + pp.pmid + '/';
+          li.innerHTML = '<a href="' + u + '"></a> <span class="d"></span> <span class="row"><button class="chip" type="button" data-p="mine">Mine</button><button class="chip" type="button" data-p="not">Not mine</button></span>';
+          li.querySelector('a').textContent = pp.title; li.querySelector('.d').textContent = pp.journal + ' ' + pp.year;
+          var mark = function () { [].forEach.call(li.querySelectorAll('[data-p]'), function (b) { b.setAttribute('aria-pressed', String(saved.pending[pp.pmid] === b.dataset.p)); }); };
+          li.addEventListener('click', function (ev) { var b = ev.target.closest('[data-p]'); if (!b) return; saved.pending[pp.pmid] = saved.pending[pp.pmid] === b.dataset.p ? '' : b.dataset.p; save(); mark(); });
+          mark(); sec.querySelector('ol').appendChild(li);
+        });
+        send.insertBefore(sec, send.querySelector('h2').nextSibling);
+      }
       // Show every finding while reviewing.
       var all = document.querySelector('[data-filter=""]'); if (all) all.click();
       paint(); panel.scrollIntoView({ block: 'start' });
@@ -116,6 +131,10 @@
         if (r.d === 'edit') lines.push('    new_statement: ' + q(r.text || ''));
         if (r.d === 'remove' && r.text) lines.push('    reason: ' + q(r.text));
       });
+      var pm = saved.pending || {}, mine = [], notm = [];
+      Object.keys(pm).forEach(function (k) { if (pm[k] === 'mine') mine.push(k); else if (pm[k] === 'not') notm.push(k); });
+      if (mine.length) lines.push('new_papers_mine: [' + mine.join(', ') + ']');
+      if (notm.length) lines.push('new_papers_not_mine: [' + notm.join(', ') + ']');
       if ((saved['claim-add'] || '').trim()) lines.push('add: |', saved['claim-add'].trim().split('\n').map(function (l) { return '  ' + l; }).join('\n'));
       if ((saved['claim-note'] || '').trim()) lines.push('note: |', saved['claim-note'].trim().split('\n').map(function (l) { return '  ' + l; }).join('\n'));
       return lines.join('\n');

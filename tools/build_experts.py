@@ -11,6 +11,7 @@ import html
 import json
 import pathlib
 import re
+import urllib.parse
 
 import yaml
 
@@ -18,9 +19,86 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 EXPERTS = ROOT / "experts"
 SITE = yaml.safe_load((EXPERTS / "site.yaml").read_text())
 UPDATED = SITE.get("updated", "")
-FONTS = ('<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,600;1,400'
-         '&family=Public+Sans:wght@400;600&family=JetBrains+Mono:wght@400;600&display=swap">')
+FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
+         '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400'
+         '&family=Inter:wght@400;500;600&display=swap">')
 e = html.escape
+
+
+NOW_YEAR = int(re.search(r"\d{4}", str(UPDATED)).group()) if re.search(r"\d{4}", str(UPDATED)) else 2026
+SINCE = NOW_YEAR - 4
+
+
+def hindex(cs):
+    cs = sorted(cs, reverse=True)
+    return sum(1 for i, c in enumerate(cs, 1) if c >= i)
+
+
+def metrics(papers):
+    def row(ps):
+        cs = [p.get("citations") or 0 for p in ps]
+        return {"papers": len(ps), "citations": sum(cs), "h": hindex(cs), "i10": sum(c >= 10 for c in cs)}
+    return row(papers), row([p for p in papers if (p.get("year") or 0) >= SINCE])
+
+
+def per_year(papers, span=20):
+    years = [p["year"] for p in papers if p.get("year")]
+    if not years:
+        return []
+    lo = max(min(years), NOW_YEAR - span + 1)
+    return [(y, sum(1 for p in papers if p.get("year") == y), sum(p.get("citations") or 0 for p in papers if p.get("year") == y))
+            for y in range(lo, NOW_YEAR + 1)]
+
+
+def paper_keys(p):
+    ks = set()
+    if p.get("pmid"):
+        ks.add("pmid:" + p["pmid"])
+    if p.get("doi"):
+        ks.add("doi:" + p["doi"].lower())
+    return ks
+
+
+def coauthor_map(all_papers):
+    """slug -> [(other slug, number of shared papers)] for experts on the site."""
+    owners = {}
+    for slug, ps in all_papers.items():
+        for p in ps:
+            for k in paper_keys(p):
+                owners.setdefault(k, set()).add(slug)
+    out = {}
+    for slug, ps in all_papers.items():
+        shared = {}
+        for p in ps:
+            others = set().union(*(owners[k] for k in paper_keys(p))) - {slug} if paper_keys(p) else set()
+            for o in others:
+                shared[o] = shared.get(o, 0) + 1
+        out[slug] = sorted(shared.items(), key=lambda x: (-x[1], x[0]))
+    return out
+
+
+def feed(ex, papers):
+    """Atom feed of the 30 newest papers, so readers can follow an expert."""
+    items = []
+    for p in papers[:30]:
+        u = paper_url(p) or f"https://expert.wiki/{ex['slug']}/"
+        items.append(f"""  <entry>
+    <title>{e(p['title'])}</title>
+    <link href="{e(u)}"/>
+    <id>{e(u)}</id>
+    <updated>{p.get('year') or NOW_YEAR}-01-01T00:00:00Z</updated>
+    <summary>{e(p.get('journal') or '')} {p.get('year') or ''}</summary>
+  </entry>""")
+    return f"""<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{e(ex['name'])}: new papers · expert.wiki</title>
+  <link href="https://expert.wiki/{ex['slug']}/"/>
+  <link rel="self" href="https://expert.wiki/{ex['slug']}/feed.xml"/>
+  <id>https://expert.wiki/{ex['slug']}/</id>
+  <updated>{NOW_YEAR}-01-01T00:00:00Z</updated>
+{chr(10).join(items)}
+</feed>
+"""
 
 
 def cite_name(p):
@@ -65,8 +143,7 @@ def head(title, desc, extra=""):
 <meta name="description" content="{e(desc)}">
 <title>{e(title)}</title>
 {FONTS}
-<link rel="stylesheet" href="/agingclocks/style.css">
-<link rel="stylesheet" href="/assets/expert.css">
+<link rel="stylesheet" href="/assets/site.css">
 {extra}</head>
 """
 
@@ -78,7 +155,7 @@ def footer(left):
   </footer>"""
 
 
-def expert_page(ex, papers, claims):
+def expert_page(ex, papers, claims, coauthors=(), names=None, pending=()):
     byid = {p["id"]: p for p in papers}
     slug, name = ex["slug"], ex["name"]
     tags = ex.get("tags") or sorted({t for c in claims for t in c.get("tags", [])})
@@ -109,7 +186,7 @@ def expert_page(ex, papers, claims):
         url = paper_url(p)
         t = f'<a href="{e(url)}">{e(p["title"])}</a>' if url else e(p["title"])
         r = role(p)
-        meta = f'{e(p["journal"])} {p["year"]}' + (f' · {e(p["type"])}' if p.get("type") not in ("Article", "", None) else "") + (f" · {r}" if r else "") + (f' · {p["citations"]:,} citations' if p.get("citations") else "")
+        meta = f'{e(p["journal"])} {p["year"]}' + (f' · {e(p["type"])}' if p.get("type") not in ("Article", "", None) else "") + (f" · {r}" if r else "") + (f' · Cited by {p["citations"]:,}' if p.get("citations") else "")
         plist.append(f'        <li data-q="{e((p["title"] + " " + p["journal"]).lower())}" data-year="{p.get("year") or 0}" data-cites="{p.get("citations") or 0}" data-title="{e(p["title"].lower())}">{t}<span class="d">{meta}</span></li>')
 
     if ex.get("highlights"):
@@ -126,6 +203,38 @@ def expert_page(ex, papers, claims):
     examples = ('<div class="examples" role="group" aria-label="Example questions"><span class="label">Try</span>'
                 + "".join(f'<button class="ex" type="button">{e(q)}</button>' for q in qs) + "</div>") if qs else ""
     first = name.split()[0]
+    allm, recent = metrics(papers)
+    ys = per_year(papers)
+    peak = max((n for _, n, _ in ys), default=1) or 1
+    bars = "".join(f'<span class="yb" style="height:{max(2, round(60 * n / peak))}px" title="{y}: {n} paper{"s" if n != 1 else ""}, cited {c:,} times"></span>' for y, n, c in ys)
+    chart = (f'<figure class="years"><div class="ybars" role="img" aria-label="Papers per year, {ys[0][0]} to {ys[-1][0]}">{bars}</div>'
+             f'<figcaption><span>{ys[0][0]}</span>Papers per year<span>{ys[-1][0]}</span></figcaption></figure>') if ys else ""
+    names = names or {}
+    co = "".join(f'<li><a href="/{e(o)}/">{e(names.get(o, o))}</a> <span class="d">{n} paper{"s" if n != 1 else ""}</span></li>' for o, n in coauthors[:10])
+    interests = ", ".join(f'<a href="/#k={e(kslug(t))}">{e(t)}</a>' for t in tags)
+    pub = f"https://pubmed.ncbi.nlm.nih.gov/?term={urllib.parse.quote(ex['search'])}&sort=date" if ex.get("search") else ""
+    record = f"""    <section class="record" aria-labelledby="rec-h">
+      <h2 class="sec" id="rec-h">Publication record</h2>
+      <div class="rec-grid">
+        <table class="metrics">
+          <thead><tr><th scope="col"></th><th scope="col">All</th><th scope="col">Since {SINCE}</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">Papers</th><td>{allm['papers']:,}</td><td>{recent['papers']:,}</td></tr>
+            <tr><th scope="row">Citations</th><td>{allm['citations']:,}</td><td>{recent['citations']:,}</td></tr>
+            <tr><th scope="row">h-index</th><td>{allm['h']}</td><td>{recent['h']}</td></tr>
+            <tr><th scope="row">i10-index</th><td>{allm['i10']}</td><td>{recent['i10']}</td></tr>
+          </tbody>
+        </table>
+        {chart}
+      </div>
+      <p class="fine">Citation counts from Europe PMC and Crossref. "Since {SINCE}" counts papers published from {SINCE} on.</p>
+      <dl class="facts">
+        <dt>Research interests</dt><dd>{interests}</dd>
+        {f'<dt>Co-authors on expert.wiki</dt><dd><ul class="coauthors">{co}</ul></dd>' if co else ''}
+        <dt>Follow</dt><dd><a href="feed.xml">New papers (RSS)</a>{f' · <a href="{e(pub)}">Email alerts through PubMed</a>' if pub else ''}</dd>
+      </dl>
+    </section>
+"""
     cl = ex.get("claimed") or {}
     nver = sum(1 for c in claims if c.get("verified"))
     claimed_line = (f'<p class="claimed">Findings reviewed by {e(name)}' + (f' · {nver} of {len(claims)} expert verified' if nver else '') + '</p>') if cl else \
@@ -165,7 +274,7 @@ def expert_page(ex, papers, claims):
       </div>
     </section>
 
-
+{record}
     <h2 class="sec">Key findings</h2>
     <div class="controls" id="controls" role="region" aria-label="Filter and sort findings">
       <div class="row" role="group" aria-label="Filter by tag"><span class="label">Tags</span>{''.join(chips)}</div>
@@ -181,7 +290,7 @@ def expert_page(ex, papers, claims):
     </ol>
 
     <section class="claim-send" id="claim-send" hidden aria-labelledby="claim-send-h">
-      <h2 id="claim-send-h">Missing findings and sending</h2>
+      <h2 id="claim-send-h">New papers, missing findings and sending</h2>
       <label for="claim-add">Findings to add (one per paragraph, with the paper's DOI or PMID)</label>
       <textarea id="claim-add" rows="4"></textarea>
       <div class="claim-who">
@@ -212,7 +321,7 @@ def expert_page(ex, papers, claims):
   </main>
 {footer('expert.wiki · <a href="/">All experts</a>')}
 </div>
-<script>window.EXPERT={json.dumps({"slug": slug, "name": name, "endpoint": endpoint, "papers": len(papers), "abstracts": sum(1 for q in papers if q.get("abstract")), "claim_url": SITE.get("claim_url", "")})};</script>
+<script>window.EXPERT={json.dumps({"slug": slug, "name": name, "pending": [{k: q.get(k) for k in ("id", "title", "journal", "year", "doi", "pmid")} for q in pending], "endpoint": endpoint, "papers": len(papers), "abstracts": sum(1 for q in papers if q.get("abstract")), "claim_url": SITE.get("claim_url", "")})};</script>
 <script src="/assets/expert.js"></script>
 </body>
 </html>
@@ -293,7 +402,7 @@ def home(roster, built):
       <p class="label">Science from the people who do it</p>
       <h1>Ask the experts, <em>through their published work.</em></h1>
       <p class="lede">{e(SITE['intro'])}</p>
-      <p class="suggest"><a class="subtle" href="/review/">Review an abstract with an expert panel →</a> · <a class="subtle" href="{e(suggest)}">Suggest the next topic →</a></p>
+      <p class="suggest"><a class="subtle" href="/review/">Review an abstract with an expert panel</a> · <a class="subtle" href="{e(suggest)}">Suggest the next topic</a></p>
     </section>
     <div class="controls" role="region" aria-label="Filter experts">
       <div class="row"><span class="grp" role="group" aria-label="Filter by area"><span class="label">Area</span>{''.join(chips)}</span><span class="grp sortgrp" role="group" aria-label="Sort experts"><span class="label">Sort</span><button class="chip" type="button" data-esort="name" aria-pressed="true">A–Z</button><button class="chip" type="button" data-esort="cites" aria-pressed="false">Most cited</button></span></div>
@@ -383,17 +492,22 @@ def review_page(roster, built):
 def main():
     roster = yaml.safe_load((EXPERTS / "roster.yaml").read_text())
     built = {}
-    for d in sorted(p for p in EXPERTS.iterdir() if p.is_dir()):
-        if not all((d / f).exists() for f in ("expert.yaml", "papers.json", "claims.yaml")):
-            continue
-        ex, papers, claims = load(d)
+    dirs = [d for d in sorted(p for p in EXPERTS.iterdir() if p.is_dir())
+            if all((d / f).exists() for f in ("expert.yaml", "papers.json", "claims.yaml"))]
+    loaded = {d: load(d) for d in dirs}
+    co = coauthor_map({ex["slug"]: papers for ex, papers, _ in loaded.values()})
+    names = {ex["slug"]: ex["name"] for ex, _, _ in loaded.values()}
+    for d in dirs:
+        ex, papers, claims = loaded[d]
+        pend = json.loads((d / "pending.json").read_text()) if (d / "pending.json").exists() else []
         ids = {p["id"] for p in papers}
         bad = [c["paper"] for c in claims if c["paper"] not in ids]
         if bad:
             raise SystemExit(f"{d.name}: claims cite unknown papers {bad}")
         out = ROOT / ex["slug"]
         out.mkdir(exist_ok=True)
-        (out / "index.html").write_text(expert_page(ex, papers, claims))
+        (out / "index.html").write_text(expert_page(ex, papers, claims, co.get(ex["slug"], []), names, pend))
+        (out / "feed.xml").write_text(feed(ex, papers))
         (out / "corpus.json").write_text(json.dumps(corpus(ex, papers), ensure_ascii=False))
         ex["_cites"] = sum(p.get("citations", 0) for p in papers)
         built[ex["slug"]] = ex

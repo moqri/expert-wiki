@@ -100,3 +100,25 @@ claimed: {by: Randall J. Bateman, on: 2026-11-20}   # replaces the claim link wi
 
 Edits replace `statement` (and `figure`/`figure_label` if needed). Removals
 delete the claim and re-number `rank`.
+
+## New papers
+
+`.github/workflows/new-papers.yml` runs `tools/check_new_papers.py` every
+Monday. It searches PubMed with each expert's `search` query for records
+added in the last 120 days and queues unseen matches in
+`experts/<slug>/pending.json`, then opens a pull request. Pending papers are
+never shown to readers; the expert sees them under "Claim this page" and
+marks each one Mine or Not mine. Move confirmed papers into `papers.json`
+(then run `tools/fetch_citations.py <slug>`), add rejected PMIDs to
+`not_mine:` in expert.yaml so they are not queued again, and delete them
+from `pending.json`. Optional `first_name:` and `last_name:` in expert.yaml
+override the name match.
+
+## Publication record
+
+Each page shows papers, citations, h-index and i10-index for all papers and
+for papers published in the last five years, a papers-per-year chart,
+research interests (linking to the home page keyword filter), co-authors who
+also have pages (shared PMIDs or DOIs), and follow links: `feed.xml` (Atom,
+30 newest papers) and the expert's PubMed search, where readers can set up
+email alerts.
