@@ -2,6 +2,7 @@ updated: November 2026
 # Set this to the deployed Cloudflare Worker URL (see worker/README.md).
 # While empty, the ask box searches the expert's papers in the browser instead.
 ask_endpoint: "https://expert-wiki-ask.mahdi-moqri.workers.dev"
+claim_url: https://github.com/moqri/expert-wiki/issues/new?template=claim-page.yml
 suggest_url: https://github.com/moqri/expert-wiki/issues/new?template=suggest-topic.yml
 intro: "Plain-language summaries of leading researchers' work, with questions answered from their own publications. Starting with aging and Alzheimer's disease."
 areas:

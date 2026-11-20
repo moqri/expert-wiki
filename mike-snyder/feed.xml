@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Mike Snyder: new papers · expert.wiki</title>
+  <link href="https://expert.wiki/mike-snyder/"/>
+  <link rel="self" href="https://expert.wiki/mike-snyder/feed.xml"/>
+  <id>https://expert.wiki/mike-snyder/</id>
+  <updated>2026-01-01T00:00:00Z</updated>
+  <entry>
+    <title>Genetic variants in recurrent euploid pregnancy loss</title>
+    <link href="https://doi.org/10.1186/s13073-026-01817-5"/>
+    <id>https://doi.org/10.1186/s13073-026-01817-5</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>Genome Med 2026</summary>
+  </entry>
+  <entry>
+    <title>Longitudinal Changes in Wearable-Captured Physiology Before Sudden Cardiac Death</title>
+    <link href="https://doi.org/10.1016/j.jaccas.2026.110397"/>
+    <id>https://doi.org/10.1016/j.jaccas.2026.110397</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>JACC Case Rep 2026</summary>
+  </entry>
+  <entry>
+    <title>Inflammatory Proteins are Highly Variable During a Natural Stressor: A Call for Intensive Longitudinal Blood Microsampling</title>
+    <link href="https://doi.org/10.1016/j.bbi.2026.106926"/>
+    <id>https://doi.org/10.1016/j.bbi.2026.106926</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>Brain Behav Immun 2026</summary>
+  </entry>
+  <entry>
+    <title>Decoding personal and population variability in the human multiome</title>
+    <link href="https://doi.org/10.64898/2026.10.28.26366658"/>
+    <id>https://doi.org/10.64898/2026.10.28.26366658</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>medRxiv 2026</summary>
+  </entry>
+  <entry>
+    <title>DiaBench: A Benchmarking Framework to Evaluate the Performance of LLMs in T2D Patient Education</title>
+    <link href="https://doi.org/10.64898/2026.10.26.26366562"/>
+    <id>https://doi.org/10.64898/2026.10.26.26366562</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>medRxiv 2026</summary>
+  </entry>
+  <entry>
+    <title>Image-Based Dietary Assessment Using Multimodal Large Language Models: Performance, Limitations, and Clinical Applicability in Diabetes</title>
+    <link href="https://doi.org/10.64898/2026.10.21.26365949"/>
+    <id>https://doi.org/10.64898/2026.10.21.26365949</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>medRxiv 2026</summary>
+  </entry>
+  <entry>
+    <title>A genome-wide catalog of sites where peripheral DNA methylation reflects the brain</title>
+    <link href="https://doi.org/10.64898/2026.10.23.761276"/>
+    <id>https://doi.org/10.64898/2026.10.23.761276</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>bioRxiv 2026</summary>
+  </entry>
+  <entry>
+    <title>A distinct effector B cell population drives autoantibody production in SARS-CoV-2 infection</title>
+    <link href="https://doi.org/10.1016/j.immuni.2026.08.002"/>
+    <id>https://doi.org/10.1016/j.immuni.2026.08.002</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>Immunity 2026</summary>
+  </entry>
+  <entry>
+    <title>Microbial Dark Matter, A Multi-layer Mystery</title>
+    <link href="https://doi.org/10.1007/s43657-026-00311-7"/>
+    <id>https://doi.org/10.1007/s43657-026-00311-7</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>Phenomics 2026</summary>
+  </entry>
+  <entry>
+    <title>Gut microbiome shifts in chronic systolic heart failure are associated with disease severity and clinical improvement</title>
+    <link href="https://doi.org/10.1038/s44161-026-00854-y"/>
+    <id>https://doi.org/10.1038/s44161-026-00854-y</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>Nat Cardiovasc Res 2026</summary>
+  </entry>
+  <entry>
+    <title>Single-Cell Proteomics Uncovers Cell-Specific Proteins in Vascular Health and Marfan Syndrome Disease-Brief Report</title>
+    <link href="https://doi.org/10.1161/ATVBAHA.125.324104"/>
+    <id>https://doi.org/10.1161/ATVBAHA.125.324104</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>Arterioscler Thromb Vasc Biol 2026</summary>
+  </entry>
+  <entry>
+    <title>Multiscale harmonization, semantic integration, and immersive exploration of single-cell data in support of novel biological insights</title>
+    <link href="https://doi.org/10.64898/2026.07.07.737090"/>
+    <id>https://doi.org/10.64898/2026.07.07.737090</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>bioRxiv 2026</summary>
+  </entry>
+  <entry>
+    <title>Spatial Logic and Evolutionary Innovation in Human Placentation</title>
+    <link href="https://doi.org/10.64898/2026.09.04.749511"/>
+    <id>https://doi.org/10.64898/2026.09.04.749511</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>bioRxiv 2026</summary>
+  </entry>
+  <entry>
+    <title>The effect of sex and endurance exercise training on the incretin signaling pathway in 17 rat tissues</title>
+    <link href="https://doi.org/10.1152/physiolgenomics.00171.2026"/>
+    <id>https://doi.org/10.1152/physiolgenomics.00171.2026</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>Physiol Genomics 2026</summary>
+  </entry>
+  <entry>
+    <title>Home Tonometry in Glaucoma: Physician and Patient Perspectives on Indications, Benefits, and Barriers to Wider Implementation</title>
+    <link href="https://doi.org/10.1097/IJG.0000000000002760"/>
+    <id>https://doi.org/10.1097/IJG.0000000000002760</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>J Glaucoma 2026</summary>
+  </entry>
+  <entry>
+    <title>Autonomous biomedical research with an artificial intelligence agent</title>
+    <link href="https://doi.org/10.1126/science.adz4351"/>
+    <id>https://doi.org/10.1126/science.adz4351</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>Science 2026</summary>
+  </entry>
+  <entry>
+    <title>Temporal multi-omic analysis uncovers sex-biased molecular programs underlying skeletal muscle adaptation to endurance training</title>
+    <link href="https://doi.org/10.1016/j.celrep.2026.117823"/>
+    <id>https://doi.org/10.1016/j.celrep.2026.117823</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>Cell Rep 2026</summary>
+  </entry>
+  <entry>
+    <title>Neuroinflammation as molecular landscape of post-operative delirium revealed by live human brain multi-omics profiling</title>
+    <link href="https://doi.org/10.1038/s41380-026-03804-z"/>
+    <id>https://doi.org/10.1038/s41380-026-03804-z</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>Mol Psychiatry 2026</summary>
+  </entry>
+  <entry>
+    <title>Spatial distribution of the proteome in the human body and in cancers</title>
+    <link href="https://doi.org/10.1038/s41586-026-10660-y"/>
+    <id>https://doi.org/10.1038/s41586-026-10660-y</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>Nature 2026</summary>
+  </entry>
+  <entry>
+    <title>Machine Learning Reveals the Contribution of Rare Genetic Variants and Enhances Risk Prediction for Coronary Artery Disease in the Japanese Population</title>
+    <link href="https://doi.org/10.1161/CIRCGEN.125.005341"/>
+    <id>https://doi.org/10.1161/CIRCGEN.125.005341</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>Circ Genom Precis Med 2026</summary>
+  </entry>
+  <entry>
+    <title>Single-cell proteomic landscape of the developing human brain</title>
+    <link href="https://doi.org/10.1038/s41587-025-02980-7"/>
+    <id>https://doi.org/10.1038/s41587-025-02980-7</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>Nat Biotechnol 2026</summary>
+  </entry>
+  <entry>
+    <title>Lipidomic profiling reveals age-dependent changes in plasma membrane lipids that affect neural stem cell aging</title>
+    <link href="https://doi.org/10.1126/sciadv.aeh9771"/>
+    <id>https://doi.org/10.1126/sciadv.aeh9771</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>Sci Adv 2026</summary>
+  </entry>
+  <entry>
+    <title>The gut microbiome of a Northern Plains tribe is in transition between global Indigenous and industrialized populations</title>
+    <link href="https://doi.org/10.1016/j.celrep.2025.116334"/>
+    <id>https://doi.org/10.1016/j.celrep.2025.116334</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>Cell Rep 2026</summary>
+  </entry>
+  <entry>
+    <title>INSIGHT: Ingest and Standardize Glucose Harmonization Tool</title>
+    <link href="https://doi.org/10.1177/19322968261467778"/>
+    <id>https://doi.org/10.1177/19322968261467778</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>J Diabetes Sci Technol 2026</summary>
+  </entry>
+  <entry>
+    <title>Human body single-cell atlas of three-dimensional genome organization and DNA methylation</title>
+    <link href="https://doi.org/10.1126/science.adx0673"/>
+    <id>https://doi.org/10.1126/science.adx0673</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>Science 2026</summary>
+  </entry>
+  <entry>
+    <title>Power and sample-size estimation in human microbiome research</title>
+    <link href="https://doi.org/10.1016/j.medj.2026.101174"/>
+    <id>https://doi.org/10.1016/j.medj.2026.101174</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>Med 2026</summary>
+  </entry>
+  <entry>
+    <title>Reply to I Jannasz et al: DIETFITS cohort, modeling, and molecules</title>
+    <link href="https://doi.org/10.1016/j.ajcnut.2026.101351"/>
+    <id>https://doi.org/10.1016/j.ajcnut.2026.101351</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>Am J Clin Nutr 2026</summary>
+  </entry>
+  <entry>
+    <title>LOESS and DE-SWAN can induce artifactual &quot;waves&quot; of molecular aging</title>
+    <link href="https://doi.org/10.64898/2026.06.24.734079"/>
+    <id>https://doi.org/10.64898/2026.06.24.734079</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>bioRxiv 2026</summary>
+  </entry>
+  <entry>
+    <title>Fault-tolerant 3D reconstruction from 2D spatial proteomics sections</title>
+    <link href="https://doi.org/10.64898/2026.06.23.733649"/>
+    <id>https://doi.org/10.64898/2026.06.23.733649</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>bioRxiv 2026</summary>
+  </entry>
+  <entry>
+    <title>MetaboNet-Bench: A Multi-modal Benchmark for Glucose Forecasting in Type 1 Diabetes</title>
+    <link href="https://doi.org/10.1109/TBME.2023.3276193"/>
+    <id>https://doi.org/10.1109/TBME.2023.3276193</id>
+    <updated>2026-01-01T00:00:00Z</updated>
+    <summary>ArXiv 2026</summary>
+  </entry>
+</feed>

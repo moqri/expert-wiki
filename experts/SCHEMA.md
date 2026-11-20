@@ -79,3 +79,46 @@ has the same fields. No internal IDs or status words appear on the page.
 - Answers and summaries are described as drawn from the expert's published
   work, never as the expert's personal views.
 - Plain language for patients and families; numbers wherever the paper has them.
+
+## Claimed pages and verified findings
+
+Each expert page has a "Claim this page" link. The expert marks every
+finding as correct, edits it or flags it for removal, and sends the review,
+which opens a prefilled GitHub issue (template `claim-page`). Before
+applying it, confirm the sender's identity through the contact details on
+their ORCID record or institutional page.
+
+To apply a confirmed review:
+
+```yaml
+# expert.yaml
+claimed: {by: Randall J. Bateman, on: 2026-11-20}   # replaces the claim link with "Findings reviewed by ..."
+
+# claims.yaml, for each finding marked correct (or edited and confirmed)
+  verified: 2026-11-20                              # shows "Expert verified"
+```
+
+Edits replace `statement` (and `figure`/`figure_label` if needed). Removals
+delete the claim and re-number `rank`.
+
+## New papers
+
+`.github/workflows/new-papers.yml` runs `tools/check_new_papers.py` every
+Monday. It searches PubMed with each expert's `search` query for records
+added in the last 120 days and queues unseen matches in
+`experts/<slug>/pending.json`, then opens a pull request. Pending papers are
+never shown to readers; the expert sees them under "Claim this page" and
+marks each one Mine or Not mine. Move confirmed papers into `papers.json`
+(then run `tools/fetch_citations.py <slug>`), add rejected PMIDs to
+`not_mine:` in expert.yaml so they are not queued again, and delete them
+from `pending.json`. Optional `first_name:` and `last_name:` in expert.yaml
+override the name match.
+
+## Publication record
+
+Each page shows papers, citations, h-index and i10-index for all papers and
+for papers published in the last five years, a papers-per-year chart,
+research interests (linking to the home page keyword filter), co-authors who
+also have pages (shared PMIDs or DOIs), and follow links: `feed.xml` (Atom,
+30 newest papers) and the expert's PubMed search, where readers can set up
+email alerts.

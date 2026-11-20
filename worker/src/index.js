@@ -1,6 +1,7 @@
 // expert.wiki "Ask" endpoint: answers a question using only one expert's papers.
 //
 // POST { expert: "<slug>", question: "..." }
+// POST { expert: "<slug>", mode: "review", text: "<abstract or specific aims>" }   (expert panel review)
 // -> { blocks: [{ text, cites: [sourceIndex] }], sources: [{ title, journal, year, doi, pmid }] }
 //
 // No dependencies: paste this file into a Cloudflare Worker in the dashboard, or deploy with wrangler.
@@ -59,6 +60,18 @@ function narrow(papers, question) {
   return scored.slice(0, MAX_PAPERS).map((x) => x.p);
 }
 
+// Expert panel review: critique a submitted abstract or proposal against one expert's published findings.
+function reviewPrompt(corpus) {
+  return `You are one reviewer on an expert panel at expert.wiki. You review a submitted abstract, manuscript summary or grant aims ` +
+    `using only the published papers of ${corpus.expert} (${corpus.affiliation}), attached as documents (title and abstract of each). Rules:\n` +
+    `- Judge the submission only against what the attached papers report. Cite them for every point. Do not use general knowledge.\n` +
+    `- Attribute findings to the papers ("A 2012 DIAN study reported..."), never write as ${corpus.expert} or state their personal opinion.\n` +
+    `- Use these headings, each followed by one to three short points, and omit a heading if the papers give nothing for it:\n` +
+    `  Consistent with published findings\n  In tension with published findings\n  Relevant evidence the submission could use\n` +
+    `- If the papers do not bear on the submission, say so in one sentence and stop.\n` +
+    `- Scientific, measured tone. Under about 220 words. No overall score.`;
+}
+
 export default {
   async fetch(req, env, ctx) {
     const h = cors(env, req);
@@ -74,8 +87,9 @@ export default {
     let body;
     try { body = await req.json(); } catch { return json({ error: "Bad JSON" }, 400, h); }
     const slug = String(body.expert || "");
-    const question = String(body.question || "").trim().slice(0, 600);
-    if (!SLUG.test(slug) || !question) return json({ error: "Need expert and question" }, 400, h);
+    const review = body.mode === "review";
+    const question = String((review ? body.text : body.question) || "").trim().slice(0, review ? 8000 : 600);
+    if (!SLUG.test(slug) || !question) return json({ error: review ? "Need expert and text" : "Need expert and question" }, 400, h);
 
     const corpus = await loadCorpus(env, slug, ctx);
     if (!corpus) return json({ error: "Unknown expert" }, 404, h);
@@ -89,7 +103,7 @@ export default {
       ...(i === papers.length - 1 ? { cache_control: { type: "ephemeral" } } : {}),
     }));
 
-    const system =
+    const system = review ? reviewPrompt(corpus) :
       `You answer questions on expert.wiki using only the published papers of ${corpus.expert} (${corpus.affiliation}), ` +
       `which are attached as documents (title and abstract of each). Rules:\n` +
       `- Use only what the attached papers say. Cite them for every factual point.\n` +
@@ -114,7 +128,7 @@ export default {
           fallbacks: "default",
           output_config: { effort: env.EFFORT || "low" },
           system,
-          messages: [{ role: "user", content: [...documents, { type: "text", text: question }] }],
+          messages: [{ role: "user", content: [...documents, { type: "text", text: review ? `Submission to review:\n\n${question}` : question }] }],
         }),
       });
       if (!r.ok) throw new Error(`${r.status} ${(await r.text()).slice(0, 300)}`);

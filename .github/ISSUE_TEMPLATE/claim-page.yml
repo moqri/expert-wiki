@@ -1,0 +1,19 @@
+name: Claim an expert page
+description: Verify, edit or remove the findings on your expert.wiki page.
+title: "Claim page: "
+labels: [claim-page]
+body:
+  - type: markdown
+    attributes:
+      value: The review from your page is filled in below. Before any change is published, we confirm your identity through the contact details on your ORCID record or institutional page.
+  - type: input
+    id: page
+    attributes: {label: Page, description: "expert.wiki/<your-name>"}
+    validations: {required: true}
+  - type: input
+    id: orcid
+    attributes: {label: ORCID iD}
+  - type: textarea
+    id: review
+    attributes: {label: Review, render: yaml}
+    validations: {required: true}

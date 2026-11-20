@@ -35,3 +35,12 @@ can't hold an API key, so this small Worker does.
 
 Expert pages with more than 40 papers send the 40 most relevant abstracts
 for each question.
+
+## Expert panel review (`/review/`)
+
+The same Worker serves the review page. A request with
+`{ expert, mode: "review", text }` returns a cited review of the submitted
+abstract or aims, drawn only from that expert's papers. The page sends one
+request per chosen expert (up to four). After changing `src/index.js`, run
+`npx wrangler deploy` again. Until then the review page shows the most
+relevant passages from each expert's papers instead.

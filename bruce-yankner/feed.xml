@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Bruce A. Yankner: new papers · expert.wiki</title>
+  <link href="https://expert.wiki/bruce-yankner/"/>
+  <link rel="self" href="https://expert.wiki/bruce-yankner/feed.xml"/>
+  <id>https://expert.wiki/bruce-yankner/</id>
+  <updated>2026-01-01T00:00:00Z</updated>
+  <entry>
+    <title>Lithium deficiency and the onset of Alzheimer&#x27;s disease</title>
+    <link href="https://doi.org/10.1038/s41586-025-09335-x"/>
+    <id>https://doi.org/10.1038/s41586-025-09335-x</id>
+    <updated>2025-01-01T00:00:00Z</updated>
+    <summary>Nature 2025</summary>
+  </entry>
+  <entry>
+    <title>Impaired neural stress resistance and loss of REST in bipolar disorder</title>
+    <link href="https://doi.org/10.1038/s41380-023-02313-7"/>
+    <id>https://doi.org/10.1038/s41380-023-02313-7</id>
+    <updated>2024-01-01T00:00:00Z</updated>
+    <summary>Mol Psychiatry 2024</summary>
+  </entry>
+  <entry>
+    <title>A neurodegeneration checkpoint mediated by REST protects against the onset of Alzheimer&#x27;s disease</title>
+    <link href="https://doi.org/10.1038/s41467-023-42704-6"/>
+    <id>https://doi.org/10.1038/s41467-023-42704-6</id>
+    <updated>2023-01-01T00:00:00Z</updated>
+    <summary>Nat Commun 2023</summary>
+  </entry>
+  <entry>
+    <title>Orgo-Seq integrates single-cell and bulk transcriptomic data to identify cell type specific-driver genes associated with autism spectrum disorder</title>
+    <link href="https://doi.org/10.1038/s41467-022-30968-3"/>
+    <id>https://doi.org/10.1038/s41467-022-30968-3</id>
+    <updated>2022-01-01T00:00:00Z</updated>
+    <summary>Nat Commun 2022</summary>
+  </entry>
+  <entry>
+    <title>Neuronal C/EBPβ/AEP pathway shortens life span via selective GABAnergic neuronal degeneration by FOXO repression</title>
+    <link href="https://doi.org/10.1126/sciadv.abj8658"/>
+    <id>https://doi.org/10.1126/sciadv.abj8658</id>
+    <updated>2022-01-01T00:00:00Z</updated>
+    <summary>Sci Adv 2022</summary>
+  </entry>
+  <entry>
+    <title>The adaptive aging brain</title>
+    <link href="https://doi.org/10.1016/j.conb.2021.09.009"/>
+    <id>https://doi.org/10.1016/j.conb.2021.09.009</id>
+    <updated>2022-01-01T00:00:00Z</updated>
+    <summary>Curr Opin Neurobiol 2022</summary>
+  </entry>
+  <entry>
+    <title>REST and Stress Resistance in the Aging Kidney</title>
+    <link href="https://doi.org/10.1681/ASN.2021020231"/>
+    <id>https://doi.org/10.1681/ASN.2021020231</id>
+    <updated>2021-01-01T00:00:00Z</updated>
+    <summary>J Am Soc Nephrol 2021</summary>
+  </entry>
+  <entry>
+    <title>Barcoded oligonucleotides ligated on RNA amplified for multiplexed and parallel in situ analyses</title>
+    <link href="https://doi.org/10.1093/nar/gkab120"/>
+    <id>https://doi.org/10.1093/nar/gkab120</id>
+    <updated>2021-01-01T00:00:00Z</updated>
+    <summary>Nucleic Acids Res 2021</summary>
+  </entry>
+  <entry>
+    <title>Regulation of lifespan by neural excitation and REST</title>
+    <link href="https://doi.org/10.1038/s41586-019-1647-8"/>
+    <id>https://doi.org/10.1038/s41586-019-1647-8</id>
+    <updated>2019-01-01T00:00:00Z</updated>
+    <summary>Nature 2019</summary>
+  </entry>
+  <entry>
+    <title>REST and Neural Gene Network Dysregulation in iPSC Models of Alzheimer&#x27;s Disease</title>
+    <link href="https://doi.org/10.1016/j.celrep.2019.01.023"/>
+    <id>https://doi.org/10.1016/j.celrep.2019.01.023</id>
+    <updated>2019-01-01T00:00:00Z</updated>
+    <summary>Cell Rep 2019</summary>
+  </entry>
+  <entry>
+    <title>TBK1 Suppresses RIPK1-Driven Apoptosis and Inflammation during Development and in Aging</title>
+    <link href="https://doi.org/10.1016/j.cell.2018.07.041"/>
+    <id>https://doi.org/10.1016/j.cell.2018.07.041</id>
+    <updated>2018-01-01T00:00:00Z</updated>
+    <summary>Cell 2018</summary>
+  </entry>
+  <entry>
+    <title>APOE4 Causes Widespread Molecular and Cellular Alterations Associated with Alzheimer&#x27;s Disease Phenotypes in Human iPSC-Derived Brain Cell Types</title>
+    <link href="https://doi.org/10.1016/j.neuron.2018.05.008"/>
+    <id>https://doi.org/10.1016/j.neuron.2018.05.008</id>
+    <updated>2018-01-01T00:00:00Z</updated>
+    <summary>Neuron 2018</summary>
+  </entry>
+  <entry>
+    <title>Slowing Down Aging</title>
+    <link href="https://doi.org/10.1016/j.cmet.2017.09.012"/>
+    <id>https://doi.org/10.1016/j.cmet.2017.09.012</id>
+    <updated>2017-01-01T00:00:00Z</updated>
+    <summary>Cell Metab 2017</summary>
+  </entry>
+  <entry>
+    <title>Neurodegenerative disorders: Neural synchronization in Alzheimer&#x27;s disease</title>
+    <link href="https://doi.org/10.1038/540207a"/>
+    <id>https://doi.org/10.1038/540207a</id>
+    <updated>2016-01-01T00:00:00Z</updated>
+    <summary>Nature 2016</summary>
+  </entry>
+  <entry>
+    <title>Sorting Out Presenilins in Alzheimer&#x27;s Disease</title>
+    <link href="https://doi.org/10.1016/j.cell.2016.06.034"/>
+    <id>https://doi.org/10.1016/j.cell.2016.06.034</id>
+    <updated>2016-01-01T00:00:00Z</updated>
+    <summary>Cell 2016</summary>
+  </entry>
+  <entry>
+    <title>The DNA damage response induces inflammation and senescence by inhibiting autophagy of GATA4</title>
+    <link href="https://doi.org/10.1126/science.aaa5612"/>
+    <id>https://doi.org/10.1126/science.aaa5612</id>
+    <updated>2015-01-01T00:00:00Z</updated>
+    <summary>Science 2015</summary>
+  </entry>
+  <entry>
+    <title>REST and Alzheimer disease</title>
+    <link href="https://doi.org/10.1002/ana.24420"/>
+    <id>https://doi.org/10.1002/ana.24420</id>
+    <updated>2015-01-01T00:00:00Z</updated>
+    <summary>Ann Neurol 2015</summary>
+  </entry>
+  <entry>
+    <title>REST and stress resistance in ageing and Alzheimer&#x27;s disease</title>
+    <link href="https://doi.org/10.1038/nature13163"/>
+    <id>https://doi.org/10.1038/nature13163</id>
+    <updated>2014-01-01T00:00:00Z</updated>
+    <summary>Nature 2014</summary>
+  </entry>
+  <entry>
+    <title>The histone demethylase LSD1/KDM1A promotes the DNA damage response</title>
+    <link href="https://doi.org/10.1083/jcb.201302092"/>
+    <id>https://doi.org/10.1083/jcb.201302092</id>
+    <updated>2013-01-01T00:00:00Z</updated>
+    <summary>J Cell Biol 2013</summary>
+  </entry>
+  <entry>
+    <title>Physiology: Inflammation links ageing to the brain</title>
+    <link href="https://doi.org/10.1038/nature12100"/>
+    <id>https://doi.org/10.1038/nature12100</id>
+    <updated>2013-01-01T00:00:00Z</updated>
+    <summary>Nature 2013</summary>
+  </entry>
+  <entry>
+    <title>Altered social behavior and neuronal development in mice lacking the Uba6-Use1 ubiquitin transfer system</title>
+    <link href="https://doi.org/10.1016/j.molcel.2013.02.014"/>
+    <id>https://doi.org/10.1016/j.molcel.2013.02.014</id>
+    <updated>2013-01-01T00:00:00Z</updated>
+    <summary>Mol Cell 2013</summary>
+  </entry>
+  <entry>
+    <title>Sustained axon regeneration induced by co-deletion of PTEN and SOCS3</title>
+    <link href="https://doi.org/10.1038/nature10594"/>
+    <id>https://doi.org/10.1038/nature10594</id>
+    <updated>2011-01-01T00:00:00Z</updated>
+    <summary>Nature 2011</summary>
+  </entry>
+  <entry>
+    <title>The aging stress response</title>
+    <link href="https://doi.org/10.1016/j.molcel.2010.10.002"/>
+    <id>https://doi.org/10.1016/j.molcel.2010.10.002</id>
+    <updated>2010-01-01T00:00:00Z</updated>
+    <summary>Mol Cell 2010</summary>
+  </entry>
+  <entry>
+    <title>Genome-wide analysis reveals mechanisms modulating autophagy in normal brain aging and in Alzheimer&#x27;s disease</title>
+    <link href="https://doi.org/10.1073/pnas.1009485107"/>
+    <id>https://doi.org/10.1073/pnas.1009485107</id>
+    <updated>2010-01-01T00:00:00Z</updated>
+    <summary>Proc Natl Acad Sci U S A 2010</summary>
+  </entry>
+  <entry>
+    <title>Negative regulation of Vps34 by Cdk mediated phosphorylation</title>
+    <link href="https://doi.org/10.1016/j.molcel.2010.05.009"/>
+    <id>https://doi.org/10.1016/j.molcel.2010.05.009</id>
+    <updated>2010-01-01T00:00:00Z</updated>
+    <summary>Mol Cell 2010</summary>
+  </entry>
+  <entry>
+    <title>Neural mechanisms of ageing and cognitive decline</title>
+    <link href="https://doi.org/10.1038/nature08983"/>
+    <id>https://doi.org/10.1038/nature08983</id>
+    <updated>2010-01-01T00:00:00Z</updated>
+    <summary>Nature 2010</summary>
+  </entry>
+  <entry>
+    <title>Amyloid beta-protein toxicity and the pathogenesis of Alzheimer disease</title>
+    <link href="https://doi.org/10.1074/jbc.R800018200"/>
+    <id>https://doi.org/10.1074/jbc.R800018200</id>
+    <updated>2009-01-01T00:00:00Z</updated>
+    <summary>J Biol Chem 2009</summary>
+  </entry>
+  <entry>
+    <title>SIRT1 redistribution on chromatin promotes genomic stability but alters gene expression during aging</title>
+    <link href="https://doi.org/10.1016/j.cell.2008.10.025"/>
+    <id>https://doi.org/10.1016/j.cell.2008.10.025</id>
+    <updated>2008-01-01T00:00:00Z</updated>
+    <summary>Cell 2008</summary>
+  </entry>
+  <entry>
+    <title>Evolution of the aging brain transcriptome and synaptic regulation</title>
+    <link href="https://doi.org/10.1371/journal.pone.0003329"/>
+    <id>https://doi.org/10.1371/journal.pone.0003329</id>
+    <updated>2008-01-01T00:00:00Z</updated>
+    <summary>PLoS One 2008</summary>
+  </entry>
+  <entry>
+    <title>Synaptic NMDA receptor activity boosts intrinsic antioxidant defenses</title>
+    <link href="https://doi.org/10.1038/nn2071"/>
+    <id>https://doi.org/10.1038/nn2071</id>
+    <updated>2008-01-01T00:00:00Z</updated>
+    <summary>Nat Neurosci 2008</summary>
+  </entry>
+</feed>
