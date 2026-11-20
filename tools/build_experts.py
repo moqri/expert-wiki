@@ -408,10 +408,10 @@ def home(roster, built):
   </header>
   <main id="main">
     <section class="intro">
-      <p class="label">Science from the people who do it</p>
-      <h1>Ask the experts, <em>through their published work.</em></h1>
+      <p class="ai-tag">{SPARK}AI answers from published papers</p>
+      <h1>Ask the experts, <em class="ai-em">through their published work.</em></h1>
       <p class="lede">{e(SITE['intro'])}</p>
-      <p class="suggest"><a class="subtle" href="/review/">Review an abstract with an expert panel</a> · <a class="subtle" href="{e(suggest)}">Suggest the next topic</a></p>
+      <p class="suggest"><a class="ai-link" href="/review/">{SPARK}Review an abstract with an expert panel</a> <a class="subtle" href="{e(suggest)}">Suggest the next topic</a></p>
     </section>
     <div class="controls" role="region" aria-label="Filter experts">
       <div class="row"><span class="grp" role="group" aria-label="Filter by area"><span class="label">Area</span>{''.join(chips)}</span><span class="grp sortgrp" role="group" aria-label="Sort experts"><span class="label">Sort</span><button class="chip" type="button" data-esort="name" aria-pressed="true">A–Z</button><button class="chip" type="button" data-esort="cites" aria-pressed="false">Most cited</button></span></div>
