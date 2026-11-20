@@ -133,7 +133,10 @@ table.metrics td{padding-left:16px}
 .years{margin:12px 0 0}
 .ybars{display:flex;align-items:flex-end;gap:1px;height:36px;border-bottom:1px solid var(--rule-strong)}
 .yb{flex:1;background:var(--faint);min-width:2px}
-.yb:hover{background:var(--ink)}
+.yb:hover,.yb[aria-current]{background:var(--ink)}
+a.yb{display:block;cursor:pointer}
+.yfilter{font-family:var(--sans);font-size:14px;color:var(--muted);margin:0 0 10px}
+.yfilter .chip{margin-left:6px;color:var(--link);border-bottom-color:transparent}
 figcaption{font-size:12px;color:var(--muted);margin-top:3px}
 .record .fine{margin-top:8px;font-size:12px;line-height:1.45;color:var(--faint)}
 dl.facts{display:grid;grid-template-columns:10.5em minmax(0,1fr);gap:8px 18px;margin:0 0 24px;padding-top:16px;border-top:1px solid var(--rule);font-size:15.5px;line-height:1.5}
