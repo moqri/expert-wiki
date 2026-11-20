@@ -81,3 +81,25 @@ a.skill:hover,a.skill:focus-visible{border-color:var(--e4);color:var(--e4)}
 .reading .bar{height:4px;background:var(--rule);border-radius:4px;overflow:hidden;max-width:420px}
 .reading .bar span{display:block;height:100%;width:0;background:var(--e4);transition:width .25s linear}
 .intro h1 em{display:block}
+/* expert panel review */
+.review h2{font-size:20px;margin:4px 0 10px}
+.review h2+textarea{margin-bottom:20px}
+#rv-text{width:100%;box-sizing:border-box;font:inherit;font-size:15.5px;padding:10px 12px;border:1px solid var(--rule);border-radius:8px;background:var(--surface);color:var(--ink);resize:vertical;line-height:1.55}
+.review .row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:12px}
+.review .row .filter{margin:0;width:min(100%,260px)}
+.panel-pick{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:8px;max-height:360px;overflow:auto;padding:2px}
+.pp{font:inherit;text-align:left;padding:8px 10px;border:1px solid var(--rule);border-radius:8px;background:var(--surface);color:var(--ink);cursor:pointer;display:grid;gap:2px}
+.pp span{font-size:12.5px;color:var(--muted)}
+.pp[aria-pressed="true"]{border-color:var(--e4);box-shadow:inset 0 0 0 1px var(--e4);background:var(--e4-soft)}
+.review .note{font-size:13.5px;color:var(--muted);margin:10px 0}
+.rv-out{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr));gap:16px;margin:0 0 40px}
+.rv-card{border:1px solid var(--rule);border-radius:12px;padding:18px 20px;background:var(--surface)}
+.rv-card h3{margin:0;font-size:20px}.rv-card h3 a{color:inherit}
+.rv-card .aff{margin:2px 0 10px;color:var(--muted);font-size:13.5px}
+.rv-card .answer{line-height:1.6}.rv-card .answer p{margin:0 0 10px}
+.rv-card .rh{display:block;margin-top:6px;color:var(--e4)}
+.rv-card sup{font-family:var(--mono);font-size:11px}
+.rv-card .srcs{font-size:13.5px;margin:8px 0 0;padding-left:22px;display:grid;gap:6px}
+.rv-card .srcs .d{display:block;color:var(--muted);font-size:12.5px}
+.rv-card .note,.rv-foot{font-size:13px;color:var(--muted)}
+.rv-foot{grid-column:1/-1}

@@ -268,7 +268,7 @@ def home(roster, built):
       <p class="label">Science from the people who do it</p>
       <h1>Ask the experts, <em>through their published work.</em></h1>
       <p class="lede">{e(SITE['intro'])}</p>
-      <p class="suggest"><a class="subtle" href="{e(suggest)}">Suggest the next topic →</a></p>
+      <p class="suggest"><a class="subtle" href="/review/">Review an abstract with an expert panel →</a> · <a class="subtle" href="{e(suggest)}">Suggest the next topic →</a></p>
     </section>
     <div class="controls" role="region" aria-label="Filter experts">
       <div class="row"><span class="grp" role="group" aria-label="Filter by area"><span class="label">Area</span>{''.join(chips)}</span><span class="grp sortgrp" role="group" aria-label="Sort experts"><span class="label">Sort</span><button class="chip" type="button" data-esort="name" aria-pressed="true">A–Z</button><button class="chip" type="button" data-esort="cites" aria-pressed="false">Most cited</button></span></div>
@@ -308,6 +308,53 @@ def home(roster, built):
 """
 
 
+def review_page(roster, built):
+    """Expert panel review: paste an abstract, pick experts, get one cited review per expert."""
+    endpoint = SITE.get("ask_endpoint", "")
+    idx = []
+    for r in sorted(roster, key=lambda r: r["name"].split()[-1].lower()):
+        ex = built.get(r["slug"])
+        if not ex:
+            continue
+        idx.append({"slug": r["slug"], "name": ex["name"], "aff": ex["affiliation"], "areas": ex.get("areas", []),
+                    "tags": ex.get("tags") or [], "head": ex.get("headline", "")})
+    areas = SITE["areas"]
+    chips = ['<button class="chip" type="button" data-rarea="" aria-pressed="true">All</button>']
+    chips += [f'<button class="chip" type="button" data-rarea="{e(a["name"])}" aria-pressed="false">{e(a["name"])}</button>' for a in areas]
+    return head("Expert panel review · expert.wiki", "Review an abstract or proposal against the published findings of a panel of experts.") + f"""<body>
+<a class="skip" href="#review">Skip to the review form</a>
+<div class="wrap">
+  <header class="top">
+    <a class="mark" href="/">expert<span>.wiki</span></a><span class="crumb">Expert panel review</span>
+  </header>
+  <main id="main">
+    <section class="intro">
+      <p class="label">Expert panel review</p>
+      <h1>Review a submission <em>against the experts' published findings.</em></h1>
+      <p class="lede">Paste an abstract, manuscript summary or specific aims and choose up to four experts. Each review notes where the submission agrees with, or is in tension with, that expert's published papers, and cites the paper for every point. Reviews describe what the papers report, not the experts' personal views.</p>
+    </section>
+
+    <section class="ask review" id="review" aria-labelledby="rv-h">
+      <h2 id="rv-h">1. Submission</h2>
+      <label class="sr" for="rv-text">Abstract or aims</label>
+      <textarea id="rv-text" rows="9" maxlength="8000" placeholder="Paste an abstract, manuscript summary or specific aims (up to about 1,200 words)"></textarea>
+      <h2>2. Panel</h2>
+      <div class="row" role="group" aria-label="Filter experts by area"><span class="label">Area</span>{''.join(chips)}<input class="filter" id="rv-find" type="search" placeholder="Find an expert or topic" aria-label="Find an expert or topic"><button class="chip" type="button" id="rv-suggest">Suggest a panel from the text</button></div>
+      <div class="panel-pick" id="rv-pick" role="group" aria-label="Experts"></div>
+      <p class="note" id="rv-count" aria-live="polite"></p>
+      <button class="go" type="button" id="rv-go">Review</button>
+    </section>
+    <div id="rv-out" class="rv-out" aria-live="polite"></div>
+  </main>
+{footer('expert.wiki · <a href="/">All experts</a>')}
+</div>
+<script>window.REVIEW={json.dumps({"endpoint": endpoint, "experts": idx}, ensure_ascii=False)};</script>
+<script src="/assets/review.js"></script>
+</body>
+</html>
+"""
+
+
 def main():
     roster = yaml.safe_load((EXPERTS / "roster.yaml").read_text())
     built = {}
@@ -329,6 +376,8 @@ def main():
             roster.append({"slug": ex["slug"], "name": ex["name"], "affiliation": ex["affiliation"], "areas": ex.get("areas", [])})
         print(f"built /{ex['slug']}/  {len(claims)} claims, {len(papers)} papers")
     (ROOT / "index.html").write_text(home(roster, built))
+    (ROOT / "review").mkdir(exist_ok=True)
+    (ROOT / "review" / "index.html").write_text(review_page(roster, built))
     (ROOT / "experts" / "built.json").write_text(json.dumps(sorted(built)) + "\n")
     print("built / home page")
 
