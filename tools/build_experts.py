@@ -247,9 +247,10 @@ def expert_page(ex, papers, claims, coauthors=(), names=None, pending=()):
     facts = f"""    <dl class="facts">
       <dt>Research interests</dt><dd>{interests}</dd>
       {f'<dt>Co-authors on expert.wiki</dt><dd><ul class="coauthors">{co}</ul></dd>' if co else ''}
-      <dt>Follow</dt><dd><a href="feed.xml">New papers (RSS)</a>{f' · <a href="{e(pub)}">Email alerts through PubMed</a>' if pub else ''}</dd>
     </dl>
 """
+    pm = f' · <a href="{e(pub)}">Email alerts through PubMed</a>' if pub else ''
+    follow = f'<p class="follow">Follow <a href="feed.xml">New papers (RSS)</a>{pm}</p>'
     cl = ex.get("claimed") or {}
     nver = sum(1 for c in claims if c.get("verified"))
     claimed_line = (f'<p class="claimed">Findings reviewed by {e(name)}' + (f' · {nver} of {len(claims)} expert verified' if nver else '') + '</p>') if cl else \
@@ -267,6 +268,7 @@ def expert_page(ex, papers, claims, coauthors=(), names=None, pending=()):
         <p class="label">{areas}</p>
         <h1>{e(full)}</h1>
         <p class="aff">{aff}</p>
+        {follow}
         {claimed_line}
       </section>
 {record}    </div>
@@ -289,7 +291,8 @@ def expert_page(ex, papers, claims, coauthors=(), names=None, pending=()):
       <div id="ask-out" aria-live="polite"></div>
     </section>
 
-    <section class="intro person about">
+    <section class="intro person about" aria-labelledby="kw-h">
+      <h2 class="sec" id="kw-h">Key work</h2>
       <p class="lede">{e(ex['headline'])}</p>
       <div class="summary">
 {summary}
@@ -410,36 +413,45 @@ def home(roster, built):
         chips.append(f'<button class="chip" type="button" data-area="{e(a["id"])}" aria-pressed="false">{e(a["name"])}<span class="n">{n}</span></button>')
     suggest = SITE["suggest_url"]
     pick = "".join(f'<option value="/{e(r["slug"])}/#ask">{e((built.get(r["slug"]) or {}).get("name") or r["name"])}</option>' for _, r, _ in people if built.get(r["slug"]))
-    return head("expert.wiki", "Leading researchers' published work, summarized, with questions answered from their papers.") + f"""<body>
+    n_exp = sum(1 for _, r, _ in people if built.get(r["slug"]))
+    n_pap = sum(len(json.loads((EXPERTS / r["slug"] / "papers.json").read_text())) for _, r, _ in people if built.get(r["slug"]))
+    n_cit = sum(c for c, r, _ in people if built.get(r["slug"]))
+    return head("expert.wiki", "Leading researchers' published work, summarized, with questions answered from their papers.") + f"""<body class="home">
 <a class="skip" href="#experts">Skip to the experts</a>
 <div class="wrap">
-  <header class="top">
-    <a class="mark" href="/">expert<span>.wiki</span></a><span class="crumb">Home</span>
+  <header class="masthead">
+    <a class="wordmark" href="/">expert<span>.wiki</span></a>
+    <p class="issue"><span>Aging</span><span>Alzheimer's disease</span><span>{e(UPDATED)}</span></p>
   </header>
   <main id="main">
-    <section class="intro">
-      <h1>Ask the experts, <em class="ai-em">through their published work.</em></h1>
+    <section class="hero">
+      <h1>The published work of leading researchers, <em>answerable.</em></h1>
       <p class="lede">{e(SITE['intro'])}</p>
+      <dl class="stats">
+        <div><dt>Researchers</dt><dd>{n_exp}</dd></div>
+        <div><dt>Papers</dt><dd>{n_pap:,}</dd></div>
+        <div><dt>Citations</dt><dd>{n_cit:,}</dd></div>
+      </dl>
     </section>
-    <section class="tasks" aria-label="What you can do here">
-      <div class="task">
-        <p class="ai-tag">{SPARK}Ask an expert</p>
-        <h2>Ask one researcher's published work</h2>
-        <p>Pick an expert and ask a question. The answer is drawn only from their papers, with each point linked to its source.</p>
-        <form class="task-go" onsubmit="var v=this.querySelector('select').value;if(v)location.href=v;return false;">
+    <section class="uses" aria-label="What you can do here">
+      <div class="use">
+        <p class="use-n">I</p>
+        <h2>Ask an expert</h2>
+        <p>Choose a researcher and ask a question. The answer is drawn only from their papers, and each point links to its source.</p>
+        <form class="use-go" onsubmit="var v=this.querySelector('select').value;if(v)location.href=v;return false;">
           <label class="sr" for="pick">Choose an expert</label>
-          <select id="pick" required><option value="">Choose an expert…</option>{pick}</select>
-          <button class="go" type="submit">{SPARK_BTN}Ask</button>
+          <select id="pick" required><option value="">Choose a researcher…</option>{pick}</select>
+          <button class="go ai" type="submit">{SPARK_BTN}Ask</button>
         </form>
       </div>
-      <div class="task">
-        <p class="ai-tag">{SPARK}Expert panel review</p>
-        <h2>Review an abstract with several experts</h2>
-        <p>Paste an abstract or specific aims and get a cited review from up to four experts, each drawn from their own papers.</p>
-        <p class="task-go"><a class="go" href="/review/">{SPARK_BTN}Start a review</a></p>
+      <div class="use">
+        <p class="use-n">II</p>
+        <h2>Expert panel review</h2>
+        <p>Paste an abstract or specific aims. Up to four experts each review it against their own published findings, with citations.</p>
+        <p class="use-go"><a class="go ai" href="/review/">{SPARK_BTN}Start a review</a></p>
       </div>
     </section>
-    <div class="roster-head"><h2>Experts</h2><a class="subtle" href="{e(suggest)}">Suggest the next topic</a></div>
+    <div class="roster-head"><h2>Researchers</h2><a class="subtle" href="{e(suggest)}">Suggest the next topic</a></div>
     <div class="controls" role="region" aria-label="Filter experts">
       <div class="row"><span class="grp" role="group" aria-label="Filter by area"><span class="label">Area</span>{''.join(chips)}</span><span class="grp sortgrp" role="group" aria-label="Sort experts"><span class="label">Sort</span><button class="chip" type="button" data-esort="name" aria-pressed="true">A–Z</button><button class="chip" type="button" data-esort="cites" aria-pressed="false">Most cited</button></span></div>
       <p class="count ecount"><span id="count" aria-live="polite"></span> <button class="kw" type="button" id="kw" hidden></button></p>
