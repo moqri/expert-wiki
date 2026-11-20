@@ -409,6 +409,7 @@ def home(roster, built):
         n = sum(a["name"] in r["areas"] for _, r, _ in people)
         chips.append(f'<button class="chip" type="button" data-area="{e(a["id"])}" aria-pressed="false">{e(a["name"])}<span class="n">{n}</span></button>')
     suggest = SITE["suggest_url"]
+    pick = "".join(f'<option value="/{e(r["slug"])}/#ask">{e((built.get(r["slug"]) or {}).get("name") or r["name"])}</option>' for _, r, _ in people if built.get(r["slug"]))
     return head("expert.wiki", "Leading researchers' published work, summarized, with questions answered from their papers.") + f"""<body>
 <a class="skip" href="#experts">Skip to the experts</a>
 <div class="wrap">
@@ -417,11 +418,28 @@ def home(roster, built):
   </header>
   <main id="main">
     <section class="intro">
-      <p class="ai-tag">{SPARK}AI answers from published papers</p>
       <h1>Ask the experts, <em class="ai-em">through their published work.</em></h1>
       <p class="lede">{e(SITE['intro'])}</p>
-      <p class="suggest"><a class="ai-link" href="/review/">{SPARK}Review an abstract with an expert panel</a> <a class="subtle" href="{e(suggest)}">Suggest the next topic</a></p>
     </section>
+    <section class="tasks" aria-label="What you can do here">
+      <div class="task">
+        <p class="ai-tag">{SPARK}Ask an expert</p>
+        <h2>Ask one researcher's published work</h2>
+        <p>Pick an expert and ask a question. The answer is drawn only from their papers, with each point linked to its source.</p>
+        <form class="task-go" onsubmit="var v=this.querySelector('select').value;if(v)location.href=v;return false;">
+          <label class="sr" for="pick">Choose an expert</label>
+          <select id="pick" required><option value="">Choose an expert…</option>{pick}</select>
+          <button class="go" type="submit">{SPARK_BTN}Ask</button>
+        </form>
+      </div>
+      <div class="task">
+        <p class="ai-tag">{SPARK}Expert panel review</p>
+        <h2>Review an abstract with several experts</h2>
+        <p>Paste an abstract or specific aims and get a cited review from up to four experts, each drawn from their own papers.</p>
+        <p class="task-go"><a class="go" href="/review/">{SPARK_BTN}Start a review</a></p>
+      </div>
+    </section>
+    <div class="roster-head"><h2>Experts</h2><a class="subtle" href="{e(suggest)}">Suggest the next topic</a></div>
     <div class="controls" role="region" aria-label="Filter experts">
       <div class="row"><span class="grp" role="group" aria-label="Filter by area"><span class="label">Area</span>{''.join(chips)}</span><span class="grp sortgrp" role="group" aria-label="Sort experts"><span class="label">Sort</span><button class="chip" type="button" data-esort="name" aria-pressed="true">A–Z</button><button class="chip" type="button" data-esort="cites" aria-pressed="false">Most cited</button></span></div>
       <p class="count ecount"><span id="count" aria-live="polite"></span> <button class="kw" type="button" id="kw" hidden></button></p>
