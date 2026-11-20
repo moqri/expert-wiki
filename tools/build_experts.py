@@ -451,7 +451,7 @@ def home(roster, built):
         <p class="use-go"><a class="go ai" href="/review/">{SPARK_BTN}Start a review</a></p>
       </div>
     </section>
-    <div class="roster-head"><h2>Researchers</h2><a class="subtle" href="{e(suggest)}">Suggest the next topic</a></div>
+    <div class="roster-head"><h2>Researchers</h2><a class="subtle" href="{e(suggest)}">Feedback</a></div>
     <div class="controls" role="region" aria-label="Filter experts">
       <div class="row"><span class="grp" role="group" aria-label="Filter by area"><span class="label">Area</span>{''.join(chips)}</span><span class="grp sortgrp" role="group" aria-label="Sort experts"><span class="label">Sort</span><button class="chip" type="button" data-esort="name" aria-pressed="true">A–Z</button><button class="chip" type="button" data-esort="cites" aria-pressed="false">Most cited</button></span></div>
       <p class="count ecount"><span id="count" aria-live="polite"></span> <button class="kw" type="button" id="kw" hidden></button></p>
@@ -460,7 +460,7 @@ def home(roster, built):
 {chr(10).join(rows)}
     </ol>
   </main>
-{footer('expert.wiki · A proof of concept for the <a href="https://c-brain.org/c-brain-ai-discovery-partners/">C-BRAIN AI Discovery Partners</a> program, developed by <a href="https://moqri.bwh.harvard.edu/">Mahdi Moqri</a> in his personal capacity · <a href="' + e(suggest) + '">Suggest a topic</a>')}
+{footer('expert.wiki · A proof of concept for the <a href="https://c-brain.org/c-brain-ai-discovery-partners/">C-BRAIN AI Discovery Partners</a> program, developed by <a href="https://moqri.bwh.harvard.edu/">Mahdi Moqri</a> in his personal capacity · <a href="' + e(suggest) + '">Feedback</a>')}
 </div>
 <script>
 (function(){{
