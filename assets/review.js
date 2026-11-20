@@ -80,7 +80,7 @@
       c.papers.forEach(function (p) { p._w = words(p.title + ' ' + (p.abstract || '')); var seen = {}; p._w.forEach(function (w) { if (!seen[w]) { seen[w] = 1; df[w] = (df[w] || 0) + 1; } }); });
       var top = c.papers.map(function (p) {
         var s = 0, seen = {}; p._w.forEach(function (w) { if (set[w] && !seen[w]) { seen[w] = 1; s += Math.log(1 + N / df[w]); } });
-        var best = '', bs = 0; (p.abstract || '').split(/(?<=\.)\s+/).forEach(function (t) { var k = words(t).filter(function (w) { return set[w]; }).length; if (k > bs && t.length > 40) { bs = k; best = t; } });
+        var best = '', bs = 0; (p.abstract || '').split(/\.\s+/).forEach(function (t) { var k = words(t).filter(function (w) { return set[w]; }).length; if (k > bs && t.length > 40) { bs = k; best = t; } });
         return { p: p, s: s, quote: best.length > 260 ? best.slice(0, 257) + '…' : best };
       }).filter(function (x) { return x.s > 0; }).sort(function (a, b) { return b.s - a.s; }).slice(0, 4);
       var used = top.map(function (x) { var p = Object.assign({}, x.p); p.quote = x.quote; return p; });

@@ -215,6 +215,11 @@ def expert_page(ex, papers, claims, coauthors=(), names=None, pending=()):
     examples = ('<div class="examples" role="group" aria-label="Example questions"><span class="label">Try</span>'
                 + "".join(f'<button class="ex" type="button">{e(q)}</button>' for q in qs) + "</div>") if qs else ""
     first = name.split()[0]
+    ycount = {}
+    for q in papers:
+        if q.get("year"):
+            ycount[q["year"]] = ycount.get(q["year"], 0) + 1
+    year_opts = f'<option value="">All years ({len(papers)})</option>' + "".join(f'<option value="{y}">{y} ({n})</option>' for y, n in sorted(ycount.items(), reverse=True))
     allm, recent = metrics(papers)
     ys = per_year(papers)
     peak = max((n for _, n, _ in ys), default=1) or 1
@@ -248,7 +253,7 @@ def expert_page(ex, papers, claims, coauthors=(), names=None, pending=()):
     cl = ex.get("claimed") or {}
     nver = sum(1 for c in claims if c.get("verified"))
     claimed_line = (f'<p class="claimed">Findings reviewed by {e(name)}' + (f' · {nver} of {len(claims)} expert verified' if nver else '') + '</p>') if cl else \
-        f'<p class="claim-link"><a href="#claim" id="claim-open">Are you {e(first)}? Claim this page</a> to verify or improve these findings.</p>'
+        f'<p class="claim-link"><a href="{e(SITE.get("claim_url", "") + "&page=" + urllib.parse.quote("expert.wiki/" + slug + "/") + "&title=" + urllib.parse.quote("Claim page: " + name))}" id="claim-open">Are you {e(first)}? Claim this page</a> to verify or improve these findings.</p>'
 
     return head(f"{name} · expert.wiki", f"{name}: a summary of their published research, key findings, and answers drawn from their papers.") + f"""<body>
 <a class="skip" href="#ask">Skip to ask a question</a>
@@ -265,7 +270,12 @@ def expert_page(ex, papers, claims, coauthors=(), names=None, pending=()):
         {claimed_line}
       </section>
 {record}    </div>
-{facts}
+{facts}    <section class="claim-panel" id="claim" hidden aria-labelledby="claim-h">
+      <h2 id="claim-h">Review these findings</h2>
+      <p>Each finding under Key findings below now has Correct, Edit and Remove buttons. You can also add findings that are missing. Your progress is saved in this browser. When you send the review, we confirm your identity through the contact details on your ORCID record or institutional page before publishing any change, and confirmed findings then show "Expert verified".</p>
+      <p class="claim-progress" id="claim-progress" aria-live="polite"></p>
+    </section>
+
     <section class="ask" id="ask" aria-labelledby="ask-h">
       <p class="ai-tag">{SPARK}AI answers from published papers</p>
       <h2 id="ask-h">Ask about {e(name)}'s research</h2>
@@ -292,11 +302,6 @@ def expert_page(ex, papers, claims, coauthors=(), names=None, pending=()):
       <div class="row" role="group" aria-label="Filter by tag"><span class="label">Tags</span>{''.join(chips)}</div>
       <div class="row" role="group" aria-label="Sort"><span class="label">Sort</span><button class="chip" type="button" data-sort="rank" aria-pressed="true">Most important</button><button class="chip" type="button" data-sort="year" aria-pressed="false">Newest</button><span class="count" id="count" aria-live="polite"></span></div>
     </div>
-    <section class="claim-panel" id="claim" hidden aria-labelledby="claim-h">
-      <h2 id="claim-h">Review these findings</h2>
-      <p>Mark each finding as correct, edit its wording, or flag it for removal. You can also add findings that are missing. Your progress is saved in this browser. When you send the review, we confirm your identity through the contact details on your ORCID record or institutional page before publishing any change, and confirmed findings then show "Expert verified".</p>
-      <p class="claim-progress" id="claim-progress" aria-live="polite"></p>
-    </section>
     <ol class="claims" id="claims">
 {chr(10).join(items)}
     </ol>
@@ -318,7 +323,7 @@ def expert_page(ex, papers, claims, coauthors=(), names=None, pending=()):
     <details class="more" id="papers">
       <summary>All {len(papers)} papers</summary>
       <p class="yfilter" id="yfilter" hidden></p>
-      <div class="row ptools"><input class="filter" id="pfilter" type="search" placeholder="Filter papers by word" aria-label="Filter papers"><span class="label">Sort</span><button class="chip" type="button" data-psort="year" aria-pressed="true">Newest</button><button class="chip" type="button" data-psort="cites" aria-pressed="false">Most cited</button><button class="chip" type="button" data-psort="title" aria-pressed="false">Title A–Z</button></div>
+      <div class="row ptools"><label class="ysel"><span class="label">Year</span><select id="pyear">{year_opts}</select></label><input class="filter" id="pfilter" type="search" placeholder="Filter papers by word" aria-label="Filter papers"><span class="label">Sort</span><button class="chip" type="button" data-psort="year" aria-pressed="true">Newest</button><button class="chip" type="button" data-psort="cites" aria-pressed="false">Most cited</button><button class="chip" type="button" data-psort="title" aria-pressed="false">Title A–Z</button></div>
       <ol class="plist" id="plist">
 {chr(10).join(plist)}
       </ol>

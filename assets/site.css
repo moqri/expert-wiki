@@ -141,8 +141,11 @@ table.metrics td{padding-left:16px}
 .yb{flex:1;background:var(--faint);min-width:2px}
 .yb:hover,.yb[aria-current]{background:var(--ink)}
 a.yb{display:block;cursor:pointer}
-.yfilter{font-family:var(--sans);font-size:14px;color:var(--muted);margin:0 0 10px}
-.yfilter .chip{margin-left:6px;color:var(--link);border-bottom-color:transparent}
+.yfilter{display:flex;flex-wrap:wrap;align-items:center;gap:8px 12px;font-family:var(--sans);font-size:14.5px;margin:0 0 14px;padding:10px 12px;background:var(--mark);border-left:3px solid var(--ink)}
+.yfilter .yf-on{color:var(--ink)}
+.yfilter .yf-on b{font-weight:600}
+#yclear{font:inherit;font-size:14px;padding:4px 10px;border:1px solid var(--rule-strong);border-radius:4px;background:var(--bg);color:var(--ink);cursor:pointer}
+#yclear:hover{border-color:var(--ink)}
 figcaption{font-size:12px;color:var(--muted);margin-top:3px}
 .record .fine{margin-top:8px;font-size:12px;line-height:1.45;color:var(--faint)}
 dl.facts{display:grid;grid-template-columns:10.5em minmax(0,1fr);gap:8px 18px;margin:0 0 24px;padding-top:16px;border-top:1px solid var(--rule);font-size:15.5px;line-height:1.5}
@@ -172,7 +175,10 @@ details.more{border-top:1px solid var(--rule);padding:20px 0}
 details.more summary{cursor:pointer;font-size:22px;font-weight:600}
 details.more[open] summary{margin-bottom:14px}
 .ptools{margin:0 0 14px}
-.ptools .filter{margin-right:18px;width:min(100%,320px)}
+.ptools .filter{margin-right:18px;width:min(100%,280px)}
+.ysel{display:inline-flex;align-items:baseline;gap:8px;margin-right:18px}
+.ysel .label{min-width:0;margin:0}
+#pyear{font-family:var(--sans);font-size:15px;color:var(--ink);background:var(--field);border:1px solid var(--rule-strong);border-radius:2px;padding:8px 8px}
 .plist{display:grid;gap:10px;padding-left:24px;font-size:15px;line-height:1.45}
 details .about{display:grid;gap:10px;color:var(--muted);font-size:16px;max-width:70ch}
 
@@ -196,7 +202,10 @@ ol.people{list-style:none;margin:0;padding:6px 0 40px}
 .claim-panel p{max-width:72ch;font-size:16px;margin-bottom:8px}
 .claim-progress{font-size:14px;color:var(--muted)}
 .claim-act{margin-top:10px}
-.claim-act .row .chip{font-size:13.5px}
+.claim-act .row{gap:6px}
+.claim-act .row .chip{font-size:13px;margin:0;padding:3px 10px;border:1px solid var(--rule-strong);border-radius:4px;color:var(--ink)}
+.claim-act .row .chip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.claiming .controls{position:static}
 .claim-act textarea,.claim-send textarea,.claim-send input{width:100%;margin-top:6px}
 .claim-send label{display:block;font-family:var(--sans);font-size:14px;color:var(--muted);margin-top:12px}
 .claim-who{display:grid;grid-template-columns:1fr 1fr;gap:16px}

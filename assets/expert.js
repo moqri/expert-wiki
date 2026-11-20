@@ -43,19 +43,25 @@
     });
     if (yf) {
       yf.hidden = !pyear;
-      if (pyear) { yf.innerHTML = 'Showing ' + n + ' paper' + (n === 1 ? '' : 's') + ' from ' + pyear + ' · <button class="chip" type="button" id="yclear">Show all years</button>'; }
+      if (pyear) { yf.innerHTML = '<span class="yf-on"><b>' + pyear + '</b> · ' + n + ' paper' + (n === 1 ? '' : 's') + '</span><button type="button" id="yclear" aria-label="Clear the year filter and show all papers">Show all years <span aria-hidden="true">×</span></button>'; }
     }
   };
   if (pf) pf.addEventListener('input', pfilt);
+  var ysel = document.getElementById('pyear');
+  var setYear = function (y) {
+    pyear = y || '';
+    if (ysel) ysel.value = pyear;
+    [].forEach.call(document.querySelectorAll('a.yb'), function (b) { if (pyear && b.dataset.year === pyear) b.setAttribute('aria-current', 'true'); else b.removeAttribute('aria-current'); });
+    pfilt();
+  };
+  if (ysel) ysel.addEventListener('change', function () { setYear(ysel.value); });
   document.addEventListener('click', function (ev) {
     var bar = ev.target.closest('a.yb[data-year]'), clr = ev.target.closest('#yclear');
-    if (clr) { pyear = ''; pfilt(); [].forEach.call(document.querySelectorAll('a.yb'), function (b) { b.removeAttribute('aria-current'); }); return; }
+    if (clr) { setYear(''); return; }
     if (!bar) return;
     ev.preventDefault();
-    pyear = bar.dataset.year;
-    [].forEach.call(document.querySelectorAll('a.yb'), function (b) { if (b === bar) b.setAttribute('aria-current', 'true'); else b.removeAttribute('aria-current'); });
     var d = document.getElementById('papers'); if (d) d.open = true;
-    pfilt();
+    setYear(bar.dataset.year);
     (d || document.getElementById('plist')).scrollIntoView({ block: 'start', behavior: 'smooth' });
   });
 
@@ -138,7 +144,7 @@
       }
       // Show every finding while reviewing.
       var all = document.querySelector('[data-filter=""]'); if (all) all.click();
-      paint(); panel.scrollIntoView({ block: 'start' });
+      paint(); var y = panel.getBoundingClientRect().top + window.pageYOffset - 12; window.scrollTo(0, y);
     };
     var q = function (s) { return '"' + String(s).replace(/\\/g, '\\\\').replace(/"/g, '\\"').replace(/\n/g, ' ') + '"'; };
     var report = function () {
@@ -160,7 +166,7 @@
     };
     document.addEventListener('click', function (ev) {
       var t = ev.target.closest('#claim-open,#claim-submit,#claim-copy,#claim-close'); if (!t) return;
-      if (t.id === 'claim-open') { ev.preventDefault(); history.replaceState(null, '', '#claim'); open(); return; }
+      if (t.id === 'claim-open') { ev.preventDefault(); history.replaceState(null, '', '#claim'); open(); var h = document.getElementById('claim-h'); if (h) { h.setAttribute('tabindex', '-1'); h.focus({ preventScroll: true }); } return; }
       if (t.id === 'claim-close') { history.replaceState(null, '', location.pathname); location.reload(); return; }
       var text = report();
       if (t.id === 'claim-copy') {
@@ -209,7 +215,7 @@
           var tf = p._w.filter(function (x) { return x === w || (w.length > 4 && x.indexOf(w.slice(0, -1)) === 0); }).length;
           if (tf) s += Math.log(1 + N / (df[w] || 1)) * (tf / (tf + 1.5));
         });
-        var sents = (p.abstract || '').split(/(?<=\.)\s+/), best = '', bs = -99;
+        var sents = (p.abstract || '').split(/\.\s+/).map(function (t, i, a) { return i < a.length - 1 ? t + '.' : t; }), best = '', bs = -99;
         // Prefer sentences that share words with the question AND report a result, over background sentences.
         sents.forEach(function (t, j) {
           var tw = words(t), k = qw.filter(function (w) { return tw.some(function (x) { return x === w || (w.length > 4 && x.indexOf(w.slice(0, -1)) === 0); }); }).length;
