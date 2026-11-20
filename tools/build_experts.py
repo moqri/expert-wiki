@@ -23,6 +23,8 @@ FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="
          '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400'
          '&family=Inter:wght@400;500;600&display=swap">')
 e = html.escape
+SPARK = ('<svg class="spark" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 2.5l1.9 5.6 5.6 1.9-5.6 1.9L12 17.5l-1.9-5.6L4.5 10l5.6-1.9z"/>'
+         '<path d="M19 15.5l.8 2.2 2.2.8-2.2.8-.8 2.2-.8-2.2-2.2-.8 2.2-.8z"/></svg>')
 
 
 def asset_ver(path):
@@ -262,12 +264,13 @@ def expert_page(ex, papers, claims, coauthors=(), names=None, pending=()):
 {record}    </div>
 {facts}
     <section class="ask" id="ask" aria-labelledby="ask-h">
+      <p class="ai-tag">{SPARK}AI answers from published papers</p>
       <h2 id="ask-h">Ask about {e(name)}'s research</h2>
       <p class="hint">Answers are drawn only from {e(name)}'s published papers listed on this page, with each point linked to its paper. They describe what the papers report, not personal views or advice from {e(name)}. This is not medical advice.</p>
       <form id="ask-form" autocomplete="off">
         <label class="sr" for="ask-q">Your question</label>
         <textarea id="ask-q" name="q" rows="2" maxlength="600" placeholder="{e(qs[0] if qs else "Type a question about this research")}" required></textarea>
-        <button class="go" type="submit">Ask</button>
+        <button class="go" type="submit">{SPARK}Ask</button>
       </form>
       {examples}
       <div id="ask-out" aria-live="polite"></div>
@@ -475,6 +478,7 @@ def review_page(roster, built):
     </section>
 
     <section class="ask review" id="review" aria-labelledby="rv-h">
+      <p class="ai-tag">{SPARK}AI review from published papers</p>
       <h2 id="rv-h">1. Submission</h2>
       <label class="sr" for="rv-text">Abstract or aims</label>
       <textarea id="rv-text" rows="9" maxlength="8000" placeholder="Paste an abstract, manuscript summary or specific aims (up to about 1,200 words)"></textarea>
@@ -482,7 +486,7 @@ def review_page(roster, built):
       <div class="row" role="group" aria-label="Filter experts by area"><span class="label">Area</span>{''.join(chips)}<input class="filter" id="rv-find" type="search" placeholder="Find an expert or topic" aria-label="Find an expert or topic"><button class="chip" type="button" id="rv-suggest">Suggest a panel from the text</button></div>
       <div class="panel-pick" id="rv-pick" role="group" aria-label="Experts"></div>
       <p class="note" id="rv-count" aria-live="polite"></p>
-      <button class="go" type="button" id="rv-go">Review</button>
+      <button class="go" type="button" id="rv-go">{SPARK}Review</button>
     </section>
     <div id="rv-out" class="rv-out" aria-live="polite"></div>
   </main>
