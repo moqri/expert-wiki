@@ -116,7 +116,7 @@ override the name match.
 
 ## Publication record
 
-Each page shows papers, citations, h-index and i10-index for all papers and
+Each page shows papers, citations, and h-index for all papers and
 for papers published in the last five years, a papers-per-year chart,
 research interests (linking to the home page keyword filter), co-authors who
 also have pages (shared PMIDs or DOIs), and follow links: `feed.xml` (Atom,
